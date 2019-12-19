@@ -1,0 +1,19 @@
+﻿@{Layout = "/Areas/Mobile/Templates/Default/Views/Shared/_Base.cshtml";}
+@{
+long curshopid=316,curvshopid=12;
+}
+<div class="container">
+@(Html.Action("VShopHeader", "vshop", new { id = curvshopid }))
+<link rel="stylesheet" href="/Content/PublicMob/css/style.css" />
+<link rel="stylesheet" href="/Areas/Admin/templates/common/style/css.css" rev="stylesheet" type="text/css">
+<link rel="stylesheet" href="/Areas/Admin/templates/common/style/mycss.css" rev="stylesheet" type="text/css">
+<link rel="stylesheet" href="/Areas/Admin/templates/common/style/main.css" rev="stylesheet" type="text/css">
+<link rel="stylesheet" href="/Areas/Admin/templates/common/style/head.css">
+<script type="text/javascript">
+var curshopid=316,curvshopid=12;
+</script>
+@{Html.RenderAction("GoodsListAction", "TemplateVisualizationProcess",new { Layout="2", ShowName="1", IDs="773", ShowIco="True", ShowPrice="True", DataUrl="/api/Hi_Ajax_GoodsList", ID="goods_276e08ab19e448f398e3044116ea7b00"});}@{Html.RenderPartial("~/Areas/Mobile/Templates/Default/Views/Shared/_4ButtonsFoot_shop.cshtml");}
+</div>
+<a class="WX-backtop"></a>
+<script src="~/Areas/Mobile/Templates/Default/Scripts/shophome.js"></script>
+ <script src="~/Scripts/swipe-template.js"></script>

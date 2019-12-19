@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "子公司管理";
+}
+<script src="~/Scripts/jquery.hiMallDatagrid.js"></script>
+<script src="~/Scripts/jquery.himallLinkage.nocreate.js"></script>
+<script src="~/Scripts/jquery.himall.Region.js"></script>
+<script src="~/Areas/Admin/Scripts/Company.js"></script>
+<script type="text/javascript" src="~/Scripts/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="~/Scripts/bootstrap-datetimepicker.zh-CN.js"></script>
+<link rel="stylesheet" type="text/css" href="~/Content/bootstrap-datetimepicker.min.css">
+<style>
+</style>
+<div class="container">
+    <ul class="nav nav-tabs-custom clearfix">
+        <li class="active"><a href="javascript:void(0);">公司管理</a></li>
+        <li><a href="/admin/Company/Add">新增公司</a></li>
+        <li><a href="/admin/Company/Dep">部门管理</a></li>
+    </ul>
+    <div class="search-box" id="search-box">
+        <form class="form-inline custom-inline">
+            <div class="form-group">
+                <label class="label-inline w75" for="">公司编码</label>
+                <input class="form-control input-ssm" type="text" id="txtCode">
+            </div>
+            <div class="form-group">
+                <label class="label-inline w75" for="">公司名称</label>
+                <input class="form-control input-ssm" type="text" id="txtName">
+            </div>
+            <div class="form-group">
+                <label class="label-inline w75" for="">联系人</label>
+                <input class="form-control input-ssm" type="text" id="txtContacts">
+            </div>
+            <div class="form-group">
+                <label class="label-inline w75" for="">电话</label>
+                <input class="form-control input-ssm" type="text" id="txtPhone">
+            </div>
+
+            <div class="form-group">
+                <label class="label-inline w75" for="">公司地址</label>
+                <div id="area-selector" class="inline-block wauto"></div>
+                @Html.Hidden("AddressId")
+            </div>
+
+            <div class="form-group">
+                <label class="label-inline w75" for="">创建时间</label>
+                <input id="inputStartDate" class="form-control input-ssm start_datetime" type="text">
+                <label class="label-inline-line">-</label>
+                <input id="inputEndDate" class="form-control input-ssm end_datetime" type="text">
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-primary btn-sm" id="searchButton">搜 索</button>
+            </div>
+        </form>
+    </div>
+    <table id="list" class="table"></table>
+</div>

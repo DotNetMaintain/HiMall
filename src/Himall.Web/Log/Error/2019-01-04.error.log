@@ -1,0 +1,518 @@
+
+
+
+ 记录时间：2019-01-04 10:16:48,505 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:Shop,Action:PostCanUseShopCoupons,id:Get:post: 
+
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: Timeout in IO operation
+   在 MySql.Data.MySqlClient.TimedStream.StopTimer()
+   在 MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   在 MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   在 MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   在 MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   在 MySql.Data.MySqlClient.Statement.ExecuteNext()
+   在 MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   在 MySql.Data.MySqlClient.PreparableStatement.Execute()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   在 MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.Entity.EFMySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2019-01-04 11:09:32,189 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:Login,Action:getByOpenId,id:Get:openid=oXdftwapmefHJ9zeyOk1n83MF84Ypost: 
+
+System.InvalidOperationException: 序列化类型为“System.Data.Entity.DynamicProxies.MemberOpenIdInfo_C99BE1E320740A3936FE23246A2F2F94B103BA8C9B0A948C42F2591231423ED0”的对象时检测到循环引用。
+   在 System.Web.Script.Serialization.JavaScriptSerializer.SerializeValueInternal(Object o, StringBuilder sb, Int32 depth, Hashtable objectsInUse, SerializationFormat serializationFormat, MemberInfo currentMember)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.SerializeValue(Object o, StringBuilder sb, Int32 depth, Hashtable objectsInUse, SerializationFormat serializationFormat, MemberInfo currentMember)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.SerializeEnumerable(IEnumerable enumerable, StringBuilder sb, Int32 depth, Hashtable objectsInUse, SerializationFormat serializationFormat)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.SerializeValueInternal(Object o, StringBuilder sb, Int32 depth, Hashtable objectsInUse, SerializationFormat serializationFormat, MemberInfo currentMember)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.SerializeValue(Object o, StringBuilder sb, Int32 depth, Hashtable objectsInUse, SerializationFormat serializationFormat, MemberInfo currentMember)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.SerializeCustomObject(Object o, StringBuilder sb, Int32 depth, Hashtable objectsInUse, SerializationFormat serializationFormat)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.SerializeValueInternal(Object o, StringBuilder sb, Int32 depth, Hashtable objectsInUse, SerializationFormat serializationFormat, MemberInfo currentMember)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.SerializeValue(Object o, StringBuilder sb, Int32 depth, Hashtable objectsInUse, SerializationFormat serializationFormat, MemberInfo currentMember)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.SerializeCustomObject(Object o, StringBuilder sb, Int32 depth, Hashtable objectsInUse, SerializationFormat serializationFormat)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.SerializeValueInternal(Object o, StringBuilder sb, Int32 depth, Hashtable objectsInUse, SerializationFormat serializationFormat, MemberInfo currentMember)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.SerializeValue(Object o, StringBuilder sb, Int32 depth, Hashtable objectsInUse, SerializationFormat serializationFormat, MemberInfo currentMember)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.Serialize(Object obj, StringBuilder output, SerializationFormat serializationFormat)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.Serialize(Object obj, SerializationFormat serializationFormat)
+   在 System.Web.Mvc.JsonResult.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2019-01-04 11:19:56,997 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:coupon,id:Get:post: 
+
+System.TypeInitializationException: “Himall.Application.ManagerApplication”的类型初始值设定项引发异常。 ---> Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Himall.IServices.IManagerService' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context)
+   在 Himall.Web.AutoFacContainer.Resolve[T]() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\App_Start\AutoFacContainer.cs:行号 40
+   在 Himall.Core.ObjectContainer.Resolve[T]()
+   在 Himall.Application.ManagerApplication..cctor() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Application\ManagerApplication.cs:行号 16
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Application.ManagerApplication.GetSellerManager(Int64 userId)
+   在 Himall.Web.Framework.BaseWebController.get_CurrentSellerManager() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\Web\BaseWebController.cs:行号 55
+   在 Himall.Web.Areas.Web.Controllers.HomeController.Coupon() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\Areas\Web\Controllers\HomeController.cs:行号 323
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2019-01-04 14:02:00,177 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2019-01-04 14:02:24,928 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2019-01-04 14:09:39,051 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2019-01-04 14:13:32,909 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:Order,Action:Detail,id:Get:id=2018121950817285post: 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Application.OrderApplication.Detail(Int64 id, Int64 userid, PlatformType type, String host) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Application\OrderApplication.cs:行号 1652
+   在 Himall.Web.Areas.Mobile.Controllers.OrderController.Detail(Int64 id) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\OrderController.cs:行号 700
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2019-01-04 14:56:57,458 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2019-01-04 14:57:51,424 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2019-01-04 14:58:58,604 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:coupon,id:Get:post: 
+
+System.TypeInitializationException: “Himall.Application.ManagerApplication”的类型初始值设定项引发异常。 ---> Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Himall.IServices.IManagerService' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context)
+   在 Himall.Web.AutoFacContainer.Resolve[T]() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\App_Start\AutoFacContainer.cs:行号 40
+   在 Himall.Core.ObjectContainer.Resolve[T]()
+   在 Himall.Application.ManagerApplication..cctor() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Application\ManagerApplication.cs:行号 16
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Application.ManagerApplication.GetSellerManager(Int64 userId)
+   在 Himall.Web.Framework.BaseWebController.get_CurrentSellerManager() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\Web\BaseWebController.cs:行号 55
+   在 Himall.Web.Areas.Web.Controllers.HomeController.Coupon() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\Areas\Web\Controllers\HomeController.cs:行号 323
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2019-01-04 15:01:20,070 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2019-01-04 15:01:58,728 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:Index,id:Get:post: 
+
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> MySql.Data.MySqlClient.MySqlException: Authentication to host '115.159.93.175' for user 'root' using method 'mysql_native_password' failed with message: Reading from the stream has failed. ---> MySql.Data.MySqlClient.MySqlException: Reading from the stream has failed. ---> System.IO.EndOfStreamException: 尝试读取超出流末尾的内容。
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2019-01-04 15:02:20,426 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2019-01-04 15:05:30,963 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2019-01-04 15:06:22,472 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2019-01-04 15:08:15,379 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:Login,Action:getOpenIdByUserId,id:Get:userid=765post: 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Service.ManagerService.getOpenIdByUserId(Int64 userid) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\System\ManagerService.cs:行号 393
+   在 Himall.Web.Areas.Mobile.Controllers.LoginController.getOpenIdByUserId(Int64 userId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\LoginController.cs:行号 445
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2019-01-04 15:08:39,272 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:Login,Action:getOpenIdByUserId,id:Get:userid=765post: 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Service.ManagerService.getOpenIdByUserId(Int64 userid) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\System\ManagerService.cs:行号 393
+   在 Himall.Web.Areas.Mobile.Controllers.LoginController.getOpenIdByUserId(Int64 userId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\LoginController.cs:行号 445
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2019-01-04 15:09:43,657 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2019-01-04 17:00:04,107 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:TemplateVisualizationProcess,Action:GoodsListAction,id:Get:post: 
+
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.TimeoutException: Timeout in IO operation
+   在 MySql.Data.MySqlClient.TimedStream.StopTimer()
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadOk(Boolean read)
+   在 MySql.Data.MySqlClient.NativeDriver.SetDatabase(String dbName)
+   在 MySql.Data.MySqlClient.Driver.SetDatabase(String dbName)
+   在 MySql.Data.MySqlClient.MySqlConnection.ChangeDatabase(String databaseName)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.GetUser(HttpRequestBase request) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 705
+   在 Himall.Web.Framework.BaseController.get_CurrentUser() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 414
+   在 Himall.Web.Areas.Mobile.Controllers.TemplateVisualizationProcessController.GoodsListAction() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\TemplateVisualizationProcessController.cs:行号 68
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2019-01-04 21:41:45,518 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40164，说明：invalid ip 222.64.49.108, not in whitelist hint: [wcWFWa0305sha6]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 C:\Users\zhouxueli\Desktop\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 C:\Users\zhouxueli\Desktop\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2019-01-04 21:43:20,688 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40164，说明：invalid ip 222.64.49.108, not in whitelist hint: [DWvPgA0400hb96]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 C:\Users\zhouxueli\Desktop\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 C:\Users\zhouxueli\Desktop\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92

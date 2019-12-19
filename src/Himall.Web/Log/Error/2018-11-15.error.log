@@ -1,0 +1,867 @@
+
+
+
+ 记录时间：2018-11-15 09:41:09,455 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [1.GYhA0869hb96]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-15 09:43:47,309 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [J0Cdya00272790]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-15 09:44:22,226 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [QTIW400622790]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-15 10:07:24,942 
+日志级别：  ERROR 
+出错类：NetRube.Data.Database.OnException  
+错误描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier` 
+) VALU' at line 4 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier` 
+) VALU' at line 4
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 NetRube.Data.Database.Execute(String sql, Object[] args) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 546
+
+
+
+ 记录时间：2018-11-15 10:07:29,158 
+日志级别：  ERROR 
+出错类：NetRube.Data.PetaPocoExt.InTransaction  
+错误描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier` 
+) VALU' at line 4 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier` 
+) VALU' at line 4
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 NetRube.Data.Database.Execute(String sql, Object[] args) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 559
+   在 NetRube.Data.Database.Execute(Sql sql) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 571
+   在 Himall.Service.OrderService.<>c__DisplayClass39_0.<CreateOrder>b__1() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 671
+   在 NetRube.Data.PetaPocoExt.InTransaction(Database db, Action action, Action succedAction, Action failedAction) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\PetaPocoExt.cs:行号 219
+
+
+
+ 记录时间：2018-11-15 10:09:07,315 
+日志级别：  ERROR 
+出错类：NetRube.Data.Database.OnException  
+错误描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier` 
+) VALU' at line 4 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier` 
+) VALU' at line 4
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 NetRube.Data.Database.Execute(String sql, Object[] args) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 546
+
+
+
+ 记录时间：2018-11-15 10:09:07,319 
+日志级别：  ERROR 
+出错类：NetRube.Data.PetaPocoExt.InTransaction  
+错误描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier` 
+) VALU' at line 4 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier` 
+) VALU' at line 4
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 NetRube.Data.Database.Execute(String sql, Object[] args) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 559
+   在 NetRube.Data.Database.Execute(Sql sql) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 571
+   在 Himall.Service.OrderService.<>c__DisplayClass39_0.<CreateOrder>b__1() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 671
+   在 NetRube.Data.PetaPocoExt.InTransaction(Database db, Action action, Action succedAction, Action failedAction) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\PetaPocoExt.cs:行号 219
+
+
+
+ 记录时间：2018-11-15 10:12:35,031 
+日志级别：  ERROR 
+出错类：NetRube.Data.Database.OnException  
+错误描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier` 
+) VALU' at line 4 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier` 
+) VALU' at line 4
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 NetRube.Data.Database.Execute(String sql, Object[] args) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 546
+
+
+
+ 记录时间：2018-11-15 10:14:05,069 
+日志级别：  ERROR 
+出错类：NetRube.Data.PetaPocoExt.InTransaction  
+错误描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier` 
+) VALU' at line 4 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier` 
+) VALU' at line 4
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 NetRube.Data.Database.Execute(String sql, Object[] args) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 559
+   在 NetRube.Data.Database.Execute(Sql sql) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 571
+   在 Himall.Service.OrderService.<>c__DisplayClass39_0.<CreateOrder>b__1() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 671
+   在 NetRube.Data.PetaPocoExt.InTransaction(Database db, Action action, Action succedAction, Action failedAction) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\PetaPocoExt.cs:行号 219
+
+
+
+ 记录时间：2018-11-15 10:17:45,726 
+日志级别：  ERROR 
+出错类：NetRube.Data.Database.OnException  
+错误描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier`
+) VALUE' at line 4 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier`
+) VALUE' at line 4
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 NetRube.Data.Database.Execute(String sql, Object[] args) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 546
+
+
+
+ 记录时间：2018-11-15 10:22:41,749 
+日志级别：  ERROR 
+出错类：NetRube.Data.PetaPocoExt.InTransaction  
+错误描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier`
+) VALUE' at line 4 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`personname`, `personpn`, `personid` ,`Insurery`, `Insurero`, `Supplier`
+) VALUE' at line 4
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 NetRube.Data.Database.Execute(String sql, Object[] args) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 559
+   在 NetRube.Data.Database.Execute(Sql sql) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 571
+   在 Himall.Service.OrderService.<>c__DisplayClass39_0.<CreateOrder>b__1() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 671
+   在 NetRube.Data.PetaPocoExt.InTransaction(Database db, Action action, Action succedAction, Action failedAction) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\PetaPocoExt.cs:行号 219
+
+
+
+ 记录时间：2018-11-15 10:24:51,648 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:Index,id:Get:post: 
+
+System.Data.Entity.Core.EntityCommandExecutionException: 执行命令定义时出错。有关详细信息，请参阅内部异常。 ---> System.Net.Sockets.SocketException: 在一个非套接字上尝试了一个操作。
+   在 System.Net.Sockets.Socket.SetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName, Int32 optionValue, Boolean silent)
+   在 System.Net.Sockets.NetworkStream.SetSocketTimeoutOption(SocketShutdown mode, Int32 timeout, Boolean silent)
+   在 System.Net.Sockets.NetworkStream.set_WriteTimeout(Int32 value)
+   在 MySql.Data.MySqlClient.TimedStream.StartTimer(IOKind op)
+   在 MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   在 MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   在 MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   在 MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   在 MySql.Data.MySqlClient.Statement.ExecuteNext()
+   在 MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   在 MySql.Data.MySqlClient.PreparableStatement.Execute()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.Entity.EFMySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-15 10:25:07,894 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:Home,Action:GetNotice,id:Get:post: 
+
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> System.TimeoutException: Timeout in IO operation
+   在 MySql.Data.MySqlClient.TimedStream.StopTimer()
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadOk(Boolean read)
+   在 MySql.Data.MySqlClient.NativeDriver.SetDatabase(String dbName)
+   在 MySql.Data.MySqlClient.Driver.SetDatabase(String dbName)
+   在 MySql.Data.MySqlClient.MySqlConnection.ChangeDatabase(String databaseName)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__38(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Himall.Service.ArticleCategoryService.GetArticleCategory(Int64 id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Site\ArticleCategoryService.cs:行号 111
+   在 Himall.Service.ArticleCategoryService.GetSpecialArticleCategory(SpecialCategory categoryType) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Site\ArticleCategoryService.cs:行号 141
+   在 Himall.Web.Areas.Web.Controllers.HomeController.GetNotice() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Web\Controllers\HomeController.cs:行号 480
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-15 10:25:07,902 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:mobile,Controller:order,Action:submit,id:Get:area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f802%3freturnUrl%3dnullpost: 
+
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> System.TimeoutException: Timeout in IO operation
+   在 MySql.Data.MySqlClient.TimedStream.StopTimer()
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadOk(Boolean read)
+   在 MySql.Data.MySqlClient.NativeDriver.SetDatabase(String dbName)
+   在 MySql.Data.MySqlClient.Driver.SetDatabase(String dbName)
+   在 MySql.Data.MySqlClient.MySqlConnection.ChangeDatabase(String databaseName)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__38(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Himall.Service.MemberService.GetMember(Int64 id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Member\MemberService.cs:行号 291
+   在 Himall.Service.MemberService.GetUserByCache(Int64 userId) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Member\MemberService.cs:行号 425
+   在 Himall.Application.MemberApplication.GetUserByCache(Int64 id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\MemberApplication.cs:行号 634
+   在 Himall.Web.Framework.BaseController.GetUser(HttpRequestBase request) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 704
+   在 Himall.Web.Framework.BaseController.get_CurrentUser() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 414
+   在 Himall.Web.Framework.BaseMobileMemberController.OnActionExecuting(ActionExecutingContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\Mobile\BaseMobileMemberController.cs:行号 21
+   在 Himall.Web.Areas.Mobile.Controllers.OrderController.OnActionExecuting(ActionExecutingContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\OrderController.cs:行号 24
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-15 10:26:31,193 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:Index,id:Get:post: 
+
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> MySql.Data.MySqlClient.MySqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。 ---> System.IO.IOException: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   在 MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 MySql.Data.MySqlClient.Driver.Configure(MySqlConnection connection)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-15 10:27:21,983 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:coupon,id:Get:post: 
+
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> MySql.Data.MySqlClient.MySqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: Timeout in IO operation
+   在 MySql.Data.MySqlClient.TimedStream.StopTimer()
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.FetchDataRow(Int32 statementId, Int32 columns)
+   在 MySql.Data.MySqlClient.Driver.FetchDataRow(Int32 statementId, Int32 columns)
+   在 MySql.Data.MySqlClient.ResultSet.GetNextRow()
+   在 MySql.Data.MySqlClient.ResultSet.NextRow(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlDataReader.Read()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   在 MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlDataReader.Read()
+   在 MySql.Data.MySqlClient.Driver.LoadServerProperties(MySqlConnection connection)
+   在 MySql.Data.MySqlClient.Driver.Configure(MySqlConnection connection)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Himall.Service.ManagerService.GetSellerManager(Int64 userId) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\System\ManagerService.cs:行号 112
+   在 Himall.Application.ManagerApplication.GetSellerManager(Int64 userId) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\ManagerApplication.cs:行号 90
+   在 Himall.Web.Framework.BaseWebController.get_CurrentSellerManager() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\Web\BaseWebController.cs:行号 55
+   在 Himall.Web.Areas.Web.Controllers.HomeController.Coupon() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Web\Controllers\HomeController.cs:行号 323
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-15 10:27:21,990 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:userinfo,Action:GetCurrentUserInfo,id:Get:post: 
+
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> MySql.Data.MySqlClient.MySqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: Timeout in IO operation
+   在 MySql.Data.MySqlClient.TimedStream.StopTimer()
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.FetchDataRow(Int32 statementId, Int32 columns)
+   在 MySql.Data.MySqlClient.Driver.FetchDataRow(Int32 statementId, Int32 columns)
+   在 MySql.Data.MySqlClient.ResultSet.GetNextRow()
+   在 MySql.Data.MySqlClient.ResultSet.NextRow(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlDataReader.Read()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   在 MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlDataReader.Read()
+   在 MySql.Data.MySqlClient.Driver.LoadServerProperties(MySqlConnection connection)
+   在 MySql.Data.MySqlClient.Driver.Configure(MySqlConnection connection)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Himall.Service.MemberService.GetMember(Int64 id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Member\MemberService.cs:行号 291
+   在 Himall.Service.MemberService.GetUserByCache(Int64 userId) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Member\MemberService.cs:行号 425
+   在 Himall.Application.MemberApplication.GetUserByCache(Int64 id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\MemberApplication.cs:行号 634
+   在 Himall.Web.Framework.BaseController.GetUser(HttpRequestBase request) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 704
+   在 Himall.Web.Framework.BaseController.get_CurrentUser() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 414
+   在 Himall.Web.Framework.BaseMemberController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\Web\BaseMemberController.cs:行号 25
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-15 10:27:21,992 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:GetBrands,id:Get:post: 
+
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> MySql.Data.MySqlClient.MySqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: Timeout in IO operation
+   在 MySql.Data.MySqlClient.TimedStream.StopTimer()
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   在 MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 MySql.Data.MySqlClient.Driver.Configure(MySqlConnection connection)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Himall.Entity.DbSetExtend.GetPage[TEntity](IQueryable`1 entities, Func`2 orderBy, Int32& total, Int32 pageNumber, Int32 pageSize) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entity\DbSetExtend.cs:行号 205
+   在 Himall.Service.BrandService.GetBrands(String keyWords, Int32 pageNo, Int32 pageSize) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\BrandService.cs:行号 98
+   在 Himall.Application.BrandApplication.GetBrands(String keyWords, Int32 pageNo, Int32 pageSize) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\BrandApplication.cs:行号 66
+   在 Himall.Web.Areas.Web.Controllers.HomeController.GetBrands() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Web\Controllers\HomeController.cs:行号 508
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-15 10:46:10,946 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [VaWTMa07713055]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-15 10:46:40,178 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [w331TA0800hb97]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-15 10:51:38,257 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [xJbo.a00981533]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-15 15:06:43,478 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Web.Controllers.SearchController.SearchAd  
+错误描述：商品搜索页面报错：未将对象引用设置到对象的实例。 
+
+
+
+
+ 记录时间：2018-11-15 15:07:52,033 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [c8zMlA04711527]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-15 15:08:00,127 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [StqZPa0480b101]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-15 15:12:26,847 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [rrZ5tA07462067]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-15 15:12:55,089 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [wG0P307751480]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-15 15:13:38,479 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:Order,Action:SubmiteByCart,id:Get:cartItemIds=172&returnUrl=%2fm-Wap%2fcart%2fcartpost: 
+
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法将 null 转换为“bool”，因为后者是不可以为 null 的值类型
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 ASP._Page_Areas_Mobile_Templates_Default_Views_Order_Submit_cshtml.Execute() 位置 e:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Templates\Default\Views\Order\Submit.cshtml:行号 205
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-15 15:27:10,971 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [eX9AwA06301533]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-15 15:31:35,099 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:Order,Action:SubmiteByCart,id:Get:cartItemIds=172&returnUrl=%2fm-Wap%2fcart%2fcartpost: 
+
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 无法将 null 转换为“bool”，因为后者是不可以为 null 的值类型
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 ASP._Page_Areas_Mobile_Templates_Default_Views_Order_Submit_cshtml.Execute() 位置 e:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Templates\Default\Views\Order\Submit.cshtml:行号 205
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-15 15:37:28,910 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [uccNeA02482974]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-15 15:46:39,891 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.ApplicationException: 微信H5预支付失败：mch_id参数格式错误
+   在 Himall.Plugin.Payment.WeiXinPay_H5.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-11-15 15:47:24,802 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.ApplicationException: 微信H5预支付失败：mch_id参数格式错误
+   在 Himall.Plugin.Payment.WeiXinPay_H5.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-11-15 15:47:41,591 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.ApplicationException: 微信H5预支付失败：mch_id参数格式错误
+   在 Himall.Plugin.Payment.WeiXinPay_H5.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-11-15 15:55:38,915 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.ApplicationException: 微信H5预支付失败：mch_id参数格式错误
+   在 Himall.Plugin.Payment.WeiXinPay_H5.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159

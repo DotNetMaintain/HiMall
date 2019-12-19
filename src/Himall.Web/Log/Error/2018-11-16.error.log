@@ -1,0 +1,1371 @@
+
+
+
+ 记录时间：2018-11-16 09:47:23,400 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [X8cRNA0643hb97]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 10:03:45,854 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [JW8PPa06251527]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 10:05:41,096 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [r2ikia07411466]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 10:11:31,136 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [qKj830091hb97]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 10:15:59,140 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [5SUemA03591480]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 10:32:15,669 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:Home,Action:GetNotice,id:Get:post: 
+
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> MySql.Data.MySqlClient.MySqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: Timeout in IO operation
+   在 MySql.Data.MySqlClient.TimedStream.StopTimer()
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.FetchDataRow(Int32 statementId, Int32 columns)
+   在 MySql.Data.MySqlClient.Driver.FetchDataRow(Int32 statementId, Int32 columns)
+   在 MySql.Data.MySqlClient.ResultSet.GetNextRow()
+   在 MySql.Data.MySqlClient.ResultSet.NextRow(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlDataReader.Read()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   在 MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlDataReader.Read()
+   在 MySql.Data.MySqlClient.Driver.LoadCharacterSets(MySqlConnection connection)
+   在 MySql.Data.MySqlClient.Driver.Configure(MySqlConnection connection)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__38(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-16 10:34:25,045 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [5Y8UaA04643064]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 10:41:49,911 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [eHtyfa0909b101]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 10:42:43,745 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:TemplateVisualizationProcess,Action:GoodsListAction,id:Get:post: 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: Timeout in IO operation
+   在 MySql.Data.MySqlClient.TimedStream.StopTimer()
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   在 MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 MySql.Data.MySqlClient.Driver.Configure(MySqlConnection connection)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 NetRube.Data.Database.OpenSharedConnection() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 207
+   在 NetRube.Data.Database.<Query>d__46`1.MoveNext() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 868
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 NetRube.Data.Database.FirstOrDefault[T](String sql, Object[] args) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entities\NetRube.Data\Database.cs:行号 1033
+   在 Himall.Service.ShopService.GetSelfShop() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Shop\ShopService.cs:行号 1433
+   在 Himall.Web.Areas.Mobile.Controllers.TemplateVisualizationProcessController.GoodsListAction() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\TemplateVisualizationProcessController.cs:行号 66
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-16 10:47:24,981 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [g5Prra02442067]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 10:49:22,486 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [yc9hPA03623064]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 10:49:45,799 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [FDquYa03851512]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 10:52:57,469 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [Bak2za05771501]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 10:53:03,966 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [t5qmiA0583sha2]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 10:53:58,510 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [0DLbWA06381512]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 11:44:32,983 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Express\Himall.Plugin.Express.BaiShiHuiTong\Himall.Plugin.Express.BaiShiHuiTong.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-11-16 11:45:40,737 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Express\Himall.Plugin.Express.BaiShiHuiTong\Himall.Plugin.Express.BaiShiHuiTong.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-11-16 11:48:58,218 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [J6ERpa0937b101]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 11:49:32,509 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [Krul2a09721563]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 11:50:19,153 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [S0g00192790]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 11:50:42,270 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [d_icBa00422994]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 11:54:33,973 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [hVULTA02733064]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 13:58:59,221 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [lK9qka07382974]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 14:16:15,580 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [iexara07753064]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 14:24:06,526 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [r73HNa0246sha2]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 14:24:31,365 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [Ll20Ca0271hb92]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 14:32:41,897 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:vshop,Action:detail,id:Get:post: 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Web.Areas.Mobile.Controllers.VShopController.Detail(Int64 id, Nullable`1 couponid, Nullable`1 shop, Boolean sv, Int32 ispv, String tn) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\VShopController.cs:行号 200
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-16 14:35:54,240 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:vshop,Action:detail,id:Get:post: 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Web.Areas.Mobile.Controllers.VShopController.Detail(Int64 id, Nullable`1 couponid, Nullable`1 shop, Boolean sv, Int32 ispv, String tn) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\VShopController.cs:行号 200
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-16 14:40:00,200 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:vshop,Action:detail,id:Get:post: 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Web.Areas.Mobile.Controllers.VShopController.Detail(Int64 id, Nullable`1 couponid, Nullable`1 shop, Boolean sv, Int32 ispv, String tn) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\VShopController.cs:行号 200
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-16 14:41:10,179 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:vshop,Action:detail,id:Get:post: 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Web.Areas.Mobile.Controllers.VShopController.Detail(Int64 id, Nullable`1 couponid, Nullable`1 shop, Boolean sv, Int32 ispv, String tn) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\VShopController.cs:行号 200
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-16 14:41:20,031 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:vshop,Action:detail,id:Get:post: 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Web.Areas.Mobile.Controllers.VShopController.Detail(Int64 id, Nullable`1 couponid, Nullable`1 shop, Boolean sv, Int32 ispv, String tn) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\VShopController.cs:行号 200
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-16 14:41:29,695 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [6aA02891501]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 14:44:34,876 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:vshop,Action:detail,id:Get:post: 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Web.Areas.Mobile.Controllers.VShopController.Detail(Int64 id, Nullable`1 couponid, Nullable`1 shop, Boolean sv, Int32 ispv, String tn) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\VShopController.cs:行号 200
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-16 14:46:11,772 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [PX7_7a05712067]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 14:49:44,382 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [O_Je30784sha2]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 14:50:03,732 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [Iv_08031563]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 14:50:11,568 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [ItZV308112974]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:13:55,853 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:product,Action:detail,id:Get:post: 
+
+System.Net.WebException: 操作超时
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadData(Uri address)
+   在 System.Net.WebClient.DownloadData(String address)
+   在 Himall.Application.ProductManagerApplication.CreatWAPHtml(Int64 productId) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\ProductManagerApplication.cs:行号 178
+   在 Himall.Application.ProductManagerApplication.RefreshWAPLocalProductHtml(Int64 productId, String htmlUrl, String targetFilename) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\ProductManagerApplication.cs:行号 267
+   在 Himall.Application.ProductManagerApplication.GetWAPHtml(Int64 productId) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\ProductManagerApplication.cs:行号 229
+   在 Himall.Web.Areas.Mobile.Controllers.ProductController.Detail(String id, Int64 partnerid, Int32 nojumpfg) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\ProductController.cs:行号 218
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-16 15:14:04,779 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [W8zrYa02443064]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:18:42,690 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [uN9waa05222790]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:19:33,952 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [m0v5QA0573sha2]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:19:57,216 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [pUf2lA05961563]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:20:06,435 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [Kq2kPA06062067]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:20:55,855 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Express\Himall.Plugin.Express.BaiShiHuiTong\Himall.Plugin.Express.BaiShiHuiTong.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-11-16 15:21:31,581 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Mobile,Controller:vshop,Action:detail,id:Get:post: 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Web.Areas.Mobile.Controllers.VShopController.Detail(Int64 id, Nullable`1 couponid, Nullable`1 shop, Boolean sv, Int32 ispv, String tn) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\VShopController.cs:行号 200
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-16 15:21:44,847 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [xJV_0a07041466]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:22:36,388 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [BK03bA07563612]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:26:34,980 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [tx3QGA0994b101]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:30:01,531 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [_THkoA0201hb96]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:30:43,268 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [XIDe8a0242sha2]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:30:48,833 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [ZoaUJa02481466]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:31:14,151 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [n02731512]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:31:21,291 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [7TdOwA02802790]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:31:57,804 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Express\Himall.Plugin.Express.BaiShiHuiTong\Himall.Plugin.Express.BaiShiHuiTong.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-11-16 15:32:44,615 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Express\Himall.Plugin.Express.BaiShiHuiTong\Himall.Plugin.Express.BaiShiHuiTong.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-11-16 15:33:07,725 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [K0tDeA0387hb92]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:34:08,238 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [p2__dA0447hb96]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:34:10,521 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [JbN5EA04503054]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:35:08,629 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [FERCVa05081527]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:36:16,208 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Express\Himall.Plugin.Express.BaiShiHuiTong\Himall.Plugin.Express.BaiShiHuiTong.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-11-16 15:37:05,192 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Express\Himall.Plugin.Express.BaiShiHuiTong\Himall.Plugin.Express.BaiShiHuiTong.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-11-16 15:37:19,870 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [bDsXwa0639hb92]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:41:57,501 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Express\Himall.Plugin.Express.BaiShiHuiTong\Himall.Plugin.Express.BaiShiHuiTong.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-11-16 15:44:30,140 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [ueuFeA00691501]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:49:09,650 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [vjyM903491480]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:50:30,796 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [MnguMA04303064]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:51:11,692 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Express\Himall.Plugin.Express.BaiShiHuiTong\Himall.Plugin.Express.BaiShiHuiTong.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-11-16 15:53:34,324 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Express\Himall.Plugin.Express.BaiShiHuiTong\Himall.Plugin.Express.BaiShiHuiTong.dll)！ 
+
+System.UnauthorizedAccessException: 对路径的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.__Error.WinIOError()
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 System.IO.File.Move(String sourceFileName, String destFileName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-11-16 15:54:06,031 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [BZQyya06452994]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:55:36,107 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [80735hb96]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:56:01,261 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [HPoZpa07601563]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 15:58:44,076 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [j0923b101]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 16:00:04,574 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [FV8qMa0004hb92]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 16:16:29,185 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [.Nm4ta09882790]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 16:25:53,416 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:Home,Action:GetFootNew,id:Get:post: 
+
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> System.TimeoutException: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。 ---> System.IO.IOException: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadOk(Boolean read)
+   在 MySql.Data.MySqlClient.NativeDriver.SetDatabase(String dbName)
+   在 MySql.Data.MySqlClient.Driver.SetDatabase(String dbName)
+   在 MySql.Data.MySqlClient.MySqlConnection.ChangeDatabase(String databaseName)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__38(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Himall.Service.ArticleCategoryService.GetArticleCategory(Int64 id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Site\ArticleCategoryService.cs:行号 111
+   在 Himall.Service.ArticleCategoryService.GetSpecialArticleCategory(SpecialCategory categoryType) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Site\ArticleCategoryService.cs:行号 141
+   在 Himall.Web.Areas.Web.Controllers.HomeController.GetFootNew() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Web\Controllers\HomeController.cs:行号 446
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2018-11-16 16:36:02,985 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [RK6Bta01621527]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-16 17:03:51,111 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [A17swA08301512]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92

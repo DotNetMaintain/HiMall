@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "会员管理";
+}
+<script src="~/Scripts/jquery.hiMallDatagrid.js"></script>
+<script src="~/Scripts/jquery.himallLinkage.nocreate.js"></script>
+<script src="~/Scripts/jquery.placeholder.min.js"></script>
+<script src="~/Scripts/bootstrap.autocomplete.js"></script>
+<link rel="stylesheet" type="text/css" href="~/Content/bootstrap-datetimepicker.min.css">
+<script type="text/javascript" src="~/Scripts/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="~/Scripts/bootstrap-datetimepicker.zh-CN.js"></script>
+<script src="~/Areas/Admin/Scripts/memberManagementRefuse.js"></script>
+
+
+<div class="container clear-s">
+    <ul class="nav nav-tabs-custom clearfix">
+        <li><a href="@Url.Action("Management")">管理会员</a></li>
+        <li><a href="@Url.Action("ManagementAuditing")">审核会员</a></li>
+        <li class="active"><a>被拒绝会员</a></li>
+        <li><a href="@Url.Action("ManagementPower")">购买力筛选</a></li>
+    </ul>
+
+    <div class="search-box clearfix">
+        <form class="form-inline custom-inline">
+            <div class="form-group">
+                <label class="label-inline w75" for="">会员名</label>
+                <input class="form-control input-ssm" type="text" id="autoTextBox" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label class="label-inline w75" for="">微信昵称</label>
+                <input class="form-control input-ssm" id="weChatNick" type="text">
+            </div>
+            <div class="form-group">
+                <label class="label-inline w75" for="">手机号码</label>
+                <input class="form-control input-ssm" type="text" id="mobile">
+            </div>
+            <div class="form-group">
+                <label class="label-inline w75" for="">公司部门</label>
+                <select class="form-control input-ssm" id="company">
+                    <option value="">全部</option>
+                </select>
+                <select class="form-control input-ssm" id="dep">
+                    <option value="">全部</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="button" id="searchBtn" class="btn btn-primary btn-sm">搜 索</button>
+            </div>
+            <span class="menu-shrink menber-m" id="btnAdvanceSearch" style="top:-3px; margin: 0;"></span>
+            <div id="divAdvanceSearch" class="dln">
+                <div class="form-group">
+                    <label class="label-inline w75" for="">注册时间</label>
+                    <input id="inputStartDate" class="form-control input-ssm start_datetime" type="text">
+                    <label class="label-inline-line" for="">-</label>
+                    <input id="inputEndDate" class="form-control input-ssm end_datetime" type="text">
+                </div>
+            </div>
+        </form>
+    </div>
+    <table class="table" id="list"></table>
+    <div class="tabel-operate" id="batchOperate" style="">
+        <a class="btn btn-default btn-ssm" id="aExport" href='javascript:;' onclick="ExportExecl();">导出查询结果</a>
+    </div>
+</div>

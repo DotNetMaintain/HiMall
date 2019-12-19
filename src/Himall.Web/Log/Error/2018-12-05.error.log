@@ -1,0 +1,296 @@
+
+
+
+ 记录时间：2018-12-05 09:59:36,457 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_H5\Himall.Plugin.Payment.WeiXinPay_H5.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-05 11:23:10,357 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [_84vTa09733064]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-12-05 14:08:59,364 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_H5\Himall.Plugin.Payment.WeiXinPay_H5.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-05 14:13:20,040 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [P5Hmea01823612]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-12-05 14:29:51,178 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 15:00:11,140 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 15:01:10,686 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 15:05:49,892 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 15:11:03,308 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 15:15:47,885 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 15:18:03,075 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 15:40:55,890 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 15:43:18,721 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 15:48:47,708 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 15:52:40,912 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 15:56:04,452 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 16:14:30,086 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 16:14:57,470 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 16:17:36,928 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 16:19:47,858 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 16:24:00,596 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 Himall.Plugin.Payment.Alipay.Base.Submit.ParseResponse(String strText, Config _config)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 16:56:13,333 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 Himall.Plugin.Payment.Alipay.Base.Submit.ParseResponse(String strText, Config _config)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159
+
+
+
+ 记录时间：2018-12-05 17:02:27,726 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：支付页面加载支付插件出错： 
+
+System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 Himall.Plugin.Payment.Alipay.Base.Submit.ParseResponse(String strText, Config _config)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.GetRequestUrl(String returnUrl, String notifyUrl, String orderId, Decimal totalFee, String productInfo, String openId)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay(String pmtid, String ids) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 159

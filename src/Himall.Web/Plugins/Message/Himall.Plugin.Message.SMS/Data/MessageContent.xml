@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MessageContent>
+  <Bind><![CDATA[您正在进行手机验证操作，您的验证码为：#checkCode#。验证码有效期为2分钟。]]></Bind>
+  <OrderCreated><![CDATA[您的订单(#orderId#)已成功创建。]]></OrderCreated>
+  <OrderPay><![CDATA[您的订单(#orderId#)已成功付款#Total#元。]]></OrderPay>
+  <OrderShipping><![CDATA[您的订单(#orderId#)已经发货，物流公司为:#shippingCompany#，物流单号：#shippingNumber#。]]></OrderShipping>
+  <OrderRefund><![CDATA[您的订单(#orderId#)，已经退款，退款金额:#RefundMoney#，请注意查收。]]></OrderRefund>
+  <FindPassWord><![CDATA[您已经成功通过手机重置密码。]]></FindPassWord>
+  <ShopAudited><![CDATA[您申请的店铺#shopName#已经通过审核，请登录查看。]]></ShopAudited>
+  <RefundDeliver><![CDATA[您的订单(#orderId#)，售后申请己通过，请及时发货并填写快递信息以方便卖家及时处理。]]></RefundDeliver>
+  <SendCouponSuccess><![CDATA[#Money#元代金券已存入您的账户，请您登录至个人中心查收。]]></SendCouponSuccess>
+</MessageContent>

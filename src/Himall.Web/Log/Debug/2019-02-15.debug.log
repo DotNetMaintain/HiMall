@@ -1,0 +1,80 @@
+
+
+
+ 记录时间：2019-02-15 13:37:16,456 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-02-15 13:37:50,154 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-15 01:37:50 152:[当前请求URL：http://localhost:62443/SellerAdmin/Product/Create；请求的参数为：；页面加载的时间：23955.0737 毫秒] 
+
+
+
+
+ 记录时间：2019-02-15 13:41:38,190 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-15 01:41:38 190:[当前请求URL：http://localhost:62443/Admin/Login；请求的参数为：；页面加载的时间：72673.8505 毫秒] 
+
+
+
+
+ 记录时间：2019-02-15 13:42:17,767 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-15 01:42:17 767:[当前请求URL：http://localhost:62443/Admin/home/Console；请求的参数为：；页面加载的时间：7742.5295 毫秒] 
+
+
+
+
+ 记录时间：2019-02-15 13:42:36,644 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-15 01:42:36 644:[当前请求URL：http://localhost:62443/SellerAdmin/Coupon/management；请求的参数为：；页面加载的时间：5977.9865 毫秒] 
+
+
+
+
+ 记录时间：2019-02-15 13:50:48,178 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-15 01:50:48 178:[当前请求URL：http://localhost:62443/SellerAdmin/FightGroup/PostActiveList；请求的参数为：；页面加载的时间：7423.3076 毫秒] 
+
+
+
+
+ 记录时间：2019-02-15 13:53:36,657 
+日志级别：  DEBUG 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：Unable to connect to any of the specified MySQL hosts. 
+
+
+
+
+ 记录时间：2019-02-15 13:53:36,827 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-15 01:53:36 827:[当前请求URL：http://localhost:62443/Admin/Weixin/MenuManage；请求的参数为：；页面加载的时间：38146.6789 毫秒] 
+
+
+
+
+ 记录时间：2019-02-15 13:54:24,934 
+日志级别：  DEBUG 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：Timeout in IO operation 
+
+
+
+
+ 记录时间：2019-02-15 13:54:24,950 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-15 01:54:24 949:[当前请求URL：http://localhost:62443/Admin/Weixin/MenuManage；请求的参数为：；页面加载的时间：41508.3017 毫秒] 
+

@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<title>订单列表</title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/mui.listpicker.css" rel="stylesheet" />
+    	<link href="css/mui.poppicker.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+	<style>
+		
+		button{ border: none;}
+		.order-list-btn .bottom-line button.mui-btn+button.mui-btn  { border:1px solid #ccc; margin-right: 10px;}
+	</style>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<button class="mui-action-back mui-btn mui-btn-link mui-btn-nav mui-pull-left"><span class="mui-icon mui-icon-left-nav"></span>返回</button>
+			<h1 class="mui-title">订单列表</h1>
+			<a class="mui-pull-right header-icon" id="orderFilter">筛选</a>
+			<div class="has-border-bt"></div>
+			<div id="search"></div>
+		</header>
+		
+		<div class="fixed" id="fixedNav">
+			<div class="swiper-container">
+				<ul class="nav-list nav-scroll swiper-wrapper"></ul>
+			</div>
+			<div class="border-bot"></div>
+		</div>
+		
+		<div id="pullrefresh" class="mui-content mui-scroll-wrapper">
+			<div class="mui-scroll">
+				<div id="List" class="order-list has-fixed order-list-btn">
+					<div class="pull-loading"><div class="mui-icon mui-spinner"></div>正在加载...</div>
+				</div>
+			</div>
+		</div>
+		<div class="full-dialog" id="filterBox">
+			<div class="order-filter">
+				<h3>订单编号：</h3>
+				<input type="text" id="orderId" placeholder="请输入订单编号" />
+				<div id="joinEl">
+					<h3>所属门店：</h3>
+					<select id="shop"></select>
+					<span class="mui-icon mui-icon-arrowdown"></span>
+				</div>
+				<h3>时间：</h3>
+				<p id="timeChoose">
+					<span data-day="1">当日</span>
+					<span data-day="7">当周</span>
+					<span data-day="30">当月</span>
+					<span data-day="90">近3月</span>
+				</p>
+				<input type="date" id="startDate" />
+				<input type="date" id="endDate"/>
+			</div>
+			<div class="full-dialog-btn">
+				<a class="dialog-cancel" id="filterReset">重置</a>
+				<a class="dialog-ok" id="filterBtn">确定</a>
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script src="js/delayimg.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/md5.js" ></script>
+		<script src="js/template.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/printer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/printformat.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.listpicker.js"></script>
+		<script src="js/mui.poppicker.js"></script>
+		<script>
+			var w,
+				isEnd = false,
+				page = 0,
+				status=1,
+				start,
+				end,
+				searchVal,
+				mobileKey,
+				startDateText=document.getElementById('startDate'),
+				endDateText=document.getElementById('endDate'),
+				searchText=document.getElementById('orderId'),
+				storeSelect=document.getElementById('shop'),
+				List=document.getElementById('List'),
+				userkey=himall.getState().userkey,
+				isJoin=himall.isJoin();
+			mui.init({
+				pullRefresh : {
+				    container:'#pullrefresh',
+				    deceleration:0.0006,
+				    up : {
+					    contentrefresh : "正在加载...",
+					    contentnomore:'已加载完全部',
+					    callback :loadPage
+				    }
+				},
+				swipeBack: true
+			});
+			var ajaxUrlList='api/ShopBranchOrder/PostSearchShopBranchOrder',
+				numUrl='api/ShopBranchOrder/GetShopBranchOrderCount';
+			if(isJoin){
+				ajaxUrlList='api/Shoporder/PostSearchShopOrder';
+				numUrl='api/ShopOrder/GetShopOrderCount';
+			}else{
+				document.getElementById('joinEl').className+='hidden';
+			}
+			
+			if(mui.os.android)
+				document.getElementsByClassName('mui-scroll')[0].className='';
+			
+			himall.immersedNav();
+			himall.immersedSide();
+			
+			mui.plusReady(function() {
+				var ws=plus.webview.currentWebview();
+				ws.setStyle({scrollIndicator:'none'});
+				searchVal= ws.orderId;
+				if(searchVal){
+					status=0;
+				}
+				getOrderNum();
+				setTimeout(function(){
+					loadPage('reset');
+				},300);
+				ws.setPullToRefresh({
+					support:true,
+					height:"50px",
+					range:"100px",
+					style: 'circle',
+					offset: '20px'
+				},function(){
+					setTimeout(function(){
+						reloadPage();
+						ws.endPullToRefresh();
+					},300)
+				});
+				
+				
+				var savedBleId = localStorage.getItem("bleId");
+				if(savedBleId) {
+					var bleObj = new ConnectPrinter(savedBleId);
+				}
+				//打印
+				mui('#List').on('tap','.btn-printorder',function(){
+					if(himall.ios()) {
+						mui.toast('暂不支持ios打印');
+						return;
+					}
+					if(!savedBleId) {
+						plus.nativeUI.confirm('打印机未设置，是否前往设置？', function(e) {
+							if(e.index === 0) {
+								himall.openVW('printSet.html');
+							}
+						});
+					} else {
+						var listId = this.dataset['orderid'];
+						PrintOrder(listId, bleObj);
+					}
+
+				});
+				
+			});
+			function PrintOrder(listId, bleObj) {
+				var ajaxUrlList='api/ShopBranchOrder/GetOrderDetail';
+				if(isJoin){
+					ajaxUrlList='api/ShopOrder/GetOrderDetail';
+				}
+				mui.ajax(URL+ajaxUrlList,{
+					data:himall.md5Data({
+						id:listId,
+						userkey:userkey
+					}),
+					dataType:'json',
+					type:'get',
+					timeout:10000,
+					success:function(data){
+						if(data.success){
+							PrintForamt(bleObj, data);
+						}
+					}
+				});
+			}
+			
+			//拼接打印格式
+			function PrintForamt(bleObj, data) {
+				var printText = printInit(); //初始化
+				var res = data.Order;
+				var oid = res.Id.toString().substr(res.Id.toString().length - 4);
+				printText += printCenterLine('*', oid);
+				printText += selectCommand(DOUBLE_HEIGHT_WIDTH);
+				printText += selectCommand(ALIGN_CENTER); //居中
+				var ordername = "服务订单";
+				if(isJoin){
+					ordername = "配送订单";
+				}
+				if(res.DeliveryType==1) {
+					ordername = "自提订单";
+				} else if(res.DeliveryType==2) {
+					ordername = "配送订单";
+				}
+				printText += ordername + "\n";
+				printText += selectCommand(DOUBLE_HEIGHT);
+				if(isJoin){
+					printText += res.ShopName + "\n\n";
+				}
+				else{
+					printText += res.ShopBranchName + "\n\n";
+				}
+
+				printText += selectCommand(ALIGN_LEFT);
+				printText += selectCommand(FONT_NORMAL); //普通高度
+				printText += printTwoData('下单时间：', res.OrderDate);
+				printText += printTwoData('订单号：', res.Id.toString());
+				printText += selectCommand(DOUBLE_HEIGHT);
+				printText += selectCommand(ALIGN_CENTER);
+				var payresult = "未支付";
+				if(res.orderStatus > 1) {
+					payresult = "已支付";
+				}
+				printText += res.PaymentType + "(" + payresult + ")";
+				printText += selectCommand(FONT_NORMAL) + "\n\n"; //普高
+				printText += printLine('-'); //线条
+
+				printText += selectCommand(DOUBLE_HEIGHT);
+				printText += selectCommand(ALIGN_LEFT);
+				printText += printThreeData('商品', '数量', '小计');
+				printText += selectCommand(FONT_NORMAL); //普通高度
+
+				//商品
+				data.OrderItem.forEach(function(item, index, array) {
+					var proname = item.ProductName;
+					if(proname.length > 32) {
+						proname = proname.substr(0, 32) + "..";
+					}
+					var skutext = '';
+					if(item.color!=null){
+						skutext += item.color;
+					}
+					if(item.size!=null){
+						if(skutext!='') skutext+=',';
+						skutext+=item.size;
+					}
+					if(item.version!=null){
+						if(skutext!='') skutext+=',';
+						skutext+=item.version;
+					}
+					if(skutext.length > 0) {
+						proname += "(" + skutext + ")";
+					}
+					var pronum = "X" + item.Count;
+					var totalP = item.Price*item.Count;
+					printText += printThreeData(proname, pronum, totalP.toString());
+				});
+				printText += selectCommand(ALIGN_LEFT) + "\n"; //左边
+				printText += printLine('-'); //线条
+
+				//配送费			
+				printText += printTwoData('配送费', '￥' + res.Freight);
+					
+				//满减
+				if(res.ReducedPromotionAmount>0)
+					printText += printTwoData('满减优惠', '￥' + res.ReducedPromotionAmount.toFixed(2));
+				
+				//优惠券
+				if(res.DiscountAmount>0)
+					printText += printTwoData('优惠券抵扣', '￥' + res.DiscountAmount.toFixed(2));
+				
+				//积分抵扣
+				if(res.IntegralDiscount>0)
+					printText += printTwoData('积分抵扣', res.IntegralDiscount.toFixed(2));
+				
+				printText += selectCommand(ALIGN_LEFT); //左边
+				printText += printLine('-'); //线条
+
+				//合计订单
+				printText += selectCommand(DOUBLE_HEIGHT);
+				printText += printTwoData('合计：', res.RealTotalAmount.toFixed(2).toString());
+				
+				printText += selectCommand(FONT_NORMAL);
+				printText += selectCommand(ALIGN_LEFT) + "\n"; //左边
+				printText += printLine('-'); //线条
+				
+				printText += selectCommand(DOUBLE_HEIGHT);
+				printText += printTwoData('备注：', res.OrderRemarks==null?'':res.OrderRemarks);
+				
+
+				printText += selectCommand(FONT_NORMAL);
+				printText += selectCommand(ALIGN_LEFT) + "\n"; //左边
+				printText += printLine('-'); //线条
+
+
+				//发票
+				if(res.InvoiceValue > 0) {
+					printText += printTwoData('发票抬头',res.InvoiceTitle);
+					printText += "\n";
+					printText += printTwoData('纳税人识别号',res.InvoiceCode);
+					
+					printText += selectCommand(ALIGN_LEFT); //左边
+					printText += printLine('-'); //线条
+				}
+
+
+				if(res.ShipTo.length > 0) {
+					printText += selectCommand(DOUBLE_HEIGHT);
+					printText += res.ShipTo + "\n";
+					if(res.Phone.length == 11) {
+						printText += res.Phone.substr(0, 3) + "-" + res.Phone.substr(3, 4) + "-" + res.Phone.substr(7, 4) + "\n";
+					} else {
+						printText += res.Phone + "\n";
+					}
+				}
+
+				printText += selectCommand(DOUBLE_HEIGHT);
+				printText += selectCommand(ALIGN_LEFT) + "\n"; //左边
+				if(res.Address.length > 0) {
+					printText += res.Address + "\n\n";
+				}
+				printText += selectCommand(FONT_NORMAL);
+				printText += printCenterLine('*', oid + '完');
+				printText += printLine(' ');
+				printText += printLine(' ');
+				printText += "\n\n"
+				printInit(); //初始化
+
+				bleObj.gotoPrint(printText);
+			}
+			
+			
+			function getOrderNum(){
+				mui.ajax(URL+numUrl,{
+		        	data:himall.md5Data({
+						userkey:userkey
+					}),
+					dataType:'json',
+					type:'get',
+					timeout:10000,
+					success:function(data){
+						var slidesPerView=4;
+						var html='<li class="swiper-slide" data-status="1">待付款'+(data.waitPayCount?'('+data.waitPayCount+')':'')+'</li>';
+						html+='<li class="swiper-slide" data-status="2">待发货'+(data.waitDelivery?'('+data.waitDelivery+')':'')+'</li>'+
+						'<li class="swiper-slide" data-status="3">待收货'+(data.waitReceive?'('+data.waitReceive+')':'')+'</li>';
+						slidesPerView=4.5;
+						if(isJoin){
+							commonFn.getStore();
+						}
+						html+='<li class="swiper-slide" data-status="6">待自提'+(data.waitSelfPickUp?'('+data.waitSelfPickUp+')':'')+'</li>'+
+						'<li class="swiper-slide" data-status="5">已完成</li>'+
+						'<li class="swiper-slide" data-status="4">已关闭</li>'+
+						'<li class="swiper-slide" data-status="99">历史订单</li>';						
+						document.getElementById('fixedNav').querySelector('ul').innerHTML=html;
+						new Swiper('.swiper-container', {
+					        slidesPerView: slidesPerView,
+					        spaceBetween:0,
+					        freeMode: true
+					    });
+					    setTimeout(function(){
+					    	himall.removeClass(document.querySelector('#fixedNav li.active'),'active');
+							mui('#fixedNav li').each(function(){
+								if(this.getAttribute('data-status')==status){
+									this.className+=' active';
+								}
+							})
+					    },500);
+					}
+				});
+			}
+			
+			function loadPage(re){
+				var self=this;
+		      	if (!isEnd) {
+		      		page++;
+			        mui.ajax(URL+ajaxUrlList,{
+			        	data:himall.md5Data({
+							pageno:page,
+							pagesize:10,
+							status:status,
+							startDate:startDateText.value,
+							endDate:endDateText.value,
+							orderId:searchVal,
+							shopBranchId:mobileKey,
+							userkey:userkey
+						}),
+						dataType:'json',
+						type:'post',
+						timeout:10000,
+						success:function(data){
+							/*if(data.length==undefined){
+								isEnd=true;
+								self.endPullupToRefresh(isEnd);
+								return false;
+							}*/
+							data.isJoin = isJoin;
+					        if(data.length <10){
+								isEnd = true;
+							}
+					        if(re){
+					        	List.innerHTML=template('initData', data);
+					        	mui('#pullrefresh').pullRefresh().scrollTo(0,0,20);;
+					        }else{
+					        	List.insertAdjacentHTML('beforeend',template('initData', data));
+					        	self.endPullupToRefresh(isEnd);
+					        }
+					        
+							if(page==1){
+								if(data.length > 0){
+									delayimg.init();
+									document.querySelector('.mui-pull-bottom-pocket').style.opacity=1;
+								}else{
+									document.querySelector('.mui-pull-bottom-pocket').style.opacity=0;
+									List.innerHTML='<div class="empty-show"><h4>未找到任何订单...</h4></div>';
+								}
+							}else{
+								delayimg.render();
+							}
+						},
+						error:function(xhr,type,errorThrown){
+							if(page==1){
+								reloadWvLoad();
+							}else{
+								plus.nativeUI.toast('请求失败，请检查网络重试');
+								self.endPullupToRefresh(isEnd);
+								page--;
+							}
+							
+						}
+					});
+			    }else{
+			    	self.endPullupToRefresh(isEnd);
+			    }
+			}
+			
+			mui('#fixedNav').on('tap','li',function(){
+//				document.querySelector('#fixedNav li.active').className='swiper-slide';
+//				this.className+=' active';
+				status=this.getAttribute('data-status');
+				reloadPage();
+			});
+			
+			mui('#List').on('tap','.btn-orderdetail',function(){
+				var _t=this;
+				orderid=_t.getAttribute('data-id');
+				himall.openVW("order-details.html",{orderId:orderid});
+			});
+			mui('#List').on('tap','.btn-delivery',function(){
+				var _t=this;
+				orderid=_t.getAttribute('data-id');
+				himall.openVW("goods-deliver.html",{orderId:orderid});
+			});
+			mui('#List').on('tap','.btn-cancelDelivery',function(){
+				var _t=this;
+				orderid=_t.getAttribute('data-id');
+				dastatus=_t.getAttribute('data-dastatus');
+				if(dastatus>1){
+				plus.nativeUI.confirm('配送员己经接单，取消订单奖会扣除一定的违约金，是否继续？', function(event){
+							if ( 0==event.index ) {
+								CancelDadaExpress(orderid);								
+							}
+						}, '', ["确定","取 消"] );
+					}else{
+						CancelDadaExpress(orderid);
+					}
+			});
+			function CancelDadaExpress(orderid){
+				var isJoin=himall.isJoin();
+				var ep = new mui.PopPicker();
+				mui.ajax({
+					url: URL + "API/"+(isJoin?"ShopOrder":"ShopBranchOrder")+"/GetDadaCancelReasons",
+		        	data:himall.md5Data({
+						userkey:userkey
+					}),									
+					dataType:'json',
+					type:'get',
+					timeout:10000,
+					success:function(data){
+						var popArr = new Array();
+						for(var i = 0; i < data.result.length; i++) {
+							popArr.push({
+								v: data.result[i].id,
+								t: data.result[i].reason
+							})
+						}
+						ep.setData(popArr);
+						ep.show(function(selectItems) {
+							var ajaxUrl = 'api/ShopBranchOrder/GetCancelDadaExpress';
+							if(isJoin)
+								ajaxUrl = 'api/ShopOrder/GetCancelDadaExpress';
+							mui.ajax(URL+ajaxUrl,{
+					        	data:himall.md5Data({
+									orderId:orderid,
+									reasonId: selectItems[0].v,
+									cancelReason: selectItems[0].t,
+									userkey:userkey
+								}),
+								dataType:'json',
+								type:'get',
+								timeout:10000,
+								success:function(data){							
+									if(data.success){
+										plus.nativeUI.toast("取消发单成功，扣除违约金￥"+data.deduct_fee);
+									}else{
+										plus.nativeUI.toast("取消发单失败："+data.msg);
+									}
+									reloadPage();
+								},
+								error:function(xhr,type,errorThrown){
+									plus.nativeUI.toast('提交快递信息失败，请检查网络');
+									
+								}
+							});
+						});
+					},
+					error:function(xhr,type,errorThrown){
+						plus.nativeUI.toast('提交信息失败，请检查网络');						
+					}
+				});
+				
+			}
+			mui('#List').on('tap','.btn-logistics',function(){
+				var _t=this;
+				var shipOrderNumber = _t.getAttribute('shipOrderNumber');
+				var expressCompanyName = _t.getAttribute('expressCompanyName');
+				var shipTo = _t.getAttribute('shipTo');
+				var cellphone = _t.getAttribute('cellphone');
+				var address = _t.getAttribute('address');
+				var orderid=_t.getAttribute('data-id');
+				himall.openVW("logistics.html",{shipOrderNumber:shipOrderNumber,expressCompanyName:expressCompanyName,shipTo:shipTo,cellphone:cellphone,address:address,orderid:orderid});
+			});
+			
+			
+			function reloadPage(){
+				isEnd = false;
+				page = 0;
+				mui('#pullrefresh').pullRefresh().refresh(true);
+				getOrderNum();
+				loadPage('reset');
+			}
+			
+			commonFn.filterData();
+			
+			document.getElementById('filterReset').addEventListener('tap',function(){
+				himall.removeClass(document.querySelector('#timeChoose span.active'),'active');
+				startDateText.value=endDateText.value='';
+				
+			});
+			
+			mui('#timeChoose span').each(function(){
+				himall.timeSection(this.getAttribute('data-day'),this);
+			})
+			
+			mui('#timeChoose').on('tap','span',function(){
+				himall.removeClass(document.querySelector('#timeChoose span.active'),'active');
+				this.className+='active';
+				
+				startDateText.value=this.getAttribute('data-start');
+				endDateText.value=this.getAttribute('data-end');
+			})
+			
+			window.addEventListener('reloadPage',function(){
+				reloadPage();
+			});
+			
+		</script>
+		
+		<script id="initData" type="text/html">
+			{{each}}
+			<div class="order-info">
+				<div class="item">
+					<div class="order-head">
+		                <em>{{if $value.Platform}}<i class="iconfont icon-OTOshoujiduan"></i>{{else}}<i class="iconfont icon-OTOdiannaoduan"></i>{{/if}} {{$value.ShopBranchName||$value.ShopName}}</em>
+		                <span class="mui-pull-right">{{$value.OrderId}}</span>
+					</div>
+				</div>
+				<div class="item">
+				{{each $value.OrderItems as item}}
+                    <div class="buy-goods">
+                    	<a class="goods-url goods-img"><img src="images/blank.gif" data-delay="{{item.ThumbnailsUrl}}"/></a>
+                        <div class="right_goods_info"><p><em>¥ {{item.SalePrice!=null?item.SalePrice.toFixed(2):item.SalePrice}}<i>x {{item.Quantity}}</i></em><span><a class="goods-url">{{item.ProductName}}</a></span></p>
+                        <h5>
+                        	{{if item.Size}}
+								{{item.SizeAlias}}：{{item.Size}}&nbsp;&nbsp;
+							{{/if}}
+							{{if item.Color}}
+								{{item.ColorAlias}}：{{item.Color}}&nbsp;&nbsp;
+							{{/if}}
+							{{if item.Version}}
+								{{item.VersionAlias}}：{{item.Version}}
+							{{/if}}
+                        </h5></div>
+                        {{if $value.ShowRefundStats || item.ShowRefundStats}}
+                        <span class="refund-info refund-info-pos">{{if $value.ShowRefundStats}}
+                        	{{$value.ShowRefundStats}}
+                        {{else}}
+                        {{item.ShowRefundStats}}
+                        {{/if}}</span>
+                        {{/if}}
+                    </div>
+                {{/each}}
+                </div>
+	            <div class="item">
+	            	<div class="item-text mui-text-right">
+	                    <span class="order-total">共<em>{{$value.OrderProductQuantity}}</em>件，运费<em>{{$value.Freight}}</em>元 &nbsp;&nbsp; <span>交易金额：¥<em>{{$value.OrderTotalAmount!=null?$value.OrderTotalAmount.toFixed(2):$value.OrderTotalAmount}}</em></span></span>
+	            	</div>
+	            </div>
+	           <div class="item-btns bottom-line">
+	            	{{if $value.OrderStatus!=1 && $value.OrderStatus!=4 && $value.OrderStatus!=5 && $value.OrderStatus!=7}}
+	            		<button class="mui-btn btn-printorder" data-orderid="{{$value.OrderId}}">打印订单</button>
+	            	{{/if}}
+	            	<button class="mui-btn btn-orderdetail" data-id="{{$value.OrderId}}">订单详情</button> 
+	            	
+	            	{{if $value.OrderStatus==2 && ((!isJoin && $value.ShopBranchId>0) || (isJoin && $value.ShopBranchId<=0)) }}
+	            	<button class="mui-btn btn-delivery" data-id="{{$value.OrderId}}">去发货</button>
+	            	{{else if $value.ShipOrderNumber}}
+	            	<button class="mui-btn btn-logistics"  data-id="{{$value.OrderId}}" shipOrderNumber="{{$value.ShipOrderNumber}}" expressCompanyName="{{$value.ExpressCompanyName}}" shipTo="{{$value.ShipTo}}" cellphone="{{$value.CellPhone}}"  address="{{$value.RegionFullName}}{{$value.Address}}">查看物流</button>
+		            	{{if $value.ExpressCompanyName=="同城合作物流" && $value.OrderStatus==3 && $value.DadaStatus<=2}}
+		            	<button class="mui-btn btn-cancelDelivery" data-id="{{$value.OrderId}}" data-dastatus="{{$value.DadaStatus}}">取消发单</button>
+		            	{{/if}}
+	            	{{/if}}
+	            </div>
+	        </div>
+			{{/each}}
+		</script>
+		 <!--<div class="item-btns bottom-line">   
+	            	<button class="mui-btn btn-orderdetail" data-id="{{$value.OrderId}}">订单详情</button> 
+	            	{{if $value.OrderStatus>1 && ($value.DeliveryType==0 || $value.DeliveryType==2)}}
+	            	{{if $value.OrderStatus==2 && (!isJoin && $value.ShopBranchId>0)}}
+	            	<button class="mui-btn btn-delivery" data-id="{{$value.OrderId}}">去发货</button>
+	            	{{else if $value.ShipOrderNumber}}
+	            	<button class="mui-btn btn-logistics" shipOrderNumber="{{$value.ShipOrderNumber}}" expressCompanyName="{{$value.ExpressCompanyName}}" shipTo="{{$value.ShipTo}}" cellphone="{{$value.CellPhone}}"  address="{{$value.RegionFullName}}{{$value.Address}}">查看物流</button>
+	            	{{/if}}
+	            	{{/if}}
+	            </div>-->
+	</body>
+</html>

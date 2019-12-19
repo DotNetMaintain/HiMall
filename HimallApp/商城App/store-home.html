@@ -1,0 +1,263 @@
+﻿﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no" />
+    <title>单门店首页</title>
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <header class="mui-bar mui-bar-nav">
+		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<h1 class="mui-title"></h1>
+	</header>
+
+    <div class="mui-content mui-scroll-wrapper">
+        <div class="index container storeH" style="padding:0;">
+    	<div class="dingwei">
+    		<div class="white-s"></div>
+            <div class="filter-bg"></div>
+            <div class="beijing"></div>
+            <div id="storelogo" class="pic"><img src=""></div>
+            <div class="plr11 ptb13 storeinfo mui-clearfix" id="stores">
+                <div class="intro">
+                    <div class="info">
+                        <h3><span id="storename"></span><a id="call" class="telphone"></a></h3>
+                        <!--<div class="commentscore">评分 <i id="commentscore"></i></div>-->
+                        <div class="time">营业时间: <i id="opentime"></i></div>
+                        <div class="gomap"><span id="storeaddr"></span><a href="" class="locate-ic"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="sales plr11">
+			
+		</ul>
+		<form class="search plr11" action=""  onsubmit="return false;">
+			<input type="search" placeholder="搜索店铺内商品" id="keywordsText"/>
+			<i class="mui-icon mui-icon-search search-btn" id="searchBtn"></i>
+		</form>
+        <div class="index-category">
+            <div class="categoryLeft" id="categoryLeft">
+            	<div class="mui-scroll-wrapper" id="scroll1">
+                    <div class="mui-scroll">
+		                <ul class="mui-clearfix" id="categoryOneList">
+		                </ul>
+		            </div>
+                </div>
+            </div>
+            <div class="categoryRight" id="categoryRight">
+            	<div class="getCoupon-d hidden">
+	        		<div class="fl">
+	        			<span></span>
+        				<p></p>
+	        		</div>
+	        		<button class="getCoupon">领取</button>
+            	</div>
+                <ul id="productlist" class="pros">
+                	
+                </ul>
+                <p class="no-content hidden">此分类暂无商品</p>
+               <!-- <div class="loading" id="autoLoad"><span></span></div>-->
+            </div>
+        </div>
+        <div class="sbottom-btn mui-clearfix" id="sbottom-btn">
+        	<span class="s-cart"><i class="cart-num">0</i></span>
+	    	<div class="info">
+	    		<span class="money"><sub>¥</sub><span>0.00</span></span>
+	    		<p>配送费0.00元</p>
+	    	</div>
+    		<button>差0.00元起送</button>
+        </div>
+    </div>
+	<!--弹出规格开始-->
+	<div class="mask hidden" id="pop-sku">
+	  
+	</div>
+   <!--弹出规格结束-->
+   
+   
+   
+   	<!--结算上滑层开始-->
+   	<div class="modul-popup store" role="alert" id="pop-cart">
+   		<div class="mask"></div>
+	    <div class="modul-popup-container">
+	        <div class="mui-checkbox settle-popup-header">
+	        	<i class="check-custom active"></i>全选
+	        	<span class="fr c-dele">清空购物车</span>
+	        </div>
+	        <div class="settle-popup-body">
+	            <div class="modul-scroll" id="cartList">
+	            	
+	            </div>
+	        </div>
+	    </div>
+	</div>
+   	<!--结算上滑层结束-->
+    </div>
+    
+    <!--弹出优惠券开始-->
+   <div class='dialog' id="dialogCoupon">
+		<div class='dialog-title'>
+			<div class='text'>领取优惠券</div>
+	        <i class='mui-icon mui-icon-closeempty'></i>
+		</div>
+	    <div class='dialog-content'>
+	        <ul class='coupon-chooselist coupon-getlist' id="coupons"></ul>
+	    </div>
+	</div>
+   <!--弹出优惠券结束-->
+   
+    <!--弹出门店冻结开始-->
+   <div class="hidden" id="dialogForbid">
+		<h3>此店铺已冻结!</h3>
+		<div>点击返回</div>
+	</div>
+	<div class="mask hidden" id="pop-forbid">
+	  
+	</div>
+   <!--弹出门店冻结结束-->
+    <script src="js/jquery-1.12.0.min.js" ></script>
+    <script src="js/mui.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/md5.js"></script>
+    <script src="js/delayimg.min.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/storeHome.js"></script>
+    <script src="js/storeShopCart.js"></script>
+    <script type="text/html" id="initData">
+    	<li class="hidden" id="-1">搜索结果</li>
+        {{each Categories as value index}}
+        <li class="" id="{{value.Id}}">{{value.Name}}</li>
+        {{/each}}
+    </script>
+    <script type="text/html" id="initActive">
+    	{{each Store.types1}}
+		<li><i class="sale-icon type1"></i><span>{{$value}}</span></li>
+		{{/each}}
+		{{if Store.types2}}<li><i class="sale-icon type2"></i><span>{{Store.types2}}</span></li>{{/if}}
+		{{if Store.types3}}<li><i class="sale-icon type3"></i><span>{{Store.types3}}</span></li>{{/if}}
+		{{if Store.count>0}}
+		<span class="sale-num">{{Store.count}}个活动<i></i></span>
+		{{/if}}
+    </script>
+    <script type="text/html" id="initCoupon">
+    	{{each}}
+			<li class='coupon-item'>
+                <div class='detail'>
+                    <p class='price'>¥ {{$value.Price}}</p>
+                    <p class='rule'>{{$value.OrderAmount!='0.00'?'满'+$value.OrderAmount+'元可用（不含运费）':'金额无限制（不含运费）'}}</p>
+                    <span class="btn {{$value.IsUse==0?'getCoupon':'getCoupon disabled'}}" data-use="{{$value.IsUse}}" data-id="{{$value.Id}}">{{$value.IsUse==0?'领取':$value.IsUse==1?'已领取':'已领完'}}</span>
+                </div>
+                <div class='desc'>
+                    <p>{{!$value.UseArea?'全场通用':$value.Remark}}</p>
+                    <p>{{$value.strStartTime.replace(/-/g,'.')}} - {{$value.strEndTime.replace(/-/g,'.')}}</p>
+                </div>
+            </li>
+        {{/each}}
+    </script>
+    <script type="text/html" id="initProductData">
+        {{each Products}}
+        {{if $value.showCategory && !$value.IsTop}}<h3 class="typename">{{$value.CategoryName}}</h3>{{/if}}
+		<li data-id="{{$value.Id}}">
+			<a data-id="{{$value.Id}}"><img src="{{$value.DefaultImage}}"></a>
+    		<div class="content">
+    			<a data-id="{{$value.Id}}">
+    				<h3>{{$value.ProductName}}</h3>
+    				<p>月售 {{$value.SaleCounts}}{{$value.MeasureUnit}}<i class="space-line"></i>好评 {{$value.HighCommentCount}}</p>
+    			</a>
+				<div class="c-bottom">
+					<span data-id="{{$value.Id}}" class="money"><span>¥</span> {{$value.MinSalePrice}}</span><span class="money original"><span>¥</span> {{$value.MarketPrice}}</span>
+					<div class="fr">
+						{{if !$value.HasSku}}
+						<div class="store-btn-buy mui-clearfix">
+							<span onclick="catchAddCart(this)" data-id="{{$value.Id}}" data-operator="-" data-sku="{{$value.Id}}_0_0_0" class="store-minus {{$value.Quantity>0?'':'not-visible'}}"></span>
+							<input readonly="readonly" class="buynum {{$value.Quantity>0?'':'not-visible'}}" value="{{$value.Quantity}}" />
+							<span onclick="catchAddCart(this)" data-id="{{$value.Id}}" data-operator="+" data-sku="{{$value.Id}}_0_0_0" class="store-add"></span>
+						</div>
+						{{/if}}
+						{{if $value.HasSku}}<button onclick="showSku(this)" class="store-btnspan showSku" data-id="{{$value.Id}}">选择规格{{if $value.Quantity>0}}<i class="cart-num">{{$value.Quantity}}</i>{{/if}}</button>{{/if}}
+					</div>
+				</div>
+    		</div>
+		</li>
+        {{/each}}
+    </script>
+    <script type="text/html" id="initSkuInfo">
+    	<div class="comm-stand">
+		    <div class="comm-stand-con">
+		      <div class="comm-name">
+		        <span class="comm-txt">{{CurrentProduct.ProductName}}</span>
+		        <span class="comm-icon"></span>
+		      </div>
+		      <ul class="comm-bd">
+		      	{{each CurrentProduct.SkuItems as item i}}
+		          <li class="comm-item">
+		            <div class="comm-title">{{item.AttributeName}}</div>
+		            <div class="comm-attr">
+		            	{{each item.AttributeValue as sku index}}
+		            	<span class="{{sku.UseAttributeImage=='selected'?'active':''}}" data-id="{{sku.ValueId}}" data-skuvalue="{{sku.Value}}" data-indexcount="{{i}}" >{{sku.Value}}</span>
+		            	{{/each}}
+		            </div>
+		          </li>
+		        {{/each}}
+		      </ul>
+		    </div>
+		    <div class="comm-stand-shop">
+		      <div class="product-into">
+		        <span class="product-price">¥{{CurrentSku.SalePrice}}</span>
+		        <div class="fr">
+					<div class="store-btn-buy mui-clearfix">
+						<span onclick="catchAddCart(this)" data-hasSku="true" data-id="{{CurrentProduct.ProductId}}" data-sku="{{CurrentSku.SkuId}}" data-operator="-" class="store-minus {{!CurrentSku || CurrentSku.CartQuantity<=0?'not-visible':''}}"></span>
+						<input readonly="readonly" class="buynum {{!CurrentSku || CurrentSku.CartQuantity<=0?'not-visible':''}}" value="{{CurrentSku.CartQuantity}}" />
+						<span onclick="catchAddCart(this)" data-hasSku="true" data-id="{{CurrentProduct.ProductId}}" data-sku="{{CurrentSku.SkuId}}" data-operator="+" class="store-add"></span>
+					</div>
+				</div>
+		      </div>
+		    </div>
+		</div>
+    </script>
+	<script type="text/html" id="initCartList">
+		<ul class="cart-pros canbuy mui-checkbox">
+			{{each products1 as item i}}
+    		<li class="mui-clearfix">
+    			<i class="check-custom active" data-cartitem={{item.cartItemId}}></i>
+    			<span class="p-name">{{item.name}} <p>{{item.skuDetails}}</p></span>
+    			<div class="fr">
+    				<span class="money"><sub>¥</sub> <em>{{item.price}}</em></span>
+					<div class="store-btn-buy mui-clearfix">
+						<span onclick="catchAddCart(this)" class="store-minus" data-id="{{item.id}}" data-sku="{{item.skuId}}" data-operator="-"></span>
+						<input readonly="readonly" class="buynum" value="{{item.count}}" />
+						<span onclick="catchAddCart(this)" class="store-add" data-id="{{item.id}}" data-sku="{{item.skuId}}" data-operator="+"></span>
+					</div>
+				</div>
+    		</li>
+    		{{/each}}
+    	</ul>
+    	{{if products2.length>0}}
+    	<div class="disabled-pros">
+    		<div class="d-title">
+    			失效商品
+				<span class="fr c-dele">清空失效商品</span>
+    		</div>
+    		<ul class="cart-pros disabled">
+    			{{each products2}}
+        		<li class="mui-clearfix">
+        			<span class="p-name">{{$value.name}}{{$value.skuDetails}}</span>
+        			<div class="fr">
+        				<span class="money"><sub>¥</sub> {{$value.price}}</span>
+						<span class="disable-reason">{{$value.status == "1" ? "已失效" : "库存不足"}}</span>
+					</div>
+        		</li>
+        		{{/each}}
+        	</ul>
+    	</div>
+    	{{/if}}
+	</script>
+</body>
+</html>

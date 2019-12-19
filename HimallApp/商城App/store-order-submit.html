@@ -1,0 +1,1260 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<title>门店提交订单页</title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">提交订单</h1>
+		</header>
+		<div id="scrollDiv" class="scroll-div">
+			<div class="mui-content transparent">
+				<div id="orderSubmit" class="order-submit"></div>
+			</div>
+		</div>
+		<div class="cart-bottom transparent">
+			<p class="order-price-total">共<em id="OrderCount">0</em>件，总金额<span id="OrderAmount" data-OrderAmount=""></span></p>
+			<a class="submit-cart" id="submitBtn">提交订单</a>
+		</div>
+		<div id="dcontent" class="dcontent"></div>
+		<div id="payWayBox" class="screen-box">
+			<div class="screen-list" id="payWayTeam"></div>
+			<div class="screen-enter">
+				<a class="custom-btn" id="payWayChoose">确 定</a>
+			</div>
+		</div>
+		<div id="invoiceBox" class="screen-box">
+			<div class="screen-list" id="invoiceTeam"></div>
+			<div class="screen-enter">
+				<a class="custom-btn" id="invoiceChoose">确 定</a>
+			</div>
+		</div>
+
+		<!--优惠券弹框-->
+		<div id="dialogCoupon" class='dialog'>
+			<div class='dialog-title'>
+				<div class='text'>选择优惠券</div>
+				<i class='mui-icon mui-icon-closeempty'></i>
+			</div>
+			<div class='dialog-content'>
+				<ul class='coupon-chooselist' id="couponList"></ul>
+			</div>
+		</div>
+		<div id="J_assets_layer" class="cover"></div>
+		<div class="box1 lh24 steponeee" id="stepone" style="display:none">
+			<span class="close"></span>
+			<form>
+				<h3 class="title_txt cur">请设置支付密码</h3>
+				<div class="item">
+					<div>
+						<input type="password" placeholder="请输入支付密码" value="" id="firstPwd" name="userVo.realName" maxlength="20" class="form-control itxt fl">
+					</div>
+				</div>
+				<div class="item">
+					<div>
+						<input type="password" placeholder="请再次输入支付密码" value="" id="secondPwd" name="userVo.realName" maxlength="20" class="form-control itxt fl">
+					</div>
+				</div>
+				<div class="item">
+					<div>
+						<a id="submitPwd" class="btn btn-primary">提交</a>
+					</div>
+				</div>
+			</form>
+		</div>
+		<script src="js/jquery-1.12.0.min.js" ></script>
+		<script src="js/mui.min.js"></script>
+		<script src="js/delayimg.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/md5.js"></script>
+		<script src="js/template.js"></script>
+
+		<script src="js/CommonJS.js"></script>
+		<script>
+			mui.init({
+				swipeBack: true
+			});
+			var shopBranchId,
+				cartItemId,
+				orderData,
+				orderUrl,
+				payPwd,
+				integral = 0,
+				capital = 0,
+				invoiceCode,
+				couponIds = [],
+				isCashOnDelivery = false,
+				invoiceType = 0,
+				invoiceContext,
+				invoiceTitle,
+				pays = {},
+				mask,
+				payOrderId,
+				loadPage,
+				ws,
+				integralCanUse = 0,
+				clName,
+				userkey = himall.getState().userkey,
+				products,
+				capitalSwitch = false,
+				integralSwitch = false,
+				onlineCodPay,
+				onlinePay,
+				RegionId,
+				IsCashOnDelivery,
+				userIntegrals,
+				canIntegralPerMoney,
+				canCapital,
+				integralPerMoney,
+				integralPerMoneyRate,
+				payWayBox = document.getElementById('payWayBox'),
+				invoiceBox = document.getElementById('invoiceBox');
+			var tagCacheKey = 'tagCacheKey',
+				sbCacheKey = 'ChoseShopBranch.Value';
+			himall.immersedSide();
+
+			mui.plusReady(function() {
+				plus.storage.removeItem("remarkList");
+				plus.storage.removeItem("invoiceTitle");
+				plus.storage.removeItem("invoiceContext");
+				plus.storage.removeItem("invoiceType");
+				ws = plus.webview.currentWebview();
+				cartItemId = ws.cartItemId;
+				var w = plus.nativeUI.showWaiting('', {
+					padlock: true
+				});
+				mui(".steponeee").on("tap", ".close", function() {
+					this.parentNode.style.display = "none";
+					document.getElementById("J_assets_layer").style.display = "none";
+					mui("#capitalAmount").switch().toggle();
+				})
+				loadPage = function(params) {
+					mui.ajax(URL + 'api/BranchOrder/GetSubmitByCartModel', {
+						dataType: 'json',
+						data: himall.md5Data({
+							cartItemIds: cartItemId,
+							couponIds: couponIds.join(','),
+							userkey: userkey
+						}),
+						type: 'get',
+						timeout: 30000,
+						success: function(data) {
+							if(!data.success) {
+								plus.nativeUI.toast(data.msg);
+								w.close();
+								setTimeout(function() {
+									plus.webview.getWebviewById('store-order-submit.html').close('none');
+								}, 1000);
+								return;
+							}
+
+							products = data.products;
+							RegionId = data.Address ? data.Address.RegionId : '';
+							IsCashOnDelivery = data.IsCashOnDelivery;
+							userIntegrals = data.userIntegrals > 0 ? data.userIntegrals : 0;
+							canIntegralPerMoney=data.canIntegralPerMoney;
+							canCapital=data.canCapital;
+							integralPerMoney = data.userIntegralMaxDeductible;
+							integralPerMoneyRate = data.integralPerMoneyRate;
+							integralCanUse = integralPerMoney * integralPerMoneyRate;
+							if(integralCanUse > userIntegrals) {
+								integralCanUse = userIntegrals;
+							}
+							integralCanUse=Math.ceil(integralCanUse);
+							shopBranchId = data.shopBranchInfo.Id;
+
+							//支付方式可选计算
+							onlineCodPay = '';
+							onlinePay = '';
+
+							var len=0;
+							for(var i = 0; i < data.products.length; i++) {
+								var item = data.products[i];
+								item.skuIdArr = [];
+								item.countArr = [];
+								item.productIds = [];
+
+								for(var j = 0; j < item.CartItemModels.length; j++) {
+									item.skuIdArr.push(item.CartItemModels[j].skuId);
+									item.countArr.push(item.CartItemModels[j].count);
+									item.productIds.push(item.CartItemModels[j].id);
+									len+=item.CartItemModels[j].count;
+									if(item.CartItemModels[j].IsSelf) {
+										onlineCodPay += '<li><img src="' + item.CartItemModels[j].imgUrl + '"></li>';
+									} else {
+										onlinePay += '<li><img src="' + item.CartItemModels[j].imgUrl + '"></li>';
+									}
+								}
+							}
+
+							document.getElementById('invoiceTeam').innerHTML = template('initInvoice', data);
+
+							document.getElementById('orderSubmit').innerHTML = template('initData', data);
+
+							var OrderAmount = document.getElementById('OrderAmount');
+							delayimg.init({
+								content: document.getElementById('scrollDiv')
+							});
+							OrderAmount.innerText = '¥ ' + data.orderAmount.toFixed(2);
+							OrderAmount.setAttribute("data-OrderAmount", data.orderAmount.toFixed(2));
+							document.getElementById('OrderCount').innerText = len;
+
+							w.close();
+							himall.removeClass(document.querySelector('.mui-content'), 'transparent');
+							himall.removeClass(document.querySelector('.cart-bottom'), 'transparent');
+
+							//回显选择的门店信息
+							if(params){
+								window.localStorage.removeItem(tagCacheKey);
+							}
+							getChooseShop();
+
+							//回显发票信息和留言
+							initLeaveMsgAndBill();
+
+							mui('#useIntegral').switch();
+							mui('#capitalAmount').switch();
+							
+							couponIds = [];
+							products.forEach(function(item) {
+							if(item.OneCoupons) {
+									couponIds.push(item.OneCoupons.BaseId + '_' + item.OneCoupons.BaseType);
+								}
+							});//页面加载订单数据时将选择优惠券写入
+						},
+						error: function(xhr) {
+							w.close();
+							reloadWvLoad();
+						}
+					});
+				}
+				
+				loadPage('init');
+				initPay('dcontent');
+
+				function getChooseShop() {
+					//回显选择的门店信息.所有选择过门店的商家订单遍历一次		
+					var cacheValueTag = window.getFromLocalStorate(tagCacheKey);
+					if(cacheValueTag) {
+						cacheValue = window.getFromLocalStorate(sbCacheKey);
+						if($.notNullOrEmpty(cacheValue)) {
+							for(var shopId in cacheValue) {
+								var temp = cacheValue[shopId];
+								if(temp.regionId != RegionId) {
+									cacheValue = null;
+									break;
+								}
+								var radio = $('input[name="shop' + temp.shopId + '.DeliveryType"].selftake');
+								if(radio.length > 0) {
+									radio.get(0).checked = true;
+									radio.attr('sbid', temp.sbId);
+									$('.content[data-id=' + temp.shopId + ']').html(temp.sbName);
+									$('.choseshopbranch[data-id=' + temp.shopId + ']').removeClass('hidden');
+									if(temp.sbId > 0) { //有门店则重新计算运费
+										freeFreight(temp.shopId);
+										$('.order-info#' + temp.ShopId + '.price').attr('selftake', '');
+									}
+								}
+							}
+
+							CalcPrice(); //计算总价格
+						}
+					} else {
+						window.localStorage.removeItem(sbCacheKey);
+					}
+				}
+
+				var maskPay, maskInv;
+				mui('#orderSubmit').on('tap', '#usePayWay', function() {
+					if(!IsCashOnDelivery) {
+						plus.nativeUI.toast('当前收货地址只支持在线支付');
+					} else {
+						if(!onlineCodPay) {
+							plus.nativeUI.toast('非官方自营店只支持在线支付');
+						} else {
+							if(document.getElementById('payWayTeam').innerText == '') {
+								if(onlineCodPay != '')
+									document.getElementById('payWayTeam').insertAdjacentHTML('beforeend', '<div class="payClass"><h3>支持在线支付和货到付款</h3><ul class="pay-way-goods">' + onlineCodPay + '</ul><div class="pay-choose" id="onlineCodChoose"><span class="cur">在线支付</span><span>货到付款</span></div></div>');
+								if(onlinePay != '')
+									document.getElementById('payWayTeam').insertAdjacentHTML('beforeend', '<div class="payClass"><h3>仅支持在线支付</h3><ul class="pay-way-goods">' + onlinePay + '</ul><div class="pay-choose"><span class="cur">在线支付</span></div></div>');
+							}
+							payWayBox.className = 'screen-box active';
+							if(!maskPay) {
+								maskPay = mui.createMask(function() {
+									payWayBox.className = 'screen-box';
+								});
+							}
+							maskPay.show();
+						}
+					}
+
+				});
+				mui('#invoiceBox').on('tap', '.invoice-text', function() {
+					document.querySelector(".invoice-view-cell input[checked]").checked = false;
+					var obj = this.parentNode.parentNode.querySelector('input[name="invHead"]');
+					if(obj) {
+						obj.checked = true;
+					}
+				});
+
+				mui('#payWayBox').on('tap', '#onlineCodChoose span', function() {
+					siblings(this)[0].className = '';
+					this.className = 'cur';
+				})
+
+				mui('#orderSubmit').on('tap', '#useInvoice', function() {
+					invoiceBox.className = 'screen-box active';
+					if(!maskInv) {
+						maskInv = mui.createMask(function() {
+							invoiceBox.className = 'screen-box';
+						});
+					}
+					maskInv.show();
+				});
+
+				mui('#payWayBox').on('tap', '#payWayChoose', function() {
+					if(onlineCodPay) {
+						var index = getIndex(document.getElementById('onlineCodChoose').getElementsByClassName('cur')[0]),
+							selfPayWay = document.getElementById('selfPayWay'),
+							usePayWayText = document.getElementById('usePayWayText');
+						if(index == 1 && onlinePay != '') {
+							usePayWayText.innerText = '在线支付+货到付款';
+							selfPayWay.innerText = '货到付款';
+							isCashOnDelivery = true;
+						} else if(index == 0) {
+							usePayWayText.innerText = selfPayWay.innerText = '在线支付';
+							isCashOnDelivery = false;
+						} else {
+							usePayWayText.innerText = selfPayWay.innerText = '货到付款';
+							isCashOnDelivery = true;
+						}
+						$('input[name*="DeliveryType"].selftake').each(function() {
+							var $this = $(this);
+							if(isCashOnDelivery) {
+								$this.attr('disabled', '');
+								$this.removeAttr("checked");
+								$('input[name*="DeliveryType"].express').each(function() {
+									$(this).prop('checked', true);
+									var sid = $(this).attr('sid');
+									$('.choseshopbranch[data-id=' + sid + ']').addClass('hidden');
+								})
+							} else {
+								if($this.attr('data-disable') != 'true') {
+									$this.removeAttr('disabled');
+								}
+							}
+						});
+						maskPay.close();
+					}
+				});
+
+				mui('#invoiceBox').on('tap', '#invoiceChoose', function() {
+					var useInvoiceText = document.getElementById('useInvoiceText'),
+						invHead = document.querySelector('input[name="invHead"]:checked'),
+						invCon = document.querySelector('input[name="invCon"]:checked');
+					
+					var invHeadText = siblings(invHead, 'input[type="text"]')[0];
+					if(invHead.getAttribute("data-name")=='不需要发票'){
+						useInvoiceText.innerText = '不需要发票';
+						invoiceContext = invoiceTitle = null;
+						invoiceType = 0;
+					}else{
+						if(invHeadText) {
+							if(invHeadText.value == '') {
+								plus.nativeUI.toast('请填写公司全名');
+								return false;
+							} else {
+								invoiceCode = invHead.parentNode.querySelector("#invoiceCode");
+								if(invoiceCode.value == '' || invoiceCode.value == undefined) {
+									plus.nativeUI.toast('请填写发票税号');
+									return false;
+								} else {
+									invoiceCode = invoiceCode.value;
+									invoiceTitle = invHeadText.value;
+								}
+							}
+						} else{
+							invoiceTitle = '个人';
+						}
+						useInvoiceText.innerText = invoiceTitle;
+						invoiceContext = invCon.getAttribute('data-name');
+						invoiceType = 2;
+					}
+					setBill(invoiceTitle, $('input[name="invCon"]:checked').parent().index(), invoiceType);
+					maskInv.close();
+				});
+
+				mui('#orderSubmit').on('keyup', '#integralAmounts', function() {
+					var c = $(this);
+					c.val(c.val().replace(/[^\d]/g, ''));
+					var _cv = parseInt(c.val());
+					if(isNaN(_cv)) {
+						_cv = 0;
+					} else {
+						if(_cv > integralCanUse) {
+							_cv = integralCanUse;
+						}
+					}
+					_cv = Math.ceil(_cv);
+					c.val(_cv);
+					integral = _cv;
+					CalcPrice();
+				});
+
+				function capitalVerify(c){
+					if(/[^\d|.]/.test(c.val())) { //替换非数字字符
+						var temp_amount = c.val().replace(/[^\d|.]/g, '');
+						c.val(temp_amount);
+					}
+					c.val(c.val().replace(/^(\-)*(\d+)\.(\d\d).*$/, '$1$2.$3'));
+					$("#capitalAmount").attr('data-balance');
+					CalcPrice();
+				}
+				mui('#orderSubmit').on('keyup', '#capitalAmounts', function() {
+					capitalVerify($(this));
+				});
+				mui('#orderSubmit').on('blur', '#capitalAmounts', function() {
+					capitalVerify($(this));
+				});
+
+				mui('#orderSubmit').on('toggle', '#useIntegral', function(event) {
+					integralSwitch = event.detail.isActive;
+					if(integralSwitch) {
+						if(userIntegrals < 1) {
+							plus.nativeUI.toast('积分抵扣使用积分少于1分，无法抵扣');
+							return;
+						}
+						setTimeout(function() {
+							integral = integralCanUse;
+							$(".j_IntegralPerMoney").attr('data-integralpermoney', integralPerMoney);
+							$("#integralAmounts").val(Math.ceil(integral));
+							$("#integralBox").show();
+
+							CalcPrice(); //切换积分兑换后要重新计算价格
+						}, 50);
+
+					} else {
+						$(".j_IntegralPerMoney").attr('data-integralpermoney', "0");
+						integral = 0;
+						$("#integralBox").hide();
+						CalcPrice();
+					}
+				});
+
+				mui('#orderSubmit').on('toggle', '#capitalAmount', function(event) {
+					capitalSwitch = event.detail.isActive;
+					if(capitalSwitch) {
+						if(!payPwd) {
+							mui.ajax(URL + 'api/Payment/GetPayPwd', {
+								data: himall.md5Data({
+									userkey: userkey
+								}),
+								dataType: 'json',
+								type: 'get',
+								timeout: 10000,
+								success: function(data) {
+									if(data.success) {
+										mui.prompt('', '请输入支付密码', '请输入支付密码', ['确定', '取消'], function(e) {
+											if(e.index == 0) {
+												var pwd = e.value;
+												mui.ajax(URL + 'api/payment/VerificationPayPwd', {
+													data: himall.md5Data({
+														pwd: pwd,
+														userkey: userkey
+													}),
+													dataType: 'json',
+													type: 'post',
+													timeout: 10000,
+													success: function(data) {
+														if(data.success) {
+															$("#capitalAmounts").val($("#capitalAmount").attr("data-balance"));
+															$('.detail-anchor1').show();
+															CalcPrice();
+
+															payPwd = pwd;
+														} else {
+															mui.toast("支付密码错误");
+															mui("#capitalAmount").switch().toggle();
+														}
+													},
+													error: function(xhr) {
+														mui.toast("支付密码错误");
+														mui("#capitalAmount").switch().toggle();
+													}
+												});
+											} else {
+												mui("#capitalAmount").switch().toggle();
+											}
+
+										}, 'div');
+										document.querySelector('.mui-popup-input input').type = 'password';
+									} else {
+										document.getElementById("J_assets_layer").style.display = "block";
+										document.getElementById("stepone").style.display = "block";
+									}
+								}
+							});
+						} else {
+							$("#capitalAmounts").val($("#capitalAmount").attr("data-balance"));
+							$('.detail-anchor1').show();
+							CalcPrice();
+						}
+					} else {
+						$('.detail-anchor1').hide();
+						$("#capitalAmounts").val($("#capitalAmount").attr("data-balance"));
+						CalcPrice();
+					}
+				});
+				document.getElementById("submitPwd").addEventListener('tap', function() {
+					var passwords1 = document.getElementById('firstPwd').value;
+					var passwords = document.getElementById('secondPwd').value;
+					if(passwords1 == passwords && passwords != '') {
+						mui.ajax(URL + 'api/payment/PostSetPayPwd', {
+							data: himall.md5Data({
+								password: passwords,
+								userkey: userkey
+							}),
+							dataType: 'json',
+							type: 'post',
+							timeout: 10000,
+							success: function(data) {
+								document.getElementById("stepone").style.display = "none";
+								document.getElementById("J_assets_layer").style.display = "none";
+								mui.toast("设置成功,请重新开启");
+								payPwd = passwords;
+								mui("#capitalAmount").switch().toggle();
+							},
+							error: function(xhr, type, errorThrown) {
+
+							}
+						});
+					} else if(passwords == '') {
+						mui.toast("输入密码不能为空");
+						return false;
+					} else {
+						mui.toast("两次密码不一致");
+						return false;
+					}
+				});
+				//新增发票抬头
+				mui('#invoiceBox').on('tap', '.addinvoiceCode', function() {
+					if(document.querySelector(".baocun")) {
+						return;
+					}
+					document.querySelector(".invoice-view-cell input[checked]").checked = false;
+					var htmel = '<li class="invoice-view-cell mui-radio mui-left gslist"><input name="invHead" type="radio" checked/>公司<span class="baocun">保存</span><div><input autofocus="autofocus" class="invoice-text" type="text" placeholder="公司名称"/><input id="invoiceCode" class="invoice-text" type="text" placeholder="公司税号"/></div></li>';
+					$($(".fptt li").get(1)).after(htmel);
+					himall.openSoftKeyboard();
+				});
+				//保存发票抬头
+				mui('#invoiceBox').on('tap', '.baocun', function() {
+					var _this = $(this);
+					var Name = _this.next().find("input")[0].value;
+					var Code = _this.next().find("input")[1].value;
+					$("input").blur();
+					if(Name == '') {
+						plus.nativeUI.toast('请填写公司全名');
+						return false;
+					} else if(Code == '') {
+						plus.nativeUI.toast('请填写税号');
+						return false;
+					} else {
+						mui.ajax(URL + 'api/Order/PostSaveInvoiceTitle', {
+							data: himall.md5Data({
+								name: Name,
+								code: Code,
+								userkey: userkey
+							}),
+							dataType: 'json',
+							type: 'POST',
+							timeout: 10000,
+							success: function(data) {
+								plus.nativeUI.toast('新增成功');
+								_this.next().find("input").attr("deta-id", JSON.stringify(data));
+								_this.attr("class", "deletas").html('删除');
+								_this.next().find("input")[0].setAttribute('disabled', '');
+								_this.next().find("input")[1].setAttribute('disabled', '');
+							},
+							error: function(xhr) {
+								plus.nativeUI.toast('请求失败，请检查网络')
+							}
+						});
+					}
+				});
+
+				//删除发票抬头 
+				mui('#invoiceBox').on('tap', '.gslist .deletas', function() {
+					var _this = $(this);
+					var id = _this.parent().find(".invoice-text").attr("deta-id");
+					mui.ajax(URL + 'api/Order/PostDeleteInvoiceTitle', {
+						data: himall.md5Data({
+							id: id,
+							userkey: userkey
+						}),
+						dataType: 'json',
+						type: 'POST',
+						timeout: 10000,
+						success: function(data) {
+							plus.nativeUI.toast('删除成功');
+							_this.parent().remove();
+						},
+						error: function(xhr) {
+							plus.nativeUI.toast('请求失败，请检查网络')
+						}
+					});
+				});
+			});
+
+			mui('#orderSubmit').on('tap', '.goods-url', function() {
+				showProduct(this.getAttribute('data-id'));
+			});
+
+			mui('#orderSubmit').on('tap', '.vshop-url', function() {
+				var shopid = this.getAttribute('data-id');
+				if(shopid == 0) {
+					//mui.toast('该店铺暂未开通微店')
+				} else {
+					himall.openVW('store-home.html', {
+						shopid: shopid
+					})
+				}
+
+			});
+
+			mui('#orderSubmit').on('tap', '#addressList', function() {
+				setLeaveMmessage(); //写入留言信息
+				himall.openVW('address.html', {
+					orderTag: 'storeOrderTag',
+					shopBranchId: shopBranchId
+				});
+			});
+
+			//选择优惠券
+			var couponMask,
+				dialogCoupon = document.getElementById('dialogCoupon'),
+				couponList = document.getElementById('couponList'),
+				shopIndex;
+			mui('#orderSubmit').on('tap', '.chooseCoupon', function() {
+				shopIndex = this.getAttribute('data-index');
+				couponList.innerHTML = template('initCoupon', {
+					Id: products[shopIndex].OneCoupons ? products[shopIndex].OneCoupons.BaseId : '',
+					BaseCoupons: products[shopIndex].BaseCoupons
+				});
+
+				if(!couponMask) {
+					couponMask = mui.createMask(function() {
+						himall.removeClass(dialogCoupon, ' active')
+					});
+				}
+				couponMask.show();
+				dialogCoupon.className += ' active';
+			});
+
+			document.querySelector('#dialogCoupon .mui-icon').addEventListener('tap', function() {
+				couponMask.close();
+			});
+
+			mui('#couponList').on('click', 'input', function() {
+				setLeaveMmessage(); //写入留言信息
+
+				var index = this.getAttribute('data-index'),
+					product = products[shopIndex];
+				product.OneCoupons = product.BaseCoupons[index];
+				couponIds = [];
+
+				if(index != undefined) {
+					product.OneCoupons = product.BaseCoupons[index];
+				} else {
+					product.OneCoupons = {
+						BaseId: 0,
+						BaseType: 99
+					};
+				}
+
+				products.forEach(function(item) {
+					if(item.OneCoupons) {
+						couponIds.push(item.OneCoupons.BaseId + '_' + item.OneCoupons.BaseType);
+					}
+				});
+
+				loadPage();
+				couponMask.close();
+			});
+
+			//选择自提门店跳转ChoseShopBranch
+			mui('#orderSubmit').on('tap', '#choseshopbranch', function() {
+				setTag(); //设置来源标识
+				setLeaveMmessage(); //写入留言信息
+				himall.openVW('order-choose-store.html', {
+					shopId: this.getAttribute('data-id'),
+					regionId: this.getAttribute('regionId'),
+					shippingAddressId: this.getAttribute('shippingAddressId'),
+					skuIds: this.getAttribute('data-skuid'),
+					counts: this.getAttribute('data-count'),
+					type: 1
+				});
+			});
+			//选择自提门店跳转
+
+			//快递和自选门店切换
+			mui('#orderSubmit').on('change', '.divider1 input', function() {
+				if(this.checked == false)
+					return;
+				var sid = $(this).attr('sid');
+				clName = this.className;
+				if(clName == 'selftake') {
+					$('.choseshopbranch[data-id=' + sid + ']').removeClass('hidden');
+					if($(this).attr('sbid')) { //有门店则重新计算运费
+						freeFreight(sid);
+						$('.order-info#' + sid + ' .price').attr('selftake', '');
+					}
+					$(".address-list").hide();
+					$(".item1").removeClass('hidden');
+
+				}else{
+					$(".item1").addClass('hidden');
+					$(".address-list").show();
+
+					$('.choseshopbranch[data-id=' + sid + ']').addClass('hidden');
+
+					//计算运费
+					var priceElement = $('.j_order-info[shopid=' + sid + ']').find('.price');
+					var oldPrice = parseFloat(priceElement.data('oldprice'));
+					priceElement.data('price', oldPrice);
+					priceElement.find(".j_shopTotalAmout").html('¥ ' + oldPrice.toFixed(2))
+
+					var strFreight = "免配送费";
+					if(parseFloat(priceElement.data('freight')) > 0) {
+						strFreight = '¥ '+priceElement.data('freight').toFixed(2);
+					}
+
+					$('.showfreight[shopid=' + sid + ']').html(strFreight);
+					$('.j_order-info[shopid=' + sid + ']').find('.price').removeAttr('selftake');
+					CalcPrice();
+				}
+			});
+			//快递和自选门店切换
+
+			window.addEventListener('updateData', function() {
+				isCashOnDelivery = false;
+				invoiceType = 0;
+				invoiceContext = '';
+				invoiceTitle = '';
+				loadPage();
+			});
+			document.getElementById('submitBtn').addEventListener('tap', function() {
+				var submitData,
+					couponId = couponIds.join(','),
+					recieveAddressId;
+
+				if(document.getElementById('addressList')) {
+					recieveAddressId = document.getElementById('addressList').getAttribute('data-id');
+					if(!recieveAddressId && clName == 'express') {
+						plus.nativeUI.toast('请设置收货地址');
+						return false;
+					}
+				} else {
+					recieveAddressId = "";
+				}
+
+				var w = plus.nativeUI.showWaiting('', {
+					padlock: true
+				});
+				
+				var orderShops = [];
+				$(".order-shop[shopid]").each(function() {
+					var shopId = $(this).attr('shopid');
+					var orderShop = {};
+					orderShop.shopId = shopId;
+					orderShop.orderSkus = [];
+
+					$('.item[data-skuid][data-count]', this).each(function() {
+						orderShop.orderSkus.push({
+							skuId: $(this).attr('data-skuid'),
+							count: $(this).attr('data-count')
+						});
+					});
+
+					var deliveryType = $('input:radio[name="shop' + shopId + '.DeliveryType"]:checked');
+					orderShop.deliveryType = deliveryType.val();
+					orderShop.shopBrandId = deliveryType.attr('sbid');
+					orderShop.Remark = $("#remark_" + shopId).val();
+
+					orderShops.push(orderShop);
+				});
+
+				submitData = {
+					payPwd: payPwd,
+					capitalAmount: capital,
+					cartItemIds: cartItemId,
+					invoiceCode: invoiceCode,
+					recieveaddressId: recieveAddressId,
+					couponIds: couponId,
+					integral: integral,
+					iscashondelivery: isCashOnDelivery,
+					invoicetype: invoiceType,
+					invoicecontext: invoiceContext,
+					invoicetitle: invoiceTitle,
+					integral: integral,
+					jsonOrderShops: JSON.stringify(orderShops),
+					userkey:userkey
+				};
+				mui.ajax(URL + 'api/BranchOrder/PostSubmitOrderByCart', {
+					data: himall.md5Data(submitData),
+					dataType: 'json',
+					type: 'POST',
+					timeout: 10000,
+					success: function(data) {
+						w.close();
+						if(data.success) {
+							if(cartItemId) {
+								mui.fire(plus.webview.getWebviewById('cart.html'), 'updateData');
+								mui.fire(plus.webview.getWebviewById('store-product-detail.html'), 'updateData');
+								mui.fire(plus.webview.getWebviewById('store-home.html'), 'updateData');
+							}
+							payOrderId = data.OrderIds.join(',');
+							var isAllSelfTake = orderShops.every(function(value, index, fullarry) {
+								return value.deliveryType == '1';
+							});
+							var lastAmount = parseFloat(document.getElementById('OrderAmount').innerText.replace('¥ ', ''));
+							if(lastAmount <= 0) {
+								mui.ajax(URL + 'api/Order/GetPayOrderByIntegral', {
+									data: himall.md5Data({
+										orderIds: payOrderId,
+										userkey: userkey
+									}),
+									dataType: 'json',
+									type: 'get',
+									timeout: 10000,
+									success: function(data) {
+										if(data.success) {
+											plus.nativeUI.alert('购买成功，等待发货', function() {
+												isAllSelfTake ? openOrderList(3) : openOrderList(2);
+											});
+										} else {
+											plus.nativeUI.toast(data.msg);
+										}
+									},
+									error: function(xhr) {
+										plus.nativeUI.toast('订单支付失败，请检查网络')
+									}
+								});
+
+							} else if(document.getElementById('usePayWayText').innerText == '货到付款') {
+								plus.nativeUI.alert('订单所有商品均为货到付款，等待发货', function() {
+									openOrderList(2);
+								});
+							} else {
+								if(isCashOnDelivery) {
+									document.getElementById('dcontent').insertAdjacentHTML('afterBegin', '<p class="dcontent-text">在线支付<span><i>¥</i>' + (lastAmount - parseFloat(document.getElementById('selfAmout').innerText.replace('¥ ', ''))) + '</span></p>')
+								}
+								if(!mask)
+									mask = mui.createMask(function() {
+										document.getElementById('dcontent').className = 'dcontent';
+										openOrderList(1);
+									});
+								mask.show();
+								document.getElementById('dcontent').className = 'dcontent active';
+							}
+						} else {
+							plus.nativeUI.alert(data.msg);
+							if(data.code == 502){
+								himall.setState({
+									userkey: ''
+								});
+								w.close();
+								showLogin();
+								setTimeout(function() {
+									plus.webview.getWebviewById('order-submit.html').close('none');
+								}, 1000);
+							}
+						}
+					},
+					error: function(xhr) {
+						w.close();
+						plus.nativeUI.toast('提交订单失败，请检查网络')
+					}
+				});
+
+			});
+
+			var wPay = null;
+			mui('#dcontent').on('tap', '.custom-btn', function() {
+				payOrder(this.id, payOrderId,
+					function(data) {
+						plus.nativeUI.alert("支付成功，等待卖家发货！", function() {
+							if(data.groupId && data.groupId > 0) {
+								himall.openVW('merge-call.html', {
+									Id: data.orderId
+								});
+								setTimeout(function() {
+									plus.webview.getWebviewById('order-submit.html').close('none');
+								}, 1000);
+							} else {
+								openOrderList(2, payOrderId);
+							}
+						});
+					},
+					function() {
+						plus.nativeUI.alert("订单支付失败！", function() {
+							openOrderList(1);
+						});
+					}
+				)
+			});
+
+			function openOrderList(num, bonusId) {
+				himall.openVW('order-list.html', {
+					orderStatus: num,
+					bonusId: bonusId
+				});
+				setTimeout(function() {
+					plus.webview.getWebviewById('store-order-submit.html').close('none');
+				}, 1000)
+			}
+
+			function setTag() {
+				window.saveToLocalStorage(tagCacheKey, {});
+			}
+
+			//计算总价格
+			function CalcPrice() {
+				var sum = 0;
+				$('.j_order-info .price').each(function() {
+					sum += parseFloat($(this).data('price'));
+				});
+				if(integralSwitch) {
+					var maxintmoney = 0;
+					if(sum > 0 && integral > 0) {
+						maxintmoney = himall.MoneyRound(integral / integralPerMoneyRate, 2);
+						if(maxintmoney>integralPerMoney){
+							maxintmoney=integralPerMoney;
+						}
+						if(maxintmoney>sum){
+							maxintmoney=sum;
+						}
+						sum -= maxintmoney;
+						sum = himall.MoneyRound(sum, 2);
+					} else {
+						integral = 0;
+					}
+					maxintmoney = himall.MoneyRound(integral / integralPerMoneyRate, 2);
+					if(maxintmoney>integralPerMoney){
+						maxintmoney=integralPerMoney;
+					}
+					$("#integralBox span").html("-¥" + maxintmoney);
+				} else {
+					integral = 0;
+				}
+				if(capitalSwitch) {
+					var usebalnace = 0;
+					if(sum > 0) {
+						var accountbalnace = parseFloat($("#capitalAmount").attr('data-balance'));
+						usebalnace = $("#capitalAmounts").val();
+						if(usebalnace > accountbalnace) {
+							usebalnace = accountbalnace;
+						}
+						if(usebalnace >= sum) {
+							usebalnace = sum;
+						}
+					}
+					$("#capitalAmounts").val(usebalnace);
+					sum -= usebalnace;
+					capital = usebalnace;
+					$(".detail-anchor1 span").html("¥-" + himall.MoneyRound(usebalnace).toFixed(2));
+				} else {
+					capital = 0;
+				}
+				if(sum < 0) {
+					sum = 0;
+				}
+				//选好门店后又切换回快递配送，如果使用了积分，要减去 
+				document.getElementById('OrderAmount').innerText = '¥ ' + sum.toFixed(2);
+				document.getElementById('OrderAmount').setAttribute("data-OrderAmount", sum.toFixed(2));
+			}
+
+			function freeFreight(shopId) {
+				var goodsInfo = $('.j_order-info[shopid=' + shopId + ']');
+				var priceElement = goodsInfo.find('.price');
+				var oldPrice = parseFloat(priceElement.data('oldprice'));
+				var price = oldPrice - parseFloat(priceElement.data('freight'));
+				priceElement.data('price', price);
+				priceElement.find(".j_shopTotalAmout").html('¥ ' + price.toFixed(2))
+				$('.showfreight[shopid=' + shopId + ']').html("免配送费");
+				CalcPrice();
+			}
+
+			function setLeaveMmessage() {
+				var remarkList = [];
+				$('.order-shop[shopid]').each(function() {
+					var shopId = $(this).attr('shopid');
+					remarkList.push($('.orderRemarks #remark_' + shopId).val());
+				});
+				plus.storage.setItem("remarkList", remarkList.join(','));
+			}
+
+			function setBill(invoiceTitle, contentIndex, invoiceType) {
+				plus.storage.setItem("invoiceTitle", invoiceTitle + '');
+				plus.storage.setItem("invoiceContext", contentIndex + '');
+				plus.storage.setItem("invoiceType", invoiceType + '');
+			}
+
+			function initLeaveMsgAndBill() {
+				var remarkList = plus.storage.getItem("remarkList");
+				var invoiceTitle = plus.storage.getItem("invoiceTitle");
+				var invoiceContext = plus.storage.getItem("invoiceContext");
+				var invoiceTypes = plus.storage.getItem("invoiceType");
+				if(remarkList != null && remarkList.length > 0) {
+					var remark = remarkList.split(',');
+					$('.order-shop[shopid]').each(function(i) {
+						var shopId = $(this).attr('shopid');
+						$('.orderRemarks #remark_' + shopId).val(remark[i]);
+					});
+				}
+				if(invoiceTitle != null && invoiceTitle != '') {
+					$("#useInvoiceText").html(invoiceTitle);
+					$('input[name="invCon"]').eq(parseInt(invoiceContext)).attr("checked", 'checked');
+					invoiceType = parseInt(invoiceTypes);
+				}
+			}
+		</script>
+
+		<script type="text/html" id="initCoupon">
+			<li class='coupon-item'>
+				<input type="radio" checked name="coupon" />
+				<p>不使用优惠券</p>
+			</li>
+			{{each BaseCoupons}}
+			<li class='coupon-item'>
+				<input type="radio" {{$value.BaseId==Id? 'checked': ''}} name="coupon" data-index="{{$index}}" />
+				<div class='detail'>
+					<p class='price'>¥ {{$value.BasePrice}}</p>
+					<p class='rule'>{{$value.OrderAmount?'满'+$value.OrderAmount+'元可用（不含配送费）':'金额无限制（不含配送费）'}}</p>
+				</div>
+				<div class='desc'>
+					<p>{{!$value.UseArea?'全场通用':$value.Remark}}</p>
+					<p>{{$value.StartDateStr}}-{{$value.EndDateStr}}</p>
+				</div>
+			</li>
+			{{/each}}
+		</script>
+
+		<script type="text/html" id="initData">
+			{{if shopBranchInfo.IsStoreDelive}}
+				{{if Address}}
+				<ul class="mui-table-view address-list" id="addressList" data-id="{{Address.Id}}">
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<p id="shipinfo"><span>{{Address.ShipTo}}</span> {{Address.Phone}}</p>
+							<p><i class="mui-icon mui-icon-location"></i><span id="addrinfo"> {{Address.Address || ''}}</span></p>
+							<i class="mui-icon mui-icon-arrowright icon-right"></i>
+						</a>
+					</li>
+				</ul>
+				{{else}}
+				<ul class="mui-table-view address-list" id="addressList">
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<p>请选择收货地址</p><span style="color:red;padding: 0;">您没有收货地址或已有地址不在服务范围内</span>
+							<i class="mui-icon mui-icon-arrowright icon-right"></i>
+						</a>
+					</li>
+				</ul>
+				{{/if}}
+			{{/if}}
+
+			<div class="order-info Oline_pay">
+				<div class="item">
+					<div class="item-choose" id="usePayWay">
+						<span>支付方式</span>
+						<div class="mui-pull-right"><em id="usePayWayText">在线支付</em><i class="mui-icon mui-icon-arrowright icon-right"></i></div>
+					</div>
+				</div>
+			</div>
+
+			{{each products}}
+			<div class="order-info">
+				<div class="item">
+					<div class="detail-anchor2 divider1">
+						<span class="divider1span">配送方式</span>
+						{{if IsOpenStore && shopBranchInfo.IsAboveSelf}}
+							{{if shopBranchInfo.IsAboveSelf && !shopBranchInfo.IsStoreDelive||(shopBranchInfo.IsStoreDelive&&!Address)}}
+								<label class="divider-btn"><input class="selftake" type="radio" name="shop{{$value.shopId}}.DeliveryType" value="1" sid="{{$value.shopId}}" sbid="{{shopBranchInfo.Id}}" checked="checked"/><span>门店自提</span></label>
+							{{else}}
+								<label class="divider-btn"><input class="selftake" type="radio" name="shop{{$value.shopId}}.DeliveryType" value="1" sid="{{$value.shopId}}" sbid="{{shopBranchInfo.Id}}" pids="{{$value.productIds.join(',')}}" regionId="{{Address.RegionId}}"/><span>门店自提</span></label>
+							{{/if}}
+						{{/if}}
+						{{if shopBranchInfo.IsStoreDelive}}
+							<label class="divider-btn"><input class="express" type="radio" name="shop{{$value.shopId}}.DeliveryType" value="2" checked sid="{{$value.shopId}}" sbid="{{shopBranchInfo.Id}}" /><span>门店配送</span></label>
+						{{/if}}
+					</div>
+				</div>
+				<div class="item item1 {{(shopBranchInfo.IsAboveSelf && !shopBranchInfo.IsStoreDelive)?'':'hidden'}}">
+					<h4>{{$value.ShopBranchName}}<span class="ml15">{{shopBranchInfo.ContactPhone}}</span></h4>
+					<p>{{shopBranchInfo.AddressFullName}}</p>
+					<h4>营业时间：{{shopBranchInfo.StoreOpenStartTime.substring(0, 5)}} - {{shopBranchInfo.StoreOpenEndTime.substring(0, 5)}}</h4>
+				</div>
+			</div>
+
+			<div class="order-info" id="{{$value.shopId}}" shopid="{{$value.shopId}}">
+				<div class="item">
+					<div class="order-shop" shopid="{{$value.shopId}}">
+						<a class="vshop-url" data-id="{{$value.VshopId}}"><i class="iconfont icon-dianpu"></i> {{shopBranchInfo.ShopBranchName}}</a>
+					</div>
+				</div>
+				{{each $value.CartItemModels as item}}
+				<div class="item" data-skuid="{{item.skuId}}" data-count="{{item.count}}" data-id="{{item.id}}">
+					<div class="buy-goods">
+						<a class="goods-url goods-img" data-id="{{item.id}}"><img src="images/blank.gif" data-delay="{{item.imgUrl}}" /></a>
+						<div class="right_goods_info">
+							<p>
+								<em>¥ {{item.price.toFixed(2)}}</em>
+								<span><a class="goods-url" data-id="{{item.id}}">{{item.name}}</a></span>
+							</p>
+							<h5 style="width:100%"><span class="right">x {{item.count}}</span>
+								{{if item.size}}
+									<span class="left">{{item.SizeAlias}}：{{item.size}}&nbsp;&nbsp;</span>
+								{{/if}}
+								{{if item.color}}
+									<span class="left">{{item.ColorAlias}}：{{item.color}}&nbsp;&nbsp;</span>
+								{{/if}}
+								{{if item.version}}
+									<span class="left">{{item.VersionAlias}}：{{item.version}}</span>
+								{{/if}}
+							</h5>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+				{{if $value.BaseCoupons}}
+					{{if $value.BaseCoupons.length>0}}
+						<div class="item mt10 chooseCoupon" data-index="{{$index}}">
+							<div class="item-text">
+								<span>优惠券</span>
+								<span class="mui-pull-right">
+									{{if $value.OneCoupons}}-¥ <em> {{$value.OneCoupons.BasePrice.toFixed(2)}}</em>{{else}}不使用优惠券{{/if}}
+									<i class="mui-icon mui-icon-arrowright icon-right"></i>
+								</span>
+							</div>
+						</div>
+					{{/if}}
+				{{/if}}
+				{{if $value.FullDiscount}}
+				<div class="item">
+					<div class="detail-anchor item-text">
+						<span>满减优惠</span>
+						<span class="mui-pull-right"> &nbsp;-¥ {{$value.FullDiscount.toFixed(2)}}元</span>
+					</div>
+				</div>
+				{{/if}}
+				{{if shopBranchInfo.IsStoreDelive}}
+				<div class="item">
+					<div class="detail-anchor">
+						配送费<span class="mui-pull-right showfreight" shopid="{{$value.shopId}}">{{Freight?'¥ '+Freight.toFixed(2):'免配送费'}}</span>
+					</div>
+				</div>
+				{{/if}}
+
+				<div class="item">
+					<div class="leave-message divider">
+						<label>给卖家留言:</label>
+						<div class="leave-message-inner"><input type="text" id="remark_{{$value.shopId}}" placeholder="选填"></div>
+					</div>
+				</div>
+
+				<div class="j_order-info item total-m" shopid="{{$value.shopId}}">
+					<span class="pay-way-notice" {{$value.IsSelf? 'id=selfPayWay': ''}}>在线支付</span>
+					<span class="mui-pull-right total price" shopid="{{$value.shopId}}" data-oldprice="{{orderAmount}}" data-price="{{orderAmount}}" data-freeFreight="{{$value.FreeFreight}}" data-freight="{{Freight}}">微店合计<em id="selfAmout" class="j_shopTotalAmout" shopid= "{{$value.shopId}}">¥ {{orderAmount.toFixed(2)}}</em></span>
+				</div>
+			</div>
+			{{/each}}
+			{{if canIntegralPerMoney&&userIntegrals > 0}}
+			<div class="goods-info mb11 dkjf">
+				<div class="item">
+					<div class="detail-anchor">
+						<span class="pull-left score">
+							<label>可用积分抵扣：<em class="j_IntegralPerMoney" data-integralpermoney= "{{integralPerMoney}}">¥ {{integralPerMoney}}</em></label>
+							</span>
+						<span class="pull-right"><div id="useIntegral" data-score="{{userIntegrals}}" class="mui-switch mui-pull-right"><div class="mui-switch-handle"></div></div><span>
+						</div>
+						<div class="detail-anchor" id="integralBox">
+							<label>使用积分：<input type="number" id="integralAmounts" value=""/></label>
+							<span>0</span>
+					</div>
+				</div>
+			</div>
+			{{/if}}
+			{{if canCapital&&capitalAmount > 0}}
+			<div class="goods-info mb11 dkjf">
+				<div class="item">
+					<div class="detail-anchor">
+						<span class="pull-left score">
+							<label>可使用余额：<span>¥ {{capitalAmount}}</span></label>
+						</span>
+						<span class="pull-right"><div id="capitalAmount" data-balance="{{capitalAmount}}" class="mui-switch mui-pull-right"><div class="mui-switch-handle"></div></div><span>
+						</div>
+						<div class="detail-anchor detail-anchor1">
+							<label>使用余额：<input type="number" id="capitalAmounts" value=""/></label>
+							<span>1</span>
+					</div>
+				</div>
+			</div>
+			{{/if}}
+			<div class="order-info {{ProvideInvoice?'':'hidden'}}">
+				<div class="item">
+					<div class="item-choose" id="useInvoice">
+						<span>发票信息</span>
+						<div class="mui-pull-right"><em id="useInvoiceText">不需要发票</em><i class="mui-icon mui-icon-arrowright icon-right"></i></div>
+					</div>
+				</div>
+			</div>
+		</script>
+
+		<script type="text/html" id="initInvoice">
+			<h3>发票抬头<span class="addinvoiceCode">新增抬头</span></h3>
+			<ul class="mui-table-view fptt" id="gsitacont">
+				<li class="invoice-view-cell mui-radio mui-left"><input data-name="不需要发票" name="invHead" type="radio"/>不需要发票</li>
+				<li class="invoice-view-cell mui-radio mui-left"><input name="invHead" type="radio" checked/>个人</li>
+				{{if InvoiceTitle.length > 0}} {{each InvoiceTitle}}
+				<li class="invoice-view-cell mui-radio mui-left gslist">
+					<input name="invHead" type="radio" />公司
+					<span class="deletas">删除</span>
+					<div>
+						<input disabled class="invoice-text" type="text" deta-id="{{$value.Id}}" value="{{$value.Name}}" />
+						<input disabled id="invoiceCode" class="invoice-text" type="text" value="{{$value.Code || ''}}" />
+					</div>
+				</li>
+				{{/each}} {{else}}
+				<li class="invoice-view-cell mui-radio mui-left gslist">
+					<input name="invHead" type="radio" />公司
+					<span class="baocun">保存</span>
+					<div>
+						<input class="invoice-text" type="text" placeholder="公司名称" />
+						<input id="invoiceCode" class="invoice-text" type="text" placeholder="公司税号" />
+					</div>
+				</li>
+				{{/if}}
+			</ul>
+
+			<h3>发票内容</h3>
+			<ul class="mui-table-view">
+				{{each InvoiceContext}}
+				<li class="mui-table-view-cell mui-radio mui-left">
+					<input name="invCon" type="radio" data-name="{{$value.Name}}" {{$index==0? 'checked': ''}} />{{$value.Name}}
+				</li>
+				{{/each}}
+			</ul>
+		</script>
+	</body>
+
+</html>

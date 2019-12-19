@@ -1,0 +1,89 @@
+﻿@model Himall.Core.Plugins.FormData
+
+<script src="~/Areas/Admin/Scripts/MessageEdit.js"></script>
+<link href="~/Content/jquery.onoff.css.css" rel="stylesheet" />
+
+<div class="container">
+    <ul class="nav nav-tabs-custom clearfix">
+        <li value=""><a href="@Url.Action("management","message")">管理</a></li>
+        @foreach (var messagePlugin in @ViewBag.messagePlugins)
+        {
+            var active = @messagePlugin.pluginId == @ViewBag.Id ? "active" : "";
+            <li class="@active"><a href="edit?pluginId=@(messagePlugin.pluginId)">@{@messagePlugin.name}配置</a></li>
+        }
+        <li><a href="@Url.Action("editwxtm")">微信模板消息配置</a></li>
+        
+    </ul>
+        @if (@ViewBag.ShowSMS)
+        {
+            <h5 class="tips-top"><span class="help-default"><i></i>首次使用需要注册短信平台，并获取短信接口的accountSid和authToken <a target="_blank" href="@ViewBag.LoginLink" style="margin-left:2px;">点击此处</a></span></h5>
+        }
+        
+    <div class="form-horizontal">
+       
+        
+        @if (@ViewBag.ShowBuy)
+        {<div class="form-group">
+    @*<label class="col-sm-2 control-label" for="">平台剩余短信：</label>
+        <div class="col-sm-3 form-control-static">
+            @ViewBag.Amount 条  <a target="_blank" href="@ViewBag.BuyLink">购买</a>
+        </div>*@
+             <div class="col-sm-3 form-control-static">
+                 注：编辑验证码短信短信模板时短信签名应设为“【HiMall】”，短信内容应设为“尊敬的用户，您的验证码为{1}，该验证仅用于身份验证，请勿泄露给他人使用。”
+             </div>
+</div>
+        }
+        @foreach (var item in Model.Items)
+        {
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="">@item.DisplayName:</label>
+                    @{
+                        if (item.Type == Himall.Core.Plugins.FormData.FormItemType.text)
+                        {
+                            <div class="col-sm-3">
+                                <input formitem name="@item.Name" type="text" value="@item.Value" class="form-control input-sm" />
+                            </div>
+                        }
+                        else if (item.Type == Himall.Core.Plugins.FormData.FormItemType.password)
+                        {
+                            <div class="col-sm-3">
+                                <input formitem name="@item.Name" type="password" value="@item.Value" class="form-control input-sm" />
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="col-sm-10">
+                                <div class="onoffswitch">
+                                    <input formitem type="checkbox" name="@item.Name" @(item.Value.ToLower() == "true" ? "checked" : string.Empty) class="onoffswitch-checkbox" id="ckbServices">
+                                    <label class="onoffswitch-label" for="ckbServices">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        }
+                   }
+              </div>
+
+        }
+        <input type="hidden" id="pluginId" value="@ViewBag.Id" />
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <input type="button" id="btn" class="btn btn-primary" value="保 存" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="">测试接收 @ViewBag.ShortName :</label>
+            <div class="col-sm-3">
+                <input id="destination" name="destination" type="text" class="form-control input-sm" />
+            </div>
+            <div class="col-sm-3"><input type="button" id="btnsend" class="btn btn-default btn-sm" value="开始测试" /></div>
+        </div>
+    </div>
+</div>
+
+
+
+

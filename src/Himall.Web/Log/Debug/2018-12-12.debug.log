@@ -1,0 +1,80 @@
+
+
+
+ 记录时间：2018-12-12 10:44:12,548 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-12 10:44:30,592 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-12 10:44:30 591:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9568.7993 毫秒] 
+
+
+
+
+ 记录时间：2018-12-12 10:44:43,479 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-12 10:44:43 479:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：5004.1535 毫秒] 
+
+
+
+
+ 记录时间：2018-12-12 10:44:45,884 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-12 10:44:45 884:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：6879.1732 毫秒] 
+
+
+
+
+ 记录时间：2018-12-12 10:44:55,161 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-12 10:44:55 160:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：9138.8556 毫秒] 
+
+
+
+
+ 记录时间：2018-12-12 10:58:39,397 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-12 10:58:39 396:[当前请求URL：http://localhost:62443/m-Wap/vshop/Search?vshopid=；请求的参数为：vshopid=；页面加载的时间：8377.2806 毫秒] 
+
+
+
+
+ 记录时间：2018-12-12 10:59:13,702 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-12 10:59:13 701:[当前请求URL：http://localhost:62443/m-Wap/vshop/detail/0；请求的参数为：；页面加载的时间：10236.0907 毫秒] 
+
+
+
+
+ 记录时间：2018-12-12 10:59:24,867 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-12 10:59:24 867:[当前请求URL：http://localhost:62443/m-wap/member/center；请求的参数为：；页面加载的时间：5677.7883 毫秒] 
+
+
+
+
+ 记录时间：2018-12-12 10:59:41,238 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-12 10:59:41 238:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=member&action=orders&orderStatus=1；请求的参数为：area=mobile&platform=Wap&controller=member&action=orders&orderStatus=1；页面加载的时间：10527.0297 毫秒] 
+
+
+
+
+ 记录时间：2018-12-12 15:30:50,115 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+

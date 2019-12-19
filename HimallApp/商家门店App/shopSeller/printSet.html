@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>打印机设置</title>
+		<link rel="stylesheet" href="css/mui.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/mui.min.js"></script>
+		<script src="js/md5.js"></script>
+
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<style>
+			footer {
+				background: none !important;
+				border: none !important;
+				box-shadow: none !important;
+				bottom: 15px !important;
+			}
+			.btn {
+				background-color: #5C75EE;
+				color: #fff;
+				font-size: 14px;
+				display: block;
+				width: 100%;
+				border: none;
+				height: 44px;
+				border-radius: 4px;
+			}
+			
+			.btn:active {
+				background-color: #4d69ed !important;
+			}
+			.nav-header{text-align: center;width:100%;}
+			
+			.table-cell-detail {
+				padding: 5px;
+				color: #C7C7C7;
+				font-size: 14px;
+				text-align: center;
+			}
+			
+			#pageNum {
+				margin-right: 20px;
+				float: right;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<button class="mui-action-back mui-btn mui-btn-link mui-btn-nav mui-pull-left"><span class="mui-icon mui-icon-left-nav"></span>返回</button>
+			<h1 class="mui-title">打印机设置</h1>
+		</header>
+		<div class="mui-content">
+			<div class="nav-header mt20">
+				<img src="images/order_null.png" width="75px" id="imglogo" />
+				<div id="open">
+					<p id="printname">打印机名称</p>
+					<p id="printstatue">未连接</p>
+				</div>
+			</div>
+			<div>
+				<ul class="mui-table-view mb10">
+					<li class="mui-table-view-cell">
+						<div class="mui-media-body">
+							<span>是否开启自动打印</span>
+							<div class="mui-switch mui-pull-right" id="btnSwitch"><div class="mui-switch-handle"></div></div>
+							<p class="mui-ellipsis">开启时，来了新订单就会自动打印</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+						<!--<div class="mui-media-body">
+							<span>打印张数</span>
+							<select id="print-count" name="print-count" class="mui-btn mui-pull-right" style="width: 100px;">
+								<option value="1">1张</option>
+								<option value="2">2张</option>
+								<option value="3">3张</option>
+								<option value="4">4张</option>
+								<option value="5">5张</option>
+							</select>
+							<p class="mui-ellipsis">设置每次打印同一个订单张数</p>
+						</div>-->
+						<a id="printPageNumberSet" class="mui-navigate-right">打印张数
+							<span class="table-cell-detail">设置每次打印同一个订单数</span>
+							<span id="pageNum"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="detailprintset" style="display: none;">
+				<div>
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							<a id="test" class="mui-navigate-right">测试打印页</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<footer class="mui-bar mui-bar-footer">
+				<button id='btnAdd' class="btn">添加打印机</button>
+			</footer>
+			<script src="js/app.js" ></script>
+			<script src="js/printer.js"></script>
+			<script src="js/printformat.js"></script>
+			<script type="text/javascript">
+				mui.init({
+				swipeBack: true
+			});
+			
+			var btnSwitch=document.getElementById('btnSwitch'),
+				//printCount=document.getElementById("print-count"),
+				printCount = document.getElementById("pageNum"),
+				w;
+			var isJoin=himall.isJoin();
+			var getPrintUrl='api/AutoPrint/GetShopBranchPrintInfo';
+			var postUpdteAutoPrintUrl='api/AutoPrint/PostUpdteAutoPrint';
+			var postUpdtePrintCountUrl='api/AutoPrint/PostUpdtePrintCount';
+			if(isJoin){
+				getPrintUrl='api/ShopAutoPrint/GetShopPrintInfo';
+				postUpdteAutoPrintUrl='api/ShopAutoPrint/PostUpdteAutoPrint';
+			    postUpdtePrintCountUrl='api/ShopAutoPrint/PostUpdtePrintCount';
+			}
+				(function() {
+
+					//判断缓存的设备地址
+
+					mui.plusReady(function() {
+						var savedBleId = localStorage.getItem("bleId");
+						if(savedBleId) {
+							document.getElementById('detailprintset').style.display = "block";
+							document.getElementById("printname").innerText = savedBleId;
+							document.getElementById("printstatue").innerText = "已连接";
+							var bleObj = new ConnectPrinter(savedBleId);
+						}
+						
+						//测试打印
+						document.getElementById("test").addEventListener("tap", function() {
+							
+							PrintTest(bleObj);
+						});
+
+						document.getElementById("btnAdd").addEventListener("tap", function() {
+							mui.openWindow({
+								id: "print.html",
+								url: "print.html"
+							});
+						});
+						
+						var userKey=himall.getState().userkey;
+						w=plus.nativeUI.showWaiting('',{padlock:true});
+						mui.ajax(URL + getPrintUrl, {
+		                    data:himall.md5Data({
+		                        userkey: userKey
+		                    }),
+		                    dataType: 'json',
+		                    type: 'get',
+		                    timeout: 10000,
+		                    success: function(data) {
+		                    	w.close();
+		                    	if(data!=null){
+		                    		if(data.IsAutoPrint){
+		                    			btnSwitch.className+=' mui-active';
+		                    		}
+		                    		if(data.PrintCount-1>=0){
+		                    			//printCount.options[data.PrintCount-1].selected = true;
+		                    			//printCount.value = data.PrintCount;
+		                    			document.getElementById("pageNum").innerText = data.PrintCount+"张";
+		                    			localStorage.setItem("printPageNum", data.PrintCount);
+		                    		}
+		                    	}
+		                    },
+		                    error: function(xhr) {
+		                    	w.close();
+		                        plus.nativeUI.toast('请求失败，请检查网络重试');
+		                    }
+			            });
+			            
+						btnSwitch.addEventListener('toggle',function(e){
+							w=plus.nativeUI.showWaiting('',{padlock:true});
+							mui.ajax(URL+postUpdteAutoPrintUrl,{
+								data:himall.md5Data({
+									isautoprint:e.detail.isActive,
+									userkey:userKey
+								}),
+								dataType:'json',
+								type:'post',
+								timeout:10000,
+								success:function(data){
+									w.close();
+									if(data.success){
+//										plus.nativeUI.toast('操作成功');
+//										setTimeout(function(){
+//											plus.webview.currentWebview().close();
+//										},1000);
+									}else{
+										plus.nativeUI.toast('操作失败');
+									}
+								},
+								error:function(xhr){
+									w.close();
+									plus.nativeUI.toast('操作失败，请检查网络')
+								}
+							});
+						});
+						
+						document.getElementById("printPageNumberSet").addEventListener('tap', function() {
+							var actionbuttons = [{
+								title: "1张"
+							}, {
+								title: "2张"
+							}, {
+								title: "3张"
+							}, {
+								title: "4张"
+							}, {
+								title: "5张"
+							}];
+							var actionstyle = {
+								cancel: "取消",
+								buttons: actionbuttons
+							};
+							plus.nativeUI.actionSheet(
+								actionstyle,
+								function(e) {
+								//console.log("User pressed: " + e.index);
+								if (e.index > 0) {
+									
+									w=plus.nativeUI.showWaiting('',{padlock:true});
+									mui.ajax(URL+postUpdtePrintCountUrl,{
+										data:himall.md5Data({
+											printcount:e.index,
+											userkey:userKey
+										}),
+										dataType:'json',
+										type:'post',
+										timeout:10000,
+										success:function(data){
+											w.close();
+											if(data.success){
+												//localStorage.setItem("printPageNum", printCount.value);
+												localStorage.setItem("printPageNum", e.index);
+												document.getElementById("pageNum").innerText = e.index + "张";
+//												plus.nativeUI.toast('操作成功');
+//												setTimeout(function(){
+//													plus.webview.currentWebview().close();
+//												},1000);
+											}else{
+												plus.nativeUI.toast('操作失败');
+											}
+										},
+										error:function(xhr){
+											w.close();
+											plus.nativeUI.toast('操作失败，请检查网络')
+										}
+									});
+								}
+							});
+						});
+						//document.getElementById('submit').addEventListener('tap',function(){
+						printCount.addEventListener('selected',function(e){
+							console.log(e);
+							w=plus.nativeUI.showWaiting('',{padlock:true});
+							mui.ajax(URL+postUpdtePrintCountUrl,{
+								data:himall.md5Data({
+									printcount:printCount.value,
+									userkey:userKey
+								}),
+								dataType:'json',
+								type:'post',
+								timeout:10000,
+								success:function(data){
+									w.close();
+									if(data.success){
+										localStorage.setItem("printPageNum", printCount.value);
+										plus.nativeUI.toast('操作成功');
+										setTimeout(function(){
+											plus.webview.currentWebview().close();
+										},1000);
+									}else{
+										plus.nativeUI.toast('操作失败');
+									}
+								},
+								error:function(xhr){
+									w.close();
+									plus.nativeUI.toast('操作失败，请检查网络')
+								}
+							});
+						});
+					});
+
+				})();
+			</script>
+	</body>
+
+</html>

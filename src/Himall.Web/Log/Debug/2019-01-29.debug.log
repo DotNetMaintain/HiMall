@@ -1,0 +1,396 @@
+
+
+
+ 记录时间：2019-01-29 13:19:33,310 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-29 13:20:09,230 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:20:09 225:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：29613.3943 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:20:21,517 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:20:21 517:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：5404.2215 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:21:14,929 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:21:14 929:[当前请求URL：http://localhost:62443/m-wap/member/center；请求的参数为：；页面加载的时间：30109.0277 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:21:20,951 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund Number=5 
+
+
+
+
+ 记录时间：2019-01-29 13:21:21,050 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-01-29 13:21:21,271 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：244 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-01-29 13:21:21,426 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-01-29 13:21:21,710 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：245 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-01-29 13:21:21,997 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-01-29 13:21:22,470 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：246 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-01-29 13:21:22,660 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-01-29 13:21:23,023 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：247 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-01-29 13:21:23,314 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-01-29 13:21:23,463 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：248 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-01-29 13:21:31,014 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:21:31 014:[当前请求URL：http://localhost:62443/m-Wap/vshop/detail/20；请求的参数为：；页面加载的时间：11295.6577 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:21:48,089 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:21:48 089:[当前请求URL：http://localhost:62443/m-Wap/vshop/Search?vshopid=20；请求的参数为：vshopid=20；页面加载的时间：12658.496 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:21:53,480 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:21:53 480:[当前请求URL：http://localhost:62443/m-Wap/vshop/Search?vshopid=20；请求的参数为：vshopid=20；页面加载的时间：17928.1872 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:21:59,623 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:21:59 622:[当前请求URL：http://localhost:62443/m-Wap/vshop/search?vshopid=20；请求的参数为：vshopid=20；页面加载的时间：5498.9539 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:21:59,939 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:21:59 938:[当前请求URL：http://localhost:62443/m-Wap/Search/GetSalePrice；请求的参数为：；页面加载的时间：5812.179 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:22:16,909 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:22:16 909:[当前请求URL：http://localhost:62443/m-wap/member/center；请求的参数为：；页面加载的时间：12121.0979 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:22:32,375 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:22:32 375:[当前请求URL：http://localhost:62443/m-wap/OrderRefund/List；请求的参数为：；页面加载的时间：9280.1074 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:22:46,555 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:22:46 554:[当前请求URL：http://localhost:62443/m-wap/OrderRefund/List；请求的参数为：；页面加载的时间：11213.0948 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:23:01,397 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:23:01 397:[当前请求URL：http://localhost:62443/m-wap/OrderRefund/List；请求的参数为：；页面加载的时间：24043.6311 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:23:01,937 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:23:01 936:[当前请求URL：http://localhost:62443/m-wap/OrderRefund/List；请求的参数为：；页面加载的时间：24546.4363 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:23:02,699 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:23:02 699:[当前请求URL：http://localhost:62443/m-wap/OrderRefund/List；请求的参数为：；页面加载的时间：25326.7387 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:23:04,045 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:23:04 045:[当前请求URL：http://localhost:62443/m-wap/OrderRefund/List；请求的参数为：；页面加载的时间：26704.3685 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:23:07,920 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:23:07 920:[当前请求URL：http://localhost:62443/m-wap/OrderRefund/List；请求的参数为：；页面加载的时间：32563.222 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:23:41,050 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:23:41 050:[当前请求URL：http://localhost:62443/m-wap/OrderRefund/List；请求的参数为：；页面加载的时间：5221.7142 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:23:41,649 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:23:41 649:[当前请求URL：http://localhost:62443/m-wap/OrderRefund/List；请求的参数为：；页面加载的时间：5668.0314 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:23:42,557 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:23:42 557:[当前请求URL：http://localhost:62443/m-wap/OrderRefund/List；请求的参数为：；页面加载的时间：6761.8117 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:23:43,617 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:23:43 617:[当前请求URL：http://localhost:62443/m-wap/OrderRefund/List；请求的参数为：；页面加载的时间：7821.565 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:28:22,296 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:28:22 296:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：11252.5378 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:28:47,133 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:28:47 133:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：8560.4729 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:28:48,903 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:28:48 903:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：7364.1306 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:28:49,978 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:28:49 978:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：8454.1138 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:28:50,620 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:28:50 620:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：9062.6402 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:28:54,295 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:28:54 294:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：15704.4914 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:28:55,175 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:28:55 175:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：13601.0237 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:42:32,539 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:42:32 539:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：17515.2149 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:42:49,161 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:42:49 161:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：13337.3128 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:42:58,781 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:42:58 781:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：22407.2969 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:42:59,470 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:42:59 470:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：23076.2536 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:43:03,032 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:43:03 032:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：27190.8574 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:43:04,764 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:43:04 764:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：28656.6099 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:43:06,117 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:43:06 117:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：30026.6906 毫秒] 
+
+
+
+
+ 记录时间：2019-01-29 13:43:07,615 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-29 01:43:07 615:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：31544.7042 毫秒] 
+

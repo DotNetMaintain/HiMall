@@ -1,0 +1,63 @@
+﻿@model Himall.Model.CompanyInfo
+@{
+    ViewBag.Title = "新增公司";
+}
+<script src="~/Scripts/jquery.himall.Region.js"></script>
+<div class="container">
+    <ul class="nav nav-tabs-custom clearfix">
+        <li><a href="/admin/Company/Index">公司管理</a></li>
+        <li class="active"><a href="javascript:void(0);">编辑公司</a></li>
+        <li><a href="/admin/Company/Dep">部门管理</a></li>
+    </ul>
+    <h5 class="tips-top"><span class="help-default"><i></i>注意事项：公司编码、公司名称不能重复。</span></h5>
+    <form class="form-horizontal" id="v-form" method="post" style="padding-top:0;">
+
+        <input type="hidden" name="id" value="@Model.Id" />
+        <div class="form-group">
+            <label for="" class="col-sm-2 control-label">公司名称：</label>
+            <div class="col-sm-8">
+                <input class="form-control input-sm input-half" id="Name" name="Name" type="text" maxlength="20" value="@Model.Name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="" class="col-sm-2 control-label">公司编码：</label>
+            <div class="col-sm-8">
+                <input class="form-control input-sm input-half" id="Code" name="Code" type="text" maxlength="10" value="@Model.Code">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="" class="col-sm-2 control-label">联系人：</label>
+            <div class="col-sm-8">
+                <input class="form-control input-sm input-half" id="Contacts" name="Contacts" type="text" maxlength="20" value="@Model.Contacts">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="" class="col-sm-2 control-label">联系电话：</label>
+            <div class="col-sm-8">
+                <input class="form-control input-sm input-half" id="Phone" name="Phone" type="text" maxlength="20" value="@Model.Phone">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="" class="col-sm-2 control-label">公司地址：</label>
+            <div id="area-selector" class="inline-block wauto" style="margin-left: 20px;"></div>
+            @Html.Hidden("RegionId",Model.RegionId)
+        </div>
+        <div class="form-group">
+            <label for="" class="col-sm-2 control-label">地址详情(楼栋-门牌)：</label>
+            <div class="col-sm-8">
+                <input class="form-control input-sm input-half" id="AddressDetail" name="AddressDetail" type="text" maxlength="20"  value="@Model.AddressDetail">
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <input type="submit" class="btn btn-primary" value="保 存" />
+            </div>
+        </div>
+    </form>
+</div>
+<script src="~/Scripts/v.js"></script>
+<script>var Management="@Url.Action("Index", "Company")";</script>
+<script src="~/Areas/Admin/Scripts/CompanyEdit.js"></script>

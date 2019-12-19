@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<title>门店搜索</title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />   
+	</head>
+	<body class="storeSearch">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">
+				<form class="search-box" action=""  onsubmit="return false;">
+					<input autofocus="autofocus" type="search" class="search-text mui-input-clear" id="keywordsText" placeholder="附近商家门店及商品">
+					<i class="mui-icon mui-icon-search search-btn" id="searchKey"></i>
+				</form>
+			</h1>
+		</header>
+		
+		<div id="pullrefresh" class="mui-content mui-scroll-wrapper ">
+			<div class="mui-scroll">
+				<div class="historySearch">
+					<h3>历史记录<a class="mui-pull-right" id="clearKeyWord">清空</a></h3>
+					<ul id="keyWordList"></ul>
+				</div>
+				<div class="storelist">
+					<div class="store-container">
+						<ul class="list-ul" id="storesList">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        <script src="js/mui.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/md5.js"></script>
+        <script src="js/delayimg.min.js"></script>
+        <script src="js/template.js"></script>
+        <script src="https://3gimg.qq.com/lightmap/components/geolocation/geolocation.min.js"></script>
+        <script src="js/jquery.himallStorage.js"></script>
+        <script>
+            var page = 1,
+                isnodata = false,
+                fromLatLng = '',//这里要获取当前用户定位
+			    storesList = document.getElementById('storesList'),
+			    lat="",
+			    lon="",
+			    keywords = '',
+			    shopid = '';
+			  var userkey=himall.isLogin()?himall.getState().userkey:'';
+              mui.init({
+                pullRefresh: {
+                    container: '#pullrefresh',
+                    deceleration: 0.0006,
+                    up: {
+                        contentrefresh: "正在加载...",
+                        contentnomore: '已加载全部门店',
+                        callback: function () {
+                            var self = this;
+                            if (!isnodata) {
+                                page++;
+                                mui.ajax(URL + 'api/ShopBranchWeb/GetStoreList', {
+                                    data: himall.md5Data({
+                                        pageNo: page,
+                                        pageSize: 5,
+                                        fromLatLng: fromLatLng,
+                                        keyWords:keywords,
+                                        shopId:shopid
+                                    }),
+                                    dataType: 'json',
+                                    type: 'get',
+                                    timeout: 10000,
+                                    success: function (data) {
+                                        if (data.success) {
+                                        	if (data.Stores.length > 0) {                                        		      
+                                        		dataActionOpera(data);
+                                                storesList.insertAdjacentHTML('beforeend', template('initStoreList', data));
+                                                delayimg.init();
+                                                setTimeout(function(){
+													var styles = document.getElementsByTagName("style");
+													var hStyle = styles.length ? styles[0] : document.createElement("style");
+													if(document.querySelector('.products img')&&document.querySelector('.products img').width>0){
+														hStyle.innerHTML = ".store-container .li-right .products img{ height:"+document.querySelector('.products img').width+"px;}";
+														document.head.appendChild(hStyle);
+													}
+												},500);
+                                            } else {
+                                                isnodata = true;
+                                            }
+                                            self.endPullupToRefresh(isnodata);
+                                        }
+                                    },
+                                    error: function (xhr) {
+                                        plus.nativeUI.toast('请求失败，请检查网络')
+                                    }
+                                });
+                            } else {
+                                self.endPullupToRefresh(isnodata);
+                            }
+                        }
+                    }
+                }
+            });
+            himall.immersedNav();
+            //获取定位
+			function getPositionSuccess(position) {
+			    lat = position.coords.latitude; //纬度 
+				lon = position.coords.longitude; //经度 
+				mui.ajax(TENXUNMAP, {
+                    data: {
+                    	locations: lat+','+lon,
+                    	type: 1,
+                    	key: MAPKEY
+                    },
+                    dataType: 'json',
+                    type: 'get',
+                    timeout: 10000,
+                    success: function (data) {
+                        lat = data.locations[0].lat;
+                        lon = data.locations[0].lng;
+                        fromLatLng = lat+','+lon;
+                    }
+                });
+			}
+			
+			if (mui.os.android)
+				document.getElementsByClassName('mui-scroll')[0].className='';
+				
+            mui.plusReady(function () {
+	        	getKeyWordStorage();
+	        	var ws = plus.webview.currentWebview(),
+	            	keywords = ws.keywords?ws.keywords:'',
+	            	shopid = ws.shopId?ws.shopId:'';
+            	fromLatLng = plus.storage.getItem('mallFromLatLng');
+			 	document.querySelector("#keywordsText").value=keywords;
+			 	document.getElementById("keywordsText").focus();
+            });
+            function loadList(){
+            	var wait = plus.nativeUI.showWaiting();
+            	 mui.ajax(URL + 'api/ShopBranchWeb/GetStoreList', {
+                    data: himall.md5Data({
+                        pageNo: page,
+                        pageSize: 5,
+                        fromLatLng: fromLatLng,
+                        keyWords:keywords,
+                        shopId:shopid,
+                        userkey:userkey
+                    }),
+                    dataType: 'json',
+                    type: 'get',
+                    timeout: 20000,
+                    success: function (data) {
+                        if (data.success) {
+                        	var ele = document.querySelector(".mui-pull-caption-nomore");
+		            	    if (data.Stores.length > 0) {		            	    	
+		            	    	dataActionOpera(data);		            	    	
+		            	   		storesList.innerHTML=template('initStoreList', data);
+		            	   		delayimg.init();
+		            	   		setTimeout(function(){
+									var styles = document.getElementsByTagName("style");
+									var hStyle = styles.length ? styles[0] : document.createElement("style");
+									if(document.querySelector('.products img')&&document.querySelector('.products img').width>0){
+										hStyle.innerHTML = ".store-container .li-right .products img{ height:"+document.querySelector('.products img').width+"px;}";
+										document.head.appendChild(hStyle);
+									}
+								},500);
+								ele&&(himall.removeAllClass(ele,"hidden"));
+								
+		                    } else {
+		                    	ele&&(ele.className+=" hidden");
+					        	var html='<div class="empty-show"><img src="images/null.png" style="width:50%"><p>未搜到相关商品/门店,<br>换个词再试试吧！</p></div>';
+					        	storesList.innerHTML=html;
+		                    }
+                       	}
+                        wait.close();
+                    },
+                    error: function (xhr) {
+                    	wait.close();
+                       	reloadWvLoad();
+                    }
+                });
+            }
+            document.addEventListener("keyup",function(event){
+				if((event||window.event).keyCode==13){
+					document.querySelector("#keywordsText").blur();
+					keywords  = document.querySelector("#keywordsText").value;
+					setKeyWordStorage(keywords);
+					loadList();
+				}
+			});
+            document.getElementById('searchKey').addEventListener('tap',function(){
+        		keywords  = document.querySelector("#keywordsText").value;
+        		setKeyWordStorage(keywords);
+				loadList();
+			});
+			mui('#storesList').on('tap', '.store-img', function (e) {
+            	var id = this.getAttribute("data-id");
+            	himall.openVW('store-home.html',{shopid:id});
+            });
+            mui('#storesList').on('tap', 'h3', function (e) {
+            	var id = this.getAttribute("data-id");
+            	himall.openVW('store-home.html',{shopid:id});
+            });
+            mui('#storesList').on('tap', '.rowline', function (e) {
+            	var id = this.getAttribute("data-id");
+            	id && (himall.openVW('store-home.html',{shopid:id}));
+            });
+            
+            mui('#storesList').on('tap', '.products li', function (e) {
+            	e.stopPropagation();
+            	var id = this.getAttribute("data-id"),
+            		shopid=this.getAttribute("data-shopid");
+            	himall.openVW('store-home.html',{shopid:shopid,productid:id,keywords:keywords});
+            });
+            mui('.storelist').on('tap', '.sale-num', function (e) {
+            	 e.stopPropagation();
+            	 var obj = this.parentNode;
+            	 if(himall.hasClass(obj,'active')){
+            	 	himall.removeClass(obj,'active');
+            	 }else{
+            	 	obj.className+=' active';
+            	 }
+            });
+            mui('#keyWordList').on('tap','.keyWordSearch',function(){
+            	var keyword = this.getAttribute("data-keyword");
+            	document.querySelector("#keywordsText").value = keyword;
+            	keywords = keyword;
+            	page = 1;
+            	loadList();
+            });
+            document.getElementById('clearKeyWord').addEventListener('tap',function(){
+        		himallStorage.removeItem('appKeyWordList');
+        		document.querySelector(".historySearch").className+=" hidden";
+				document.getElementById('keyWordList').innerHTML = '';
+			});
+			//活动信息处理
+			function dataActionOpera(data){
+				if (data.Stores.length > 0) {
+        	    	for(var i=0,len=data.Stores.length;i<len;i++){
+            			var count = 0,types1 = new Array(),types3='',types2='';
+        	    		var actives = data.Stores[i].ShopAllActives;
+        	    		if(actives.ShopActives && actives.ShopActives.length>0){
+        	    			for(var j=0;j<actives.ShopActives.length;j++){
+        	    				types1.push(' '+actives.ShopActives[j].ActiveName);
+        	    				count++;
+        	    			}
+        	    		}
+        	    		if (actives.FreeFreightAmount > 0){
+        	    			types3 = '满'+actives.FreeFreightAmount+'元免运费';
+        	    			count++;
+        	    		}
+        	    		if(actives.ShopCoupons && actives.ShopCoupons.length>0){
+        	    			for(var j=0,lens=actives.ShopCoupons.length;j<lens;j++){
+        	    				var _item=actives.ShopCoupons[j];
+        	    				var showOrderAmount=parseFloat( _item.OrderAmount);
+        	    				var showPrice=_item.Price;
+        	    				if(showOrderAmount<_item.Price){
+        	    					showOrderAmount=_item.Price;
+        	    				}
+        	    				if(showOrderAmount=parseInt(showOrderAmount)){
+        	    					showOrderAmount=showOrderAmount.toFixed(0);
+        	    				}else{
+        	    					showOrderAmount=showOrderAmount.toFixed(2);
+        	    				}
+        	    				if(showPrice=parseInt(showPrice)){
+        	    					showPrice=showPrice.toFixed(0);
+        	    				}else{
+        	    					showPrice=showPrice.toFixed(2);
+        	    				}
+        	    				types2 = types2+',满'+ showOrderAmount +'减'+showPrice+'';
+        	    			}
+        	    			count++;
+        	    		}
+        	    		data.Stores[i].ShopBranch.types1=types1;
+        	    		data.Stores[i].ShopBranch.count = count;
+        	    		data.Stores[i].ShopBranch.types3=types3;
+        	    		data.Stores[i].ShopBranch.types2=types2.substr(1,types2.length);
+        	    	}
+                }
+			}
+			//本地缓存存储历史搜索关键词
+			function setKeyWordStorage(keyWord) {
+			    var arry = new Array();
+			    var value = himallStorage.getItem('appKeyWordList');
+			    if (value) {
+			        arry = value.split(',');
+			    }
+			    if (arry.join(',').indexOf(keyWord) == -1) {
+			        arry.push(keyWord);
+			    }
+			    himallStorage.setItem('appKeyWordList', arry.join(','));
+			}
+			//获取缓存关键词
+			function getKeyWordStorage() {
+			    var html = '';
+			    var KeyWordList = himallStorage.getItem('appKeyWordList');
+			    if (KeyWordList) {
+			        var arrKeyWord = KeyWordList.split(',');
+			        for(var i=arrKeyWord.length-1;i>=0;i--){
+			        	html += '<li><a class="keyWordSearch" style="color:red;" data-keyword="'+ arrKeyWord[i] +'">' + arrKeyWord[i] + '</a></li>';
+			        }
+			        himall.removeAllClass(document.querySelector(".historySearch"),'hidden');
+			    }else{
+			    	document.querySelector(".historySearch").className+=" hidden";
+			    }
+			    document.getElementById('keyWordList').innerHTML = html;
+			}
+		</script>
+		<script type="text/html" id="initStoreList">
+            {{each Stores as item i}}
+            <li class="list-li mui-clearfix">
+            	{{if item.ShopBranch.IsRecommend}}<span class="remm-bg"></span>{{/if}}
+            	{{if item.CartQuantity>0}}<i class="cart-num">{{item.CartQuantity}}</i>{{/if}}
+				<img data-id="{{item.ShopBranch.Id}}" class="store-img" src="images/blank.gif" data-delay="{{item.ShopBranch.ShopImages}}"/>
+				<div class="li-right">
+					<h3 data-id="{{item.ShopBranch.Id}}">{{item.ShopBranch.ShopBranchName}}</h3>
+					<div data-id="{{item.ShopBranch.Id}}" class="rowline mui-clearfix">
+						<span class="fl">¥ {{item.ShopBranch.DeliveTotalFee}}起送<i class="space-line"></i>配送费 ¥ {{item.ShopBranch.DeliveFee}}</span>
+						<span class="fr">{{item.ShopBranch.DistanceUnit}}</span>
+					</div>
+					<div class="rowline mui-clearfix">
+						<span class="fl"><span class="commentscore"><span class="hdstars"><i class="hdstars-active" style="width:{{item.CommentScore/5*100}}%"></i></span> {{item.CommentScore}}</span><i class="space-line"></i></span>
+						<span class="fl">月售 {{item.SaleCountByMonth}}</span>
+						<span class="fr">
+							{{if item.ShopBranch.IsAboveSelf}}<span class="tag">自提</span>{{/if}}
+							{{if item.ShopBranch.IsStoreDelive}}<span class="tag">门店配送</span>{{/if}}
+						</span>
+					</div>
+					{{if item.ShopBranch.count>0}}
+					<ul class="sales">
+						{{each item.ShopBranch.types1}}
+						<li><i class="sale-icon type1"></i><span>{{$value}}</span></li>
+						{{/each}}
+						{{if item.ShopBranch.types2}}<li><i class="sale-icon type2"></i><span>{{item.ShopBranch.types2}}</span></li>{{/if}}
+						{{if item.ShopBranch.types3}}<li><i class="sale-icon type3"></i><span>{{item.ShopBranch.types3}}</span></li>{{/if}}
+						<span class="sale-num">{{item.ShopBranch.count}}个活动<i></i></span>
+					</ul>
+					{{/if}}
+					<ul class="products">
+						{{each item.ShowProducts}}
+						<li data-id="{{$value.Id}}" data-shopid="{{item.ShopBranch.Id}}"><a><img src="images/blank.gif" data-delay="{{$value.DefaultImage}}"/><span>¥ {{$value.MinSalePrice}}</span></a></li>
+						{{/each}}
+					</ul>
+				</div>
+			</li>
+           {{/each}}
+        </script>
+	</body>
+</html>

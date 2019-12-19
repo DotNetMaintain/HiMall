@@ -1,0 +1,133 @@
+
+
+
+ 记录时间：2019-01-29 13:19:35,780 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay.Service 
+
+
+
+
+ 记录时间：2019-01-29 13:19:35,821 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_App.Service 
+
+
+
+
+ 记录时间：2019-01-29 13:19:35,842 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_QRCode.Service 
+
+
+
+
+ 记录时间：2019-01-29 13:19:35,862 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-01-29 13:19:35,884 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.UnionPay.UnionPay 
+
+
+
+
+ 记录时间：2019-01-29 13:19:35,918 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-01-29 13:19:35,949 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_App.Service 
+
+
+
+
+ 记录时间：2019-01-29 13:19:35,991 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_H5.Service 
+
+
+
+
+ 记录时间：2019-01-29 13:19:36,026 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_Native.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-29 13:19:36,059 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-29 13:19:36,106 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_SmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-29 13:21:21,231 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-01-29 13:21:21,691 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-01-29 13:21:22,452 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-01-29 13:21:22,999 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-01-29 13:21:23,447 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！

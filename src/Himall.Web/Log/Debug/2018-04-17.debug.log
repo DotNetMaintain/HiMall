@@ -1,0 +1,72 @@
+
+
+
+ 记录时间：2018-04-17 11:15:55,638 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-04-17 11:16:11,326 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-04-17 11:16:11 323:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8415.9765 毫秒] 
+
+
+
+
+ 记录时间：2018-04-17 11:33:32,400 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-04-17 11:33:32 392:[当前请求URL：http://localhost:62443/SmallProgAPI/login/GetOpenId?appid= wx504b730f93fcd232&secret=2bfbe48344f15326f462ea4f16854d58&js_code=the code is a mock one；请求的参数为：appid=+wx504b730f93fcd232&secret=2bfbe48344f15326f462ea4f16854d58&js_code=the+code+is+a+mock+one；页面加载的时间：777508.4164 毫秒] 
+
+
+
+
+ 记录时间：2018-04-17 11:33:32,445 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-04-17 11:33:32 444:[当前请求URL：http://localhost:62443/SmallProgAPI/login/GetOpenId?appid= wx504b730f93fcd232&secret=2bfbe48344f15326f462ea4f16854d58&js_code=the code is a mock one；请求的参数为：appid=+wx504b730f93fcd232&secret=2bfbe48344f15326f462ea4f16854d58&js_code=the+code+is+a+mock+one；页面加载的时间：777597.4797 毫秒] 
+
+
+
+
+ 记录时间：2018-04-17 11:33:50,632 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-04-17 11:33:50 631:[当前请求URL：http://localhost:62443/SmallProgAPI/login/GetOpenId?appid= wx504b730f93fcd232&secret=2bfbe48344f15326f462ea4f16854d58&js_code=the code is a mock one；请求的参数为：appid=+wx504b730f93fcd232&secret=2bfbe48344f15326f462ea4f16854d58&js_code=the+code+is+a+mock+one；页面加载的时间：13801.2383 毫秒] 
+
+
+
+
+ 记录时间：2018-04-17 11:33:51,514 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-04-17 11:33:51 514:[当前请求URL：http://localhost:62443/SmallProgAPI/login/GetOpenId?appid= wx504b730f93fcd232&secret=2bfbe48344f15326f462ea4f16854d58&js_code=the code is a mock one；请求的参数为：appid=+wx504b730f93fcd232&secret=2bfbe48344f15326f462ea4f16854d58&js_code=the+code+is+a+mock+one；页面加载的时间：14456.6748 毫秒] 
+
+
+
+
+ 记录时间：2018-04-17 11:33:51,515 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-04-17 11:33:51 514:[当前请求URL：http://localhost:62443/SmallProgAPI/login/GetOpenId?appid= wx504b730f93fcd232&secret=2bfbe48344f15326f462ea4f16854d58&js_code=the code is a mock one；请求的参数为：appid=+wx504b730f93fcd232&secret=2bfbe48344f15326f462ea4f16854d58&js_code=the+code+is+a+mock+one；页面加载的时间：14463.6863 毫秒] 
+
+
+
+
+ 记录时间：2018-04-17 11:34:11,090 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-04-17 11:34:11 090:[当前请求URL：http://localhost:62443/Search/SearchAd?cid=127；请求的参数为：cid=127；页面加载的时间：37195.4689 毫秒] 
+
+
+
+
+ 记录时间：2018-04-17 11:34:11,378 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-04-17 11:34:11 378:[当前请求URL：http://localhost:62443/Search/SearchAd?cid=335；请求的参数为：cid=335；页面加载的时间：36298.7828 毫秒] 
+

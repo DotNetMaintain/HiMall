@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<title>首页</title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="pullrefresh" class="mui-content mui-scroll-wrapper transparent">
+			<div class="mui-scroll">
+				<div id="modules" class="cl"></div>
+				<h3 class="custom-title">热销商品</h3>
+				<ul class="mui-table-view mui-grid-view mui-clearfix index-product" id="List"></ul>
+			</div>
+		</div>
+		
+		<a class="backtop" id="backTop"><span class="mui-icon mui-icon-pulldown"></span></a>
+		
+		<script src="js/mui.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/md5.js" ></script>
+		<script src="js/delayimg.min.js"></script>
+		<script src="js/swiper.min.js" ></script>
+		<script src="js/template.js" ></script>
+		<script>
+			var page = 1,
+				isnodata = false,
+				loadPage,
+				content=document.querySelector('.mui-content'),
+				List=document.getElementById('List'),
+				modules=document.getElementById('modules'),
+				backTop=document.getElementById('backTop');
+			mui.init({
+				pullRefresh : {
+				    container:'#pullrefresh',
+				    deceleration:0.0006,
+				    up : {
+					    contentrefresh : "正在加载...",
+					    contentnomore:'已加载全部商品',
+					    callback :function(){
+					      	var self=this;
+					      	if(!isnodata){
+					      		setTimeout(function() {
+					      			page++;
+						      		mui.ajax(URL+'api/home/Get',{
+										data:himall.md5Data({
+											pageno:page,
+											pagesize:10,
+											userkey:himall.getState().userkey
+										}),
+										dataType:'json',
+										type:'get',
+										success:function(data){
+											if (data.Product.length<10) {isnodata = true;}
+											self.endPullupToRefresh(isnodata);
+											List.insertAdjacentHTML('beforeend',template('initProduct', data));
+											delayimg.render();
+										}
+									});
+								    
+							    },1500);
+					      	}else{
+					      		self.endPullupToRefresh(isnodata);
+					      	}
+				    	}
+					    
+				    },
+				    down : {
+						contentdown : "下拉可以刷新",
+						contentover : "释放立即刷新",
+						contentrefresh : "正在刷新...",
+						callback :function(){
+							setTimeout(function(){
+								page = 1;
+								isnodata = false;
+								loadPage();
+								mui('#pullrefresh').pullRefresh().endPulldownToRefresh();
+								mui('#pullrefresh').pullRefresh().refresh(true);
+							},300)
+						}
+				    }
+				}
+			});
+			
+			if (mui.os.android){
+				document.querySelector('.mui-scroll').className='';
+			}
+			mui.plusReady(function() {
+				loadPage=function(){
+					mui.ajax(URL+'AppHome/data/default.json',{
+						data:himall.md5Data(),
+						dataType:'json',
+						type:'get',
+						success:function(data){
+							var str='';
+							for(var i=0; i<data.LModules.length; i++){
+								var de=new Base64(),
+									item=data.LModules[i];
+								if(item.type==9 && item.content.showType=='1'){
+									str+=template('initSwiper',item)
+								}else{
+									str+=de.decode(item.dom_conitem);
+								}
+							}
+							modules.innerHTML=himall.parseModulesImg(str.replace(new RegExp('/Content','g'),'Content'));
+							
+							mui('.swiper-container').each(function(){
+								new Swiper('#'+this.id, {
+									pagination: '.swiper-pagination',
+									autoplay:4000,
+									speed:500
+								});
+							});
+							
+							mui.ajax(URL+'api/home/Get',{
+								data:himall.md5Data({
+									pageno:page,
+									pagesize:10,
+									userkey:himall.getState().userkey
+								}),
+								dataType:'json',
+								type:'get',
+								success:function(data){
+									if(typeof(data.IsOpenApp)=="undefined"){ 
+										//正常授权												
+									}else{
+										mui.openWindow({
+											id:'noauth.html',
+											url:'noauth.html',
+											show: {
+												autoShow:true,
+												aniShow: 'zoom-fade-out'
+											},
+											waiting: {
+												autoShow: false
+											}
+										});
+										return;
+									}
+									var service = document.querySelector('.customer-service');
+									if(service){
+										mui("body").off("tap",".service_list-item");
+										mui("body").off("tap",".keng-lb-1");
+										service.parentNode.removeChild(service);
+									}
+									customerService(data.CustomerServices);
+									List.innerHTML=template('initProduct',data);
+									delayimg.init({offset:100});
+									plus.navigator.closeSplashscreen();
+									himall.removeClass(content,'transparent');
+								}
+							});
+						},
+						error:function(xhr){
+							plus.navigator.closeSplashscreen();
+							var errorText='<div class="empty-show"><h4>'+(xhr.status==404?'网站升级中':'网络不给力')+'，无法访问！</h4><button id="reloadWv" class="mui-btn mui-btn-negative">重新加载</button></div>';
+							document.getElementById('pullrefresh').innerHTML=errorText;
+							himall.removeClass(content,'transparent');
+						}
+					});
+				}
+				
+				loadPage();
+				
+				mui('#List').on('tap', 'a', function(e) {
+					var activeId = this.getAttribute('data-activeid');
+					if(activeId > 0)
+						himall.openVW('merge-detail.html', {activeId: activeId});
+					else
+						showProduct(this.getAttribute('data-id'));
+				});
+				
+			});
+			
+			mui('#modules').on('tap', 'a[href]', function() {
+				
+				var href=this.getAttribute('href').toLowerCase(),
+					id;
+				if(href.indexOf('product/detail/')>=0){
+					id=href.split('product/detail/')[1];
+					showProduct(id);
+				}else if(href.indexOf('topic/detail/')>=0){
+					id=href.split('topic/detail/')[1];
+					himall.openVW('topic-detail.html',{topicId:id});
+				}else if(href.indexOf('gift/detail/')>=0){
+					id=href.split('gift/detail/')[1];
+					himall.openVW('integral-detail.html',{giftId:id})
+				}else if(href.indexOf('topic/list')>=0){
+					himall.openVW('topic.html');
+				}else if(href.indexOf('fightgroup/detail/')>=0){
+					id=href.split('fightgroup/detail/')[1];
+					himall.openVW('merge-detail.html', {activeId: id});
+				}else if(href.indexOf('fightgroup')>=0){
+					himall.openVW('merge-list.html');
+				}else if(href.indexOf('limittimebuy/home')>=0){
+					himall.openVW('limitbuy-list.html');
+				}else if(href.indexOf('integralmall')>=0){
+					himall.openVW('integral-home.html');
+				}else if(href.indexOf('category')>=0){
+					himall.openVW('category.html');
+				}else if(href.indexOf('shopbranch/storelist')>=0){
+					mui.fire(plus.webview.getLaunchWebview(),'gostore');
+				}else if(/^\+?[1-9][0-9]*$/.test(href)){
+					plus.device.dial(href);
+				}else{
+					var userkey = himall.getState().userkey;
+					var delimiter = href.indexOf('?') > 0 ? '&' : '?';
+					plus.runtime.openURL(href + (userkey ? (delimiter + 'token=' + himall.getState().userkey) : ''));
+				}
+			});
+			
+			window.addEventListener('scroll',function(){
+				if(document.body.scrollTop>350){
+					backTop.style.display='block';
+				}else{
+					backTop.style.display='none';
+				}
+			});
+			backTop.addEventListener('tap',function(){
+				mui.scrollTo(0,100);
+			});
+			
+		</script>
+		
+		
+		<script type="text/html" id="initSwiper">
+			<div class="swiper-container" {{if content.space=='1'}}style="margin:10px 0"{{/if}} id="swiper_{{id}}">
+		        <div class="swiper-wrapper">
+		        	{{each content.dataset}}
+		            	<div class="swiper-slide"><a href="{{$value.link}}"><img src="{{$value.pic}}"/></a></div>
+		            {{/each}}
+		        </div>
+		        <div class="swiper-pagination"></div>
+			</div>
+		</script>
+		<script type="text/html" id="initProduct">
+			{{each Product}}
+				<li class="mui-table-view-cell mui-media mui-col-xs-6">
+        			<div class="index-product-box">
+        				{{if $value.Discount>0 && $value.Discount<1}}
+        					<i>{{$value.Discount*10}}折</i>
+        				{{/if}}
+						<a data-id="{{$value.Id}}" data-activeid="{{$value.FightGroupId}}">
+							<div class="p-img"><b data-delay-background="{{$value.ImageUrl}}"></b></div>
+							<div class="mui-media-body">{{$value.Name}}</div>
+							<p class="index-product-price"><span>¥ {{$value.SalePrice}}</span><em>¥{{$value.MarketPrice}}</em></p>
+						</a>
+					</div>
+        		</li>
+			{{/each}}
+		</script>
+	</body>
+
+</html>

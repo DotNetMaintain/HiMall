@@ -1,0 +1,940 @@
+
+
+
+ 记录时间：2019-04-01 13:18:13,371 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:18:13,443 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_App.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:18:13,464 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_QRCode.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:18:13,486 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:18:13,579 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.UnionPay.UnionPay 
+
+
+
+
+ 记录时间：2019-04-01 13:18:13,674 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:18:13,739 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_App.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:18:13,762 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_H5.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:18:13,786 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_Native.WeiXinPay 
+
+
+
+
+ 记录时间：2019-04-01 13:18:13,817 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:18:13,859 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_SmallProg.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:22:12,323 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:22:12,475 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:22:12,598 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:22:12,728 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:22:12,895 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:22:53,726 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:22:53,866 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:22:53,947 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:22:54,101 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:22:54,194 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:24:26,838 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.SendMessage  
+错误描述：进入SendMessage发送短信通知方法里面 
+
+
+
+
+ 记录时间：2019-04-01 13:24:26,904 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.SendMessage  
+错误描述：准备进入SendMessageOnOrderCreate发送短信通知方法里面 
+
+
+
+
+ 记录时间：2019-04-01 13:24:26,910 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-04-01 13:24:26,962 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-04-01 13:24:26,975 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-04-01 13:24:26,987 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-04-01 13:24:26,989 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-04-01 13:24:26,989 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-04-01 13:24:27,244 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].get_WorkDirectory  
+错误描述：get WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:24:27,351 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].get_WorkDirectory  
+错误描述：get WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:24:30,354 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：PaySucceed1502进入 
+
+
+
+
+ 记录时间：2019-04-01 13:24:31,343 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AddDistributionBrokerage  
+错误描述：AddDistributionBrokerage，增加分佣，订单ID：2019040187594806 
+
+
+
+
+ 记录时间：2019-04-01 13:24:32,554 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-04-01 13:24:32,555 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-04-01 13:24:32,557 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-04-01 13:24:32,682 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始准备数据：641[订单支付成功通知] 
+
+
+
+
+ 记录时间：2019-04-01 13:24:33,022 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：消息类型=订单支付成功通知 userId=641 openId=oXdftwQe8wJz4-aMGDUfoVfGuKOY dataerr= 
+
+
+
+
+ 记录时间：2019-04-01 13:24:33,023 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始发送前 
+
+
+
+
+ 记录时间：2019-04-01 13:24:33,029 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始发送到openid:oXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-04-01 13:24:33,244 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:25:00,204 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:25:00,313 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:25:00,456 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:25:00,573 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:25:37,078 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.SendMessage  
+错误描述：进入SendMessage发送短信通知方法里面 
+
+
+
+
+ 记录时间：2019-04-01 13:25:37,122 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.SendMessage  
+错误描述：准备进入SendMessageOnOrderCreate发送短信通知方法里面 
+
+
+
+
+ 记录时间：2019-04-01 13:25:37,123 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-04-01 13:25:37,125 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-04-01 13:25:37,126 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-04-01 13:25:37,128 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-04-01 13:25:37,129 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-04-01 13:25:37,130 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-04-01 13:25:37,348 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].get_WorkDirectory  
+错误描述：get WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:25:37,350 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].get_WorkDirectory  
+错误描述：get WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:25:39,811 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：PaySucceed1502进入 
+
+
+
+
+ 记录时间：2019-04-01 13:25:40,328 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AddDistributionBrokerage  
+错误描述：AddDistributionBrokerage，增加分佣，订单ID：2019040119794284 
+
+
+
+
+ 记录时间：2019-04-01 13:25:41,324 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-04-01 13:25:41,326 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-04-01 13:25:41,326 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-04-01 13:25:41,484 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始准备数据：641[订单支付成功通知] 
+
+
+
+
+ 记录时间：2019-04-01 13:25:41,659 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：消息类型=订单支付成功通知 userId=641 openId=oXdftwQe8wJz4-aMGDUfoVfGuKOY dataerr= 
+
+
+
+
+ 记录时间：2019-04-01 13:25:41,660 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始发送前 
+
+
+
+
+ 记录时间：2019-04-01 13:25:41,661 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始发送到openid:oXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-04-01 13:26:11,986 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:26:12,087 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:26:12,169 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:26:12,276 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:26:12,389 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:26:40,440 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.SendMessage  
+错误描述：进入SendMessage发送短信通知方法里面 
+
+
+
+
+ 记录时间：2019-04-01 13:26:43,626 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.SendMessage  
+错误描述：准备进入SendMessageOnOrderCreate发送短信通知方法里面 
+
+
+
+
+ 记录时间：2019-04-01 13:26:43,644 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-04-01 13:26:43,646 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-04-01 13:26:43,648 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-04-01 13:26:43,651 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-04-01 13:26:43,652 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-04-01 13:26:43,653 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-04-01 13:27:45,329 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].get_WorkDirectory  
+错误描述：get WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:27:45,333 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].get_WorkDirectory  
+错误描述：get WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-04-01 13:28:21,834 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：PaySucceed1502进入 
+
+
+
+
+ 记录时间：2019-04-01 13:28:22,561 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AddDistributionBrokerage  
+错误描述：AddDistributionBrokerage，增加分佣，订单ID：2019040170002373 
+
+
+
+
+ 记录时间：2019-04-01 13:28:46,721 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-04-01 13:28:46,823 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-04-01 13:28:46,824 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-04-01 13:28:47,011 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始准备数据：641[订单支付成功通知] 
+
+
+
+
+ 记录时间：2019-04-01 13:28:47,195 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：消息类型=订单支付成功通知 userId=641 openId=oXdftwQe8wJz4-aMGDUfoVfGuKOY dataerr= 
+
+
+
+
+ 记录时间：2019-04-01 13:28:47,196 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始发送前 
+
+
+
+
+ 记录时间：2019-04-01 13:28:47,196 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始发送到openid:oXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-04-01 13:28:50,628 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:28:50,802 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:28:52,906 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:28:53,003 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！
+
+
+
+ 记录时间：2019-04-01 13:28:53,120 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：无法关闭此订单！ 
+
+Himall.Core.HimallException: 无法关闭此订单！

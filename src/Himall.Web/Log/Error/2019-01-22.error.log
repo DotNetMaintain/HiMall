@@ -1,0 +1,95 @@
+
+
+
+ 记录时间：2019-01-22 14:41:30,026 
+日志级别：  ERROR 
+出错类：Quartz.Core.ErrorLogger  
+错误描述：An error occurred instantiating job to be executed. job= 'group.job' 
+
+Quartz.SchedulerException: Problem instantiating class 'Himall.Web.Areas.SellerAdmin.Controllers.HomeController' ---> System.ArgumentException: Cannot instantiate type which has no empty constructor
+参数名: HomeController
+   在 Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   在 Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   在 Quartz.Core.JobRunShell.<Initialize>d__7.MoveNext() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor
+参数名: HomeController
+   在 Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+
+
+
+ 记录时间：2019-01-22 14:55:30,034 
+日志级别：  ERROR 
+出错类：Quartz.Core.ErrorLogger  
+错误描述：An error occurred instantiating job to be executed. job= 'group.job' 
+
+Quartz.SchedulerException: Problem instantiating class 'Himall.Web.Areas.SellerAdmin.Controllers.AutoController' ---> System.ArgumentException: Cannot instantiate type which has no empty constructor
+参数名: AutoController
+   在 Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   在 Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   在 Quartz.Core.JobRunShell.<Initialize>d__7.MoveNext() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor
+参数名: AutoController
+   在 Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+
+
+
+ 记录时间：2019-01-22 16:07:41,914 
+日志级别：  ERROR 
+出错类：Quartz.Core.ErrorLogger  
+错误描述：An error occurred instantiating job to be executed. job= 'group.job' 
+
+Quartz.SchedulerException: Problem instantiating class 'Himall.Web.Areas.SellerAdmin.Controllers.AutoController' ---> System.ArgumentException: Cannot instantiate type which has no empty constructor
+参数名: AutoController
+   在 Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   在 Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   在 Quartz.Core.JobRunShell.<Initialize>d__7.MoveNext() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor
+参数名: AutoController
+   在 Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+
+
+
+ 记录时间：2019-01-22 16:33:30,044 
+日志级别：  ERROR 
+出错类：Quartz.Core.ErrorLogger  
+错误描述：An error occurred instantiating job to be executed. job= 'group.job' 
+
+Quartz.SchedulerException: Problem instantiating class 'Himall.Web.Areas.SellerAdmin.Controllers.HomeController' ---> System.ArgumentException: Cannot instantiate type which has no empty constructor
+参数名: HomeController
+   在 Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   在 Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   在 Quartz.Core.JobRunShell.<Initialize>d__7.MoveNext() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor
+参数名: HomeController
+   在 Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+
+
+
+ 记录时间：2019-01-22 17:13:30,034 
+日志级别：  ERROR 
+出错类：Quartz.Core.ErrorLogger  
+错误描述：An error occurred instantiating job to be executed. job= 'group.job' 
+
+Quartz.SchedulerException: Problem instantiating class 'Himall.Web.Areas.SellerAdmin.Controllers.HomeController' ---> System.ArgumentException: Cannot instantiate type which has no empty constructor
+参数名: HomeController
+   在 Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   在 Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   在 Quartz.Core.JobRunShell.<Initialize>d__7.MoveNext() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor
+参数名: HomeController
+   在 Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   在 Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]

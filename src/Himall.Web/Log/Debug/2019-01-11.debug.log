@@ -1,0 +1,5894 @@
+
+
+
+ 记录时间：2019-01-11 09:49:33,339 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 09:52:10,234 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:52:10 234:[当前请求URL：http://localhost:62443/m-wap/member/center；请求的参数为：；页面加载的时间：14040.9399 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:52:53,540 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:52:53 539:[当前请求URL：http://localhost:62443/m-Wap/vshop/Search?vshopid=20；请求的参数为：vshopid=20；页面加载的时间：6529.64 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:53:10,678 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:53:10 678:[当前请求URL：http://localhost:62443/m-Wap/Order/Submit?skuIds=772_0_0_0&counts=1；请求的参数为：skuIds=772_0_0_0&counts=1；页面加载的时间：8700.1816 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:53:33,167 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:53:33 167:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：8803.2912 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:53:33,647 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2019-01-11 09:53:33,648 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2019-01-11 09:53:36,279 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.PayByCapitals  
+错误描述：ids2019011125443963 
+
+
+
+
+ 记录时间：2019-01-11 09:53:36,322 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：userid641 
+
+
+
+
+ 记录时间：2019-01-11 09:53:36,323 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：hostUrllocalhost 
+
+
+
+
+ 记录时间：2019-01-11 09:53:36,324 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：orderIds2019011125443963 
+
+
+
+
+ 记录时间：2019-01-11 09:53:36,396 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.SaveOrderPayInfo  
+错误描述：payid190111530936340873 
+
+
+
+
+ 记录时间：2019-01-11 09:53:36,534 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.SaveOrderPayInfo  
+错误描述：orderPayInfo 
+
+
+
+
+ 记录时间：2019-01-11 09:53:37,119 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：payid=========190111530936340873 
+
+
+
+
+ 记录时间：2019-01-11 09:53:37,127 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：orderIdsSystem.Linq.Enumerable+WhereSelectArrayIterator`2[System.String,System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 09:53:37,128 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：payTime2019-01-11 09:53:37 
+
+
+
+
+ 记录时间：2019-01-11 09:53:37,349 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：PaymentTypeNameHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 09:53:37,354 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：PaymentTypeName微信支付 
+
+
+
+
+ 记录时间：2019-01-11 09:53:40,854 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：isSendMsgTrue 
+
+
+
+
+ 记录时间：2019-01-11 09:53:41,059 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：orderMessage.MsgOrderType0 
+
+
+
+
+ 记录时间：2019-01-11 09:53:41,061 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：payid190111530936340873 
+
+
+
+
+ 记录时间：2019-01-11 09:53:41,867 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype2 
+
+
+
+
+ 记录时间：2019-01-11 09:53:41,895 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:53:41 895:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitals；请求的参数为：；页面加载的时间：5788.2578 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:53:41,958 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-01-11 09:53:41,959 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-01-11 09:53:41,967 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 09:53:42,251 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"17_Tko3JU4qdsuZwnOHFG_eSTfvTXawgG2vUQqhQGhr9DaBcF49HaXt1w0opDgM-vOo39teUburNferk5QcJ8WyfCzXzGTkUGXW5S-4Aro-lVrgzL7DcR2Vr6uM4pARAbZOTL8Vo4ZG8Qw5dROaVZBfAJAZDF","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-01-11 09:53:42,267 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token17_Tko3JU4qdsuZwnOHFG_eSTfvTXawgG2vUQqhQGhr9DaBcF49HaXt1w0opDgM-vOo39teUburNferk5QcJ8WyfCzXzGTkUGXW5S-4Aro-lVrgzL7DcR2Vr6uM4pARAbZOTL8Vo4ZG8Qw5dROaVZBfAJAZDF 
+
+
+
+
+ 记录时间：2019-01-11 09:53:42,268 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-11 09:53:42,269 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateIdrSdQS5aaY2GSO4eBm5SzzGEOEu5EwcSV_MNDMfvGiP0 
+
+
+
+
+ 记录时间：2019-01-11 09:53:42,270 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken17_Tko3JU4qdsuZwnOHFG_eSTfvTXawgG2vUQqhQGhr9DaBcF49HaXt1w0opDgM-vOo39teUburNferk5QcJ8WyfCzXzGTkUGXW5S-4Aro-lVrgzL7DcR2Vr6uM4pARAbZOTL8Vo4ZG8Qw5dROaVZBfAJAZDF 
+
+
+
+
+ 记录时间：2019-01-11 09:53:42,271 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 09:53:42,272 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：urlhttp://vshop.css751.com/m-WeiXin/Order/Detail/2019011125443963 
+
+
+
+
+ 记录时间：2019-01-11 09:53:48,164 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:53:48 164:[当前请求URL：http://localhost:62443/m-Wap/vshop/detail/20；请求的参数为：；页面加载的时间：6218.4358 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:54:34,305 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2019-01-11 09:54:34,306 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2019-01-11 09:54:36,071 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.PayByCapitals  
+错误描述：ids2019011102051305 
+
+
+
+
+ 记录时间：2019-01-11 09:54:36,215 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：userid641 
+
+
+
+
+ 记录时间：2019-01-11 09:54:36,216 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：hostUrllocalhost 
+
+
+
+
+ 记录时间：2019-01-11 09:54:36,217 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：orderIds2019011102051305 
+
+
+
+
+ 记录时间：2019-01-11 09:54:36,284 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.SaveOrderPayInfo  
+错误描述：payid190111540936800261 
+
+
+
+
+ 记录时间：2019-01-11 09:54:36,462 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.SaveOrderPayInfo  
+错误描述：orderPayInfo 
+
+
+
+
+ 记录时间：2019-01-11 09:54:36,695 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：payid=========190111540936800261 
+
+
+
+
+ 记录时间：2019-01-11 09:54:36,697 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：orderIdsSystem.Linq.Enumerable+WhereSelectArrayIterator`2[System.String,System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 09:54:36,698 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：payTime2019-01-11 09:54:36 
+
+
+
+
+ 记录时间：2019-01-11 09:54:36,898 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：PaymentTypeNameHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 09:54:36,900 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：PaymentTypeName微信支付 
+
+
+
+
+ 记录时间：2019-01-11 09:54:39,669 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：isSendMsgTrue 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,361 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：orderMessage.MsgOrderType0 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,362 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：payid190111540936800261 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,648 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype2 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,681 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,683 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,687 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,868 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"17_bN0jgW52o_48kYRuFG_eSTfvTXawgG2vUQqhQF5v8EUJTtIleOVz_zcAcuwK_ZAuD4E2smCiU1o-2WierqZM2ab68e68sr3LE4BZCNQrUb31IwTNdNDChlja9ERgByNuXMBPzQUGNkE45_9eSFGhAGAYLM","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,869 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token17_bN0jgW52o_48kYRuFG_eSTfvTXawgG2vUQqhQF5v8EUJTtIleOVz_zcAcuwK_ZAuD4E2smCiU1o-2WierqZM2ab68e68sr3LE4BZCNQrUb31IwTNdNDChlja9ERgByNuXMBPzQUGNkE45_9eSFGhAGAYLM 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,871 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,872 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateIdrSdQS5aaY2GSO4eBm5SzzGEOEu5EwcSV_MNDMfvGiP0 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,873 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken17_bN0jgW52o_48kYRuFG_eSTfvTXawgG2vUQqhQF5v8EUJTtIleOVz_zcAcuwK_ZAuD4E2smCiU1o-2WierqZM2ab68e68sr3LE4BZCNQrUb31IwTNdNDChlja9ERgByNuXMBPzQUGNkE45_9eSFGhAGAYLM 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,874 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 09:54:40,876 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：urlhttp://vshop.css751.com/m-WeiXin/Order/Detail/2019011102051305 
+
+
+
+
+ 记录时间：2019-01-11 09:55:22,380 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:55:22 379:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：7828.9964 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:55:31,231 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:55:31 231:[当前请求URL：http://localhost:62443/m-Wap/Member/GetUserOrders?orderStatus=2；请求的参数为：orderStatus=2；页面加载的时间：5256.4937 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:56:01,108 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:56:01 107:[当前请求URL：http://localhost:62443/SellerAdmin/orderrefund/management?showtype=2；请求的参数为：showtype=2；页面加载的时间：10322.2297 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:56:02,980 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:56:02 980:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/RefundApply/?orderid=2019011125443963；请求的参数为：orderid=2019011125443963；页面加载的时间：9215.2532 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:56:09,341 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:56:09 340:[当前请求URL：http://localhost:62443/m-Wap/Member/GetUserOrders?orderStatus=2；请求的参数为：orderStatus=2；页面加载的时间：14437.9251 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:56:10,765 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:56:10 765:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：9028.3968 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:56:28,238 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:56:28 238:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：8124.3768 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:56:30,541 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:56:30 541:[当前请求URL：http://localhost:62443/SellerAdmin/orderrefund/list?showtype=2；请求的参数为：showtype=2；页面加载的时间：6704.0013 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:57:04,763 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.OrderRefundController.GetResponseResult  
+错误描述：urlhttp://zxk.mhybms.cn:10000/system/refund/operate/saveRefundBySeller?refundJson=System.Web.Mvc.JsonResult 
+
+
+
+
+ 记录时间：2019-01-11 09:57:05,479 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.OrderRefundController.GetResponseResult  
+错误描述：result<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="/static/v2/css/app.min.1.css" rel="stylesheet">
+<link href="/static/v2/css/app.min.2.css" rel="stylesheet">
+<title>管理员登录</title>
+<style>
+body {
+	background-image: url("/static/img/login_bg.jpg");
+	background-size: 100% 100%;
+}
+
+#login-form {
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -260px;
+}
+
+#login-form .title {
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+#login-form .title img {
+	height: 65px;
+	width: 65px;
+	margin-right: 10px;
+}
+
+#login-form .login-con {
+	padding: 40px;
+	background: #fff;
+	border: 15px solid rgba(195, 209, 207, 0.5);
+}
+
+#login-form .login-con p {
+	border: 1px solid #c6c6c6;
+}
+
+#login-form .login-con p input {
+	border: none;
+	outline: none;
+	background: #fff !important;
+	padding: 8px 12px;
+	width: 100%;
+}
+
+#login-form .remember-box {
+	padding-left: 22px;
+}
+
+#login-form .remember-box .uniform {
+	opacity: 1;
+}
+
+#login-form .login-btn {
+	margin-top: 15px;
+	background: #4d7a6e;
+	padding: 10px 0;
+	font-size: 15px;
+	letter-spacing: 5px;
+}
+</style>
+
+</head>
+
+<body>
+
+	<!-- Older IE warning message -->
+	<!--[if lt IE 9]>
+            <div class="ie-warning">
+                <h1 class="c-white">浏览器版本太低了</h1>
+                <p>对不起您电脑安装的浏览器太低，如果你是使用360浏览器请切换到极速模式 <br/> 或者点击下面链接下载其他浏览器进行访问</p>
+                <div class="iew-container">
+                    <ul class="iew-download">
+                        <li>
+                            <a href="http://www.google.com/chrome/">
+                                <img src="/static/v2/img/browsers/chrome.png" alt="">
+                                <div>Chrome</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.mozilla.org/en-US/firefox/new/">
+                                <img src="/static/v2/img/browsers/firefox.png" alt="">
+                                <div>Firefox</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.opera.com">
+                                <img src="/static/v2/img/browsers/opera.png" alt="">
+                                <div>Opera</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.apple.com/safari/">
+                                <img src="/static/v2/img/browsers/safari.png" alt="">
+                                <div>Safari</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                                <img src="/static/v2/img/browsers/ie.png" alt="">
+                                <div>IE (New)</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>对不起 ，请更新您的浏览器</p>
+            </div>   
+        <![endif]-->
+	<div id="login-wrap">
+
+		<div id="login-inner">
+
+			<div id="login-circle">
+				<section id="login-form" class="login-inner-form active" data-angle="0">
+					<h1 class="title">
+						<img style="width: 90%; height: 90%" src="/static/img/logo.png" />
+						<!-- 系统管理人员后台 -->
+					</h1>
+					<form onsubmit="return checkform()" method="post" class="form-vertical" action="/system/login/post/">
+						<div class="login-con">
+							<div class="control-group">
+								<p>
+									<input type="text" name="admin.username" placeholder="用户名" value="" id="input-username" class="big">
+								</p>
+								<p>
+									<input type="password" name="admin.password" placeholder="密码" value="" id="input-password" class="big">
+								</p>
+								<input type="hidden" name="go" value="/system/refund/operate/saveRefundBySeller?refundJson=System.Web.Mvc.JsonResult">
+							</div>
+
+							<div class="control-group">
+								<label class="checkbox remember-box">
+									<input type="checkbox" class="uniform">
+									记住密码
+								</label>
+							</div>
+							<div class="form-actions">
+								<button type="submit" class="btn btn-success btn-block btn-large login-btn">登录</button>
+							</div>
+						</div>
+					</form>
+
+				</section>
+
+			</div>
+
+		</div>
+
+	</div>
+	<!-- Core Scripts -->
+	<script src="/static/v2/vendors/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="/static/plug/support.js"></script>
+	<script src="/static/plug/layer/layer.js"></script>
+	<script type="text/javascript">
+	 function checkform(){
+  		 var pwd = $("#input-password").val();
+  		 var username  = $("#input-username").val();
+  			if(username=="" ){
+  				gx.alert("请输入正确的用户名！");
+  				$("#input-username").focus();
+  				return false;
+  			}
+  			
+  			if(pwd=="" ||  username.pwd<5){
+  				gx.alert("请输入正确的用户密码！");
+  				$("#input-password").focus();
+  				return false;
+  			}
+  			
+  			return true;
+  	 }
+  	 
+  	$(function(){
+  		if(""!=""){
+  			gx.alert("");
+  	  	 }
+  	}) 
+  	</script>
+</body>
+
+</html>
+ 
+
+
+
+
+ 记录时间：2019-01-11 09:59:29,106 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 09:59:29 106:[当前请求URL：http://localhost:62443/SellerAdmin/orderrefund/DealRefund；请求的参数为：；页面加载的时间：154784.7299 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 09:59:29,189 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetWaitOrders  
+错误描述：orders0 
+
+
+
+
+ 记录时间：2019-01-11 09:59:33,420 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetWaitOrders  
+错误描述：orders0 
+
+
+
+
+ 记录时间：2019-01-11 09:59:44,797 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.OrderRefundController.GetResponseResult  
+错误描述：urlhttp://zxk.mhybms.cn:10000/system/refund/operate/saveRefundBySeller?refundJson=System.Web.Mvc.JsonResult 
+
+
+
+
+ 记录时间：2019-01-11 09:59:45,379 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.OrderRefundController.GetResponseResult  
+错误描述：result<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="/static/v2/css/app.min.1.css" rel="stylesheet">
+<link href="/static/v2/css/app.min.2.css" rel="stylesheet">
+<title>管理员登录</title>
+<style>
+body {
+	background-image: url("/static/img/login_bg.jpg");
+	background-size: 100% 100%;
+}
+
+#login-form {
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -260px;
+}
+
+#login-form .title {
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+#login-form .title img {
+	height: 65px;
+	width: 65px;
+	margin-right: 10px;
+}
+
+#login-form .login-con {
+	padding: 40px;
+	background: #fff;
+	border: 15px solid rgba(195, 209, 207, 0.5);
+}
+
+#login-form .login-con p {
+	border: 1px solid #c6c6c6;
+}
+
+#login-form .login-con p input {
+	border: none;
+	outline: none;
+	background: #fff !important;
+	padding: 8px 12px;
+	width: 100%;
+}
+
+#login-form .remember-box {
+	padding-left: 22px;
+}
+
+#login-form .remember-box .uniform {
+	opacity: 1;
+}
+
+#login-form .login-btn {
+	margin-top: 15px;
+	background: #4d7a6e;
+	padding: 10px 0;
+	font-size: 15px;
+	letter-spacing: 5px;
+}
+</style>
+
+</head>
+
+<body>
+
+	<!-- Older IE warning message -->
+	<!--[if lt IE 9]>
+            <div class="ie-warning">
+                <h1 class="c-white">浏览器版本太低了</h1>
+                <p>对不起您电脑安装的浏览器太低，如果你是使用360浏览器请切换到极速模式 <br/> 或者点击下面链接下载其他浏览器进行访问</p>
+                <div class="iew-container">
+                    <ul class="iew-download">
+                        <li>
+                            <a href="http://www.google.com/chrome/">
+                                <img src="/static/v2/img/browsers/chrome.png" alt="">
+                                <div>Chrome</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.mozilla.org/en-US/firefox/new/">
+                                <img src="/static/v2/img/browsers/firefox.png" alt="">
+                                <div>Firefox</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.opera.com">
+                                <img src="/static/v2/img/browsers/opera.png" alt="">
+                                <div>Opera</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.apple.com/safari/">
+                                <img src="/static/v2/img/browsers/safari.png" alt="">
+                                <div>Safari</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                                <img src="/static/v2/img/browsers/ie.png" alt="">
+                                <div>IE (New)</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>对不起 ，请更新您的浏览器</p>
+            </div>   
+        <![endif]-->
+	<div id="login-wrap">
+
+		<div id="login-inner">
+
+			<div id="login-circle">
+				<section id="login-form" class="login-inner-form active" data-angle="0">
+					<h1 class="title">
+						<img style="width: 90%; height: 90%" src="/static/img/logo.png" />
+						<!-- 系统管理人员后台 -->
+					</h1>
+					<form onsubmit="return checkform()" method="post" class="form-vertical" action="/system/login/post/">
+						<div class="login-con">
+							<div class="control-group">
+								<p>
+									<input type="text" name="admin.username" placeholder="用户名" value="" id="input-username" class="big">
+								</p>
+								<p>
+									<input type="password" name="admin.password" placeholder="密码" value="" id="input-password" class="big">
+								</p>
+								<input type="hidden" name="go" value="/system/refund/operate/saveRefundBySeller?refundJson=System.Web.Mvc.JsonResult">
+							</div>
+
+							<div class="control-group">
+								<label class="checkbox remember-box">
+									<input type="checkbox" class="uniform">
+									记住密码
+								</label>
+							</div>
+							<div class="form-actions">
+								<button type="submit" class="btn btn-success btn-block btn-large login-btn">登录</button>
+							</div>
+						</div>
+					</form>
+
+				</section>
+
+			</div>
+
+		</div>
+
+	</div>
+	<!-- Core Scripts -->
+	<script src="/static/v2/vendors/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="/static/plug/support.js"></script>
+	<script src="/static/plug/layer/layer.js"></script>
+	<script type="text/javascript">
+	 function checkform(){
+  		 var pwd = $("#input-password").val();
+  		 var username  = $("#input-username").val();
+  			if(username=="" ){
+  				gx.alert("请输入正确的用户名！");
+  				$("#input-username").focus();
+  				return false;
+  			}
+  			
+  			if(pwd=="" ||  username.pwd<5){
+  				gx.alert("请输入正确的用户密码！");
+  				$("#input-password").focus();
+  				return false;
+  			}
+  			
+  			return true;
+  	 }
+  	 
+  	$(function(){
+  		if(""!=""){
+  			gx.alert("");
+  	  	 }
+  	}) 
+  	</script>
+</body>
+
+</html>
+ 
+
+
+
+
+ 记录时间：2019-01-11 10:03:47,439 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:03:47 439:[当前请求URL：http://localhost:62443/SellerAdmin/orderrefund/DealRefund；请求的参数为：；页面加载的时间：249060.6404 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:13:22,902 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 10:13:39,100 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:13:39 100:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8008.8912 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:13:39,100 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:13:39 100:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7937.3392 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:13:54,666 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:13:54 666:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：5889.0321 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:13:57,350 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:13:57 349:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：8647.9931 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:14:10,754 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:14:10 754:[当前请求URL：http://localhost:62443/SellerAdmin/orderrefund/list?showtype=2；请求的参数为：showtype=2；页面加载的时间：5236.1395 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:15:07,211 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:15:07 211:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：6469.0221 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:15:42,817 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:15:42 816:[当前请求URL：http://localhost:62443/m-Wap/Order/Submit?skuIds=772_0_0_0&counts=1；请求的参数为：skuIds=772_0_0_0&counts=1；页面加载的时间：21021.1437 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:16:07,487 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:16:07 487:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：10047.6351 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:16:07,869 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2019-01-11 10:16:07,871 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2019-01-11 10:16:09,807 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.PayByCapitals  
+错误描述：ids2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 10:16:09,858 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：userid641 
+
+
+
+
+ 记录时间：2019-01-11 10:16:09,859 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：hostUrllocalhost 
+
+
+
+
+ 记录时间：2019-01-11 10:16:09,860 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：orderIds2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 10:16:09,950 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.SaveOrderPayInfo  
+错误描述：payid190111161009069132 
+
+
+
+
+ 记录时间：2019-01-11 10:16:10,046 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.SaveOrderPayInfo  
+错误描述：orderPayInfo 
+
+
+
+
+ 记录时间：2019-01-11 10:16:10,135 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：payid=========190111161009069132 
+
+
+
+
+ 记录时间：2019-01-11 10:16:10,143 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：orderIdsSystem.Linq.Enumerable+WhereSelectArrayIterator`2[System.String,System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 10:16:10,144 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：payTime2019-01-11 10:16:10 
+
+
+
+
+ 记录时间：2019-01-11 10:16:10,193 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：PaymentTypeNameHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 10:16:10,198 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：PaymentTypeName微信支付 
+
+
+
+
+ 记录时间：2019-01-11 10:16:12,564 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：isSendMsgTrue 
+
+
+
+
+ 记录时间：2019-01-11 10:16:12,668 
+日志级别：  DEBUG 
+出错类：Himall.Service.OrderService.PaySucceed  
+错误描述：orderMessage.MsgOrderType0 
+
+
+
+
+ 记录时间：2019-01-11 10:16:12,670 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.PayByCapital  
+错误描述：payid190111161009069132 
+
+
+
+
+ 记录时间：2019-01-11 10:16:13,272 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype2 
+
+
+
+
+ 记录时间：2019-01-11 10:16:13,356 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-01-11 10:16:13,358 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-01-11 10:16:13,379 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 10:16:13,600 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"17_su6kfNU9WUYi-ROZdXKWSXEmBfuIFrWtIAaUHR5TwUQkpJ-SOFiBtexVdn-bFluIvGoTvqrBg955w3NI-iHhRilZ27ldYEN1hG2H-CETp-briw4zoHFOAicgGQELSThACAGNO","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-01-11 10:16:13,684 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token17_su6kfNU9WUYi-ROZdXKWSXEmBfuIFrWtIAaUHR5TwUQkpJ-SOFiBtexVdn-bFluIvGoTvqrBg955w3NI-iHhRilZ27ldYEN1hG2H-CETp-briw4zoHFOAicgGQELSThACAGNO 
+
+
+
+
+ 记录时间：2019-01-11 10:16:13,694 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-11 10:16:13,698 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateIdrSdQS5aaY2GSO4eBm5SzzGEOEu5EwcSV_MNDMfvGiP0 
+
+
+
+
+ 记录时间：2019-01-11 10:16:13,700 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken17_su6kfNU9WUYi-ROZdXKWSXEmBfuIFrWtIAaUHR5TwUQkpJ-SOFiBtexVdn-bFluIvGoTvqrBg955w3NI-iHhRilZ27ldYEN1hG2H-CETp-briw4zoHFOAicgGQELSThACAGNO 
+
+
+
+
+ 记录时间：2019-01-11 10:16:13,706 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 10:16:13,709 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：urlhttp://vshop.css751.com/m-WeiXin/Order/Detail/2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 10:16:19,171 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:16:19 171:[当前请求URL：http://localhost:62443/m-Wap/vshop/detail/20；请求的参数为：；页面加载的时间：5858.9418 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:17:43,652 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.OrderRefundController.GetResponseResult  
+错误描述：urlhttp://zxk.mhybms.cn:10000/system/refund/operate_1/saveRefundBySeller?refundJson={"RefundId":266,"OrderId":2019011156371977,"ApplyDate":"2019-01-11 10:16:48","UserName":"admin","ContactPerson":"111","ContactCellPhone":"11111111111","Amount":"121.00","ProductName":"1111111111","Reason":"????","ReasonDetail":null,"ShipOrderNumber":null,"ProductId":772,"SellerAuditStatus":5,"RefundMode":1,"RefundPayStatus":null} 
+
+
+
+
+ 记录时间：2019-01-11 10:17:53,037 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.OrderRefundController.GetResponseResult  
+错误描述：result{"true":"保存数据成功"} 
+
+
+
+
+ 记录时间：2019-01-11 10:18:22,574 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:18:22 574:[当前请求URL：http://localhost:62443/SellerAdmin/orderrefund/DealRefund；请求的参数为：；页面加载的时间：65611.238 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:20:24,266 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 10:20:40,277 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:20:40 274:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9126.5017 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:29:55,593 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 10:30:05,807 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:30:05 806:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5878.2154 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:38:40,940 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:38:40 939:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：5706.8079 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:38:47,286 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:38:47 286:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：5566.455 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:40:21,401 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:40:21 400:[当前请求URL：http://localhost:62443/SellerAdmin/orderrefund/management?showtype=2；请求的参数为：showtype=2；页面加载的时间：15476.0285 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:40:31,441 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:40:31 441:[当前请求URL：http://localhost:62443/SellerAdmin/orderrefund/list?showtype=2；请求的参数为：showtype=2；页面加载的时间：8802.8076 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:40:51,500 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:40:51 500:[当前请求URL：http://localhost:62443/Admin/Login；请求的参数为：；页面加载的时间：11723.2766 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:41:09,568 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:41:09 567:[当前请求URL：http://localhost:62443/Admin/home/Console；请求的参数为：；页面加载的时间：13639.4057 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:41:52,359 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:41:52 359:[当前请求URL：http://localhost:62443/Admin/OrderRefund/CheckRefund；请求的参数为：；页面加载的时间：18094.0291 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:42:19,708 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundController.ConfirmRefunds  
+错误描述：refundId========266managerRemark=====nullreturnmoney=====0 
+
+
+
+
+ 记录时间：2019-01-11 10:42:22,817 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 10:42:25,035 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 10:42:25,037 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 10:42:25,059 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 10:42:25,358 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId190111161009069132 
+
+
+
+
+ 记录时间：2019-01-11 10:42:25,387 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 10:42:25,432 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 10:42:25,454 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 10:42:25,538 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011145657950 
+
+
+
+
+ 记录时间：2019-01-11 10:42:25,540 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no190111161009069132 
+
+
+
+
+ 记录时间：2019-01-11 10:42:25,543 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 10:42:25,544 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee121.00 
+
+
+
+
+ 记录时间：2019-01-11 10:42:25,546 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee121.00 
+
+
+
+
+ 记录时间：2019-01-11 10:42:32,754 
+日志级别：  DEBUG 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：原路返回退款时,接口返回异常:订单不存在 
+
+
+
+
+ 记录时间：2019-01-11 10:42:32,781 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 10:42:32 781:[当前请求URL：http://localhost:62443/Admin/OrderRefund/ConfirmRefunds?refundId=266&managerRemark=null；请求的参数为：refundId=266&managerRemark=null；页面加载的时间：15962.4015 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 10:59:50,968 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 11:00:03,990 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 11:00:03 990:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8966.7624 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 11:00:35,892 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 11:00:45,503 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 11:00:45 503:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：6220.2324 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 11:13:50,556 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 11:14:08,446 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 11:14:08 445:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9174.5195 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 11:14:39,672 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 11:14:49,738 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 11:14:49 738:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：6284.4122 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 11:17:54,194 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 11:18:05,764 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 11:18:05 764:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：6612.1153 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 11:23:39,603 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 11:23:50,208 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 11:23:50 208:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：6545.3812 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 13:04:47,705 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 13:05:01,566 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 01:05:01 565:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：6875.1137 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 13:05:01,569 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 01:05:01 565:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：6820.0691 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 13:05:13,973 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 01:05:13 972:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：5183.6054 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 13:20:47,747 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 13:21:04,479 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 01:21:04 479:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9687.1528 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 13:21:04,484 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 01:21:04 483:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9631.6144 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 13:21:22,293 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 01:21:22 293:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：6311.4854 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 13:29:48,758 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========260managerRemark=====nullreturnmoney=====0 
+
+
+
+
+ 记录时间：2019-01-11 13:29:51,372 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 13:29:56,152 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 13:29:56,154 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 13:29:56,162 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 13:29:56,322 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId190107261038343462 
+
+
+
+
+ 记录时间：2019-01-11 13:29:56,354 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 13:29:56,399 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019010784468285 
+
+
+
+
+ 记录时间：2019-01-11 13:29:56,470 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 13:29:56,580 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011147275689 
+
+
+
+
+ 记录时间：2019-01-11 13:29:56,581 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no190107261038343462 
+
+
+
+
+ 记录时间：2019-01-11 13:29:56,584 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 13:29:56,585 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee121.00 
+
+
+
+
+ 记录时间：2019-01-11 13:29:56,587 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee121.00 
+
+
+
+
+ 记录时间：2019-01-11 13:30:02,507 
+日志级别：  DEBUG 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：原路返回退款时,接口返回异常:订单不存在 
+
+
+
+
+ 记录时间：2019-01-11 13:30:08,395 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 01:30:08 393:[当前请求URL：http://localhost:62443/SellerAdmin/OrderRefunds/ConfirmRefunds?refundId=260&name=null&managerRemark=null；请求的参数为：refundId=260&name=null&managerRemark=null；页面加载的时间：27798.7074 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 14:41:43,228 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 14:50:26,508 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 14:50:46,864 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 02:50:46 864:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7338.5245 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 14:50:46,864 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 02:50:46 864:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7291.9917 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 14:51:01,035 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 02:51:01 035:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：5482.0824 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 14:51:03,105 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 02:51:03 105:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：7219.8202 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 14:52:08,644 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========260managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 14:52:14,421 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 14:52:16,719 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 14:52:16,721 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 14:52:16,743 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 14:52:16,848 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId190107261038343462 
+
+
+
+
+ 记录时间：2019-01-11 14:52:16,874 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 14:52:16,875 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019010784468285 
+
+
+
+
+ 记录时间：2019-01-11 14:52:16,930 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 14:52:17,117 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011193202823 
+
+
+
+
+ 记录时间：2019-01-11 14:52:17,119 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no190107261038343462 
+
+
+
+
+ 记录时间：2019-01-11 14:52:17,122 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 14:52:17,124 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee121.00 
+
+
+
+
+ 记录时间：2019-01-11 14:52:17,126 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 14:52:22,753 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 02:52:22 753:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=260&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=260&managerRemark=null&returnmoney=0.01；页面加载的时间：21424.4522 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 14:53:22,159 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 14:53:41,742 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 02:53:41 734:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10196.7651 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:17:52,320 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 15:18:16,115 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:18:16 114:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：18099.2824 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:18:56,522 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 15:19:13,550 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:19:13 550:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9061.4386 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:19:13,553 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:19:13 552:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9096.464 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:20:35,061 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:20:35 060:[当前请求URL：http://localhost:62443/Admin/Login；请求的参数为：；页面加载的时间：13526.647 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:21:04,204 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:21:04 203:[当前请求URL：http://localhost:62443/Admin/home/Console；请求的参数为：；页面加载的时间：9205.6337 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:28:33,895 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========266managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 15:28:37,078 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 15:28:39,102 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 15:28:40,027 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:28:40,725 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 15:28:48,142 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181210440916817603 
+
+
+
+
+ 记录时间：2019-01-11 15:28:48,197 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 15:28:48,199 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 15:28:48,239 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:28:48,378 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011124195586 
+
+
+
+
+ 记录时间：2019-01-11 15:28:48,380 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181210440916817603 
+
+
+
+
+ 记录时间：2019-01-11 15:28:48,382 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:28:48,384 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee121.00 
+
+
+
+
+ 记录时间：2019-01-11 15:28:48,387 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 15:30:13,422 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:30:13 422:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=266&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=266&managerRemark=null&returnmoney=0.01；页面加载的时间：103787.5121 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:31:55,195 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 15:32:33,047 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:32:33 047:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：14707.9964 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:32:52,251 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 15:33:04,471 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:33:04 470:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：6008.2631 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:33:04,471 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:33:04 471:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5939.2146 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:33:57,479 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========260managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 15:33:58,234 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 15:34:00,212 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 15:34:00,220 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:34:00,236 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 15:34:00,929 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId190107261038343462 
+
+
+
+
+ 记录时间：2019-01-11 15:34:00,982 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 15:34:00,991 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019010784468285 
+
+
+
+
+ 记录时间：2019-01-11 15:34:01,024 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:34:01,273 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011102692105 
+
+
+
+
+ 记录时间：2019-01-11 15:34:01,277 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no190107261038343462 
+
+
+
+
+ 记录时间：2019-01-11 15:34:01,279 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:34:01,280 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.02 
+
+
+
+
+ 记录时间：2019-01-11 15:34:01,282 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 15:35:21,319 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:35:21 318:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=260&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=260&managerRemark=null&returnmoney=0.01；页面加载的时间：89258.1621 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:35:36,828 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========260managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 15:35:37,060 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 15:35:38,360 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 15:35:38,367 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:35:38,377 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 15:35:38,465 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId190107261038343462 
+
+
+
+
+ 记录时间：2019-01-11 15:35:38,500 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 15:35:38,501 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019010784468285 
+
+
+
+
+ 记录时间：2019-01-11 15:35:38,527 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:35:38,553 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011152840813 
+
+
+
+
+ 记录时间：2019-01-11 15:35:38,554 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no190107261038343462 
+
+
+
+
+ 记录时间：2019-01-11 15:35:38,556 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:35:38,557 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.02 
+
+
+
+
+ 记录时间：2019-01-11 15:35:38,558 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 15:36:06,805 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:36:06 805:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=260&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=260&managerRemark=null&returnmoney=0.01；页面加载的时间：31957.6011 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:37:03,331 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========266managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 15:37:03,616 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 15:37:04,642 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 15:37:04,643 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:37:04,658 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 15:37:04,799 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId190111191540114372 
+
+
+
+
+ 记录时间：2019-01-11 15:37:04,838 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 15:37:04,840 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 15:37:04,896 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:37:04,931 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011189742496 
+
+
+
+
+ 记录时间：2019-01-11 15:37:04,932 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no190111191540114372 
+
+
+
+
+ 记录时间：2019-01-11 15:37:04,934 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:37:04,935 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.02 
+
+
+
+
+ 记录时间：2019-01-11 15:37:04,937 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 15:41:44,049 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:41:44 049:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=266&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=266&managerRemark=null&returnmoney=0.01；页面加载的时间：282386.0704 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:41:51,525 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========266managerRemark=====nullreturnmoney=====0.02 
+
+
+
+
+ 记录时间：2019-01-11 15:41:52,275 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 15:41:53,293 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 15:41:53,295 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:41:53,304 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 15:41:53,426 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId190111191540114372 
+
+
+
+
+ 记录时间：2019-01-11 15:41:53,451 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 15:41:53,453 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 15:41:53,486 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:41:53,516 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011148770393 
+
+
+
+
+ 记录时间：2019-01-11 15:41:53,518 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no190111191540114372 
+
+
+
+
+ 记录时间：2019-01-11 15:41:53,519 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 15:41:53,521 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.02 
+
+
+
+
+ 记录时间：2019-01-11 15:41:53,522 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.02 
+
+
+
+
+ 记录时间：2019-01-11 15:42:18,867 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：refundResultHimall.Core.Plugins.Payment.RefundFeeReturnModel 
+
+
+
+
+ 记录时间：2019-01-11 15:50:06,043 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 03:50:06 043:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=266&managerRemark=null&returnmoney=0.02；请求的参数为：refundId=266&managerRemark=null&returnmoney=0.02；页面加载的时间：502020.683 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 15:50:07,349 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype4 
+
+
+
+
+ 记录时间：2019-01-11 15:50:07,558 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-01-11 15:50:07,559 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-01-11 15:50:07,569 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 15:50:07,968 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"17_6sHfJiN63lb89ExGKDGXHh4bYNL4ao7JlANGomn6XOhOQClOTi1bgz1QgtCTIQxOEBAR6bwl1GfcFq777JpAc8HZHqucrC3ZzgFfuiTivCiQNWMFMWI1Q1Sq9YQeLJo7OyICnoYazycivBARVUNjADAMLE","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-01-11 15:50:07,990 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token17_6sHfJiN63lb89ExGKDGXHh4bYNL4ao7JlANGomn6XOhOQClOTi1bgz1QgtCTIQxOEBAR6bwl1GfcFq777JpAc8HZHqucrC3ZzgFfuiTivCiQNWMFMWI1Q1Sq9YQeLJo7OyICnoYazycivBARVUNjADAMLE 
+
+
+
+
+ 记录时间：2019-01-11 15:50:07,991 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-11 15:50:07,992 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateIdNFFMRYtpS5Aiv2z0x1ruzAIqxlD0TrFiGXFMGE-7MGo 
+
+
+
+
+ 记录时间：2019-01-11 15:50:07,993 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken17_6sHfJiN63lb89ExGKDGXHh4bYNL4ao7JlANGomn6XOhOQClOTi1bgz1QgtCTIQxOEBAR6bwl1GfcFq777JpAc8HZHqucrC3ZzgFfuiTivCiQNWMFMWI1Q1Sq9YQeLJo7OyICnoYazycivBARVUNjADAMLE 
+
+
+
+
+ 记录时间：2019-01-11 15:50:07,994 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 15:50:07,995 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：url 
+
+
+
+
+ 记录时间：2019-01-11 16:00:50,830 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========260managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:00:51,345 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 16:00:52,489 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 16:00:52,492 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:00:52,526 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 16:00:52,661 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId190107261038343462 
+
+
+
+
+ 记录时间：2019-01-11 16:00:52,756 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 16:00:52,759 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019010784468285 
+
+
+
+
+ 记录时间：2019-01-11 16:00:52,789 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:00:52,841 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011179007445 
+
+
+
+
+ 记录时间：2019-01-11 16:00:52,844 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no190107261038343462 
+
+
+
+
+ 记录时间：2019-01-11 16:00:52,846 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:00:52,848 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.02 
+
+
+
+
+ 记录时间：2019-01-11 16:00:52,850 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:01:19,846 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:01:19 841:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=260&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=260&managerRemark=null&returnmoney=0.01；页面加载的时间：35346.4332 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:06:31,823 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 16:07:16,614 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:07:16 613:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：37704.329 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:07:46,623 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 16:08:01,440 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:08:01 439:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8116.6847 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:08:01,444 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:08:01 444:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8032.1237 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:09:03,890 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========260managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:09:05,382 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 16:09:07,298 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 16:09:07,306 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:09:07,335 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 16:09:07,524 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId190107261038343462 
+
+
+
+
+ 记录时间：2019-01-11 16:09:07,556 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 16:09:07,601 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019010784468285 
+
+
+
+
+ 记录时间：2019-01-11 16:09:07,662 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:09:07,775 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011166428845 
+
+
+
+
+ 记录时间：2019-01-11 16:09:07,780 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no190107261038343462 
+
+
+
+
+ 记录时间：2019-01-11 16:09:07,782 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:09:07,784 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:09:07,785 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee121.00 
+
+
+
+
+ 记录时间：2019-01-11 16:09:38,437 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:09:38 437:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=260&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=260&managerRemark=null&returnmoney=0.01；页面加载的时间：36996.1799 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:10:06,219 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:10:06 219:[当前请求URL：http://localhost:62443/Admin/Login；请求的参数为：；页面加载的时间：11907.763 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:10:17,899 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:10:17 899:[当前请求URL：http://localhost:62443/Admin/home/Console；请求的参数为：；页面加载的时间：8960.0508 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:13:16,057 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:13:16 056:[当前请求URL：http://localhost:62443/SellerAdmin/orderrefund/management?showtype=2；请求的参数为：showtype=2；页面加载的时间：18529.665 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:14:31,655 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:14:31 654:[当前请求URL：http://localhost:62443/Admin/Login；请求的参数为：；页面加载的时间：5052.0961 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:14:52,501 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:14:52 501:[当前请求URL：http://localhost:62443/Admin/OrderRefund/list?showtype=2；请求的参数为：showtype=2；页面加载的时间：5466.8959 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:15:10,413 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========266managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:15:10,663 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 16:15:10,665 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 16:15:10,667 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:15:10,735 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 16:15:10,810 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId190111191540114372 
+
+
+
+
+ 记录时间：2019-01-11 16:15:10,830 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 16:15:10,897 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 16:15:10,968 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:15:11,066 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011196923192 
+
+
+
+
+ 记录时间：2019-01-11 16:15:11,068 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no190111191540114372 
+
+
+
+
+ 记录时间：2019-01-11 16:15:11,069 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:15:11,071 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:15:11,072 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:15:30,770 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:15:30 769:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=266&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=266&managerRemark=null&returnmoney=0.01；页面加载的时间：22555.2787 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:16:59,549 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========266managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:16:59,781 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 16:16:59,784 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 16:16:59,785 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:16:59,797 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 16:16:59,961 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181210440916817603 
+
+
+
+
+ 记录时间：2019-01-11 16:16:59,993 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 16:17:00,037 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 16:17:00,071 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:17:00,105 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011107100221 
+
+
+
+
+ 记录时间：2019-01-11 16:17:00,107 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181210440916817603 
+
+
+
+
+ 记录时间：2019-01-11 16:17:00,108 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:17:00,110 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:17:00,112 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:17:44,248 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：refundResultHimall.Core.Plugins.Payment.RefundFeeReturnModel 
+
+
+
+
+ 记录时间：2019-01-11 16:18:13,417 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype4 
+
+
+
+
+ 记录时间：2019-01-11 16:18:13,585 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-01-11 16:18:13,587 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-01-11 16:18:13,602 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 16:18:44,847 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"17__0mRHl3ilNOhDyUX1jvzZK7nRXuxGq2sdBGjijsHEcixX6R2kzM-dFrzqsVAU5yjFXteQWCoF9s0Ka-ZbgmNqMIKjPto-ngjvT7H6xBZsxDfrdoTMqZIVMg_CgVFTgeDMZ979iRCTWAjUHBQNGOaACARKS","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-01-11 16:18:44,875 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token17__0mRHl3ilNOhDyUX1jvzZK7nRXuxGq2sdBGjijsHEcixX6R2kzM-dFrzqsVAU5yjFXteQWCoF9s0Ka-ZbgmNqMIKjPto-ngjvT7H6xBZsxDfrdoTMqZIVMg_CgVFTgeDMZ979iRCTWAjUHBQNGOaACARKS 
+
+
+
+
+ 记录时间：2019-01-11 16:18:44,876 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-11 16:18:44,877 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateIdNFFMRYtpS5Aiv2z0x1ruzAIqxlD0TrFiGXFMGE-7MGo 
+
+
+
+
+ 记录时间：2019-01-11 16:18:44,879 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken17__0mRHl3ilNOhDyUX1jvzZK7nRXuxGq2sdBGjijsHEcixX6R2kzM-dFrzqsVAU5yjFXteQWCoF9s0Ka-ZbgmNqMIKjPto-ngjvT7H6xBZsxDfrdoTMqZIVMg_CgVFTgeDMZ979iRCTWAjUHBQNGOaACARKS 
+
+
+
+
+ 记录时间：2019-01-11 16:18:44,883 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 16:18:44,885 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：url 
+
+
+
+
+ 记录时间：2019-01-11 16:18:45,018 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:18:45 018:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=266&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=266&managerRemark=null&returnmoney=0.01；页面加载的时间：107686.3724 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:24:02,106 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 16:24:30,476 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:24:30 476:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：22830.5894 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:25:07,585 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 16:25:35,085 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========266managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:25:41,151 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:25:41 151:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：20331.3739 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:25:41,156 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:25:41 152:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：20316.8647 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:25:43,346 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 16:25:48,575 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 16:25:48,599 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:25:49,754 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 16:25:50,099 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181227121423493700 
+
+
+
+
+ 记录时间：2019-01-11 16:25:50,288 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 16:25:50,290 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 16:25:50,344 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:25:51,013 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011134625467 
+
+
+
+
+ 记录时间：2019-01-11 16:25:51,015 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181227121423493700 
+
+
+
+
+ 记录时间：2019-01-11 16:25:51,017 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:25:51,018 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:25:51,020 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:26:03,619 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：refundResultHimall.Core.Plugins.Payment.RefundFeeReturnModel 
+
+
+
+
+ 记录时间：2019-01-11 16:27:00,857 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:27:00 856:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：63905.2837 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:27:54,893 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:27:54 892:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：115105.602 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:28:14,765 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:28:14 765:[当前请求URL：http://localhost:62443/Home/GetFootNew；请求的参数为：；页面加载的时间：19821.5109 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:28:23,232 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:28:23 232:[当前请求URL：http://localhost:62443/product/GetLoginUserInfo；请求的参数为：；页面加载的时间：27446.9371 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:28:34,812 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:28:34 812:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：20038.8116 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:28:35,272 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype4 
+
+
+
+
+ 记录时间：2019-01-11 16:28:35,360 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-01-11 16:28:35,361 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-01-11 16:28:35,373 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 16:28:35,475 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:28:35 475:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：40515.3262 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:31:02,829 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"17_ep1WHK7QyzTbLKSj-E1pwxxEGGRLFvm9ih5CHgzbUooYBSSuhMNJZ33DrwknCNE7WgGEBwsBDzCM_8HNZFrJ_7F3KZkqxgTj_s2Xfqvqhrn3I6jNDNT5jGHHVFqXmNLLm0_K_lIE7NfAZVX4JTOgACAUEZ","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-01-11 16:31:02,885 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token17_ep1WHK7QyzTbLKSj-E1pwxxEGGRLFvm9ih5CHgzbUooYBSSuhMNJZ33DrwknCNE7WgGEBwsBDzCM_8HNZFrJ_7F3KZkqxgTj_s2Xfqvqhrn3I6jNDNT5jGHHVFqXmNLLm0_K_lIE7NfAZVX4JTOgACAUEZ 
+
+
+
+
+ 记录时间：2019-01-11 16:31:02,905 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-11 16:31:02,907 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:31:02 906:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=266&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=266&managerRemark=null&returnmoney=0.01；页面加载的时间：342068.6153 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:31:02,907 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateIdNFFMRYtpS5Aiv2z0x1ruzAIqxlD0TrFiGXFMGE-7MGo 
+
+
+
+
+ 记录时间：2019-01-11 16:31:02,981 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken17_ep1WHK7QyzTbLKSj-E1pwxxEGGRLFvm9ih5CHgzbUooYBSSuhMNJZ33DrwknCNE7WgGEBwsBDzCM_8HNZFrJ_7F3KZkqxgTj_s2Xfqvqhrn3I6jNDNT5jGHHVFqXmNLLm0_K_lIE7NfAZVX4JTOgACAUEZ 
+
+
+
+
+ 记录时间：2019-01-11 16:31:02,999 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 16:31:03,009 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：url 
+
+
+
+
+ 记录时间：2019-01-11 16:31:59,464 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 16:32:39,068 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:32:39 068:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：17367.8462 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:32:48,742 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 16:33:01,806 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:33:01 806:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7361.7488 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:33:01,806 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:33:01 806:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7433.7988 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:33:16,329 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:33:16 329:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：7299.1862 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:33:27,088 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========266managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:33:28,059 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 16:33:29,475 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 16:33:29,483 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:33:29,497 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 16:33:29,648 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181224580915949194 
+
+
+
+
+ 记录时间：2019-01-11 16:33:29,698 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 16:33:29,699 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 16:33:29,727 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:33:30,478 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011172932091 
+
+
+
+
+ 记录时间：2019-01-11 16:33:30,482 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181224580915949194 
+
+
+
+
+ 记录时间：2019-01-11 16:33:30,484 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:33:30,485 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:33:30,487 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:33:39,006 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：refundResultHimall.Core.Plugins.Payment.RefundFeeReturnModel 
+
+
+
+
+ 记录时间：2019-01-11 16:34:03,235 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype4 
+
+
+
+
+ 记录时间：2019-01-11 16:34:03,347 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-01-11 16:34:03,348 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-01-11 16:34:03,372 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 16:34:04,110 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"17_KMF5mTwGjnQqNFGFod-8HG3mMI9yQNcobWJltT5BDbHqxThut2gSsP9hD2DCk44ZYBVfvcR9o6GIdkLkDMZPpe6IMCZWcg301Rj95pruoyHC-aIcjTvWTZBZx3vJQZntk_T0DNkYx74rEBd_YVUdABASPO","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-01-11 16:34:04,136 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token17_KMF5mTwGjnQqNFGFod-8HG3mMI9yQNcobWJltT5BDbHqxThut2gSsP9hD2DCk44ZYBVfvcR9o6GIdkLkDMZPpe6IMCZWcg301Rj95pruoyHC-aIcjTvWTZBZx3vJQZntk_T0DNkYx74rEBd_YVUdABASPO 
+
+
+
+
+ 记录时间：2019-01-11 16:34:04,138 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-11 16:34:04,139 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateIdNFFMRYtpS5Aiv2z0x1ruzAIqxlD0TrFiGXFMGE-7MGo 
+
+
+
+
+ 记录时间：2019-01-11 16:34:04,140 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken17_KMF5mTwGjnQqNFGFod-8HG3mMI9yQNcobWJltT5BDbHqxThut2gSsP9hD2DCk44ZYBVfvcR9o6GIdkLkDMZPpe6IMCZWcg301Rj95pruoyHC-aIcjTvWTZBZx3vJQZntk_T0DNkYx74rEBd_YVUdABASPO 
+
+
+
+
+ 记录时间：2019-01-11 16:34:04,141 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 16:34:04,144 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：url 
+
+
+
+
+ 记录时间：2019-01-11 16:35:14,713 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:35:14 713:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=266&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=266&managerRemark=null&returnmoney=0.01；页面加载的时间：109137.8029 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:37:23,238 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:37:23 238:[当前请求URL：http://localhost:62443/Admin/Login；请求的参数为：；页面加载的时间：8203.6976 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:37:35,613 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:37:35 613:[当前请求URL：http://localhost:62443/Admin/home/Console；请求的参数为：；页面加载的时间：8787.185 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:37:53,999 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundController.ConfirmRefund  
+错误描述：refundId========266managerRemark=====returnmoney=====0 
+
+
+
+
+ 记录时间：2019-01-11 16:37:54,176 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 16:37:56,325 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 16:37:56,328 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:37:56,340 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 16:37:56,399 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181210311543999459 
+
+
+
+
+ 记录时间：2019-01-11 16:37:56,431 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 16:37:56,433 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 16:37:56,479 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:37:56,510 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011148062115 
+
+
+
+
+ 记录时间：2019-01-11 16:37:56,511 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181210311543999459 
+
+
+
+
+ 记录时间：2019-01-11 16:37:56,513 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:37:56,514 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee121.00 
+
+
+
+
+ 记录时间：2019-01-11 16:37:56,515 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:38:08,736 
+日志级别：  DEBUG 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：原路返回退款时,接口返回异常:invalid refund_fee 
+
+
+
+
+ 记录时间：2019-01-11 16:38:08,739 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:38:08 738:[当前请求URL：http://localhost:62443/Admin/OrderRefund/ConfirmRefund；请求的参数为：；页面加载的时间：14749.0061 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:39:30,632 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 16:40:11,057 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:40:11 057:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：24008.7126 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:40:39,095 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 16:40:51,872 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:40:51 872:[当前请求URL：http://localhost:62443/Admin/OrderRefund/management?showtype=2；请求的参数为：showtype=2；页面加载的时间：6334.3869 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:40:51,873 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:40:51 872:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7433.1697 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:41:43,910 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:41:43 910:[当前请求URL：http://localhost:62443/Admin/Login；请求的参数为：；页面加载的时间：52002.5844 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:41:59,091 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:41:59 091:[当前请求URL：http://localhost:62443/Admin/home/Console；请求的参数为：；页面加载的时间：10979.8159 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:42:21,240 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:42:21 240:[当前请求URL：http://localhost:62443/Admin/OrderRefund/list?showtype=2；请求的参数为：showtype=2；页面加载的时间：5112.8133 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:42:30,774 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundController.ConfirmRefund  
+错误描述：refundId========266managerRemark=====returnmoney=====0 
+
+
+
+
+ 记录时间：2019-01-11 16:42:31,239 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 16:42:33,159 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 16:42:33,161 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:42:33,842 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 16:42:34,025 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181210311543999459 
+
+
+
+
+ 记录时间：2019-01-11 16:42:34,105 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 16:42:34,107 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 16:42:34,358 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:42:34,390 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011136059701 
+
+
+
+
+ 记录时间：2019-01-11 16:42:34,391 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181210311543999459 
+
+
+
+
+ 记录时间：2019-01-11 16:42:34,393 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:42:34,394 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee121.00 
+
+
+
+
+ 记录时间：2019-01-11 16:42:34,396 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:43:18,234 
+日志级别：  DEBUG 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：原路返回退款时,接口返回异常:invalid refund_fee 
+
+
+
+
+ 记录时间：2019-01-11 16:43:18,237 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:43:18 237:[当前请求URL：http://localhost:62443/Admin/OrderRefund/ConfirmRefund；请求的参数为：；页面加载的时间：47468.7208 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:44:26,904 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 16:45:04,555 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:45:04 554:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：29289.3864 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:45:40,939 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 16:46:07,349 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:46:07 349:[当前请求URL：http://localhost:62443/Admin/OrderRefund/management?showtype=2；请求的参数为：showtype=2；页面加载的时间：11687.3039 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:46:07,349 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:46:07 349:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：11721.8286 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:46:07,349 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:46:07 349:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：11623.7589 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:46:59,413 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:46:59 413:[当前请求URL：http://localhost:62443/Admin/Login；请求的参数为：；页面加载的时间：52016.667 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:47:19,302 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:47:19 302:[当前请求URL：http://localhost:62443/Admin/home/Console；请求的参数为：；页面加载的时间：13730.7437 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:47:19,408 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:47:19 407:[当前请求URL：http://localhost:62443/Login/GetCheckCode；请求的参数为：；页面加载的时间：18057.0506 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:47:22,133 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:47:22 133:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：20793.2193 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:47:34,293 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundController.ConfirmRefund  
+错误描述：refundId========266managerRemark=====returnmoney=====0 
+
+
+
+
+ 记录时间：2019-01-11 16:47:34,545 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 16:47:37,227 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 16:47:37,231 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:47:37,241 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 16:47:37,353 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181210311543999459 
+
+
+
+
+ 记录时间：2019-01-11 16:47:37,389 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 16:47:37,391 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011156371977 
+
+
+
+
+ 记录时间：2019-01-11 16:47:37,422 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:47:37,461 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011142464081 
+
+
+
+
+ 记录时间：2019-01-11 16:47:37,463 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181210311543999459 
+
+
+
+
+ 记录时间：2019-01-11 16:47:37,464 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:47:37,466 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:47:37,467 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:47:48,014 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：refundResultHimall.Core.Plugins.Payment.RefundFeeReturnModel 
+
+
+
+
+ 记录时间：2019-01-11 16:48:13,965 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype4 
+
+
+
+
+ 记录时间：2019-01-11 16:48:16,340 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-01-11 16:48:16,348 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-01-11 16:48:16,428 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 16:48:17,862 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"17_Xz2i02uONGJPeZDh-2cvGg0m0uqoeSOMfsedc9Cb_OGFQ8IXRrYkWxnOzfayV9h4ddmFHzaz-SoxRlCyBnAKl1krx8qV_h26q_xm8BsnFIMo_JWOIddTzF-uQrPlomslv62vqbY6jIekWiS7CLDaAIAVEW","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-01-11 16:48:18,294 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token17_Xz2i02uONGJPeZDh-2cvGg0m0uqoeSOMfsedc9Cb_OGFQ8IXRrYkWxnOzfayV9h4ddmFHzaz-SoxRlCyBnAKl1krx8qV_h26q_xm8BsnFIMo_JWOIddTzF-uQrPlomslv62vqbY6jIekWiS7CLDaAIAVEW 
+
+
+
+
+ 记录时间：2019-01-11 16:48:18,295 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-11 16:48:18,296 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateIdNFFMRYtpS5Aiv2z0x1ruzAIqxlD0TrFiGXFMGE-7MGo 
+
+
+
+
+ 记录时间：2019-01-11 16:48:18,298 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken17_Xz2i02uONGJPeZDh-2cvGg0m0uqoeSOMfsedc9Cb_OGFQ8IXRrYkWxnOzfayV9h4ddmFHzaz-SoxRlCyBnAKl1krx8qV_h26q_xm8BsnFIMo_JWOIddTzF-uQrPlomslv62vqbY6jIekWiS7CLDaAIAVEW 
+
+
+
+
+ 记录时间：2019-01-11 16:48:18,299 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 16:48:18,300 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：url 
+
+
+
+
+ 记录时间：2019-01-11 16:49:02,792 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:49:02 792:[当前请求URL：http://localhost:62443/Admin/OrderRefund/ConfirmRefund；请求的参数为：；页面加载的时间：88504.2767 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:49:09,133 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:49:09 133:[当前请求URL：http://localhost:62443/Admin/OrderRefund/list?showtype=2；请求的参数为：showtype=2；页面加载的时间：6293.8716 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:51:19,977 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========265managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:51:20,163 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 16:51:21,244 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 16:51:21,247 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:51:21,257 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 16:51:21,320 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181222301220636015 
+
+
+
+
+ 记录时间：2019-01-11 16:51:21,344 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 16:51:21,346 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011125443963 
+
+
+
+
+ 记录时间：2019-01-11 16:51:21,372 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:51:21,415 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011137327767 
+
+
+
+
+ 记录时间：2019-01-11 16:51:21,417 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181222301220636015 
+
+
+
+
+ 记录时间：2019-01-11 16:51:21,418 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:51:21,420 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:51:21,421 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:51:32,342 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：refundResultHimall.Core.Plugins.Payment.RefundFeeReturnModel 
+
+
+
+
+ 记录时间：2019-01-11 16:51:41,136 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype4 
+
+
+
+
+ 记录时间：2019-01-11 16:51:41,242 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-01-11 16:51:41,243 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-01-11 16:51:41,291 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 16:51:45,539 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"17_DpKcV5OyhT3LrG_cZJ0nvdYDlRqwK1Pv1thBX_9gruTz4QSQKCLwa8tTYRoOeoebNxe17CZX8UgQiXmMyLoi0kNoZp3sQW19QcFRNQ0V4c35jJGcDTfwu6tJxgwJ4pFeZzTv3bdxdibL9JqDQTEgAAAYBM","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-01-11 16:51:45,541 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token17_DpKcV5OyhT3LrG_cZJ0nvdYDlRqwK1Pv1thBX_9gruTz4QSQKCLwa8tTYRoOeoebNxe17CZX8UgQiXmMyLoi0kNoZp3sQW19QcFRNQ0V4c35jJGcDTfwu6tJxgwJ4pFeZzTv3bdxdibL9JqDQTEgAAAYBM 
+
+
+
+
+ 记录时间：2019-01-11 16:51:45,555 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-11 16:51:45,598 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateIdNFFMRYtpS5Aiv2z0x1ruzAIqxlD0TrFiGXFMGE-7MGo 
+
+
+
+
+ 记录时间：2019-01-11 16:51:45,638 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken17_DpKcV5OyhT3LrG_cZJ0nvdYDlRqwK1Pv1thBX_9gruTz4QSQKCLwa8tTYRoOeoebNxe17CZX8UgQiXmMyLoi0kNoZp3sQW19QcFRNQ0V4c35jJGcDTfwu6tJxgwJ4pFeZzTv3bdxdibL9JqDQTEgAAAYBM 
+
+
+
+
+ 记录时间：2019-01-11 16:51:45,712 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 16:51:45,714 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：url 
+
+
+
+
+ 记录时间：2019-01-11 16:55:15,456 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 04:55:15 455:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=265&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=265&managerRemark=null&returnmoney=0.01；页面加载的时间：237346.9571 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 16:58:19,258 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundController.ConfirmRefund  
+错误描述：refundId========265managerRemark=====returnmoney=====0 
+
+
+
+
+ 记录时间：2019-01-11 16:58:19,439 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 16:58:23,508 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 16:58:23,522 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:58:23,536 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 16:58:23,626 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181210311650525100 
+
+
+
+
+ 记录时间：2019-01-11 16:58:23,654 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 16:58:23,656 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011125443963 
+
+
+
+
+ 记录时间：2019-01-11 16:58:23,745 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:58:23,788 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011174642303 
+
+
+
+
+ 记录时间：2019-01-11 16:58:23,789 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181210311650525100 
+
+
+
+
+ 记录时间：2019-01-11 16:58:23,791 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 16:58:23,792 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:58:23,794 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 16:58:27,059 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：refundResultHimall.Core.Plugins.Payment.RefundFeeReturnModel 
+
+
+
+
+ 记录时间：2019-01-11 16:58:57,125 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype4 
+
+
+
+
+ 记录时间：2019-01-11 16:58:57,210 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-01-11 16:58:57,211 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-01-11 16:58:57,216 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 16:59:07,594 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"17_Ia3AuYWqqlBI6ujiffUXD-1G_UDPq_X_fjtzoA6WuiLc0yUySyamuqFrdCI1Wk6-FAdJOjgLBZVz05lGl-mgLXL3GzsBUSikWi2csVwxd2MU6zM1PnHw6ksG2jM8Dd_XzauPP5jiko-6boGSRTAaADABDK","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-01-11 16:59:18,781 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token17_Ia3AuYWqqlBI6ujiffUXD-1G_UDPq_X_fjtzoA6WuiLc0yUySyamuqFrdCI1Wk6-FAdJOjgLBZVz05lGl-mgLXL3GzsBUSikWi2csVwxd2MU6zM1PnHw6ksG2jM8Dd_XzauPP5jiko-6boGSRTAaADABDK 
+
+
+
+
+ 记录时间：2019-01-11 16:59:18,782 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-11 16:59:18,783 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateIdNFFMRYtpS5Aiv2z0x1ruzAIqxlD0TrFiGXFMGE-7MGo 
+
+
+
+
+ 记录时间：2019-01-11 16:59:18,785 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken17_Ia3AuYWqqlBI6ujiffUXD-1G_UDPq_X_fjtzoA6WuiLc0yUySyamuqFrdCI1Wk6-FAdJOjgLBZVz05lGl-mgLXL3GzsBUSikWi2csVwxd2MU6zM1PnHw6ksG2jM8Dd_XzauPP5jiko-6boGSRTAaADABDK 
+
+
+
+
+ 记录时间：2019-01-11 16:59:18,786 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 16:59:18,787 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：url 
+
+
+
+
+ 记录时间：2019-01-11 17:00:05,693 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:00:05 693:[当前请求URL：http://localhost:62443/Admin/OrderRefund/ConfirmRefund；请求的参数为：；页面加载的时间：106437.6074 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:02:19,367 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========264managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 17:02:19,759 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 17:02:22,386 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 17:02:22,387 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 17:02:22,395 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 17:02:22,505 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181222301220636015 
+
+
+
+
+ 记录时间：2019-01-11 17:02:22,544 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 17:02:22,546 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011102051305 
+
+
+
+
+ 记录时间：2019-01-11 17:02:22,574 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 17:02:22,620 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011157660391 
+
+
+
+
+ 记录时间：2019-01-11 17:02:22,621 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181222301220636015 
+
+
+
+
+ 记录时间：2019-01-11 17:02:22,622 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 17:02:22,624 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 17:02:22,625 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 17:02:32,161 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:02:32 161:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=264&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=264&managerRemark=null&returnmoney=0.01；页面加载的时间：17409.2188 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:03:47,731 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========264managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 17:03:47,871 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 17:03:50,366 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 17:03:50,371 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 17:03:50,387 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 17:03:50,484 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181210441532751705 
+
+
+
+
+ 记录时间：2019-01-11 17:03:50,535 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 17:03:50,537 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011102051305 
+
+
+
+
+ 记录时间：2019-01-11 17:03:50,564 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 17:03:50,592 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011156547686 
+
+
+
+
+ 记录时间：2019-01-11 17:03:50,594 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181210441532751705 
+
+
+
+
+ 记录时间：2019-01-11 17:03:50,596 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 17:03:50,598 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 17:03:50,599 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 17:03:52,876 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：refundResultHimall.Core.Plugins.Payment.RefundFeeReturnModel 
+
+
+
+
+ 记录时间：2019-01-11 17:06:14,681 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype4 
+
+
+
+
+ 记录时间：2019-01-11 17:06:14,724 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-01-11 17:06:14,725 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-01-11 17:06:14,731 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 17:06:20,652 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"17_MkebH_d2y85ynJj_EByqqzYtZz8PvoFcxx_j6EbQbJRr2aCC9HCFzxmtADB4kl6Ag0gXOYLM4oF6dey-7iWjCFBQmc2mo6hS7p9-dqM5SJp8v-R96YtogPrXwENnfrbvBeLNasIR3PvRSuVxCHEjADANSP","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-01-11 17:06:20,655 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token17_MkebH_d2y85ynJj_EByqqzYtZz8PvoFcxx_j6EbQbJRr2aCC9HCFzxmtADB4kl6Ag0gXOYLM4oF6dey-7iWjCFBQmc2mo6hS7p9-dqM5SJp8v-R96YtogPrXwENnfrbvBeLNasIR3PvRSuVxCHEjADANSP 
+
+
+
+
+ 记录时间：2019-01-11 17:06:20,667 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-11 17:06:20,670 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateIdNFFMRYtpS5Aiv2z0x1ruzAIqxlD0TrFiGXFMGE-7MGo 
+
+
+
+
+ 记录时间：2019-01-11 17:06:20,671 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken17_MkebH_d2y85ynJj_EByqqzYtZz8PvoFcxx_j6EbQbJRr2aCC9HCFzxmtADB4kl6Ag0gXOYLM4oF6dey-7iWjCFBQmc2mo6hS7p9-dqM5SJp8v-R96YtogPrXwENnfrbvBeLNasIR3PvRSuVxCHEjADANSP 
+
+
+
+
+ 记录时间：2019-01-11 17:06:20,672 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 17:06:20,674 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：url 
+
+
+
+
+ 记录时间：2019-01-11 17:09:00,033 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:09:00 033:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=264&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=264&managerRemark=null&returnmoney=0.01；页面加载的时间：312306.9911 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:11:02,288 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 17:11:28,450 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:11:28 448:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：19183.132 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:11:54,076 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-11 17:12:07,428 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:12:07 427:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7213.5088 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:12:07,429 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:12:07 428:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7250.5358 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:12:22,642 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========264managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 17:12:23,427 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 17:12:29,156 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 17:12:29,159 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 17:12:29,236 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 17:12:29,433 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181210441532751705 
+
+
+
+
+ 记录时间：2019-01-11 17:12:29,494 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 17:12:29,496 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011102051305 
+
+
+
+
+ 记录时间：2019-01-11 17:12:29,532 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 17:12:29,742 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011153493921 
+
+
+
+
+ 记录时间：2019-01-11 17:12:29,748 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181210441532751705 
+
+
+
+
+ 记录时间：2019-01-11 17:12:29,750 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 17:12:29,758 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 17:12:29,760 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 17:12:36,124 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:12:36 123:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=264&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=264&managerRemark=null&returnmoney=0.01；页面加载的时间：13511.802 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:12:36,558 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:12:36 557:[当前请求URL：http://localhost:62443/Admin/OrderRefund/list?showtype=2；请求的参数为：showtype=2；页面加载的时间：7422.4409 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:12:37,141 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:12:37 140:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1547197947852；请求的参数为：_=1547197947852；页面加载的时间：7983.3572 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:12:38,796 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:12:38 795:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：9660.7969 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:12:39,248 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:12:39 248:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：10116.6207 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:12:53,439 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:12:53 436:[当前请求URL：http://localhost:62443/Admin/Login；请求的参数为：；页面加载的时间：12967.2247 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:12:54,179 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:12:54 178:[当前请求URL：http://localhost:62443/Shop/PostShopCoupons/316；请求的参数为：；页面加载的时间：15477.0844 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:12:54,570 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:12:54 569:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：25442.8952 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:12:55,155 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:12:55 154:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：26036.827 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:13:09,987 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:13:09 986:[当前请求URL：http://localhost:62443/Admin/home/Console；请求的参数为：；页面加载的时间：12310.7587 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:17:57,882 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Admin.Controllers.OrderRefundsController.ConfirmRefunds  
+错误描述：refundId========264managerRemark=====nullreturnmoney=====0.01 
+
+
+
+
+ 记录时间：2019-01-11 17:17:58,026 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.ConfirmRefund  
+错误描述：BackOut 
+
+
+
+
+ 记录时间：2019-01-11 17:18:00,049 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：notifyurlhttp://localhost/Pay/RefundNotify/{0} 
+
+
+
+
+ 记录时间：2019-01-11 17:18:00,059 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：payWayHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 17:18:00,073 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：1 
+
+
+
+
+ 记录时间：2019-01-11 17:18:00,190 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：OrderPayInfo.PayId181212271227542255 
+
+
+
+
+ 记录时间：2019-01-11 17:18:00,248 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderIdsSystem.Collections.Generic.List`1[System.Int64] 
+
+
+
+
+ 记录时间：2019-01-11 17:18:00,249 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：firstOrderid2019011102051305 
+
+
+
+
+ 记录时间：2019-01-11 17:18:00,296 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：orderHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 17:18:00,334 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_refund_no2019011129665112 
+
+
+
+
+ 记录时间：2019-01-11 17:18:00,336 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.out_trade_no181212271227542255 
+
+
+
+
+ 记录时间：2019-01-11 17:18:00,340 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.pay_trade_noHimall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-11 17:18:00,341 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.refund_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 17:18:00,343 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：para.total_fee0.01 
+
+
+
+
+ 记录时间：2019-01-11 17:18:02,484 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.RefundBackOut  
+错误描述：refundResultHimall.Core.Plugins.Payment.RefundFeeReturnModel 
+
+
+
+
+ 记录时间：2019-01-11 17:18:08,225 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype4 
+
+
+
+
+ 记录时间：2019-01-11 17:18:08,347 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-01-11 17:18:08,348 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-01-11 17:18:26,386 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 17:18:26,427 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-11 05:18:26 427:[当前请求URL：http://localhost:62443/Admin/OrderRefunds/ConfirmRefunds?refundId=264&managerRemark=null&returnmoney=0.01；请求的参数为：refundId=264&managerRemark=null&returnmoney=0.01；页面加载的时间：28547.4404 毫秒] 
+
+
+
+
+ 记录时间：2019-01-11 17:18:26,604 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"17_IBQFOJzQfpqcrP8m73YJ-ocowmlDuQvgsdQfmnDEKkZ7XRu2rGTQ7M1eBi-MEjbN-1RUNw8EAlBG99b1utqOU3XPtTdr_1XwqUyrHF9L1LCIDe66ytceHZRIYrMMN29bTIYFrHaWXpidOEpwMCViAAAWMF","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-01-11 17:18:26,633 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token17_IBQFOJzQfpqcrP8m73YJ-ocowmlDuQvgsdQfmnDEKkZ7XRu2rGTQ7M1eBi-MEjbN-1RUNw8EAlBG99b1utqOU3XPtTdr_1XwqUyrHF9L1LCIDe66ytceHZRIYrMMN29bTIYFrHaWXpidOEpwMCViAAAWMF 
+
+
+
+
+ 记录时间：2019-01-11 17:18:26,634 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-11 17:18:26,653 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateIdNFFMRYtpS5Aiv2z0x1ruzAIqxlD0TrFiGXFMGE-7MGo 
+
+
+
+
+ 记录时间：2019-01-11 17:18:26,670 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken17_IBQFOJzQfpqcrP8m73YJ-ocowmlDuQvgsdQfmnDEKkZ7XRu2rGTQ7M1eBi-MEjbN-1RUNw8EAlBG99b1utqOU3XPtTdr_1XwqUyrHF9L1LCIDe66ytceHZRIYrMMN29bTIYFrHaWXpidOEpwMCViAAAWMF 
+
+
+
+
+ 记录时间：2019-01-11 17:18:26,707 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-01-11 17:18:26,725 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：url 
+

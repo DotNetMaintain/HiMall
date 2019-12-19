@@ -1,0 +1,1288 @@
+
+
+
+ 记录时间：2018-11-22 09:10:42,684 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:10:42,713 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:10:42,788 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit  
+错误描述：编辑商品异常 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Service.ProductService.UpdateProduct(ProductInfo product, String[] pics, SKUInfo[] skus, ProductDescriptionInfo description, ProductAttributeInfo[] attributes, Int64[] goodsCategory, SellerSpecificationValueInfo[] sellerSpecifications, ProductLadderPricesInfo[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 546
+   在 Himall.Application.ProductManagerApplication.UpdateProduct(Product product, String[] pics, SKU[] skus, ProductDescription description, ProductAttribute[] attributes, Int64[] goodsCategory, SellerSpecificationValue[] sellerSpecifications, ProductLadderPrice[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\ProductManagerApplication.cs:行号 131
+   在 Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit(ProductCreateModel model, HttpPostedFileBase HPVY, HttpPostedFileBase HPVO) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\ProductController.cs:行号 358
+
+
+
+ 记录时间：2018-11-22 09:11:20,618 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:11:20,637 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:11:22,065 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit  
+错误描述：编辑商品异常 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Service.ProductService.UpdateProduct(ProductInfo product, String[] pics, SKUInfo[] skus, ProductDescriptionInfo description, ProductAttributeInfo[] attributes, Int64[] goodsCategory, SellerSpecificationValueInfo[] sellerSpecifications, ProductLadderPricesInfo[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 546
+   在 Himall.Application.ProductManagerApplication.UpdateProduct(Product product, String[] pics, SKU[] skus, ProductDescription description, ProductAttribute[] attributes, Int64[] goodsCategory, SellerSpecificationValue[] sellerSpecifications, ProductLadderPrice[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\ProductManagerApplication.cs:行号 131
+   在 Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit(ProductCreateModel model, HttpPostedFileBase HPVY, HttpPostedFileBase HPVO) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\ProductController.cs:行号 358
+
+
+
+ 记录时间：2018-11-22 09:13:05,171 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:13:05,190 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:13:29,853 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit  
+错误描述：编辑商品异常 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Service.ProductService.UpdateProduct(ProductInfo product, String[] pics, SKUInfo[] skus, ProductDescriptionInfo description, ProductAttributeInfo[] attributes, Int64[] goodsCategory, SellerSpecificationValueInfo[] sellerSpecifications, ProductLadderPricesInfo[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 546
+   在 Himall.Application.ProductManagerApplication.UpdateProduct(Product product, String[] pics, SKU[] skus, ProductDescription description, ProductAttribute[] attributes, Int64[] goodsCategory, SellerSpecificationValue[] sellerSpecifications, ProductLadderPrice[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\ProductManagerApplication.cs:行号 131
+   在 Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit(ProductCreateModel model, HttpPostedFileBase HPVY, HttpPostedFileBase HPVO) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\ProductController.cs:行号 358
+
+
+
+ 记录时间：2018-11-22 09:14:03,601 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:14:03,627 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:14:49,129 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit  
+错误描述：编辑商品异常 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Service.ProductService.UpdateProduct(ProductInfo product, String[] pics, SKUInfo[] skus, ProductDescriptionInfo description, ProductAttributeInfo[] attributes, Int64[] goodsCategory, SellerSpecificationValueInfo[] sellerSpecifications, ProductLadderPricesInfo[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 546
+   在 Himall.Application.ProductManagerApplication.UpdateProduct(Product product, String[] pics, SKU[] skus, ProductDescription description, ProductAttribute[] attributes, Int64[] goodsCategory, SellerSpecificationValue[] sellerSpecifications, ProductLadderPrice[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\ProductManagerApplication.cs:行号 131
+   在 Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit(ProductCreateModel model, HttpPostedFileBase HPVY, HttpPostedFileBase HPVO) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\ProductController.cs:行号 358
+
+
+
+ 记录时间：2018-11-22 09:15:15,716 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:15:15,736 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:15:46,252 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit  
+错误描述：编辑商品异常 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Service.ProductService.UpdateProduct(ProductInfo product, String[] pics, SKUInfo[] skus, ProductDescriptionInfo description, ProductAttributeInfo[] attributes, Int64[] goodsCategory, SellerSpecificationValueInfo[] sellerSpecifications, ProductLadderPricesInfo[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 546
+   在 Himall.Application.ProductManagerApplication.UpdateProduct(Product product, String[] pics, SKU[] skus, ProductDescription description, ProductAttribute[] attributes, Int64[] goodsCategory, SellerSpecificationValue[] sellerSpecifications, ProductLadderPrice[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\ProductManagerApplication.cs:行号 131
+   在 Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit(ProductCreateModel model, HttpPostedFileBase HPVY, HttpPostedFileBase HPVO) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\ProductController.cs:行号 358
+
+
+
+ 记录时间：2018-11-22 09:16:01,747 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:16:01,765 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:16:02,467 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit  
+错误描述：编辑商品异常 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Service.ProductService.UpdateProduct(ProductInfo product, String[] pics, SKUInfo[] skus, ProductDescriptionInfo description, ProductAttributeInfo[] attributes, Int64[] goodsCategory, SellerSpecificationValueInfo[] sellerSpecifications, ProductLadderPricesInfo[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 546
+   在 Himall.Application.ProductManagerApplication.UpdateProduct(Product product, String[] pics, SKU[] skus, ProductDescription description, ProductAttribute[] attributes, Int64[] goodsCategory, SellerSpecificationValue[] sellerSpecifications, ProductLadderPrice[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\ProductManagerApplication.cs:行号 131
+   在 Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit(ProductCreateModel model, HttpPostedFileBase HPVY, HttpPostedFileBase HPVO) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\ProductController.cs:行号 358
+
+
+
+ 记录时间：2018-11-22 09:16:53,041 
+日志级别：  ERROR 
+出错类：Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail  
+错误描述：Exception异常 
+
+System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Himall.Core.Helper.IOHelper.GetMapPath(String path)
+   在 Himall.Strategy.AspNetIO.GetPhysicalPath(String fileName)
+   在 Himall.Strategy.AspNetIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Core.HimallIO.CopyFile(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Himall.Service.ProductService.ProductImageToStorageAndCreateThumbnail(Int64 shopId, Int64 productId, String[] paths) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 2821
+
+
+
+ 记录时间：2018-11-22 09:17:02,812 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit  
+错误描述：编辑商品异常 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Himall.Service.ProductService.UpdateProduct(ProductInfo product, String[] pics, SKUInfo[] skus, ProductDescriptionInfo description, ProductAttributeInfo[] attributes, Int64[] goodsCategory, SellerSpecificationValueInfo[] sellerSpecifications, ProductLadderPricesInfo[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Product\ProductService.cs:行号 546
+   在 Himall.Application.ProductManagerApplication.UpdateProduct(Product product, String[] pics, SKU[] skus, ProductDescription description, ProductAttribute[] attributes, Int64[] goodsCategory, SellerSpecificationValue[] sellerSpecifications, ProductLadderPrice[] prices) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\ProductManagerApplication.cs:行号 131
+   在 Himall.Web.Areas.SellerAdmin.Controllers.ProductController.Edit(ProductCreateModel model, HttpPostedFileBase HPVY, HttpPostedFileBase HPVO) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\ProductController.cs:行号 358
+
+
+
+ 记录时间：2018-11-22 11:49:05,404 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:Index,id:Get:post: 
+
+System.Data.Entity.Core.MetadataException: 指定的架构无效。错误: 
+无法加载关系“Himall.Model.FK_Himall_AgentProducts_ProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_BrowsingHistory_Himall_Products”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_CategoryId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_CollPoruducts”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ColloSkus”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.himall_couponproducts_ibfk_2”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_ProductBrokerage_ProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_Sku”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_Favorite”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_FSProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_FloorProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.ProductIdFK”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.fk_products_freighttemplate”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_MobileHomeProducts_Himall_Products”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductDescription”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ModuleProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductAttribute”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductComment”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductConsultation”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductShopCategory”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductVisti”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_SHOPID”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ShopHomeModuleProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ShoppingCart”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+   在 System.Data.Entity.Core.Metadata.Edm.ObjectItemCollection.LoadAssemblyFromCache(Assembly assembly, Boolean loadReferencedAssemblies, EdmItemCollection edmItemCollection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.ExplicitLoadFromAssembly(Assembly assembly, ObjectItemCollection collection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly)
+   在 System.Data.Entity.Internal.InternalContext.TryUpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Himall.Entity.DbSetExtend.FindAll[TEntity](DbSet`1 dbSet) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entity\DbSetExtend.cs:行号 20
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-22 11:49:05,414 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:Index,id:Get:post: 
+
+System.Data.Entity.Core.MetadataException: 指定的架构无效。错误: 
+无法加载关系“Himall.Model.FK_Himall_AgentProducts_ProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_BrowsingHistory_Himall_Products”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_CategoryId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_CollPoruducts”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ColloSkus”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.himall_couponproducts_ibfk_2”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_ProductBrokerage_ProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_Sku”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_Favorite”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_FSProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_FloorProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.ProductIdFK”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.fk_products_freighttemplate”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_MobileHomeProducts_Himall_Products”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductDescription”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ModuleProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductAttribute”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductComment”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductConsultation”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductShopCategory”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductVisti”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_SHOPID”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ShopHomeModuleProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ShoppingCart”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+   在 System.Data.Entity.Core.Metadata.Edm.ObjectItemCollection.LoadAssemblyFromCache(Assembly assembly, Boolean loadReferencedAssemblies, EdmItemCollection edmItemCollection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.ExplicitLoadFromAssembly(Assembly assembly, ObjectItemCollection collection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly)
+   在 System.Data.Entity.Internal.InternalContext.TryUpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Himall.Entity.DbSetExtend.FindAll[TEntity](DbSet`1 dbSet) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entity\DbSetExtend.cs:行号 20
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-22 12:19:02,115 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:Index,id:Get:post: 
+
+System.Data.Entity.Core.MetadataException: 指定的架构无效。错误: 
+无法加载关系“Himall.Model.FK_Himall_AgentProducts_ProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_BrowsingHistory_Himall_Products”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_CategoryId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_CollPoruducts”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ColloSkus”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.himall_couponproducts_ibfk_2”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_ProductBrokerage_ProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_Sku”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_Favorite”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_FSProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_FloorProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.ProductIdFK”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.fk_products_freighttemplate”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_MobileHomeProducts_Himall_Products”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductDescription”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ModuleProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.himall_orderitems_ibfk_1”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.FK_OrderItem_OrderRefund”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductAttribute”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductComment”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.himall_productcomments_ibfk_1”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductConsultation”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductShopCategory”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductVisti”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_SHOPID”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ShopHomeModuleProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ShoppingCart”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+   在 System.Data.Entity.Core.Metadata.Edm.ObjectItemCollection.LoadAssemblyFromCache(Assembly assembly, Boolean loadReferencedAssemblies, EdmItemCollection edmItemCollection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.ExplicitLoadFromAssembly(Assembly assembly, ObjectItemCollection collection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataOptimization.TryUpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Himall.Entity.DbSetExtend.FindAll[TEntity](DbSet`1 dbSet) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entity\DbSetExtend.cs:行号 20
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-22 12:19:13,620 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:Index,id:Get:post: 
+
+System.Data.Entity.Core.MetadataException: 指定的架构无效。错误: 
+无法加载关系“Himall.Model.FK_Himall_AgentProducts_ProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_BrowsingHistory_Himall_Products”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_CategoryId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_CollPoruducts”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ColloSkus”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.himall_couponproducts_ibfk_2”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_ProductBrokerage_ProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_Sku”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_Favorite”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_FSProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_FloorProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.ProductIdFK”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.fk_products_freighttemplate”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_MobileHomeProducts_Himall_Products”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductDescription”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ModuleProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.himall_orderitems_ibfk_1”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.FK_OrderItem_OrderRefund”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductAttribute”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductComment”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.himall_productcomments_ibfk_1”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductConsultation”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductShopCategory”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductVisti”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_SHOPID”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ShopHomeModuleProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ShoppingCart”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+   在 System.Data.Entity.Core.Metadata.Edm.ObjectItemCollection.LoadAssemblyFromCache(Assembly assembly, Boolean loadReferencedAssemblies, EdmItemCollection edmItemCollection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.ExplicitLoadFromAssembly(Assembly assembly, ObjectItemCollection collection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly)
+   在 System.Data.Entity.Internal.InternalContext.TryUpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Himall.Entity.DbSetExtend.FindAll[TEntity](DbSet`1 dbSet) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entity\DbSetExtend.cs:行号 20
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-22 12:19:13,628 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:Index,id:Get:post: 
+
+System.Data.Entity.Core.MetadataException: 指定的架构无效。错误: 
+无法加载关系“Himall.Model.FK_Himall_AgentProducts_ProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_BrowsingHistory_Himall_Products”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_CategoryId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_CollPoruducts”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ColloSkus”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.himall_couponproducts_ibfk_2”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_ProductBrokerage_ProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_Sku”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_Favorite”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_FSProductId”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_FloorProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.ProductIdFK”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.fk_products_freighttemplate”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Himall_MobileHomeProducts_Himall_Products”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductDescription”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ModuleProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.himall_orderitems_ibfk_1”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.FK_OrderItem_OrderRefund”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductAttribute”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductComment”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.himall_productcomments_ibfk_1”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductConsultation”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductShopCategory”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ProductVisti”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_SHOPID”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ShopHomeModuleProduct”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+无法加载关系“Himall.Model.FK_Product_ShoppingCart”，因为类型“Himall.Model.ProductInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.ProductInfo”中不存在必需属性“Insurancey_age”。
+
+
+   在 System.Data.Entity.Core.Metadata.Edm.ObjectItemCollection.LoadAssemblyFromCache(Assembly assembly, Boolean loadReferencedAssemblies, EdmItemCollection edmItemCollection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.ExplicitLoadFromAssembly(Assembly assembly, ObjectItemCollection collection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly)
+   在 System.Data.Entity.Internal.InternalContext.TryUpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Himall.Entity.DbSetExtend.FindAll[TEntity](DbSet`1 dbSet) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entity\DbSetExtend.cs:行号 20
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-22 12:43:02,952 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:Index,id:Get:post: 
+
+System.Data.Entity.Core.MetadataException: 指定的架构无效。错误: 
+无法加载关系“Himall.Model.himall_orderitems_ibfk_1”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.FK_OrderItem_OrderRefund”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.himall_productcomments_ibfk_1”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+   在 System.Data.Entity.Core.Metadata.Edm.ObjectItemCollection.LoadAssemblyFromCache(Assembly assembly, Boolean loadReferencedAssemblies, EdmItemCollection edmItemCollection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.ExplicitLoadFromAssembly(Assembly assembly, ObjectItemCollection collection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly)
+   在 System.Data.Entity.Internal.InternalContext.TryUpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Himall.Entity.DbSetExtend.FindAll[TEntity](DbSet`1 dbSet) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entity\DbSetExtend.cs:行号 20
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-22 13:11:57,633 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:Index,id:Get:post: 
+
+System.Data.Entity.Core.MetadataException: 指定的架构无效。错误: 
+无法加载关系“Himall.Model.himall_orderitems_ibfk_1”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.FK_OrderItem_OrderRefund”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.himall_productcomments_ibfk_1”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+   在 System.Data.Entity.Core.Metadata.Edm.ObjectItemCollection.LoadAssemblyFromCache(Assembly assembly, Boolean loadReferencedAssemblies, EdmItemCollection edmItemCollection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.ExplicitLoadFromAssembly(Assembly assembly, ObjectItemCollection collection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly)
+   在 System.Data.Entity.Internal.InternalContext.TryUpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Himall.Entity.DbSetExtend.FindAll[TEntity](DbSet`1 dbSet) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entity\DbSetExtend.cs:行号 20
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-22 13:11:57,647 
+日志级别：  ERROR 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：页面未捕获的异常：Area:Web,Controller:home,Action:Index,id:Get:post: 
+
+System.Data.Entity.Core.MetadataException: 指定的架构无效。错误: 
+无法加载关系“Himall.Model.himall_orderitems_ibfk_1”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.FK_OrderItem_OrderRefund”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+无法加载关系“Himall.Model.himall_productcomments_ibfk_1”，因为类型“Himall.Model.OrderItemInfo”不可用。
+以下信息对于解决上一个错误可能很有用:
+类型“Himall.Model.OrderItemInfo”中不存在必需属性“Insuranceo_age”。
+
+
+   在 System.Data.Entity.Core.Metadata.Edm.ObjectItemCollection.LoadAssemblyFromCache(Assembly assembly, Boolean loadReferencedAssemblies, EdmItemCollection edmItemCollection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.ExplicitLoadFromAssembly(Assembly assembly, ObjectItemCollection collection, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly, Action`1 logLoadMessage)
+   在 System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadFromAssembly(Assembly assembly)
+   在 System.Data.Entity.Internal.InternalContext.TryUpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Himall.Entity.DbSetExtend.FindAll[TEntity](DbSet`1 dbSet) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Entity\DbSetExtend.cs:行号 20
+   在 Himall.Service.SiteSettingService.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\System\SiteSettingService.cs:行号 27
+   在 Himall.Application.SiteSettingApplication.GetSiteSettings() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Application\SiteSettingApplication.cs:行号 23
+   在 Himall.Web.Framework.BaseController.get_CurrentSiteSetting() 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 401
+   在 Himall.Web.Framework.BaseController.OnAuthorization(AuthorizationContext filterContext) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web.Framework\BaseControllers\BaseController.cs:行号 579
+   在 System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+
+
+
+ 记录时间：2018-11-22 14:25:22,721 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [XHbOkA07163612]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92
+
+
+
+ 记录时间：2018-11-22 15:27:35,244 
+日志级别：  ERROR 
+出错类：Himall.Service.WXApiService.GetTicket  
+错误描述：请求Ticket出错，强制刷新acess_token 
+
+Senparc.Weixin.Exceptions.ErrorJsonResultException: 微信请求发生错误！错误代码：40013，说明：invalid appid hint: [qhtXsA0449sha2]
+   在 Senparc.Weixin.HttpUtility.Get.GetJson[T](String url, Encoding encoding)
+   在 Senparc.Weixin.MP.CommonAPIs.CommonApi.GetToken(String appid, String secret, String grant_type)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetTokenResult(String appId, Boolean getNewToken)
+   在 Senparc.Weixin.MP.CommonAPIs.AccessTokenContainer.GetToken(String appId, Boolean getNewToken)
+   在 Himall.Service.WXApiService.TryGetToken(String appId, String appSecret, Boolean getNewToken) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 139
+   在 Himall.Service.WXApiService.GetTicket(String appid, String appsecret) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Service\Weixin\WXApiService.cs:行号 92

@@ -1,0 +1,44 @@
+﻿@model Himall.Model.RecruitPlanInfo
+@{
+    ViewBag.Title = "招募计划";
+    var share = (Himall.Model.DistributionShareSetting)ViewBag.shareInfo;
+}l
+
+<div class="container recruit-plan">
+    <div class="recruit-content">
+        <div>
+            @if (Model != null && !string.IsNullOrWhiteSpace(Model.Content))
+            {
+                @Html.Raw(Model.Content)
+            }
+        </div>
+    </div>
+    <div class="tobe-recruit"><a href="@Url.Action("Apply","Distribution")">申请成为销售员</a></div>
+</div>
+<input type="hidden" value="@(share.RecruitShareTitle)" id="RecruitShareTitle" />
+<input type="hidden" value="@(share.RecruitShareDesc)" id="RecruitShareDesc" />
+<input type="hidden" value="@(share.RecruitShareLogo)" id="RecruitShareLogo" />
+
+<script>
+    $(function () {
+        $(".recruit-content img").width($(".container").width());
+    })
+</script>
+@section Scripts
+{
+    <script>
+            var winxinShareArgs = {
+                share: {
+                    title: $("#RecruitShareTitle").val(),
+                    desc: $("#RecruitShareDesc").val(),
+                    link: location.href,
+                    imgUrl: $("#RecruitShareLogo").val(),
+                    cancel: null,
+                    fail: null,
+                    complete: null,
+                    trigger: null
+            }
+        };
+    </script>
+    @Html.Partial("_WeiXinShare")
+}

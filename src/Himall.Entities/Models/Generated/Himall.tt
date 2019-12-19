@@ -1,0 +1,59 @@
+<#@ include file="PetaPoco.Core.ttinclude" #>
+<#
+	// Settings
+    ConnectionStringName = "mysql";			// Uses last connection string in config if not specified
+    Namespace = "Himall.Entities";
+    RepoName = "Db";
+	IncludeViews = true;
+    GenerateOperations = true;
+	GeneratePocos = true;
+	GenerateCommon = true;
+	GenerateFunction = false;
+	ClassPrefix = "";
+	ClassSuffix = "Info";
+	TrackModifiedColumns = true; 
+	ExplicitColumns = true;
+	ExcludePrefix = new string[] { }; // Exclude tables by prefix.
+	ClassReplaces = new string[] { "Himall_", "HiMall_", "himall_" };
+	EnumLists = new Dictionary<string, string> {
+        { "OrderInfo.OrderType", "OrderTypes" },
+        { "OrderInfo.OrderStatus", "OrderOperateStatus" },
+        { "OrderInfo.DeliveryType", "DeliveryTypes" },
+		{ "OrderInfo.PaymentType", "PaymentTypes" },
+		{ "BrokerageIncomeInfo.Status", "BrokerageStatus" },
+		{ "StatisticOrderCommentInfo.CommentKey", "EnumCommentKey" },
+		{ "OrderRefundInfo.RefundMode", "OrderRefundMode" },
+		{ "OrderRefundInfo.RefundPayType", "OrderRefundPayType" },
+		{ "OrderRefundInfo.SellerAuditStatus", "OrderRefundAuditStatus" },
+		{ "OrderRefundInfo.ManagerConfirmStatus", "OrderRefundConfirmStatus" },
+		{ "ProductInfo.AuditStatus", "ProductAuditStatus" },
+		{ "ProductInfo.SaleStatus", "ProductSaleStatus" },
+		{ "MemberContactInfo.UserType", "UserTypes" },
+		{ "MemberOpenIdInfo.AppIdType", "AppIdTypeEnum" },
+		{ "AccountInfo.Status", "AccountStatus" },
+		{ "AccountDetailInfo.OrderType", "EnumOrderType" }
+    };//key=TableClassName.FieldName,value=enumName
+	ReferenceLists = new List<Tuple<string,string,bool,string,string,string>>{
+		new Tuple<string, string, bool, string, string, string>("ProductInfo", "ProductDescriptionInfo", false, "ProductId", "Id", ""),
+		new Tuple<string, string, bool, string, string, string>("ProductInfo", "ProductAttributeInfo", true, "ProductId", "Id", "")
+	};//Item1=Class,Item2=Prop&type,Item3=IsList,Item4=Prop'sField,Item5=Class'sField,Item6=Where
+
+    // Read schema
+	var tables = LoadTables();
+
+
+/*
+	// Tweak Schema
+	tables["tablename"].Ignore = true;							// To ignore a table
+	tables["tablename"].ClassName = "newname";					// To change the class name of a table
+	tables["tablename"]["columnname"].Ignore = true;			// To ignore a column
+	tables["tablename"]["columnname"].PropertyName="newname";	// To change the property name of a column
+	tables["tablename"]["columnname"].PropertyType="bool";		// To change the property type of a column
+*/
+
+	// Generate output
+	if (tables.Count>0)
+	{
+#>
+<#@ include file="PetaPoco.Generator.ttinclude" #>
+<# } #>

@@ -1,0 +1,241 @@
+﻿@model Himall.Model.SiteSettingsInfo
+@{
+    ViewBag.Title = "登录";
+    ViewBag.CopyRight = false;
+}
+<style>
+    body {
+        background-color: #fff;
+    }
+</style>
+@*<div class="login">
+    <label class="hide" id="titleType">注册@(Model.SiteName)</label>
+    <div class="login-hd">
+        <img class="login-sign" src="@Himall.Core.HimallIO.GetImagePath(Model.Logo)">
+        <a class="regist-link" id="btregister" href="#">注册</a>
+    </div>
+    <div class="form-group">
+        <label for="" class="col-sm-2 control-label">手机号：</label>
+        <div class="col-sm-3">
+            <input type="text" id="MemberPhone" name="MemberPhone" class="form-control input-sm" />
+        </div>
+        <div class="col-sm-3 form-control-static"><a href="javascript:;" id="getPhoneCode">获取验证码</a></div>
+    </div>
+
+    <div class="form-group" id="pcv" style="display:none;">
+        <label for="" class="col-sm-2 control-label"><b>*</b>验证码：</label>
+        <div class="col-sm-3">
+            <input type="text" id="PhoneCode" name="PhoneCode" class="form-control input-sm" />
+        </div>
+    </div>*@
+<div class="login">
+    <label class="hide" id="titleType">登录@(Model.SiteName)</label>
+    <div class="login-hd">
+    </div>
+    <div class="login-bd">
+        <div class="login-input-group">
+            <div class="input-item flex-center"><input class="form-control" id="MemberPhone" name="MemberPhone" type="text" placeholder="请输入手机号"></div>
+            <div class="input-item flex-center">
+                <input class="form-control" id="checkcode" name="checkcode" type="text" placeholder="请输入验证码">
+                <div class="col-sm-3 form-control-static"><a href="javascript:;" id="getPhoneCode">获取验证码</a></div>
+            </div>
+        </div>
+        <a id="bindBtn" class="flex-center">登录</a>
+    </div>
+    @*<div class="login-ft" id="fastloginbox">
+            <div class="trust-tip">
+                <span>使用微信一键登录</span>
+            </div>
+            <a class="weixin-trust" href="javascript:;" id="skip"></a>
+        </div>*@
+</div>
+<script>
+    $(function () {
+        //$('.login').css('marginTop', -$('.login').height() / 2);
+        $(".login div.option").width($(".login").width() - 21);
+        var openId = QueryString('openId');
+        var serviceProvider = QueryString('serviceProvider');
+        var realName = QueryString('realName');
+        var nickName = QueryString('nickName');
+        var headimgurl = QueryString('headimgurl');
+        var appidtype = QueryString('AppidType');
+        var unionid = QueryString('unionid');
+        var sex = QueryString('sex');
+        var city = QueryString('city');
+        var province = QueryString('province');
+        var country = QueryString('country');
+        var returnUrl = QueryString('returnUrl');
+        var app = QueryString('app');
+        var method = '/' + areaName + '/Login/Skip';
+        //var method = '/' + areaName + '/Login/BindUser';
+        //var queryString = '?openId=' + openId + '&serviceProvider=' + serviceProvider + '&AppidType=' + appidtype + '&headimgurl=' + headimgurl + '&unionid=' + unionid + '&returnUrl=' + returnUrl;
+        //queryString += '&nickName=' + nickName + '&sex=' + sex + '&city=' + city + '&province=' + province + '&country=' + country;
+
+        //$('#btregister').attr('href', '/' + areaName + '/Register' + queryString);
+
+        //$('.forget-pwd-link').attr('href', '/' + areaName + '/Login/ForgotPassword');
+
+        //if (serviceProvider && openId) {
+        //    $('#fastloginbox').show();
+        //    //bindSkip();
+        //}
+        //else {
+        //    //判断是否为信任登录
+        //    $('#titleType').html('登录');
+        //    $('#bindBtn').html('登 录');
+        //    method = '/' + areaName + '/Login';
+        //    $('#bindInfo').hide();
+        //    $('#fastloginbox').hide();
+        //}
+
+        //$('#bindBtn').click(function () {
+        //    var MemberPhone = $('#MemberPhone').val();
+        //    var checkcode = $('#checkcode').val();
+        //    if (!MemberPhone)
+        //        $.dialog.errorTips('请填写手机号');
+        //    else if (!checkcode)
+        //        $.dialog.errorTips('请填写验证码');
+        //    else {
+        //        var loading = showLoading();
+        //        $.post(method,
+        //            {
+        //                MemberPhone: MemberPhone, checkcode: checkcode, serviceProvider: serviceProvider, openId: openId,
+        //                headimgurl: headimgurl, appidtype: appidtype, unionid: unionid, sex: sex, city: city,
+        //                province: province, country: country, nickName: nickName
+        //            },
+        //            function (result) {
+        //                loading.close();
+        //                if (result.success) {
+        //                    $.dialog.succeedTips($('#titleType').html() + '成功!', function () {
+        //                        var returnUrl = QueryString('returnUrl');
+        //                        debugger;
+        //                        if (!returnUrl) {
+        //                            returnUrl = '/' + areaName;
+        //                        }
+        //                        if (decodeURIComponent(returnUrl).toLocaleLowerCase().indexOf("member/accountsecure") >= 0) {//如果是从该页面回跳则个人中心
+        //                            returnUrl = '/' + areaName + '/member/center';
+        //                        }
+        //                        location.replace(decodeURIComponent(returnUrl).replace(':8099', ''));
+        //                    });
+        //                }
+        //                else
+        //                    $.dialog.alert($('#titleType').html() + '失败!' + result.msg);
+
+        //            });
+        //    }
+        //});
+
+        //$('#skip').click(function () {
+        //    var loading = showLoading();
+        //    $.post('../Register/Skip', {
+        //        openId: openId, serviceProvider: serviceProvider, realName: realName, nickName: nickName,
+        //        headimgurl: headimgurl, appidtype: appidtype, unionid: unionid, sex: sex, city: city,
+        //        province: province, country: country
+        //    }, function (result) {
+        //        loading.close();
+        //        if (result.success) {
+
+        //            var strMessage = "快捷登录成功!";
+        //            if (result.data.num > 0) {
+        //                strMessage = "注册成功，获得" + result.data.num + "张赠送优惠券！";
+        //            } else if (getQueryString("type") == "gift") {
+        //                strMessage = "很抱歉！优惠券已被领完，请期待下次活动！";
+        //            }
+
+        //            $.dialog.succeedTips(strMessage, function () {
+        //                location.replace(decodeURIComponent(returnUrl));
+        //            });
+        //        }
+        //        else {
+        //            $.dialog.alert('一键注册失败' + result.msg);
+        //        }
+        //    });
+        //});
+        //function bindSkip() {
+        $('#bindBtn').click(function () {
+            var MemberPhone = $('#MemberPhone').val();
+            var checkcode = $('#checkcode').val();
+            if (!MemberPhone)
+                $.dialog.errorTips('请填写手机号');
+            else if (!checkcode)
+                $.dialog.errorTips('请填写验证码');
+            else {
+                var loading = showLoading();
+                $.post(method, {
+                    MemberPhone: MemberPhone, checkcode: checkcode, openId: openId, serviceProvider: serviceProvider, realName: realName, nickName: nickName,
+                    headimgurl: headimgurl, appidtype: appidtype, unionid: unionid, sex: sex, city: city,
+                    province: province, country: country, app: app
+                }, function (result) {
+                    loading.close();
+                    if (result.success) {
+                        var strMessage = "登录成功!";
+                        var url = "http://vshop.css751.com/m-wap/vshop/detail/20";
+                        location.href = url;
+                        $.dialog.succeedTips(strMessage);
+                        //if (result.data.num > 0) {
+                        //    strMessage = "注册成功，获得" + result.data.num + "张赠送优惠券！";
+                        //} else if (getQueryString("type") == "gift") {
+                        //    strMessage = "很抱歉！优惠券已被领完，请期待下次活动！";
+                        //}
+
+                        //$.dialog.succeedTips(strMessage, function () {
+                        //    location.replace(decodeURIComponent(returnUrl));
+                        //});
+                    }
+                    else {
+                        $.dialog.alert('登录失败' + result.msg);
+                    }
+                });
+            }
+        });
+        //}
+
+    });
+    //获取URL中值
+    function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
+    var i = 0;
+    //获取手机验证码
+    $("#getPhoneCode").on("click", function () {
+        var reg = /^0*(1)\d{10}$/;
+        var Phone = $("#MemberPhone").val();
+        if (Phone == "") {
+            $.dialog.errorTips('请输入手机号码');
+        } else if (!reg.test($("#MemberPhone").val())) {
+            $.dialog.errorTips('请输入正确的手机号码');
+            $("#MemberPhone").focus();
+        } else {
+            if ($("#getPhoneCode").html() == "获取验证码") {
+                sendPhoneCode();
+            }
+        }
+    })
+    function sendPhoneCode() {
+        var Phone = $("#MemberPhone").val();
+        $.post('SendCode', { destination: Phone, pluginId: "Himall.Plugin.Message.SMS" }, function (result) {
+            if (result.success) {
+                var count = 60;
+                si = setInterval(function () { count--; countDown1(count, "getPhoneCode"); }, 1000);
+            }
+            else {
+                $.dialog.errorTips('发送验证码失败：' + result.msg);
+            }
+        });
+    }
+    function countDown1(ss, dv) {
+        if (ss > 0) {
+            $("#" + dv).html("重新获取(" + ss + "s)");
+            //      $("#" + dv).attr("disabled", "disabled");
+            canSendCode = false;
+        } else {
+            $("#" + dv).html("获取验证码");
+            //      $("#" + dv).removeAttr("disabled");
+            canSendCode = true;
+            clearInterval(si);
+        }
+    }
+
+</script>

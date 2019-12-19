@@ -1,0 +1,2912 @@
+
+
+
+ 记录时间：2018-12-18 09:28:37,549 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 09:28:48,656 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:28:48 647:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5530.1347 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:29:47,130 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 09:30:13,904 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 09:30:28,034 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:30:28 034:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：7718.4842 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:30:28,054 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:30:28 054:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：7780.0284 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:30:28,273 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:30:28 272:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1545096620425；请求的参数为：_=1545096620425；页面加载的时间：7222.1315 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:30:28,539 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:30:28 539:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：7492.3228 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:30:56,980 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:30:56 980:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：15884.4492 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:31:38,609 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:31:38 609:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：9163.9877 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:32:49,241 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 09:32:53,109 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:32:53 108:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：74486.3062 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:33:02,373 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:33:02 372:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitalIsOk；请求的参数为：；页面加载的时间：9223.7927 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:33:53,859 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:33:53 858:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：5066.6627 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:39:31,831 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 09:40:12,007 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:40:12 006:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：378115.7097 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:41:01,703 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 09:41:14,731 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:41:14 730:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9414.1893 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:41:27,532 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 09:41:52,148 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:41:52 148:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：13255.5978 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:41:52,148 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:41:52 148:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：13377.685 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:43:12,026 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:43:12 026:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：13177.7788 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:43:31,625 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:43:31 625:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：5604.9812 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:45:36,733 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 09:46:19,830 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 09:46:59,146 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:46:59 146:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：207496.7945 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:47:35,848 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:47:35 843:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitalIsOk；请求的参数为：；页面加载的时间：34077.1289 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:49:35,086 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018121877663661 
+
+
+
+
+ 记录时间：2018-12-18 09:49:35,781 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId1: 
+
+
+
+
+ 记录时间：2018-12-18 09:49:36,107 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId111: 
+
+
+
+
+ 记录时间：2018-12-18 09:49:36,269 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181218490936204380 
+
+
+
+
+ 记录时间：2018-12-18 09:50:08,867 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:50:08 867:[当前请求URL：http://localhost:62443/m-Wap/payment/Pay/?pmtid=Himall.Plugin.Payment.WeiXinPay&ids=2018121877663661；请求的参数为：pmtid=Himall.Plugin.Payment.WeiXinPay&ids=2018121877663661；页面加载的时间：33886.8402 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:51:40,892 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 09:51:56,298 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:51:56 298:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5307.2707 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:51:56,307 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:51:56 307:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5270.7458 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:52:16,707 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 09:52:30,879 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:52:30 879:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：39850.3232 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:52:41,791 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:52:41 791:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10294.3145 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:52:41,874 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:52:41 873:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9692.887 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:52:42,826 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:52:42 826:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：11372.0801 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:52:43,174 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:52:43 174:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1545097928329；请求的参数为：_=1545097928329；页面加载的时间：11619.2569 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:52:43,441 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:52:43 441:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：11993.5207 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:52:43,883 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:52:43 845:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：12395.3065 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:52:45,795 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:52:45 794:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：12308.7465 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:52:45,846 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:52:45 845:[当前请求URL：http://localhost:62443/m-Wap/order/IsSubmited?orderTag=a421f429b8354b89a41c9f1e0eafbb0d&_=1545097959230；请求的参数为：orderTag=a421f429b8354b89a41c9f1e0eafbb0d&_=1545097959230；页面加载的时间：6526.6384 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:53:12,174 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:53:12 173:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：17401.3642 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:53:32,533 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:53:32 533:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：7336.2114 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:53:41,796 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 09:53:41,797 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 09:53:41,800 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:53:41 800:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：9251.4328 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:53:47,057 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018121852690193 
+
+
+
+
+ 记录时间：2018-12-18 09:53:47,370 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId1: 
+
+
+
+
+ 记录时间：2018-12-18 09:53:47,583 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId111: 
+
+
+
+
+ 记录时间：2018-12-18 09:53:47,818 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181218530947024284 
+
+
+
+
+ 记录时间：2018-12-18 09:53:54,132 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:53:54 132:[当前请求URL：http://localhost:62443/m-Wap/payment/Pay/?pmtid=Himall.Plugin.Payment.WeiXinPay&ids=2018121852690193；请求的参数为：pmtid=Himall.Plugin.Payment.WeiXinPay&ids=2018121852690193；页面加载的时间：7149.4326 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:58:54,428 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 09:59:13,325 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:59:13 325:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5187.1845 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:59:37,849 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:59:37 848:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：29672.1272 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:59:50,376 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:59:50 376:[当前请求URL：http://localhost:62443/product/GetLoginUserInfo；请求的参数为：；页面加载的时间：5521.9237 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 09:59:56,407 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 09:59:56 407:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：5789.1318 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:00:06,343 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 10:00:06,344 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 10:00:06,348 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:00:06 347:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：6353.0143 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:00:12,409 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:00:12 409:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitalIsOk；请求的参数为：；页面加载的时间：5980.8319 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:00:16,603 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018121821809357 
+
+
+
+
+ 记录时间：2018-12-18 10:00:17,204 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId1: 
+
+
+
+
+ 记录时间：2018-12-18 10:00:17,484 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId111: 
+
+
+
+
+ 记录时间：2018-12-18 10:00:17,853 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181218001017862230 
+
+
+
+
+ 记录时间：2018-12-18 10:00:56,042 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:00:56 040:[当前请求URL：http://localhost:62443/m-Wap/payment/Pay/?pmtid=Himall.Plugin.Payment.Alipay_WAP&ids=2018121821809357；请求的参数为：pmtid=Himall.Plugin.Payment.Alipay_WAP&ids=2018121821809357；页面加载的时间：39519.2872 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:16:11,603 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 10:16:30,986 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:16:30 986:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9560.0976 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:16:59,094 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:16:59 094:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：28511.4379 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:17:22,683 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:17:22 683:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：14177.9734 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:17:40,253 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 10:17:40,256 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 10:17:40,261 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:17:40 261:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：17548.9229 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:17:46,338 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:17:46 338:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitalIsOk；请求的参数为：；页面加载的时间：6048.6762 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:17:46,826 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:17:46 825:[当前请求URL：http://localhost:62443/Login/GetCheckCode；请求的参数为：；页面加载的时间：43773.3401 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:17:49,460 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018121876904352 
+
+
+
+
+ 记录时间：2018-12-18 10:17:49,647 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId1: 
+
+
+
+
+ 记录时间：2018-12-18 10:17:49,868 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId111: 
+
+
+
+
+ 记录时间：2018-12-18 10:17:50,078 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181218171049317293 
+
+
+
+
+ 记录时间：2018-12-18 10:30:30,890 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 10:31:21,849 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:31:21 849:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：38496.411 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:31:35,409 
+日志级别：  DEBUG 
+出错类：Himall.Web.Framework.WeixinOAuth.GetUserInfo_bequiet  
+错误描述：redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8b2369d7a650c5eb&redirect_uri=http%3a%2f%2flocalhost%3a62443%2fcommon%2fsite%2fpay%3farea%3dmobile%26platform%3dWEIXIN%26controller%3dorder%26action%3dsubmit%26skuIds%3d789_0_0_0%26counts%3d1%26returnUrl%3d%252Fm-Wap%252FProduct%252FDetail%252F789%253FreturnUrl%253Dnull&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect 
+
+
+
+
+ 记录时间：2018-12-18 10:31:35,412 
+日志级别：  DEBUG 
+出错类：Himall.Web.Framework.BaseMobileMemberController.BindOpenIdToUser  
+错误描述：redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8b2369d7a650c5eb&redirect_uri=http%3a%2f%2flocalhost%3a62443%2fcommon%2fsite%2fpay%3farea%3dmobile%26platform%3dWEIXIN%26controller%3dorder%26action%3dsubmit%26skuIds%3d789_0_0_0%26counts%3d1%26returnUrl%3d%252Fm-Wap%252FProduct%252FDetail%252F789%253FreturnUrl%253Dnull&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect 
+
+
+
+
+ 记录时间：2018-12-18 10:32:00,765 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:32:00 764:[当前请求URL：http://localhost:62443/m-Wap/vshop/detail/12；请求的参数为：；页面加载的时间：6711.5107 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:32:10,788 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:32:10 788:[当前请求URL：http://localhost:62443/m-wap/member/center；请求的参数为：；页面加载的时间：5088.5158 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:43:24,537 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 10:43:45,355 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:43:45 355:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10169.2246 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:44:13,629 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:44:13 629:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：30609.2723 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:44:59,145 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:44:59 145:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：7637.2762 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:45:16,684 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 10:45:16,689 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 10:45:16,695 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:45:16 694:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：17531.1253 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:45:20,182 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018121835963507 
+
+
+
+
+ 记录时间：2018-12-18 10:45:20,412 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId1: 
+
+
+
+
+ 记录时间：2018-12-18 10:45:20,860 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId111: 
+
+
+
+
+ 记录时间：2018-12-18 10:45:21,000 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181218451020136946 
+
+
+
+
+ 记录时间：2018-12-18 10:45:35,021 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:45:35 021:[当前请求URL：http://localhost:62443/m-Wap/payment/Pay/?pmtid=Himall.Plugin.Payment.WeiXinPay&ids=2018121835963507；请求的参数为：pmtid=Himall.Plugin.Payment.WeiXinPay&ids=2018121835963507；页面加载的时间：14906.5173 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:46:21,681 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 10:46:46,122 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:46:46 121:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：16166.0338 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:53:58,013 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 10:54:28,296 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:54:28 296:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：21554.7753 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:54:28,299 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:54:28 299:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：21488.7276 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:54:55,312 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:54:55 312:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：24924.2149 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:55:14,869 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:55:14 869:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：7006.3389 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:55:15,197 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:55:15 197:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：7342.5769 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:55:59,900 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:55:59 899:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：7653.6173 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:56:08,149 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 10:56:08,151 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 10:56:08,154 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 10:56:08 153:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：8237.5263 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 10:56:15,924 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018121885241628 
+
+
+
+
+ 记录时间：2018-12-18 10:56:16,084 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId1: 
+
+
+
+
+ 记录时间：2018-12-18 10:56:16,335 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId111: 
+
+
+
+
+ 记录时间：2018-12-18 10:56:16,507 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181218561016918104 
+
+
+
+
+ 记录时间：2018-12-18 11:04:22,585 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 11:04:42,965 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:04:42 964:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10486.9511 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:04:43,001 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:04:43 001:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10417.9014 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:05:03,615 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 11:05:21,280 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:05:21 280:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8081.2438 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:05:44,376 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:05:44 375:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：31199.6742 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:05:55,867 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:05:55 866:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：6883.3912 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:06:10,237 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 11:06:10,239 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 11:06:10,242 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:06:10 242:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：14344.1987 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:06:24,636 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018121885696154 
+
+
+
+
+ 记录时间：2018-12-18 11:06:25,211 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId1: 
+
+
+
+
+ 记录时间：2018-12-18 11:06:25,735 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId111: 
+
+
+
+
+ 记录时间：2018-12-18 11:06:26,127 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181218061125974953 
+
+
+
+
+ 记录时间：2018-12-18 11:07:25,098 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:07:25 098:[当前请求URL：http://localhost:62443/m-Wap/payment/Pay/?pmtid=Himall.Plugin.Payment.WeiXinPay&ids=2018121885696154；请求的参数为：pmtid=Himall.Plugin.Payment.WeiXinPay&ids=2018121885696154；页面加载的时间：60543.5473 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:07:56,120 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 11:07:56,121 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 11:07:56,123 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:07:56 123:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：10264.9382 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:08:05,697 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018121860647366 
+
+
+
+
+ 记录时间：2018-12-18 11:08:06,247 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId1: 
+
+
+
+
+ 记录时间：2018-12-18 11:08:07,971 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId111: 
+
+
+
+
+ 记录时间：2018-12-18 11:08:08,535 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181218081107705841 
+
+
+
+
+ 记录时间：2018-12-18 11:08:11,975 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:08:11 974:[当前请求URL：http://localhost:62443/m-Wap/payment/Pay/?pmtid=Himall.Plugin.Payment.WeiXinPay&ids=2018121860647366；请求的参数为：pmtid=Himall.Plugin.Payment.WeiXinPay&ids=2018121860647366；页面加载的时间：6688.6357 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:09:00,303 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 11:09:23,074 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:09:23 074:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10314.83 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:09:23,086 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:09:23 086:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10166.724 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:09:51,951 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 11:10:14,519 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:10:14 519:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10842.705 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:10:16,424 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:10:16 424:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：10818.6884 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:10:16,451 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:10:16 451:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：6029.2844 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:10:17,312 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:10:17 312:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1545102569993；请求的参数为：_=1545102569993；页面加载的时间：13855.3458 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:10:49,041 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:10:49 041:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：33890.1098 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:11:01,060 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:11:01 060:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：6020.1439 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:11:08,916 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:11:08 916:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：15925.0039 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:11:23,417 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 11:11:23,419 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 11:11:23,422 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:11:23 422:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：19680.6765 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:11:24,021 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:11:24 020:[当前请求URL：http://localhost:62443/Shop/PostCanUseShopCoupons/316；请求的参数为：；页面加载的时间：15067.1566 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:11:32,727 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018121890713528 
+
+
+
+
+ 记录时间：2018-12-18 11:11:33,033 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId1: 
+
+
+
+
+ 记录时间：2018-12-18 11:11:33,282 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：openId111: 
+
+
+
+
+ 记录时间：2018-12-18 11:11:33,496 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181218111133221834 
+
+
+
+
+ 记录时间：2018-12-18 11:16:32,937 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:16:32 937:[当前请求URL：http://localhost:62443/m-Wap/payment/Pay/?pmtid=Himall.Plugin.Payment.WeiXinPay&ids=2018121890713528；请求的参数为：pmtid=Himall.Plugin.Payment.WeiXinPay&ids=2018121890713528；页面加载的时间：300271.0891 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:16:38,844 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:16:38 844:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：5969.4183 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:16:41,889 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:16:41 889:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：8950.5938 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:16:45,539 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 11:16:54,364 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:16:54 362:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5877.754 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:17:17,880 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 11:17:32,913 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:17:32 913:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5167.6719 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:17:32,915 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:17:32 914:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5148.1578 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:18:01,253 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 11:18:27,025 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:18:27 025:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：11509.1774 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:18:28,151 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:18:28 150:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：5050.0906 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:18:29,482 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:18:29 482:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1545103057862；请求的参数为：_=1545103057862；页面加载的时间：13968.4334 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:18:29,753 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:18:29 752:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：11928.9846 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:18:30,096 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:18:30 095:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：12285.7383 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:19:03,095 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:19:03 094:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：35636.334 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:19:19,674 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:19:19 674:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：5414.8474 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:19:20,031 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:19:20 031:[当前请求URL：http://localhost:62443/Login/GetCheckCode；请求的参数为：；页面加载的时间：5774.1033 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:19:21,186 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:19:21 186:[当前请求URL：http://localhost:62443/product/GetLoginUserInfo；请求的参数为：；页面加载的时间：6929.9252 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:19:45,659 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:19:45 659:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：6483.1068 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:19:52,819 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 11:19:52,821 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 11:19:52,824 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:19:52 823:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：7150.4647 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:20:45,078 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:20:45 078:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：6132.1369 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:20:52,006 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 11:20:52,011 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 11:20:52,014 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:20:52 013:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：6923.1463 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:21:09,708 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：id啦啦啦Himall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2018-12-18 11:21:12,594 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：payment啦啦啦 
+
+
+
+
+ 记录时间：2018-12-18 11:21:19,934 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：payment啦啦啦Himall.Core.Plugins.Plugin`1[Himall.Core.Plugins.Payment.IPaymentPlugin] 
+
+
+
+
+ 记录时间：2018-12-18 11:21:48,250 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:21:48 250:[当前请求URL：http://localhost:62443/m-Wap/Payment/Notify；请求的参数为：；页面加载的时间：49170.1545 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:21:57,753 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：id啦啦啦Himall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2018-12-18 11:22:00,505 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：payment啦啦啦 
+
+
+
+
+ 记录时间：2018-12-18 11:22:03,066 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：payment啦啦啦Himall.Core.Plugins.Plugin`1[Himall.Core.Plugins.Payment.IPaymentPlugin] 
+
+
+
+
+ 记录时间：2018-12-18 11:22:25,072 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:22:25 071:[当前请求URL：http://localhost:62443/m-Wap/Payment/Notify；请求的参数为：；页面加载的时间：31730.9123 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:22:34,782 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：id啦啦啦Himall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2018-12-18 11:22:34,784 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：payment啦啦啦 
+
+
+
+
+ 记录时间：2018-12-18 11:22:34,785 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：payment啦啦啦Himall.Core.Plugins.Plugin`1[Himall.Core.Plugins.Payment.IPaymentPlugin] 
+
+
+
+
+ 记录时间：2018-12-18 11:26:15,585 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:26:15 584:[当前请求URL：http://localhost:62443/m-Wap/Payment/Notify；请求的参数为：；页面加载的时间：225309.2659 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:26:48,164 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 11:27:06,882 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:27:06 881:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8734.2119 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:27:06,882 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:27:06 882:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8653.6538 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:27:35,938 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 11:27:57,505 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:27:57 504:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9075.9489 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:27:59,202 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:27:59 202:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：6633.2135 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:27:59,226 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:27:59 226:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：12183.6587 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:27:59,476 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:27:59 476:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1545103634480；请求的参数为：_=1545103634480；页面加载的时间：12139.1257 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 11:28:22,680 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 11:28:22 680:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：23820.9263 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 12:59:15,391 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 12:59:29,200 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 12:59:29 200:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5063.0975 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 12:59:29,210 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 12:59:29 209:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5185.1843 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 12:59:48,389 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 13:00:03,719 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:00:03 718:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：6946.0109 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:00:06,390 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:00:06 390:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：9616.4085 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:00:07,672 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:00:07 672:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1545109173322；请求的参数为：_=1545109173322；页面加载的时间：11869.1514 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:00:53,666 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:00:53 666:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：14503.1862 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:02:13,567 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:02:13 567:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：12819.9939 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:05:24,921 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:05:24 921:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：191336.528 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:07:38,126 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 13:07:52,515 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:07:52 515:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7146.2783 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:07:52,517 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:07:52 517:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7115.2561 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:08:12,041 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 13:08:38,062 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:08:38 061:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：11154.1555 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:08:38,104 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:08:38 103:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9877.247 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:08:39,069 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:08:39 069:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：12246.4311 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:08:39,483 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:08:39 483:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1545109676222；请求的参数为：_=1545109676222；页面加载的时间：12729.7747 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:08:41,150 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:08:41 150:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：14399.9614 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:08:41,965 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:08:41 965:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：15218.5434 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:08:49,584 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:08:49 584:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：12888.3379 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:08:54,527 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:08:54 527:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：8188.9277 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:09:01,242 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:09:01 242:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：5546.9416 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:09:18,820 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:09:18 820:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：50617.7108 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:11:33,422 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:11:33,424 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:11:33,427 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:11:33 427:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：64984.0067 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:16:51,333 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 13:17:06,138 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:17:06 137:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10353.858 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:17:38,582 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 13:18:07,516 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:18:07 516:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：15285.37 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:18:07,525 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:18:07 524:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：15289.8724 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:18:56,720 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:18:56 719:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：55129.3539 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:19:30,391 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:19:30 391:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：7955.6859 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:20:25,684 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:25:52,342 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:25:52,347 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:25:52 346:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：381916.0261 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:26:57,821 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:27:22,234 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:30:02,598 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:29:44 444:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：193280.1162 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:36:59,447 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:36:59 447:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitalIsOk；请求的参数为：；页面加载的时间：410138.3117 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:37:35,667 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 13:37:50,412 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:37:50 412:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5239.2235 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:39:12,357 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:39:12 357:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：17921.2397 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:39:29,999 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:39:30,000 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:39:30,005 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:39:30 004:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：8042.5768 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:39:38,288 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:39:38 288:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitalIsOk；请求的参数为：；页面加载的时间：8267.8453 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:41:26,259 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:41:26,261 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:41:26,263 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:41:26 263:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：10589.6067 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:45:22,700 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 13:45:39,760 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:45:39 752:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8349.434 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:45:53,183 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:45:53 183:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：14248.3808 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:46:27,641 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:46:27 641:[当前请求URL：http://localhost:62443/Storage/Plat/Brand/logo_351.jpg?r=223；请求的参数为：r=223；页面加载的时间：20909.9397 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:46:36,335 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:46:36 335:[当前请求URL：http://localhost:62443/Storage/Plat/Brand/logo_355.jpg?r=224；请求的参数为：r=224；页面加载的时间：5314.7758 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:46:54,006 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:46:54,028 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:46:54,032 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:46:54 032:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：47974.4249 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:47:16,420 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:47:16 420:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitalIsOk；请求的参数为：；页面加载的时间：22366.9109 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:47:17,458 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:47:17 458:[当前请求URL：http://localhost:62443/Login/GetCheckCode；请求的参数为：；页面加载的时间：74375.7033 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:47:28,884 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:47:28 884:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：85810.328 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:51:49,413 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:51:49 413:[当前请求URL：http://localhost:62443/Shop/PostShopCoupons/316；请求的参数为：；页面加载的时间：253119.2055 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:51:50,169 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:51:50 168:[当前请求URL：http://localhost:62443/product/GetLoginUserInfo；请求的参数为：；页面加载的时间：347123.8878 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:51:53,403 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:51:53 403:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：8249.8177 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:51:54,111 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 01:51:54 111:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：351092.8414 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 13:52:02,546 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:52:02,547 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:57:52,472 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 13:57:52,473 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:02:10,719 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:02:10 719:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：6685.968 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:02:31,152 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:02:31,153 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:02:31,155 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:02:31 155:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：9209.3758 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:14:47,331 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 14:15:09,069 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:15:09 068:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：16329.1028 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:15:26,446 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 14:15:53,503 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:15:53 503:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10108.6824 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:15:53,506 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:15:53 506:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10208.753 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:18:46,273 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:18:46 273:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：13420.4834 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:19:49,645 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:19:49,647 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:19:49,650 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:19:49 650:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：14503.6662 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:20:05,988 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:20:05 988:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitalIsOk；请求的参数为：；页面加载的时间：16321.7161 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:23:12,226 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:23:12,254 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:23:12,256 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:23:12 256:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：10276.0785 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:23:17,489 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:23:17 489:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitalIsOk；请求的参数为：；页面加载的时间：5161.5145 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:26:05,272 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:26:05,274 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:26:05,276 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:26:05 276:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：9668.6359 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:43:42,092 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 14:43:56,736 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:43:56 733:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5940.7205 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:44:39,977 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 14:45:03,447 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:45:03 446:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8548.074 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:45:44,470 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 14:47:24,362 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 14:47:51,033 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:47:51 001:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9396.6766 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:48:23,222 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:48:23 221:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：36617.8889 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:48:40,572 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:48:40 571:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：5102.6255 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:48:41,811 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:48:41 811:[当前请求URL：http://localhost:62443/product/GetLoginUserInfo；请求的参数为：；页面加载的时间：6343.0072 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:48:51,365 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:48:51,368 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:48:51,371 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:48:51 371:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：5640.5077 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:48:52,683 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:48:52 683:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：17222.7371 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:56:25,837 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 14:57:03,251 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:57:03 251:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：26125.7213 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:57:56,782 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 14:58:21,169 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:58:21 168:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：13480.1721 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:58:21,191 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:58:21 191:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：13572.738 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:58:53,371 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:58:53 371:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：45687.6443 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:59:39,938 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:59:39,940 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 14:59:39,944 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:59:39 944:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：9664.8675 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 14:59:46,648 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 02:59:46 648:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitalIsOk；请求的参数为：；页面加载的时间：6670.7404 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 15:04:27,952 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 03:04:27 952:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：6499.6182 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 15:04:36,373 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 15:04:36,375 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 15:10:17,726 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 15:11:04,414 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 03:11:04 406:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：38372.1373 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 15:11:31,761 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 03:11:31 761:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：5025.1412 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 15:11:44,869 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 15:11:44,871 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 15:11:51,684 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 03:11:51 684:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitalIsOk；请求的参数为：；页面加载的时间：6772.6434 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 15:21:18,908 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 15:21:44,997 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 03:21:44 996:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：19937.6751 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 15:22:21,311 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 15:22:41,689 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 03:22:41 689:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10482.9466 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 15:22:41,693 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 03:22:41 692:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10529.4823 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 15:23:02,973 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 03:23:02 973:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：6621.2044 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 15:23:28,689 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 03:23:28 689:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：23012.3584 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 15:23:29,599 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 03:23:29 599:[当前请求URL：http://localhost:62443/Shop/PostShopCoupons/316；请求的参数为：；页面加载的时间：22970.3301 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 15:24:13,149 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 15:24:13,150 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 15:24:13,153 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 03:24:13 153:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：5108.5858 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 16:21:46,647 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 16:22:32,214 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-18 16:22:51,026 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 04:22:51 026:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9064.9409 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 16:22:51,028 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 04:22:51 027:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9154.504 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 16:23:04,382 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 04:23:04 382:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：5125.6762 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 16:23:42,881 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 04:23:42 881:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：18431.1474 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 16:24:26,078 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 16:24:26,080 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 16:24:26,083 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 04:24:26 083:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：9127.4062 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 16:58:22,106 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 04:58:22 106:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：8525.5652 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 16:58:22,802 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 04:58:22 802:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：7018.2637 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 16:59:05,417 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 04:59:05 417:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F789%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=789_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f789%3freturnUrl%3dnull；页面加载的时间：23622.3183 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 17:00:26,617 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 05:00:26 617:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：12805.9368 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 17:00:39,118 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay   微信支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 17:00:39,122 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.Alipay_WAP   支付宝手机支付   --url 
+
+
+
+
+ 记录时间：2018-12-18 17:00:39,124 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 05:00:39 124:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：12475.8873 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 17:00:56,317 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：id啦啦啦Himall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2018-12-18 17:00:59,388 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：payment啦啦啦 
+
+
+
+
+ 记录时间：2018-12-18 17:01:41,460 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：payment啦啦啦Himall.Core.Plugins.Plugin`1[Himall.Core.Plugins.Payment.IPaymentPlugin] 
+
+
+
+
+ 记录时间：2018-12-18 17:02:00,206 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 05:02:00 206:[当前请求URL：http://localhost:62443/m-Wap/Payment/Notify；请求的参数为：；页面加载的时间：74597.4272 毫秒] 
+
+
+
+
+ 记录时间：2018-12-18 17:02:17,792 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：id啦啦啦Himall.Plugin.Payment.WeiXinPay 
+
+
+
+
+ 记录时间：2018-12-18 17:02:17,795 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：payment啦啦啦 
+
+
+
+
+ 记录时间：2018-12-18 17:02:17,802 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：payment啦啦啦Himall.Core.Plugins.Plugin`1[Himall.Core.Plugins.Payment.IPaymentPlugin] 
+
+
+
+
+ 记录时间：2018-12-18 17:04:52,266 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-18 05:04:52 265:[当前请求URL：http://localhost:62443/m-Wap/Payment/Notify；请求的参数为：；页面加载的时间：162293.1761 毫秒] 
+

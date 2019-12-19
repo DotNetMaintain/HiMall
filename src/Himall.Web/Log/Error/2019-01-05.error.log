@@ -1,0 +1,16 @@
+
+
+
+ 记录时间：2019-01-05 14:55:08,581 
+日志级别：  ERROR 
+出错类：Himall.Service.Weixin.WXHelper.GetAccessToken  
+错误描述：[WXACT]appId=wx8b2369d7a650c5eb;appSecret=727336d57bd539781ac341124192afa7;微信请求发生错误！错误代码：40164，说明：invalid ip 222.64.49.108, not in whitelist hint: [zKhEla0306hb97] 
+
+
+
+
+ 记录时间：2019-01-05 15:01:35,711 
+日志级别：  ERROR 
+出错类：Himall.Service.Weixin.WXHelper.GetAccessToken  
+错误描述：[WXACT]appId=wx8b2369d7a650c5eb;appSecret=727336d57bd539781ac341124192afa7;微信请求发生错误！错误代码：40164，说明：invalid ip 222.64.49.108, not in whitelist hint: [afmc.a05863064] 
+

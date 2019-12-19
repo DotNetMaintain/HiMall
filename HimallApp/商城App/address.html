@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<title>收货地址管理</title>
+		<link href="css/mui.min.css" rel="stylesheet" /> 
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">收货地址</h1>
+			<a class="mui-pull-right mui-btn-link addAddress">新增地址</a>
+		</header>
+		<div class="mui-content transparent" id="addressList">
+			
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/md5.js"></script>
+		<script src="js/template.js"></script>
+		<script>
+			mui.init({
+				swipeBack: true
+			});
+			var ws,
+				orderTag,
+				loadPage,
+				userkey = himall.getState().userkey;
+
+			mui.plusReady(function() {
+				ws = plus.webview.currentWebview();
+				ws.setStyle({
+					scrollIndicator: 'none'
+				});
+				var w = plus.nativeUI.showWaiting('', {
+					padlock: true
+				});
+				orderTag = ws.orderTag;
+				loadPage = function() {
+					mui.ajax(URL + 'api/ShippingAddress/GetShippingAddressList', {
+						data: himall.md5Data({
+							userkey: userkey,
+							shopBranchId: ws.shopBranchId?ws.shopBranchId:0
+						}),
+						dataType: 'json',
+						type: 'get',
+						timeout: 10000,
+						success: function(data) { 
+							if(data.ShippingAddress.CanDeliveAddressList.length>0 || data.ShippingAddress.CanNotDeliveAddressList.length>0) {
+								document.getElementById('addressList').innerHTML = template('initData',data);
+							}else {
+								document.getElementById('addressList').innerHTML = '<div class="empty-show"><h4>暂无您的专属收货地址或地址未升级</h4><button class="mui-btn mui-btn-negative addAddress">新增收货地址</button></div>';;
+							}
+							w.close();
+							himall.removeClass(document.querySelector('.mui-content'), 'transparent');
+						},
+						error: function(xhr) {
+							w.close();
+							reloadWvLoad();
+						}
+					});
+				}
+				loadPage();
+			});
+
+			document.addEventListener('updateData', function() {
+				loadPage();
+			});
+
+			mui('#addressList').on('tap', '.ads-btn .set-default', function() { 
+				var addId = this.parentNode.getAttribute('data-id'),
+					isNeedUpdate = this.parentNode.getAttribute("data-needupdate"),
+					obj = this.parentNode.parentNode;
+				setDefaultAddr(addId,isNeedUpdate,obj);
+			});
+			mui('#addressList').on('tap', 'a', function() { 
+				var addId = this.getAttribute('data-id'),
+					isNeedUpdate = this.getAttribute("data-needupdate"),
+					obj = this.parentNode;
+				setDefaultAddr(addId,isNeedUpdate,obj);
+			});
+			
+			function setDefaultAddr(addId,isneedupdate,obj){
+				if(isneedupdate == 1){
+					plus.nativeUI.toast('地址库已更新，收货地址需要升级');
+					return;
+				}
+				var w = plus.nativeUI.showWaiting('', {padlock: true});
+				mui.ajax(URL + 'api/ShippingAddress/PostSetDefaultAddress', {
+					data: himall.md5Data({
+						addId: addId,
+						userkey: userkey
+					}),
+					dataType: 'json',
+					type: 'POST',
+					timeout: 10000,
+					success: function(data) { 
+						w.close();
+						if(data.success) {
+							var cur = document.querySelector('li.active');
+							if(cur) {
+								cur.className = cur.className.replace(/ active/g, '');
+							}
+							obj.className += ' active'; 
+							if(orderTag == 'orderTag') {
+								mui.fire(plus.webview.getWebviewById('order-submit.html'), 'updateData');
+								setTimeout(function() {
+									ws.close();
+								}, 500);
+							}
+							if(orderTag == 'storeOrderTag') {
+								mui.fire(plus.webview.getWebviewById('store-order-submit.html'), 'updateData');
+								setTimeout(function() {
+									ws.close();
+								}, 500);
+							}
+							if(orderTag == 'integral') {
+								mui.fire(plus.webview.getWebviewById('integral-submit.html'), 'updateData');
+								setTimeout(function() {
+									ws.close();
+								}, 500);
+							}
+						}
+					},
+					error: function(xhr) {
+						w.close();
+						plus.nativeUI.toast('设为默认收货地址失败，请检查网络')
+					}
+				});
+			}
+
+			mui('#addressList').on('tap', '.edit', function(e) {
+				himall.openVW('address-edit.html', {adsId: this.parentNode.getAttribute('data-id')});
+			});
+			
+			mui('#addressList').on('tap', '.toUpdate', function(e) {
+				himall.openVW('address-edit.html', {adsId: this.parentNode.getAttribute('data-id'),isUpdate:1});
+				e.stopPropagation();
+			});
+
+			mui('#addressList').on('tap', '.del', function() {
+				var btnArray = ['取消', '确认'];
+				var _this=this;
+				mui.confirm("是否删除该地址?", '', btnArray, function(e) {
+					if(e.index == 1){
+						var w = plus.nativeUI.showWaiting('', {padlock: true});
+						mui.ajax(URL + 'api/ShippingAddress/PostDeleteShippingAddress', {
+							data: himall.md5Data({
+								id: _this.parentNode.getAttribute('data-id'),
+								userkey: userkey
+							}),
+							dataType: 'json',
+							type: 'POST',
+							timeout: 10000,
+							success: function(data) {
+								w.close();
+								if(data.success) {
+									loadPage();
+								}
+							},
+							error: function(xhr) {
+								w.close();
+								plus.nativeUI.toast('删除收货地址失败，请检查网络')
+							}
+						});
+					}
+				});				
+			});
+
+			mui('body').on('tap', '.addAddress', function() {
+				himall.openVW('address-add.html');
+			});
+		</script>
+		
+		<script type="text/html" id="initData">
+			<ul class="mui-table-view candelive address-list">
+				{{each ShippingAddress.CanDeliveAddressList}}
+					<li class="mui-table-view-cell {{$value.IsDefault?'active':''}}">
+						<a class="mui-navigate-right" data-id="{{$value.Id}}" data-needupdate="{{$value.IsNeedUpdate}}">
+							<p><span>{{$value.ShipTo}}</span>{{$value.Phone}}</p>
+							<p class="addr">{{$value.RegionFullName}} {{$value.Address}}{{$value.AddressDetail}}</p>
+							{{if $value.NeedUpdate}}
+								<div class="toUpdate">
+			                    	<i></i>
+			                    	<h6>需要升级</h6>
+			                    </div>
+		                    {{/if}}
+						</a>
+						<div class="ads-btn" data-id="{{$value.Id}}" data-needupdate="{{$value.IsNeedUpdate}}">
+							<button class="btn set-default">设为默认</button>
+							<button class="btn edit">编辑</button>
+							<button class="btn del">删除</button>
+						</div>
+					</li>
+				{{/each}}
+			</ul>
+			{{if ShippingAddress.CanNotDeliveAddressList.length>0}}
+			<div class="disabled">
+				<div class="t-title">以下地址超出配送区域或需要升级</div>
+				<ul class="mui-table-view address-list">
+					{{each ShippingAddress.CanNotDeliveAddressList}}
+						<li class="mui-table-view-cell {{$value.IsDefault?'active':''}}">
+							<a data-id="{{$value.Id}}" data-needupdate="{{$value.IsNeedUpdate}}">
+								<p><span>{{$value.ShipTo}}</span>{{$value.Phone}}</p>
+								<p class="addr">{{$value.RegionFullName}} {{$value.Address}}{{$value.AddressDetail}}</p>
+								{{if $value.NeedUpdate}}
+									<div class="toUpdate">
+				                    	<i></i>
+				                    	<h6>需要升级</h6>
+				                    </div>
+			                    {{/if}}
+							</a>
+							<div class="ads-btn" data-id="{{$value.Id}}" data-needupdate="{{$value.IsNeedUpdate}}">
+								<button class="btn set-default">设为默认</button>
+								<button class="btn edit">编辑</button>
+								<button class="btn del">删除</button>
+							</div>
+						</li>
+					{{/each}}
+				</ul>
+			</div>
+			{{/if}}
+		</script>
+	</body>
+</html>

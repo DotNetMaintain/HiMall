@@ -1,0 +1,160 @@
+
+
+
+ 记录时间：2018-02-05 09:53:03,142 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-02-05 09:55:36,446 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-02-05 09:55:36 444:[当前请求URL：http://localhost:62443/Admin/home/Console；请求的参数为：；页面加载的时间：5957.6548 毫秒] 
+
+
+
+
+ 记录时间：2018-02-05 10:35:20,345 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-02-05 10:35:28,819 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-02-05 10:35:38,438 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-02-05 10:35:49,337 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-02-05 10:35:49 337:[当前请求URL：http://localhost:62443/Admin/member/ManagementAuditing；请求的参数为：；页面加载的时间：9116.4825 毫秒] 
+
+
+
+
+ 记录时间：2018-02-05 11:37:51,652 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-02-05 11:37:51 649:[当前请求URL：http://localhost:62443/Admin/Member/ExportToExcelAuditing；请求的参数为：；页面加载的时间：7391.2184 毫秒] 
+
+
+
+
+ 记录时间：2018-02-05 11:38:34,825 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-02-05 11:38:43,022 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-02-05 11:38:52,693 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-02-05 11:38:52 693:[当前请求URL：http://localhost:62443/Admin/member/ManagementAuditing；请求的参数为：；页面加载的时间：7621.3883 毫秒] 
+
+
+
+
+ 记录时间：2018-02-05 11:38:56,592 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-02-05 11:45:17,879 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-02-05 11:45:17 878:[当前请求URL：http://localhost:62443/Admin/Member/ExportToExcelAuditing；请求的参数为：；页面加载的时间：9544.0678 毫秒] 
+
+
+
+
+ 记录时间：2018-02-05 14:59:58,217 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-02-05 15:00:33,313 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-02-05 15:06:56,648 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-02-05 15:07:06,143 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-02-05 15:07:14,783 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-02-05 03:07:14 783:[当前请求URL：http://localhost:62443/Admin/member/ManagementAuditing；请求的参数为：；页面加载的时间：7107.2252 毫秒] 
+
+
+
+
+ 记录时间：2018-02-05 15:08:12,473 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-02-05 03:08:12 473:[当前请求URL：http://localhost:62443/Admin/member/AuditingList；请求的参数为：；页面加载的时间：7390.8098 毫秒] 
+
+
+
+
+ 记录时间：2018-02-05 15:08:28,820 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-02-05 03:08:28 820:[当前请求URL：http://localhost:62443/Admin/Member/ExportToExcelAuditing；请求的参数为：；页面加载的时间：7428.8614 毫秒] 
+
+
+
+
+ 记录时间：2018-02-05 15:19:38,620 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-02-05 03:19:38 620:[当前请求URL：http://localhost:62443/Admin/member/AuditingList；请求的参数为：；页面加载的时间：5426.4796 毫秒] 
+

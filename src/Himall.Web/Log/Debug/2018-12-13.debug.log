@@ -1,0 +1,112 @@
+
+
+
+ 记录时间：2018-12-13 13:52:37,831 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-13 13:54:37,089 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-13 01:54:37 088:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=member&action=orders&orderStatus=1；请求的参数为：area=mobile&platform=Wap&controller=member&action=orders&orderStatus=1；页面加载的时间：66119.4096 毫秒] 
+
+
+
+
+ 记录时间：2018-12-13 13:55:03,083 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-13 01:55:03 083:[当前请求URL：http://localhost:62443/m-Wap/Member/GetUserOrders?orderStatus=1；请求的参数为：orderStatus=1；页面加载的时间：25582.6844 毫秒] 
+
+
+
+
+ 记录时间：2018-12-13 13:55:30,950 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-13 01:55:30 950:[当前请求URL：http://localhost:62443/m-wap/member/center；请求的参数为：；页面加载的时间：20060.4228 毫秒] 
+
+
+
+
+ 记录时间：2018-12-13 13:55:59,539 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-13 01:55:59 535:[当前请求URL：http://localhost:62443/m-wap/Order/ChooseShippingAddress?returnUrl=%2fm-wap%2fmember%2fcenter；请求的参数为：returnUrl=%2fm-wap%2fmember%2fcenter；页面加载的时间：10855.6919 毫秒] 
+
+
+
+
+ 记录时间：2018-12-13 14:37:38,458 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-13 02:37:38 458:[当前请求URL：http://localhost:62443/m-wap/Order/EditShippingAddress?addressId=0&returnUrl=%2fm-wap%2fOrder%2fChooseShippingAddress%3freturnUrl%3d%252fm-wap%252fmember%252fcenter；请求的参数为：addressId=0&returnUrl=%2fm-wap%2fOrder%2fChooseShippingAddress%3freturnUrl%3d%252fm-wap%252fmember%252fcenter；页面加载的时间：13776.4577 毫秒] 
+
+
+
+
+ 记录时间：2018-12-13 14:41:47,417 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-12-13 14:42:05,314 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-13 02:42:05 314:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8825.2703 毫秒] 
+
+
+
+
+ 记录时间：2018-12-13 14:44:24,964 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-13 02:44:24 963:[当前请求URL：http://localhost:62443/m-wap/Order/ChooseShippingAddress?returnUrl=%2fm-wap%2fmember%2fcenter；请求的参数为：returnUrl=%2fm-wap%2fmember%2fcenter；页面加载的时间：17879.7989 毫秒] 
+
+
+
+
+ 记录时间：2018-12-13 14:45:08,507 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-13 02:45:08 506:[当前请求URL：http://localhost:62443/common/RegionAPI/GetAllRegion；请求的参数为：；页面加载的时间：38115.8246 毫秒] 
+
+
+
+
+ 记录时间：2018-12-13 14:47:58,717 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-13 02:47:58 717:[当前请求URL：http://localhost:62443/common/RegionAPI/GetSubRegion?parent=1&bAddAll=true；请求的参数为：parent=1&bAddAll=true；页面加载的时间：6484.2502 毫秒] 
+
+
+
+
+ 记录时间：2018-12-13 14:50:22,039 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-13 02:50:22 039:[当前请求URL：http://localhost:62443/m-wap/Order/ChooseShippingAddress?returnUrl=%2fm-wap%2fmember%2fcenter；请求的参数为：returnUrl=%2fm-wap%2fmember%2fcenter；页面加载的时间：8442.4978 毫秒] 
+
+
+
+
+ 记录时间：2018-12-13 15:07:32,827 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-13 03:07:32 827:[当前请求URL：http://localhost:62443/common/RegionAPI/GetAllRegion；请求的参数为：；页面加载的时间：8540.4948 毫秒] 
+
+
+
+
+ 记录时间：2018-12-13 16:15:27,972 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-12-13 04:15:27 972:[当前请求URL：http://localhost:62443/m-wap/Order/ChooseShippingAddress?returnUrl=%2fm-wap%2fmember%2fcenter；请求的参数为：returnUrl=%2fm-wap%2fmember%2fcenter；页面加载的时间：11663.4437 毫秒] 
+

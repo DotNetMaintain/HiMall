@@ -1,0 +1,1657 @@
+
+
+
+ 记录时间：2019-01-21 11:10:54,000 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:10:54,081 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:10:54,129 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_QRCode.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:10:54,163 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:10:54,190 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.UnionPay.UnionPay 
+
+
+
+
+ 记录时间：2019-01-21 11:10:54,235 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:10:54,265 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:10:54,395 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_H5.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:10:54,448 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_Native.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-21 11:10:54,671 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:10:54,708 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_SmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:11:43,465 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 11:11:44,398 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 11:11:44,908 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 11:11:45,155 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 11:11:45,359 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 11:11:46,705 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-01-21 11:11:46,868 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-01-21 11:11:46,893 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-01-21 11:11:46,938 
+日志级别：  INFO  
+出错类：Himall.Service.MessageService.SendMessageOnRefundDeliver  
+错误描述：[发送消息]数据：{"OrderId":"2019011781695764","UserName":"admin","ShopName":"sfsdfsd","ShopId":316,"ItemNumber":0,"Quantity":0,"TotalMoney":121.00,"PaymentType":null,"PayTime":"0001-01-01T00:00:00","PaymentStatus":null,"ShippingCompany":null,"ShippingNumber":null,"ShipTo":null,"SiteName":"HiMall","RefundOrderItemId":0,"RefundId":0,"RefundMoney":111.00,"RefundQuantity":0,"RefundTime":"0001-01-01T00:00:00","RefundAuditTime":"2019-01-21T11:11:46.6872536+08:00","OrderTime":"0001-01-01T00:00:00","ProductName":"1111111111","OrderStatus":null,"Remark":"卖家超时未处理，系统自动同意售后","MsgOrderType":0}[售后发货] 
+
+
+
+
+ 记录时间：2019-01-21 11:11:46,943 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-01-21 11:11:46,945 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-01-21 11:11:46,946 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,022 
+日志级别：  INFO  
+出错类：Himall.Service.MessageService.SendMessageOnRefundDeliver  
+错误描述：[发送消息]发送结束： : Himall.Plugin.Message.Email[售后发货] 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,122 
+日志级别：  INFO  
+出错类：Himall.Service.MessageService.SendMessageOnRefundDeliver  
+错误描述：[发送消息]发送结束： : Himall.Plugin.Message.SMS[售后发货] 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,329 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始准备数据：641[售后发货] 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,576 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：消息类型=售后发货 userId=641 openId=oXdftwQe8wJz4-aMGDUfoVfGuKOY dataerr= 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,577 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始发送前 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,581 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始发送到openid:oXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,914 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,916 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,917 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,920 
+日志级别：  INFO  
+出错类：Himall.Service.MessageService.SendMessageOnRefundDeliver  
+错误描述：[发送消息]数据：{"OrderId":"2019011840302274","UserName":"admin","ShopName":"sfsdfsd","ShopId":316,"ItemNumber":0,"Quantity":0,"TotalMoney":121.00,"PaymentType":null,"PayTime":"0001-01-01T00:00:00","PaymentStatus":null,"ShippingCompany":null,"ShippingNumber":null,"ShipTo":null,"SiteName":"HiMall","RefundOrderItemId":0,"RefundId":0,"RefundMoney":111.00,"RefundQuantity":0,"RefundTime":"0001-01-01T00:00:00","RefundAuditTime":"2019-01-21T11:11:47.9133763+08:00","OrderTime":"0001-01-01T00:00:00","ProductName":"1111111111","OrderStatus":null,"Remark":"卖家超时未处理，系统自动同意售后","MsgOrderType":0}[售后发货] 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,921 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,926 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-01-21 11:11:47,928 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-01-21 11:11:48,005 
+日志级别：  INFO  
+出错类：Himall.Service.MessageService.SendMessageOnRefundDeliver  
+错误描述：[发送消息]发送结束： : Himall.Plugin.Message.Email[售后发货] 
+
+
+
+
+ 记录时间：2019-01-21 11:11:48,038 
+日志级别：  INFO  
+出错类：Himall.Service.MessageService.SendMessageOnRefundDeliver  
+错误描述：[发送消息]发送结束： : Himall.Plugin.Message.SMS[售后发货] 
+
+
+
+
+ 记录时间：2019-01-21 11:11:48,300 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始准备数据：641[售后发货] 
+
+
+
+
+ 记录时间：2019-01-21 11:11:52,283 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：消息类型=售后发货 userId=641 openId=oXdftwQe8wJz4-aMGDUfoVfGuKOY dataerr= 
+
+
+
+
+ 记录时间：2019-01-21 11:11:52,284 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始发送前 
+
+
+
+
+ 记录时间：2019-01-21 11:11:52,286 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始发送到openid:oXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-21 11:11:56,332 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-01-21 11:11:56,335 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-01-21 11:11:56,337 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-01-21 11:11:56,339 
+日志级别：  INFO  
+出错类：Himall.Service.MessageService.SendMessageOnRefundDeliver  
+错误描述：[发送消息]数据：{"OrderId":"2019011817149697","UserName":"admin","ShopName":"sfsdfsd","ShopId":316,"ItemNumber":0,"Quantity":0,"TotalMoney":121.00,"PaymentType":null,"PayTime":"0001-01-01T00:00:00","PaymentStatus":null,"ShippingCompany":null,"ShippingNumber":null,"ShipTo":null,"SiteName":"HiMall","RefundOrderItemId":0,"RefundId":0,"RefundMoney":111.00,"RefundQuantity":0,"RefundTime":"0001-01-01T00:00:00","RefundAuditTime":"2019-01-21T11:11:56.3316603+08:00","OrderTime":"0001-01-01T00:00:00","ProductName":"1111111111","OrderStatus":null,"Remark":"卖家超时未处理，系统自动同意售后","MsgOrderType":0}[售后发货] 
+
+
+
+
+ 记录时间：2019-01-21 11:11:56,342 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---sss 
+
+
+
+
+ 记录时间：2019-01-21 11:11:56,345 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email2---:?<?xml version="1.0" encoding="utf-8" ?>
+<MessageStatus>
+  <OrderCreated>1</OrderCreated>
+  <OrderPay>1</OrderPay>
+  <OrderShipping>1</OrderShipping>
+  <OrderRefund>1</OrderRefund>
+  <RefundDeliver>1</RefundDeliver>
+  <FindPassWord>1</FindPassWord>
+  <ShopAudited>1</ShopAudited>
+  <ShopHaveNewOrder>3</ShopHaveNewOrder>
+  <ReceiveBonus>3</ReceiveBonus>
+  <LimitTimeBuy>3</LimitTimeBuy>
+  <SubscribeLimitTimeBuy>3</SubscribeLimitTimeBuy>
+  <FightGroupOpenSuccess>3</FightGroupOpenSuccess>
+  <FightGroupJoinSuccess>3</FightGroupJoinSuccess>
+  <FightGroupNewJoin>3</FightGroupNewJoin>
+  <FightGroupFailed>3</FightGroupFailed>
+  <FightGroupSuccess>3</FightGroupSuccess>
+  <SendCouponSuccess>1</SendCouponSuccess>
+</MessageStatus> 
+
+
+
+
+ 记录时间：2019-01-21 11:11:56,346 
+日志级别：  INFO  
+出错类：Himall.Plugin.Message.Email.EmailCore.GetMessageStatus  
+错误描述：email3---eee 
+
+
+
+
+ 记录时间：2019-01-21 11:11:56,378 
+日志级别：  INFO  
+出错类：Himall.Service.MessageService.SendMessageOnRefundDeliver  
+错误描述：[发送消息]发送结束： : Himall.Plugin.Message.Email[售后发货] 
+
+
+
+
+ 记录时间：2019-01-21 11:11:56,479 
+日志级别：  INFO  
+出错类：Himall.Service.MessageService.SendMessageOnRefundDeliver  
+错误描述：[发送消息]发送结束： : Himall.Plugin.Message.SMS[售后发货] 
+
+
+
+
+ 记录时间：2019-01-21 11:11:56,708 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始准备数据：641[售后发货] 
+
+
+
+
+ 记录时间：2019-01-21 11:11:57,356 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：消息类型=售后发货 userId=641 openId=oXdftwQe8wJz4-aMGDUfoVfGuKOY dataerr= 
+
+
+
+
+ 记录时间：2019-01-21 11:11:57,357 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始发送前 
+
+
+
+
+ 记录时间：2019-01-21 11:11:57,357 
+日志级别：  INFO  
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]开始发送到openid:oXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-01-21 11:15:23,593 
+日志级别：  INFO  
+出错类：Himall.Web.MvcApplication.Application_End  
+错误描述：2019-01-21 11:15:23 -  http://localhost:62443 
+
+
+
+
+ 记录时间：2019-01-21 11:15:44,544 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:15:44,567 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:15:44,587 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_QRCode.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:15:44,609 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:15:44,632 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.UnionPay.UnionPay 
+
+
+
+
+ 记录时间：2019-01-21 11:15:44,653 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:15:44,678 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:15:44,701 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_H5.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:15:44,725 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_Native.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-21 11:15:44,749 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:15:44,772 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_SmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:16:04,042 
+日志级别：  INFO  
+出错类：Himall.Web.MvcApplication.Application_End  
+错误描述：2019-01-21 11:16:04 -  http://localhost:62443 
+
+
+
+
+ 记录时间：2019-01-21 11:16:12,446 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:16:12,459 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:16:12,470 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_QRCode.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:16:12,480 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:16:12,489 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.UnionPay.UnionPay 
+
+
+
+
+ 记录时间：2019-01-21 11:16:12,499 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:16:12,509 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:16:12,518 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_H5.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:16:12,528 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_Native.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-21 11:16:12,538 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:16:12,548 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_SmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 11:25:46,967 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 11:25:47,127 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 11:25:47,248 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 11:25:47,353 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 11:25:47,495 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 13:47:12,721 
+日志级别：  INFO  
+出错类：Himall.Web.Areas.Admin.Controllers.LoginController.Login  
+错误描述：用户名和密码不匹配 
+
+Himall.Core.HimallException: 用户名和密码不匹配
+
+
+
+ 记录时间：2019-01-21 14:59:04,745 
+日志级别：  INFO  
+出错类：Himall.Web.MvcApplication.Application_End  
+错误描述：2019-01-21 14:59:04 -  http://localhost:62443 
+
+
+
+
+ 记录时间：2019-01-21 14:59:58,203 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay.Service 
+
+
+
+
+ 记录时间：2019-01-21 14:59:58,226 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 14:59:58,244 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_QRCode.Service 
+
+
+
+
+ 记录时间：2019-01-21 14:59:58,274 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-01-21 14:59:58,293 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.UnionPay.UnionPay 
+
+
+
+
+ 记录时间：2019-01-21 14:59:58,319 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-01-21 14:59:58,340 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 14:59:58,361 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_H5.Service 
+
+
+
+
+ 记录时间：2019-01-21 14:59:58,387 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_Native.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-21 14:59:58,412 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 14:59:58,429 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_SmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 15:13:53,447 
+日志级别：  INFO  
+出错类：Himall.Web.MvcApplication.Application_End  
+错误描述：2019-01-21 15:13:53 -  http://localhost:62443 
+
+
+
+
+ 记录时间：2019-01-21 15:15:10,715 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay.Service 
+
+
+
+
+ 记录时间：2019-01-21 15:15:10,784 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 15:15:11,120 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_QRCode.Service 
+
+
+
+
+ 记录时间：2019-01-21 15:15:11,266 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-01-21 15:15:11,464 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.UnionPay.UnionPay 
+
+
+
+
+ 记录时间：2019-01-21 15:15:11,732 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-01-21 15:15:12,166 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 15:15:12,379 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_H5.Service 
+
+
+
+
+ 记录时间：2019-01-21 15:15:12,446 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_Native.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-21 15:15:12,512 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 15:15:12,569 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_SmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 15:16:46,072 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 15:16:46,371 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 15:16:46,803 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 15:16:47,427 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 15:16:47,675 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 15:59:41,554 
+日志级别：  INFO  
+出错类：Himall.Web.MvcApplication.Application_End  
+错误描述：2019-01-21 15:59:41 -  http://localhost:62443 
+
+
+
+
+ 记录时间：2019-01-21 16:00:22,029 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:00:22,254 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:00:22,338 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_QRCode.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:00:22,498 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:00:22,562 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.UnionPay.UnionPay 
+
+
+
+
+ 记录时间：2019-01-21 16:00:22,708 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:00:22,763 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:00:22,802 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_H5.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:00:22,836 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_Native.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-21 16:00:22,870 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:00:22,905 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_SmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:03:18,859 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:03:19,155 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:03:19,398 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:03:19,606 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:03:19,914 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:26:35,607 
+日志级别：  INFO  
+出错类：Himall.Web.MvcApplication.Application_End  
+错误描述：2019-01-21 16:26:35 -  http://localhost:62443 
+
+
+
+
+ 记录时间：2019-01-21 16:27:12,138 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:27:12,169 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:27:12,192 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_QRCode.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:27:12,215 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:27:12,238 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.UnionPay.UnionPay 
+
+
+
+
+ 记录时间：2019-01-21 16:27:12,265 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:27:12,296 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:27:12,325 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_H5.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:27:12,347 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_Native.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-21 16:27:12,386 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:27:12,412 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_SmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:29:00,383 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:29:00,696 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:29:00,936 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:29:01,743 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:29:01,993 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:42:18,368 
+日志级别：  INFO  
+出错类：Himall.Web.MvcApplication.Application_End  
+错误描述：2019-01-21 16:42:18 -  http://localhost:62443 
+
+
+
+
+ 记录时间：2019-01-21 16:42:54,472 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:42:54,540 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:42:54,591 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_QRCode.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:42:54,639 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:42:54,710 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.UnionPay.UnionPay 
+
+
+
+
+ 记录时间：2019-01-21 16:42:54,747 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:42:54,779 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:42:54,823 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_H5.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:42:54,856 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_Native.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-21 16:42:54,902 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:42:54,979 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_SmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:43:58,860 
+日志级别：  INFO  
+出错类：Himall.Web.MvcApplication.Application_End  
+错误描述：2019-01-21 16:43:58 -  http://localhost:62443 
+
+
+
+
+ 记录时间：2019-01-21 16:44:31,206 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:44:31,223 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:44:31,243 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_QRCode.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:44:31,260 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:44:31,292 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.UnionPay.UnionPay 
+
+
+
+
+ 记录时间：2019-01-21 16:44:31,309 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:44:31,325 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:44:31,341 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_H5.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:44:31,358 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_Native.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-21 16:44:31,373 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:44:31,389 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_SmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:45:48,095 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:45:48,912 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:45:49,135 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:45:49,364 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:45:49,626 
+日志级别：  INFO  
+出错类：Himall.Service.OrderService.AgreeToRefundBySeller  
+错误描述：只可以关闭待发货订单！ 
+
+Himall.Core.HimallException: 只可以关闭待发货订单！
+
+
+
+ 记录时间：2019-01-21 16:49:57,891 
+日志级别：  INFO  
+出错类：Himall.Web.MvcApplication.Application_End  
+错误描述：2019-01-21 16:49:57 -  http://localhost:62443 
+
+
+
+
+ 记录时间：2019-01-21 16:50:05,842 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:50:05,852 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:50:05,863 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_QRCode.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:50:05,873 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.Alipay_WAP.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:50:05,885 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.UnionPay.UnionPay 
+
+
+
+
+ 记录时间：2019-01-21 16:50:05,898 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:50:05,908 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_App.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:50:05,917 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_H5.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:50:05,926 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_Native.WeiXinPay 
+
+
+
+
+ 记录时间：2019-01-21 16:50:05,935 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.Service 
+
+
+
+
+ 记录时间：2019-01-21 16:50:05,944 
+日志级别：  INFO  
+出错类：Himall.PaymentPlugin.PaymentBase`1[T].set_WorkDirectory  
+错误描述：set WorkDirectory:Himall.Plugin.Payment.WeiXinPay_SmallProg.Service 
+

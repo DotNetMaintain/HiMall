@@ -1,0 +1,1680 @@
+
+
+
+ 记录时间：2018-11-15 09:19:10,985 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 09:19:27,718 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:19:27 717:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7020.9893 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:26:42,499 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:26:42 498:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=773_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F773%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=773_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f773%3freturnUrl%3dnull；页面加载的时间：20696.6748 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:34:05,902 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:34:05 902:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：415383.7919 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:35:20,770 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 09:35:52,868 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:35:52 868:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：7281.5596 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:36:00,048 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:36:00 048:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=773_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F773%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=773_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f773%3freturnUrl%3dnull；页面加载的时间：22483.5572 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:37:33,996 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:37:33 996:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=773_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F773%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=773_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f773%3freturnUrl%3dnull；页面加载的时间：90006.6891 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:40:30,050 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:40:30 049:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=773_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F773%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=773_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f773%3freturnUrl%3dnull；页面加载的时间：173659.2122 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:41:07,521 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:41:07 520:[当前请求URL：http://localhost:62443/m-wap/Product/Details/773?nojumpfg=1；请求的参数为：nojumpfg=1；页面加载的时间：7127.4887 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:41:07,528 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:41:07 528:[当前请求URL：http://localhost:62443/m-Wap/product/detail/773；请求的参数为：；页面加载的时间：8259.7837 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:41:13,459 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:41:13 459:[当前请求URL：http://localhost:62443/m-Wap/product/GetNeedRefreshProductInfo；请求的参数为：；页面加载的时间：5058.7663 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:42:03,483 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:42:03 482:[当前请求URL：http://localhost:62443/Admin/Login；请求的参数为：；页面加载的时间：16301.647 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:42:15,486 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:42:15 486:[当前请求URL：http://localhost:62443/Admin/home/Console；请求的参数为：；页面加载的时间：5180.3904 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:43:15,856 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:43:15 856:[当前请求URL：http://localhost:62443/SellerAdmin/product/management；请求的参数为：；页面加载的时间：9145.628 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:43:52,307 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:43:52 307:[当前请求URL：http://localhost:62443/m-wap/vshop/detail/12；请求的参数为：；页面加载的时间：16451.1628 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:44:07,199 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:44:07 199:[当前请求URL：http://localhost:62443/m-Wap/vshop/Search?vshopid=12；请求的参数为：vshopid=12；页面加载的时间：6507.2491 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:44:25,483 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:44:25 483:[当前请求URL：http://localhost:62443/m-Wap/VShop/GetPromotions；请求的参数为：；页面加载的时间：5233.8729 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:45:19,594 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:45:19 594:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F802%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f802%3freturnUrl%3dnull；页面加载的时间：48181.6758 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:53:23,217 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:53:23 217:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：447521.3551 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:53:38,002 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:53:38 002:[当前请求URL：http://localhost:62443/m-Wap/Payment/PayByCapitalIsOk；请求的参数为：；页面加载的时间：13773.2785 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:53:47,747 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:53:47 747:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=member&action=orders&neworderids=2018111570022180；请求的参数为：area=mobile&platform=Wap&controller=member&action=orders&neworderids=2018111570022180；页面加载的时间：6101.4168 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:53:55,012 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:53:55 011:[当前请求URL：http://localhost:62443/m-Wap/Member/GetUserOrders?orderStatus=；请求的参数为：orderStatus=；页面加载的时间：7006.4657 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:56:57,673 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 09:57:17,425 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:57:17 424:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10520.4872 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:57:17,449 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:57:17 449:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10667.5903 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:57:39,396 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 09:57:57,389 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:57:57 389:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9642.7853 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:57:58,695 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:57:58 694:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1542247040618；请求的参数为：_=1542247040618；页面加载的时间：10874.6605 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:57:58,859 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:57:58 858:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：11032.7712 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:57:59,708 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:57:59 705:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：11888.8806 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:58:03,912 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:58:03 912:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：6386.513 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:58:05,924 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:58:05 924:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：7070.0022 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 09:59:01,320 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 09:59:01 320:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F802%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f802%3freturnUrl%3dnull；页面加载的时间：38440.9968 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:00:33,611 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:00:33 611:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：74098.1514 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:04:03,389 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:04:03 389:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：100183.4427 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:04:34,770 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 10:04:53,160 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:04:53 159:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7232.6387 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:04:53,172 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:04:53 171:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7277.6702 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:05:14,524 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 10:05:38,123 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:05:38 123:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：15284.0878 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:05:38,156 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:05:38 155:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：14596.0994 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:05:39,462 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:05:39 462:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：16567.4994 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:05:40,093 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:05:40 092:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1542247497580；请求的参数为：_=1542247497580；页面加载的时间：17095.8757 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:05:40,490 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:05:40 489:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：17830.3972 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:05:41,037 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:05:41 010:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：18072.0697 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:05:50,381 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:05:50 380:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：23228.6387 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:06:00,875 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:06:00 874:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：18546.3837 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:06:15,398 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:06:15 398:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：14493.4645 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:06:15,974 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:06:15 974:[当前请求URL：http://localhost:62443/Home/GetFootNew；请求的参数为：；页面加载的时间：15077.3788 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:06:17,044 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:06:17 044:[当前请求URL：http://localhost:62443/product/GetLoginUserInfo；请求的参数为：；页面加载的时间：16136.132 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:06:19,164 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:06:19 163:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：18219.6125 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:06:32,211 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:06:32 211:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F802%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f802%3freturnUrl%3dnull；页面加载的时间：65989.8024 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:07:29,818 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:07:29 818:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：17907.3869 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:09:07,475 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:09:07 474:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：39947.5123 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:09:54,185 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 10:10:21,298 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:10:21 298:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10432.9317 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:10:21,304 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:10:21 303:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10371.8901 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:10:51,239 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 10:11:11,959 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:11:11 959:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10559.9121 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:11:13,149 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:11:13 149:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：9936.4697 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:11:13,948 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:11:13 947:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1542247825776；请求的参数为：_=1542247825776；页面加载的时间：12229.0982 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:11:13,968 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:11:13 967:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：12553.8314 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:11:14,741 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:11:14 740:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：6333.409 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:11:31,474 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:11:31 473:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F802%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f802%3freturnUrl%3dnull；页面加载的时间：19478.6782 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:14:29,631 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:14:29 631:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：138910.8347 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:14:43,633 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:14:43 633:[当前请求URL：http://localhost:62443/m-Wap/payment/get；请求的参数为：；页面加载的时间：13989.1533 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:15:45,008 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 10:16:20,624 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 10:16:39,028 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:16:39 028:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10350.9329 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:16:39,075 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:16:39 075:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8187.8459 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:16:40,655 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:16:40 654:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：11971.5355 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:16:40,655 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:16:40 655:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：11993.0499 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:16:41,051 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:16:41 050:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：12254.7361 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:16:41,054 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:16:41 054:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1542248164953；请求的参数为：_=1542248164953；页面加载的时间：12380.3253 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:16:43,295 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:16:43 295:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：12354.8063 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:17:10,814 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:17:10 813:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F802%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f802%3freturnUrl%3dnull；页面加载的时间：10338.6209 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:22:46,585 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:22:46 585:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：306489.646 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:23:31,432 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 10:24:12,592 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 10:24:52,082 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:24:52 082:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：25140.8931 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:24:52,337 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:24:52 337:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1542248626625；请求的参数为：_=1542248626625；页面加载的时间：25982.9869 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:24:55,827 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:24:55 827:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：29392.9122 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:25:07,909 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:25:07 909:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：38334.6464 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:25:14,940 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:25:14 940:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：45349.131 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:25:15,880 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:25:15 880:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F802%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f802%3freturnUrl%3dnull；页面加载的时间：40537.7117 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:25:33,335 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 10:26:05,930 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:26:05 930:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：23763.3585 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:26:35,331 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:26:35 331:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：53256.4825 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:27:00,306 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:27:00 306:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：15467.9896 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:27:22,002 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:27:22 001:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：36263.654 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:27:22,016 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:27:22 016:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：37139.7765 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:27:22,014 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:27:22 014:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：35303.9699 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:28:00,311 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:28:00 310:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：22507.5048 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:28:01,278 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:28:01 277:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：23509.2139 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:28:43,189 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:28:43 188:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F802%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f802%3freturnUrl%3dnull；页面加载的时间：10973.1756 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:29:18,975 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:29:18 975:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmitOrder；请求的参数为：；页面加载的时间：10512.4207 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:42:45,759 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 10:43:11,116 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:43:11 115:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9201.3578 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:43:11,116 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:43:11 116:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9304.9359 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:43:46,197 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:43:46 197:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F802%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f802%3freturnUrl%3dnull；页面加载的时间：14278.0146 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:46:09,063 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:46:09 062:[当前请求URL：http://localhost:62443/m-wap/Product/Details/802?nojumpfg=1；请求的参数为：nojumpfg=1；页面加载的时间：6278.7893 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:46:09,073 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:46:09 073:[当前请求URL：http://localhost:62443/m-Wap/product/detail/802；请求的参数为：；页面加载的时间：6743.4382 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:46:14,601 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:46:14 601:[当前请求URL：http://localhost:62443/m-Wap/product/GetNeedRefreshProductInfo；请求的参数为：；页面加载的时间：5074.3523 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:46:44,554 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:46:44 554:[当前请求URL：http://localhost:62443/m-Wap/product/GetProductActives；请求的参数为：；页面加载的时间：5254.9775 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:46:45,516 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:46:45 516:[当前请求URL：http://localhost:62443/m-Wap/Product/LogProduct；请求的参数为：；页面加载的时间：6213.9054 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:48:38,370 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 10:49:11,230 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 10:49:25,838 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:49:25 837:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：7110.0556 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:49:26,553 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:49:26 552:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：7050.2663 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:49:27,099 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:49:27 099:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：8393.2251 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:50:43,597 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:50:43 597:[当前请求URL：http://localhost:62443/m-Wap/Login/Entrance?returnUrl=http:%2f%2flocalhost:62443%2fcommon%2fsite%2fpay%3farea%3dmobile%26platform%3dWap%26controller%3dorder%26action%3dsubmit%26skuIds%3d802_0_0_0%26counts%3d1%26returnUrl%3d%252Fm-Wap%252FProduct%252FDetail%252F802%253FreturnUrl%253Dnull；请求的参数为：returnUrl=http%3a%2f%2flocalhost%3a62443%2fcommon%2fsite%2fpay%3farea%3dmobile%26platform%3dWap%26controller%3dorder%26action%3dsubmit%26skuIds%3d802_0_0_0%26counts%3d1%26returnUrl%3d%252Fm-Wap%252FProduct%252FDetail%252F802%253FreturnUrl%253Dnull；页面加载的时间：47793.8269 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:51:04,485 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:51:04 485:[当前请求URL：http://localhost:62443/common/site/pay?area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2Fm-Wap%2FProduct%2FDetail%2F802%3FreturnUrl%3Dnull；请求的参数为：area=mobile&platform=Wap&controller=order&action=submit&skuIds=802_0_0_0&counts=1&returnUrl=%2fm-Wap%2fProduct%2fDetail%2f802%3freturnUrl%3dnull；页面加载的时间：8336.0682 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:51:44,613 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:51:44 612:[当前请求URL：http://localhost:62443/product/GetHotProduct?productId=802&categoryId=19；请求的参数为：productId=802&categoryId=19；页面加载的时间：8002.3499 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:51:44,910 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:51:44 910:[当前请求URL：http://localhost:62443/m-Wap/Product/LogProduct；请求的参数为：；页面加载的时间：8305.5648 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:51:45,326 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:51:45 326:[当前请求URL：http://localhost:62443/m-Wap/VShop/GetPromotions；请求的参数为：；页面加载的时间：8737.3707 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:51:45,891 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:51:45 891:[当前请求URL：http://localhost:62443/m-Wap/product/ProductCommentShow；请求的参数为：；页面加载的时间：9287.7606 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 10:51:46,718 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 10:51:46 717:[当前请求URL：http://localhost:62443/m-Wap/product/GetProductActives；请求的参数为：；页面加载的时间：10118.852 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 11:01:54,413 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 11:01:54 413:[当前请求URL：http://localhost:62443/SellerAdmin/product/create；请求的参数为：；页面加载的时间：9478.2167 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 11:06:34,514 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 11:06:34 514:[当前请求URL：http://localhost:62443/SellerAdmin/product/create；请求的参数为：；页面加载的时间：8875.1334 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 11:26:46,256 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 11:26:46 256:[当前请求URL：http://localhost:62443/Login；请求的参数为：；页面加载的时间：124682.9559 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 11:27:38,133 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 11:27:38 133:[当前请求URL：http://localhost:62443/temp/201712051720599465590.jpg；请求的参数为：；页面加载的时间：7581.1001 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 11:38:23,746 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 11:38:23 745:[当前请求URL：http://localhost:62443/Product/Details/803；请求的参数为：；页面加载的时间：6568.169 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 11:38:29,477 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 11:38:29 476:[当前请求URL：http://localhost:62443/SellerAdmin/product/create；请求的参数为：；页面加载的时间：14287.0376 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 11:43:38,198 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 11:43:38 198:[当前请求URL：http://localhost:62443/Admin/Login；请求的参数为：；页面加载的时间：108722.5524 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 11:43:49,653 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 11:43:49 653:[当前请求URL：http://localhost:62443/Admin/home/Console；请求的参数为：；页面加载的时间：7340.3965 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:05:59,323 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 15:06:26,479 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:06:26 477:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：12934.291 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:06:56,933 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:06:56 932:[当前请求URL：http://localhost:62443/Search/SearchAd?cid=381；请求的参数为：cid=381；页面加载的时间：13735.0117 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:07:18,347 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:07:18 347:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：19662.1361 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:07:53,809 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:07:53 808:[当前请求URL：http://localhost:62443/m-wap/vshop/detail/12；请求的参数为：；页面加载的时间：8296.1781 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:08:15,408 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:08:15 408:[当前请求URL：http://localhost:62443/m-Wap/vshop/Search?vshopid=12；请求的参数为：vshopid=12；页面加载的时间：6366.7735 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:11:12,357 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 15:11:35,626 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:11:35 625:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8859.8327 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:12:14,093 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:12:14 092:[当前请求URL：http://localhost:62443/SellerAdmin/VTemplate/VHomepage；请求的参数为：；页面加载的时间：12394.6928 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:12:29,145 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:12:29 144:[当前请求URL：http://localhost:62443/m-wap/vshop/detail/12；请求的参数为：；页面加载的时间：11262.6671 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:12:47,107 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:12:47 106:[当前请求URL：http://localhost:62443/m-wap/Product/Details/773?nojumpfg=1；请求的参数为：nojumpfg=1；页面加载的时间：11338.031 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:12:47,120 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:12:47 119:[当前请求URL：http://localhost:62443/m-wap/Product/Detail/773；请求的参数为：；页面加载的时间：12201.1477 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:12:49,348 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:12:49 348:[当前请求URL：http://localhost:62443/m-wap/Product/Detail/773；请求的参数为：；页面加载的时间：13893.3893 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:13:03,882 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:13:03 881:[当前请求URL：http://localhost:62443/m-Wap/product/GetStroreInfo?productId=773&shopId=316&fromLatLng=31.11325,121.38206；请求的参数为：productId=773&shopId=316&fromLatLng=31.11325%2c121.38206；页面加载的时间：5936.7186 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:13:06,600 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:13:06 599:[当前请求URL：http://localhost:62443/m-Wap/product/GetProductActives；请求的参数为：；页面加载的时间：13138.2944 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:13:06,804 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:13:06 804:[当前请求URL：http://localhost:62443/m-Wap/VShop/GetPromotions；请求的参数为：；页面加载的时间：13283.5611 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:13:07,722 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:13:07 722:[当前请求URL：http://localhost:62443/m-Wap/product/GetIsSelfDelivery?productId=773&shopId=316&fromLatLng=31.11325,121.38206；请求的参数为：productId=773&shopId=316&fromLatLng=31.11325%2c121.38206；页面加载的时间：9804.6222 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:13:08,024 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:13:08 024:[当前请求URL：http://localhost:62443/m-Wap/Product/LogProduct；请求的参数为：；页面加载的时间：14515.9732 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:13:45,697 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:13:45 697:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmiteByCart?cartItemIds=172&returnUrl=%2Fm-Wap%2Fcart%2Fcart；请求的参数为：cartItemIds=172&returnUrl=%2fm-Wap%2fcart%2fcart；页面加载的时间：35699.0046 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:25:08,870 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 15:25:48,320 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:25:48 319:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：20414.615 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:25:48,320 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:25:48 319:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：20494.171 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:26:05,875 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:26:05 874:[当前请求URL：http://localhost:62443/m-wap/Cart/GetCartProducts；请求的参数为：；页面加载的时间：32089.8377 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:26:33,802 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 15:26:53,769 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:26:53 769:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9474.4314 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:26:53,773 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:26:53 772:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9390.8706 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:26:54,548 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:26:54 548:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：10883.4327 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:26:54,769 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:26:54 769:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1542266755856；请求的参数为：_=1542266755856；页面加载的时间：10636.7568 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:26:54,774 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:26:54 773:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1542266757636；请求的参数为：_=1542266757636；页面加载的时间：10677.2853 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:26:54,820 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:26:54 820:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：10530.6823 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:26:55,367 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:26:55 367:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：11708.5174 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:26:56,919 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:26:56 919:[当前请求URL：http://localhost:62443/m-wap/Product/Detail/773；请求的参数为：；页面加载的时间：12620.1797 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:26:57,403 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:26:57 402:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：11389.3072 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:27:11,318 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:27:11 317:[当前请求URL：http://localhost:62443/Login/GetCheckCode；请求的参数为：；页面加载的时间：11830.3488 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:27:11,594 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:27:11 593:[当前请求URL：http://localhost:62443/m-Wap/VShop/GetPromotions；请求的参数为：；页面加载的时间：8964.8115 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:27:16,277 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:27:16 277:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：16796.3768 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:27:18,978 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:27:18 978:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：19503.6933 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:27:19,463 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:27:19 463:[当前请求URL：http://localhost:62443/m-Wap/product/GetNeedRefreshProductInfo；请求的参数为：；页面加载的时间：16839.8247 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:27:19,582 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:27:19 582:[当前请求URL：http://localhost:62443/m-Wap/product/getShopInfo?shopId=316；请求的参数为：shopId=316；页面加载的时间：16972.419 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:31:36,069 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:31:36 069:[当前请求URL：http://localhost:62443/m-Wap/Product/GetProductColloCation；请求的参数为：；页面加载的时间：256033.6723 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:31:36,333 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:31:36 332:[当前请求URL：http://localhost:62443/m-Wap/product/ShowDepotAddress；请求的参数为：；页面加载的时间：256292.3452 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:31:36,902 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:31:36 901:[当前请求URL：http://localhost:62443/m-Wap/product/ShowSkuInfo；请求的参数为：；页面加载的时间：256916.7995 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:31:37,391 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:31:37 390:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：277323.1593 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:31:37,779 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:31:37 779:[当前请求URL：http://localhost:62443/m-Wap/product/GetStroreInfo?productId=773&shopId=316&fromLatLng=31.11325,121.38206；请求的参数为：productId=773&shopId=316&fromLatLng=31.11325%2c121.38206；页面加载的时间：261041.1471 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:31:40,111 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:31:40 110:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmiteByCart?cartItemIds=172&returnUrl=%2Fm-Wap%2Fcart%2Fcart；请求的参数为：cartItemIds=172&returnUrl=%2fm-Wap%2fcart%2fcart；页面加载的时间：259879.4302 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:34:47,452 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 15:35:02,365 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:35:02 365:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5284.755 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:35:37,255 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 15:35:47,169 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:35:47 169:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5634.7957 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:36:29,932 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2018-11-15 15:36:58,798 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:36:58 798:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：15278.8579 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:36:58,881 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:36:58 880:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：15450.9785 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:37:14,448 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:37:14 448:[当前请求URL：http://localhost:62443/m-wap/Product/Detail/773；请求的参数为：；页面加载的时间：7944.7435 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:37:27,700 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:37:27 700:[当前请求URL：http://localhost:62443/m-Wap/product/ProductCommentShow；请求的参数为：；页面加载的时间：11623.2593 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:37:30,527 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:37:30 527:[当前请求URL：http://localhost:62443/m-Wap/product/GetIsOpenLadder?productId=773；请求的参数为：productId=773；页面加载的时间：9264.0814 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:37:31,188 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:37:31 188:[当前请求URL：http://localhost:62443/m-Wap/Product/LogProduct；请求的参数为：；页面加载的时间：15457.4824 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:37:31,801 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:37:31 801:[当前请求URL：http://localhost:62443/m-Wap/VShop/GetPromotions；请求的参数为：；页面加载的时间：16107.4454 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:37:33,010 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:37:33 010:[当前请求URL：http://localhost:62443/m-Wap/product/GetNeedRefreshProductInfo；请求的参数为：；页面加载的时间：17372.8927 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:37:39,359 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:37:39 359:[当前请求URL：http://localhost:62443/m-Wap/Product/GetProductColloCation；请求的参数为：；页面加载的时间：6329.8611 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:37:41,349 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:37:41 348:[当前请求URL：http://localhost:62443/m-Wap/product/GetProductActives；请求的参数为：；页面加载的时间：25757.2252 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:37:41,701 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:37:41 701:[当前请求URL：http://localhost:62443/product/GetLoginUserInfo；请求的参数为：；页面加载的时间：5524.5627 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:37:42,662 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:37:42 662:[当前请求URL：http://localhost:62443/m-Wap/product/GetIsSelfDelivery?productId=773&shopId=316&fromLatLng=31.11325,121.38206；请求的参数为：productId=773&shopId=316&fromLatLng=31.11325%2c121.38206；页面加载的时间：10500.4102 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:37:43,119 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:37:43 118:[当前请求URL：http://localhost:62443/m-Wap/product/GetStroreInfo?productId=773&shopId=316&fromLatLng=31.11325,121.38206；请求的参数为：productId=773&shopId=316&fromLatLng=31.11325%2c121.38206；页面加载的时间：10956.2733 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:37:52,506 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:37:52 506:[当前请求URL：http://localhost:62443/m-Wap/Cart/Cart?returnUrl=%2fm-wap%2fProduct%2fDetails%2f773%3fnojumpfg%3d1；请求的参数为：returnUrl=%2fm-wap%2fProduct%2fDetails%2f773%3fnojumpfg%3d1；页面加载的时间：7684.2519 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:38:38,307 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:38:38 307:[当前请求URL：http://localhost:62443/m-Wap/Order/SubmiteByCart?cartItemIds=172&returnUrl=%2Fm-Wap%2Fcart%2Fcart；请求的参数为：cartItemIds=172&returnUrl=%2fm-Wap%2fcart%2fcart；页面加载的时间：32477.0684 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:40:21,248 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:40:21 248:[当前请求URL：http://localhost:62443/order/submit?cartItemIds=172；请求的参数为：cartItemIds=172；页面加载的时间：83233.8462 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:41:46,777 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:41:46 777:[当前请求URL：http://localhost:62443/order/SubmitOrder；请求的参数为：；页面加载的时间：43512.7783 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:45:08,102 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:45:08 102:[当前请求URL：http://localhost:62443/m-Wap/Member/GetUserOrders?orderStatus=；请求的参数为：orderStatus=；页面加载的时间：7141.6387 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:45:24,808 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:45:24 808:[当前请求URL：http://localhost:62443/Admin/Login；请求的参数为：；页面加载的时间：9834.1767 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:45:39,957 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:45:39 957:[当前请求URL：http://localhost:62443/Admin/home/Console；请求的参数为：；页面加载的时间：9909.7537 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:45:56,630 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:45:56 630:[当前请求URL：http://localhost:62443/Admin/Payment/Enable；请求的参数为：；页面加载的时间：5776.8959 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:46:35,676 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Get  
+错误描述：Himall.Plugin.Payment.WeiXinPay_H5   微信H5支付 
+
+
+
+
+ 记录时间：2018-11-15 15:46:38,930 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018111590452804 
+
+
+
+
+ 记录时间：2018-11-15 15:46:39,664 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181115461539607746 
+
+
+
+
+ 记录时间：2018-11-15 15:46:47,371 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:46:47 371:[当前请求URL：http://localhost:62443/m-Wap/payment/Pay/?pmtid=Himall.Plugin.Payment.WeiXinPay_H5&ids=2018111590452804；请求的参数为：pmtid=Himall.Plugin.Payment.WeiXinPay_H5&ids=2018111590452804；页面加载的时间：8455.2696 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:47:23,785 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018111590452804 
+
+
+
+
+ 记录时间：2018-11-15 15:47:24,418 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181115471524725801 
+
+
+
+
+ 记录时间：2018-11-15 15:47:28,907 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:47:28 907:[当前请求URL：http://localhost:62443/m-Wap/payment/Pay/?pmtid=Himall.Plugin.Payment.WeiXinPay_H5&ids=2018111590452804；请求的参数为：pmtid=Himall.Plugin.Payment.WeiXinPay_H5&ids=2018111590452804；页面加载的时间：5123.706 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:47:31,556 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018111590452804 
+
+
+
+
+ 记录时间：2018-11-15 15:47:32,152 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181115471532838102 
+
+
+
+
+ 记录时间：2018-11-15 15:47:43,691 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:47:43 689:[当前请求URL：http://localhost:62443/m-Wap/payment/Pay/?pmtid=Himall.Plugin.Payment.WeiXinPay_H5&ids=2018111590452804；请求的参数为：pmtid=Himall.Plugin.Payment.WeiXinPay_H5&ids=2018111590452804；页面加载的时间：12139.1373 毫秒] 
+
+
+
+
+ 记录时间：2018-11-15 15:52:06,592 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay ids:2018111590452804 
+
+
+
+
+ 记录时间：2018-11-15 15:52:10,905 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Pay  
+错误描述：Pay payid:181115521510225914 
+
+
+
+
+ 记录时间：2018-11-15 15:55:41,643 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2018-11-15 03:55:41 643:[当前请求URL：http://localhost:62443/m-Wap/payment/Pay/?pmtid=Himall.Plugin.Payment.WeiXinPay_H5&ids=2018111590452804；请求的参数为：pmtid=Himall.Plugin.Payment.WeiXinPay_H5&ids=2018111590452804；页面加载的时间：215081.1724 毫秒] 
+

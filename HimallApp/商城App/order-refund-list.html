@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<title>退款/售后</title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">退款/售后</h1>
+		</header>
+		
+		<div id="pullrefresh" class="mui-content mui-scroll-wrapper transparent" style="padding-top: 50px;">
+			<div class="mui-scroll">
+				<div id="refundList" class="refundList">
+				</div>
+			</div>
+		</div>
+		<div id="dcontent" class="dcontent">
+			<div class="ex-item" id="shopsendaddress"></div>
+			<div class="ex-item"><input id="ExpressCompanyName" type="text" placeholder="快递公司"/></div>
+			<div class="ex-item"><input id="ShipOrderNumber" type="text" placeholder="快递单号"/></div>
+			<div class="ex-item"><a class="custom-btn" id="submitExpress">确认提交</a></div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script src="js/delayimg.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/md5.js" ></script>
+		<script src="js/template.js" ></script>
+		<script>
+			var isnodata = false,
+				page = 1,
+				loadPage,
+				mask,
+				userkey=himall.getState().userkey;
+			mui.init({
+				pullRefresh : {
+				    container:'#pullrefresh',
+				    deceleration:0.0006,
+				    up : {
+					    contentrefresh : "正在加载...",
+					    contentnomore:'已加载完全部',
+					    callback :function(){
+					      	var self=this;
+					      	if (!isnodata) {
+					      		page++;
+						        mui.ajax(URL+'api/OrderRefund/GetRefundList',{
+						        	data:himall.md5Data({
+										pageno:page,
+										pagesize:10,
+										userkey:userkey
+									}),
+									dataType:'json',
+									type:'get',
+									timeout:10000,
+									success:function(data){
+								        if(data.data.length > 0) {
+								        	document.getElementById('refundList').insertAdjacentHTML('beforeend',template('initData',data));
+								        	delayimg.render();
+								        }else{
+											isnodata = true;
+										}
+										self.endPullupToRefresh(isnodata);
+									},
+									error:function(xhr){
+										plus.nativeUI.toast('请求失败，请检查网络')
+									}
+								});
+						    }else{
+						    	self.endPullupToRefresh(isnodata);
+						    }
+				    	}
+				    }
+				},
+				swipeBack: true
+			});
+			
+			if (mui.os.android)
+				document.getElementsByClassName('mui-scroll')[0].className='';
+			
+			mui.plusReady(function() {
+				plus.webview.currentWebview().setStyle({scrollIndicator:'none'});
+				var w=plus.nativeUI.showWaiting('',{padlock:true});
+				loadPage=function(){
+					mui.ajax(URL+'api/OrderRefund/GetRefundList',{
+						data:himall.md5Data({
+							pageno:page,
+							pagesize:10,
+							userkey:userkey
+						}),
+						dataType:'json',
+						type:'get',
+						timeout:10000,
+						success:function(data){
+					        if(data.data.length > 0) {
+					            document.getElementById('refundList').innerHTML=template('initData',data);
+					            delayimg.init();
+					        }else{
+					        	var html='<div class="empty-show"><h4>暂无售后中订单...</h4><button id="closeWv" class="mui-btn mui-btn-negative">去其他地方逛逛</button></div>';
+					        	document.getElementById('pullrefresh').innerHTML=html;
+					        }
+					        
+							w.close();
+							himall.removeClass(document.querySelector('.mui-content'),'transparent');
+						},
+						error:function(xhr){
+							w.close();
+							reloadWvLoad();
+						}
+					});
+				}
+				
+				loadPage();
+			});
+			
+			
+			function reloadPage(){
+				loadPage();
+				isnodata = false;
+				page = 1;
+				mui('#pullrefresh').pullRefresh().refresh(true);
+			}
+			
+			document.addEventListener('updateData', function() {
+				reloadPage();
+			});
+			
+			
+			mui('#refundList').on('tap', '.vshop-url', function() {
+				var vshopid = this.getAttribute('data-id');
+				if(!vshopid){
+					plus.nativeUI.toast('该店铺暂未开通微店')
+				}else{
+					himall.openVW('vshop-detail.html',{vshopId:vshopid})
+				}
+			});
+			
+			mui('#refundList').on('tap', '.store-vshop-url', function() {
+				var vshopid = this.getAttribute('data-id');
+				if(vshopid==0){
+					plus.nativeUI.toast('该门店被冻结')
+				}else{
+					himall.openVW('store-home.html',{shopid:vshopid});
+				}
+			});
+			
+			mui('#refundList').on('tap', '.showOrder', function() {
+				himall.openVW('order-refund-detail.html',{refundId:this.getAttribute('data-id')});
+			});
+			
+			mui('#refundList').on('tap', '.showExpress', function() {
+				var refundId = this.getAttribute('data-id');				
+                var shopId = this.getAttribute("data-shopid");
+                sbid = this.getAttribute("data-sbid");
+                mui.ajax(URL+'api/OrderRefund/GetShopGetAddress',{
+						data:himall.md5Data({
+							shopId:shopId,
+							shopBranchId:sbid.value,
+							userkey:userkey
+						}),
+						async:false,
+						dataType:'json',
+						type:'get',
+						timeout:10000,
+						success:function(d){
+							if (d && d.Phone.length > 0) {
+	                            var str = "" + d.ShipperName + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + d.Phone + "";
+	                            str += "<br>" + d.Region + "  " + d.Address + "";
+	                            document.getElementById("shopsendaddress").innerHTML=str;
+	                        } else {
+	                            document.getElementById("shopsendaddress").innerHTML="商家未设置收货地址，请与商家主动联系！";
+	                        }
+						},
+						error:function(xhr){
+							plus.nativeUI.toast('获取信息失败，请检查网络')
+						}
+					});
+				var	dcontent=document.getElementById('dcontent'),
+					ExpressCompanyName=document.getElementById('ExpressCompanyName'),
+					ShipOrderNumber=document.getElementById('ShipOrderNumber');
+				
+				ExpressCompanyName.value=ShipOrderNumber.value='';
+				if(!mask)
+					mask = mui.createMask(function(){dcontent.className='dcontent';});
+				mask.show();
+				dcontent.className='dcontent active';
+				
+				mui(document).on('tap','#submitExpress',function(){
+					if(!ExpressCompanyName.value){
+						plus.nativeUI.toast('请填写快递公司');
+						return;
+					}
+					if(!ShipOrderNumber.value){
+						plus.nativeUI.toast('请填写快递单号');
+						return;
+					}
+					var w=plus.nativeUI.showWaiting('',{padlock:true});
+					mui.ajax(URL+'api/OrderRefund/PostSellerSendGoods',{
+						data:himall.md5Data({
+							id:refundId,
+							expressCompanyName:ExpressCompanyName.value,
+							shipOrderNumber:ShipOrderNumber.value,
+							userkey:userkey
+						}),
+						dataType:'json',
+						type:'post',
+						timeout:10000,
+						success:function(data){
+							w.close();
+							plus.nativeUI.toast(data.msg);
+							if(data.success){
+								mask.close();
+								reloadPage();
+							}
+						},
+						error:function(xhr){
+							w.close();
+							plus.nativeUI.toast('提交快递信息失败，请检查网络')
+						}
+					});
+				});
+			});
+			
+		</script>
+		
+		<script type="text/html" id="initData">
+			{{each data}}
+	            <div class="order-info">
+	            	{{if $value.ShopBranchId}}
+	            		<div class="item">
+								<div class="order-shop">
+								<a class="store-vshop-url" data-id="{{$value.ShopBranchId}}"><i class="iconfont icon-dianpu"></i>{{$value.ShopBranchName}}</a>
+								<span class="mui-pull-right">{{$value.RefundStatus}}</span></div>
+							</div>
+	            	{{else}}
+	            		<div class="item">
+								<div class="order-shop">
+								<a class="vshop-url" data-id="{{$value.Vshopid}}"><i class="iconfont icon-dianpu"></i>{{$value.ShopName}}</a>
+								<span class="mui-pull-right">{{$value.RefundStatus}}</span></div>
+							</div>
+	            	{{/if}}
+					{{if $value.RefundModeValue==1}}
+						{{each $value.OrderItems as item}}
+			                <div class="item showOrder" data-id="{{$value.Id}}">
+			                    <div class="buy-goods">
+			                        <a class="goods-img"><img src="images/blank.gif" data-delay="{{item.ThumbnailsUrl}}"/></a>
+			                        <p><span><a>{{item.ProductName}}</a></span></p>
+			                    </div>
+			                </div>
+		               	{{/each}}
+	            	{{else}}
+	            		<div class="item showOrder" data-id="{{$value.Id}}">
+		                    <div class="buy-goods">
+		                        <a class="goods-img"><img src="images/blank.gif" data-delay="{{$value.Img}}"/></a>
+		                        <p><span><a>{{$value.ProductName}}</a></span></p>
+		                    </div>
+		                </div>
+	            	{{/if}}
+		            <div class="item showOrder" style="padding:0px 10px" data-id="{{$value.Id}}">
+		            	<div class="item-text" style="padding:10px 10px 0;">
+		                    <span class="mui-pull-right order-total">交易金额：¥ {{$value.OrderTotal}} &nbsp; &nbsp; 退款金额：<em>¥ {{$value.Amount}}</em></span>
+		            	</div>
+		            </div>
+		            {{if $value.SellerAuditStatusValue==2}}
+			            <div class="item total-m item-btn">
+			            	<button class="mui-btn mui-btn-negative showExpress" data-id="{{$value.Id}}" data-shopid="{{$value.ShopId}}" data-sbid="{{$value.ShopBranchId}}">快递寄回</button>
+		            	</div>
+	            	{{/if}}
+		        </div>
+	       	{{/each}}
+		</script>
+	</body>
+
+</html>

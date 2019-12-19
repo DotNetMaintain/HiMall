@@ -1,0 +1,487 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<title>我的资产</title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">我的资产</h1>
+		</header>
+		<div id="pullrefresh" class=" mui-scroll-wrapper mui-content">
+			<div class="mui-scroll">
+				<div id="assets">
+					<div class="assets-hd">
+						<div class="divBalance">
+							<div class="recharge" id="btnCharge" style="right: 100px;">充值</div>
+							<div class="recharge" id="btnWithDraw">提现</div>
+							<span id="spanBalance">
+				                <i>¥</i>
+				                <span id="balanceValue"></span>
+							</span>
+							<span class="baM">元可用</span>
+						</div>
+						<div class="total-red mui-clearfix">
+							<span>
+				                <p class="get">累计收到红包</p>
+				                <i><b id="RedPacketAmount"></b><strong>元</strong></i>
+				            </span>
+							<span class="red-envelop">
+				                <p class="get">累计充值金额</p>
+				                <i><b id="ChargeAmount"></b> <strong>元</strong></i>
+				            </span>
+						</div>
+					</div>
+				</div>
+				<ul class="myasset-list" id="myasset"></ul>
+			</div>
+		</div>
+		<div id="J_assets_layer" class="cover"></div>
+		<div class="box1 lh24 steponeee" id="stepone" style="display:none">
+			<span class="close"></span>
+			<form>
+				<h3 class="title_txt cur">请设置支付密码</h3>
+				<div class="item">
+					<div>
+						<input type="password" placeholder="请输入支付密码" value="" id="firstPwd" name="userVo.realName" maxlength="20" class="form-control itxt fl">
+					</div>
+				</div>
+				<div class="item">
+					<div>
+						<input type="password" placeholder="请再次输入支付密码" value="" id="secondPwd" name="userVo.realName" maxlength="20" class="form-control itxt fl">
+					</div>
+				</div>
+				<div class="item">
+					<div>
+						<a id="submitPwd" class="btn btn-primary">提交</a>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="box1 lh24 steponeee" id="steptwo" style="display:none">
+			<span class="close"></span>
+			<form>
+				<h3 class="title_txt cur">提现申请</h3>
+				<div class="item1">
+					<div class="withApplyType-box clearfix">
+						<span class="withApplyType-btn" id="withDrawWeixinBox"><input id="withDrawWeixin" type="radio" name="userVo.applyType" value="1" checked />微信提现</span>
+						<span class="withApplyType-btn" id="withDrawALipayBox"><input id="withDrawALipay" type="radio" name="userVo.applyType" value="3"/>支付宝提现</span>
+					</div>
+				</div>
+				<div class="item1">
+					<div>
+						<input  type="text" value="" id="inputMoney" placeholder="提现金额" name="userVo.realName" maxlength="20" class="itxt fl">
+					</div>
+				</div>
+				<div class="item1">
+					<div>
+						<input type="password" placeholder="支付密码" value="" id="payPwd" name="userVo.realName" maxlength="20" class="itxt fl">
+					</div>
+				</div>
+				
+				<div class="item1 alipayitem">
+					<div>
+						<input type="text" placeholder="收款账号" value="" id="wdopenId" name="userVo.openId" maxlength="60" class="itxt fl">
+					</div>
+				</div>
+				<div class="item1 alipayitem">
+					<div>
+						<input type="text" placeholder="真实姓名" value="" id="wdnickName" name="userVo.nickName" maxlength="20" class="itxt fl">
+					</div>
+				</div>
+				<div class="item1">
+					<div>
+						<a id="submitApply" class="btn btn-primary">提交</a>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="box1 lh24 steponeee" id="rechargePay" style="display:none">
+			<span class="close"></span>
+			<form>
+				<h3 class="title_txt cur">账户充值</h3>
+				<div class="item">
+					<div>
+						<input type="text" id="chargeAmount" placeholder="请输入充值金额" name="" maxlength="20" class="itxt fl">
+					</div>
+				</div>
+				<div class="item">
+					<div>
+						<a id="submitPayBtn" class="btn btn-primary">提交</a>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div id="dcontent" class="dcontent"></div>
+		<!-- End -->
+		<script src="js/mui.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/md5.js"></script>
+		<script src="js/delayimg.min.js"></script>
+		<script src="js/template.js"></script>
+		<script>
+			var userkey = himall.getState().userkey,
+				isnodata = false,
+				pays = {},
+				amount,
+				typeid,
+				page = 1,
+				WithDrawMinimum,
+				WithDrawMaximum,
+				cover=document.getElementById("J_assets_layer"),
+				dcontent=document.getElementById('dcontent');
+
+			var alipayaccount = "";
+			//启用双击监听
+			mui.init({
+				pullRefresh: {
+					container: '#pullrefresh',
+					deceleration: 0.0006,
+					up: {
+						contentrefresh: "正在加载...",
+						contentnomore: '已加载全部明细',
+						callback: function() {
+							var self = this;
+							if(!isnodata) {
+								page++;
+								mui.ajax(URL + 'api/MemberCapital/GetList', {
+									data: himall.md5Data({
+										pageno: page,
+										pagesize: 15,
+										userkey: userkey
+									}),
+									dataType: 'json',
+									type: 'get',
+									timeout: 10000,
+									success: function(data) {
+										if(data.rows.length > 0) {
+											document.getElementById("myasset").insertAdjacentHTML('beforeend', template('initData', data));
+										} else {
+											isnodata = true;
+										}
+										self.endPullupToRefresh(isnodata);
+									}
+								});
+							} else {
+								self.endPullupToRefresh(isnodata);
+							}
+						}
+					}
+				},
+				swipeBack: true
+			});
+
+			if (mui.os.android)
+				document.getElementsByClassName('mui-scroll')[0].className='';
+
+			mui.plusReady(function() {
+				
+				if(!himall.isLogin()){
+					showLogin();
+				}
+				document.getElementById("btnCharge").addEventListener('tap', function() {
+					cover.style.display = "block";
+					document.getElementById("rechargePay").style.display = 'block';
+				});
+				mui(".steponeee").on("tap", ".close", function() {
+					this.parentNode.style.display = "none";
+					cover.style.display = "none";
+				})
+				document.getElementById("submitPayBtn").addEventListener('tap', function() {
+					amount = parseFloat(document.getElementById("chargeAmount").value);
+					if(/^\d+(\.\d{1,2})?$/.test(amount) == false) {
+						mui.toast('请输入正确的金额');
+						return false;
+					}
+
+					initPay('dcontent');
+					dcontent.className = 'dcontent active';
+					document.getElementById("rechargePay").style.display = 'none';
+				});
+				var wPay=null;
+				mui('#dcontent').on('tap', '.custom-btn', function() {
+					//					预存款充值
+					var id = this.id;
+					if(id == 'alipay') {
+						typeid = 'Alipay_App';
+					} else if(id == 'wxpay') {
+						typeid = 'WeiXinPay_App';
+					} else {
+						plus.nativeUI.alert("不支持此支付通道！");
+						return;
+					} 
+					wPay=plus.nativeUI.showWaiting();
+					mui.ajax(URL + 'api/Payment/Charge', {
+						data: himall.md5Data({
+							typeid: typeid,
+							amount: amount,
+							userkey: himall.getState().userkey
+						}),
+						dataType: 'json',
+						type: 'post',
+						timeout: 10000,
+						success: function(data) {
+							if(data.success) {
+								var order = data.data[0].url;
+								if(id == 'wxpay') {
+									order = JSON.parse(order);
+								} 
+								plus.payment.request(pays[id], order, function(result) {
+									wPay.close();
+									wPay = null;
+									plus.nativeUI.alert('充值成功！')
+								}, function(e) {
+									wPay.close();
+									wPay = null;
+									plus.nativeUI.alert("充值失败，请重新充值！");
+								});
+								dcontent.className = 'dcontent';
+								cover.style.display = "none";
+							}else{
+								wPay.close();
+								wPay = null;
+								plus.nativeUI.alert('支付配置无效，请联系管理员');
+							}
+						}
+
+					});
+
+				});
+				
+				var steptwo=document.getElementById("steptwo");
+				document.getElementById("btnWithDraw").addEventListener('tap', function() {
+					mui.ajax(URL + 'api/Payment/GetPayPwd', {
+						data: himall.md5Data({
+							userkey: userkey
+						}),
+						dataType: 'json',
+						type: 'get',
+						timeout: 10000,
+						success: function(data) {
+							cover.style.display = "block";
+							if(data.success) {
+								mui(".steponeee").on("tap", ".close", function() {
+									this.parentNode.style.display = "none";
+									cover.style.display = "none";
+								})
+
+								mui.ajax(URL + 'api/MemberCapital/GetCanWithDraw', {
+									data: himall.md5Data({
+										userkey: userkey
+									}),
+									dataType: 'json',
+									type: 'get',
+									timeout: 10000,
+									success: function(data) {
+										if(data.success) {
+											if(data.canWeiXin) {
+												document.getElementById("withDrawWeixinBox").style.display = "block";
+											}
+											if(data.canAlipay) {
+												document.getElementById("withDrawALipayBox").style.display = "block";
+											}
+											if(data.canAlipay&&!data.canWeiXin) { 
+												document.querySelector(".alipayitem").style.display='block';
+												document.querySelector("#withDrawALipayBox input").checked=true;
+												steptwo.className+=' alipay';
+											}
+											steptwo.style.display = "block";
+
+										} else {
+											mui.toast("账号尚未绑定微信, 暂时无法申请提现");
+											cover.style.display = "none";
+										}
+
+									},
+									error: function(xhr) {
+										console.log('提现错误'+JSON.stringify(xhr));
+									}
+								});
+
+							} else {
+								document.getElementById("stepone").style.display = "block";
+							}
+						}
+					});
+
+				});
+				
+				mui('#steptwo').on('tap','.withApplyType-btn',function(){
+					this.querySelector('input').checked=true;
+					var val=document.querySelector("input[name='userVo.applyType']:checked").value;
+					if(val==1){
+						himall.removeClass(steptwo,' alipay');
+					}else{
+						steptwo.className+=' alipay';
+					}
+				});
+				
+				mui('#steptwo').on('change','#withDrawWeixin',function(){
+					
+				});
+				document.getElementById("submitApply").addEventListener("tap", function() {
+					var reg = /^[0-9]+([.]{1}[0-9]{1,2})?$/;
+					if(!reg.test(document.getElementById('inputMoney').value)) {
+						mui.toast("提现金额不能为非数字字符");
+						return;
+					}
+					var applyWithDrawAmount = parseFloat(document.getElementById('inputMoney').value);
+					var userBalance = parseFloat(document.getElementById('balanceValue').innerText);
+					var openid = document.getElementById('wdopenId').value;
+					var nickname = document.getElementById('wdnickName').value;
+					var passwords = document.getElementById('payPwd').value;
+					var _d = document.querySelector("input[name='userVo.applyType']:checked").value;
+
+					var applyType = 1;
+					if(_d) {
+						applyType = _d;
+					} else {
+						mui.toast("请选择提现到账方式");
+						return;
+					}
+
+					if(applyWithDrawAmount > userBalance) {
+						mui.toast("提现金额不能超出可用金额");
+						return;
+					}
+					if(applyWithDrawAmount < 1) {
+						mui.toast("提现金额不能小于1元");
+						return;
+					}
+					if(applyWithDrawAmount<parseFloat(WithDrawMinimum)){
+						mui.toast("最低提现金额"+WithDrawMinimum+"元");
+						return;
+					}
+					if(applyWithDrawAmount>parseFloat(WithDrawMaximum)){
+						mui.toast("最高提现金额"+WithDrawMaximum+"元");
+						return;
+					}
+					if(applyType == 3) {
+						if(openid.length < 1) {
+							mui.toast("请填写收款账号");
+							return;
+						}
+						if(nickname.length < 1) {
+							mui.toast("请填写收款账号真实姓名");
+							return;
+						}
+					}
+					var opid = "";
+					mui.ajax(URL + 'api/MemberCapital/PostApplyWithDraw', {
+						data: himall.md5Data({
+							openid: (applyType == 3 ? openid : ''),
+							nickname: nickname,
+							amount: applyWithDrawAmount,
+							pwd: passwords,
+							applytype: applyType,
+							userkey: userkey
+						}),
+						dataType: 'json',
+						type: 'post',
+						timeout: 10000,
+						success: function(data) { 
+							if(data.success) {
+								mui.toast("提现申请成功");
+								steptwo.style.display = "none";
+								cover.style.display = "none";
+							} else {
+								mui.toast(data.msg);
+							}
+						},
+						error: function(xhr) {
+
+						}
+					});
+				});
+				loadPage = function() {
+					mui.ajax(URL + 'api/MemberCapital/Get', {
+						data: himall.md5Data({
+							userkey: userkey
+						}),
+						dataType: 'json',
+						type: 'get',
+						timeout: 10000,
+						success: function(data) {
+							document.getElementById("balanceValue").innerHTML = data.Balance || 0;
+							document.getElementById("RedPacketAmount").innerHTML = data.RedPacketAmount || 0;
+							document.getElementById("ChargeAmount").innerHTML = data.ChargeAmount || 0;
+							WithDrawMinimum=data.WithDrawMinimum || 0;
+							WithDrawMaximum=data.WithDrawMaximum || 0;
+							document.getElementById("inputMoney").setAttribute('placeholder',"提现金额"+WithDrawMinimum+"~"+WithDrawMaximum);
+						}
+					});
+					var w = plus.nativeUI.showWaiting('', {padlock: true});
+					mui.ajax(URL + 'api/MemberCapital/GetList', {
+						data: himall.md5Data({
+							pageno: page,
+							pagesize: 15,
+							userkey: userkey
+						}),
+						dataType: 'json',
+						type: 'get',
+						timeout: 10000,
+						success: function(data) {
+							document.getElementById("myasset").innerHTML = template('initData', data);
+							w.close();
+						},
+						error: function(xhr) {
+							w.close();
+						}
+					});
+				}
+				loadPage();
+			});
+			document.getElementById("submitPwd").addEventListener('tap', function() {
+				var passwords1 = document.getElementById('firstPwd').value;
+				var passwords = document.getElementById('secondPwd').value;
+				if(passwords1 == passwords && passwords != '') {
+					mui.ajax(URL + 'api/payment/PostSetPayPwd', {
+						data: himall.md5Data({
+							password: passwords,
+							userkey: userkey
+						}),
+						dataType: 'json',
+						type: 'post',
+						timeout: 10000,
+						success: function(data) {
+							document.getElementById("stepone").style.display = "none";
+							document.getElementById("J_assets_layer").style.display = "none";
+							mui.toast("设置成功");
+							payPwd = passwords;
+						},
+						error: function(xhr, type, errorThrown) {
+
+						}
+					});
+				} else if(passwords == '') {
+					mui.toast("输入密码不能为空");
+					return false;
+				} else {
+					mui.toast("两次密码不一致");
+					return false;
+				}
+			});
+		</script>
+		<script id="initData" type="text/html">
+			{{each rows as rowslist}}
+			<li>
+				<span class="mui-time">{{rowslist.CreateTime}}</span>
+				<span class="mui-num">{{rowslist.Amount}}</span>
+				<span class="mui-remark"> {{rowslist.Remark}}</span>
+			</li>
+
+			{{/each}}
+
+		</script>
+	</body>
+
+</html>

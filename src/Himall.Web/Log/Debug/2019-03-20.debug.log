@@ -1,0 +1,80 @@
+
+
+
+ 记录时间：2019-03-20 11:24:13,992 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-03-20 11:26:00,421 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-03-20 11:26:00 418:[当前请求URL：http://localhost:62443/Login；请求的参数为：；页面加载的时间：10257.1904 毫秒] 
+
+
+
+
+ 记录时间：2019-03-20 11:26:19,811 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-03-20 11:26:19 811:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：7957.3113 毫秒] 
+
+
+
+
+ 记录时间：2019-03-20 11:26:20,904 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-03-20 11:26:20 904:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：5167.6188 毫秒] 
+
+
+
+
+ 记录时间：2019-03-20 11:26:21,011 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-03-20 11:26:21 011:[当前请求URL：http://localhost:62443/Login/GetCheckCode；请求的参数为：；页面加载的时间：8711.1485 毫秒] 
+
+
+
+
+ 记录时间：2019-03-20 11:26:52,402 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-03-20 11:26:52 402:[当前请求URL：http://localhost:62443/SellerAdmin/product/create；请求的参数为：；页面加载的时间：5357.8883 毫秒] 
+
+
+
+
+ 记录时间：2019-03-20 11:30:24,509 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-03-20 11:30:24 509:[当前请求URL：http://localhost:62443/Product/Details/810；请求的参数为：；页面加载的时间：9640.7725 毫秒] 
+
+
+
+
+ 记录时间：2019-03-20 11:30:33,525 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-03-20 11:30:33 524:[当前请求URL：http://localhost:62443/m-wap/Product/Details/810?nojumpfg = 1；请求的参数为：nojumpfg+=+1；页面加载的时间：9006.2165 毫秒] 
+
+
+
+
+ 记录时间：2019-03-20 11:30:34,123 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-03-20 11:30:34 122:[当前请求URL：http://localhost:62443/SellerAdmin/product/create；请求的参数为：；页面加载的时间：22780.3341 毫秒] 
+
+
+
+
+ 记录时间：2019-03-20 11:30:47,373 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-03-20 11:30:47 373:[当前请求URL：http://localhost:62443/SellerAdmin/product/list；请求的参数为：；页面加载的时间：7768.6777 毫秒] 
+

@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<title>门店列表</title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />   
+	</head>
+	<body class="storeSearch">
+		<header class="mui-bar mui-bar-nav transparent-bg">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">门店列表</h1>
+		</header>
+		
+		<div id="pullrefresh" class="mui-content">
+			<div class="mui-scroll">
+				<div class="storelist">
+					<div class="store-container">
+						<ul class="list-ul" id="storesList">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        <script src="js/mui.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/md5.js"></script>
+        <script src="js/delayimg.min.js"></script>
+        <script src="js/template.js"></script>
+        <script src="https://3gimg.qq.com/lightmap/components/geolocation/geolocation.min.js"></script>
+        <script>
+            var storesList = document.getElementById('storesList'),ws;
+            mui.init();
+            himall.immersedNav();
+			if (mui.os.android)
+				document.getElementsByClassName('mui-scroll')[0].className='';
+			mui('.storelist').on('tap', '.sale-num', function (e) {
+            	 e.stopPropagation();
+            	 var obj = this.parentNode;
+            	 if(himall.hasClass(obj,'active')){
+            	 	himall.removeClass(obj,'active');
+            	 }else{
+            	 	obj.className+=' active';
+            	 }
+            });	
+            mui.plusReady(function () {
+            	ws = plus.webview.currentWebview();
+            	loadList();
+            });
+            function loadList(){
+            	 var wait = plus.nativeUI.showWaiting();
+            	 mui.ajax(URL + 'api/ShopBranchWeb/GetStoresByProduct', {
+                    data: himall.md5Data({
+                        pageNo: 1,
+                        pageSize: 100,
+                        fromLatLng: plus.storage.getItem('mallFromLatLng'),
+                        productId:ws.productId,
+                        shopId:ws.shopId
+                    }),
+                    dataType: 'json',
+                    type: 'get',
+                    timeout: 10000,
+                    success: function (data) {
+                    	wait.close();
+                        if (data.success) {
+		            	    if (data.Stores.length > 0) {		            	    	
+		            	    	dataActionOpera(data);		            	    	
+		            	   		storesList.innerHTML=template('initStoreList', data);
+		            	   		delayimg.init();
+		            	   		setTimeout(function(){
+									var styles = document.getElementsByTagName("style");
+									var hStyle = styles.length ? styles[0] : document.createElement("style");
+									hStyle.innerHTML = ".store-container .li-right .products img{ height:"+document.querySelector('.products img').width+"px;}";
+									document.head.appendChild(hStyle);
+								},500);
+		                    }
+                       } 
+                    },
+                    error: function (xhr) {
+                       wait.close();
+                   	   reloadWvLoad();
+                    }
+                });
+            }
+			mui('#storesList').on('tap', '.store-img', function (e) {
+            	var id = this.getAttribute("data-id");
+            	himall.openVW('store-home.html',{shopid:id});
+            });
+            mui('#storesList').on('tap', 'h3', function (e) {
+            	var id = this.getAttribute("data-id");
+            	himall.openVW('store-home.html',{shopid:id});
+            });
+            mui('#storesList').on('tap', '.rowline', function (e) {
+            	var id = this.getAttribute("data-id");
+            	id && (himall.openVW('store-home.html',{shopid:id}));
+            });
+            
+            mui('#storesList').on('tap', '.products li', function (e) {
+            	e.stopPropagation();
+            	var id = this.getAttribute("data-id"),
+            		shopid=this.getAttribute("data-shopid");
+            	himall.openVW('store-home.html',{shopid:shopid,productid:id});
+            });
+			//活动信息处理
+			function dataActionOpera(data){
+				if (data.Stores.length > 0) {
+        	    	for(var i=0,len=data.Stores.length;i<len;i++){
+            			var count = 0,types1 = new Array(),types3='',types2='';
+        	    		var actives = data.Stores[i].ShopAllActives;
+        	    		if(actives.ShopActives && actives.ShopActives.length>0){
+        	    			for(var j=0;j<actives.ShopActives.length;j++){
+        	    				types1.push(' '+actives.ShopActives[j].ActiveName);
+        	    				count++;
+        	    			}
+        	    		}
+        	    		if (actives.FreeFreightAmount > 0){
+        	    			types3 = '满'+actives.FreeFreightAmount+'元免运费';
+        	    			count++;
+        	    		}
+        	    		if(actives.ShopCoupons && actives.ShopCoupons.length>0){
+        	    			for(var j=0,lens=actives.ShopCoupons.length;j<lens;j++){
+        	    				var _item=actives.ShopCoupons[j];
+        	    				var showOrderAmount=parseFloat( _item.OrderAmount);
+        	    				var showPrice=_item.Price;
+        	    				if(showOrderAmount<_item.Price){
+        	    					showOrderAmount=_item.Price;
+        	    				}
+        	    				if(showOrderAmount=parseInt(showOrderAmount)){
+        	    					showOrderAmount=showOrderAmount.toFixed(0);
+        	    				}else{
+        	    					showOrderAmount=showOrderAmount.toFixed(2);
+        	    				}
+        	    				if(showPrice=parseInt(showPrice)){
+        	    					showPrice=showPrice.toFixed(0);
+        	    				}else{
+        	    					showPrice=showPrice.toFixed(2);
+        	    				}
+        	    				types2 = types2+',满'+ showOrderAmount +'减'+showPrice+'';
+        	    			}
+        	    			count++;
+        	    		}
+        	    		data.Stores[i].ShopBranch.types1=types1;
+        	    		data.Stores[i].ShopBranch.count = count;
+        	    		data.Stores[i].ShopBranch.types3=types3;
+        	    		data.Stores[i].ShopBranch.types2=types2.substr(1,types2.length);
+        	    	}
+                }
+			}
+		</script>
+		<script type="text/html" id="initStoreList">
+            {{each Stores as item i}}
+            <li class="list-li mui-clearfix">
+				<img data-id="{{item.ShopBranch.Id}}" class="store-img" src="images/blank.gif" data-delay="{{item.ShopBranch.ShopImages}}"/>
+				<div class="li-right">
+					<h3 data-id="{{item.ShopBranch.Id}}">{{item.ShopBranch.ShopBranchName}}</h3>
+					<div data-id="{{item.ShopBranch.Id}}" class="rowline mui-clearfix">
+						<span class="fl">¥ {{item.ShopBranch.DeliveTotalFee}}起送<i class="space-line"></i>配送费 ¥ {{item.ShopBranch.DeliveFee}}</span>
+						<span class="fr">{{item.ShopBranch.DistanceUnit}}</span>
+					</div>
+					<div class="rowline mui-clearfix">
+						<span class="fl"><span class="commentscore"><span class="hdstars"><i class="hdstars-active" style="width:{{item.CommentScore/5*100}}%"></i></span> {{item.CommentScore}}</span><i class="space-line"></i></span>
+						<span class="fl">月售 {{item.SaleCountByMonth}}</span>
+						<span class="fr">
+							{{if item.ShopBranch.IsAboveSelf}}<span class="tag">自提</span>{{/if}}
+							{{if item.ShopBranch.IsStoreDelive}}<span class="tag">门店配送</span>{{/if}}
+						</span>
+					</div>
+					{{if item.ShopBranch.count>0}}
+					<ul class="sales">
+						{{each item.ShopBranch.types1}}
+						<li><i class="sale-icon type1"></i><span>{{$value}}</span></li>
+						{{/each}}
+						{{if item.ShopBranch.types2}}<li><i class="sale-icon type2"></i><span>{{item.ShopBranch.types2}}</span></li>{{/if}}
+						{{if item.ShopBranch.types3}}<li><i class="sale-icon type3"></i><span>{{item.ShopBranch.types3}}</span></li>{{/if}}
+						<span class="sale-num">{{item.ShopBranch.count}}个活动<i></i></span>
+					</ul>
+					{{/if}}
+					<ul class="products">
+						{{each item.ShowProducts}}
+						<li data-id="{{$value.Id}}" data-shopid="{{item.ShopBranch.Id}}"><a><img src="images/blank.gif" data-delay="{{$value.DefaultImage}}"/><span>¥ {{$value.MinSalePrice}}</span></a></li>
+						{{/each}}
+					</ul>
+				</div>
+			</li>
+           {{/each}}
+        </script>
+	</body>
+</html>

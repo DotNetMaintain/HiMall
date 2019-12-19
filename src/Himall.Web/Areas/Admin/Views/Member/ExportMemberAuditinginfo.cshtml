@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Himall.DTO.Members>
+@{
+	Layout = null;
+}<table cellspacing="0" cellpadding="5" rules="all" border="1">
+    <thead>
+        <tr>
+            <th>会员名称</th>
+            <th>真实姓名</th>
+            <th>工号</th>
+            <th>公司</th>
+            <th>部门</th>
+            <th>手机</th>
+            <th>注册日期</th>
+        </tr>
+    </thead>
+    <tbody id="list-table-body">
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.UserName</td>
+            <td>@item.RealName</td>
+            <td>@item.Code</td>
+            <td>@item.CompanyName</td>
+            <td>@item.DepName</td>
+            <td>@item.CellPhone</td>
+            <td>@item.CreateDate.ToString("yyyy-MM-dd")</td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,740 @@
+
+
+
+ 记录时间：2019-02-12 10:59:19,179 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-02-12 10:59:59,061 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund Number=5 
+
+
+
+
+ 记录时间：2019-02-12 10:59:59,170 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 10:59:59,301 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：244 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 10:59:59,363 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 10:59:59,438 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：245 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 10:59:59,527 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 10:59:59,582 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：246 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 10:59:59,613 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 10:59:59,669 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：247 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 10:59:59,711 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 10:59:59,813 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：248 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 11:00:33,707 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 11:00:33 705:[当前请求URL：http://localhost:62443/m-wap/member/center；请求的参数为：；页面加载的时间：9519.8994 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 11:00:51,799 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 11:00:51 799:[当前请求URL：http://localhost:62443/m-wap/OrderRefund/List；请求的参数为：；页面加载的时间：5335.5129 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 11:00:53,214 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.OrderRefundController.RefundApply  
+错误描述：orderid2019012328658439 
+
+
+
+
+ 记录时间：2019-02-12 11:00:53,216 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.OrderRefundController.RefundApply  
+错误描述：item.Quantity===1item.ReturnQuantity0 
+
+
+
+
+ 记录时间：2019-02-12 11:01:09,772 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.OrderRefundController.RefundApply  
+错误描述：info.OrderId====2019012328658439CurrentUser.Id===641 
+
+
+
+
+ 记录时间：2019-02-12 11:01:09,817 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.OrderRefundController.RefundApply  
+错误描述：info.RefundModeReturnGoodsRefund 
+
+
+
+
+ 记录时间：2019-02-12 11:01:09,818 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.Mobile.Controllers.OrderRefundController.RefundApply  
+错误描述：info.ReturnQuantity1 
+
+
+
+
+ 记录时间：2019-02-12 11:02:31,200 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 11:02:31 200:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：62845.689 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 11:02:49,454 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund Number=5 
+
+
+
+
+ 记录时间：2019-02-12 11:02:49,497 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 11:02:49,559 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：244 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 11:02:49,602 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 11:02:49,688 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：245 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 11:02:49,721 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 11:02:49,782 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：246 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 11:02:49,854 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 11:02:49,925 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：247 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 11:02:49,960 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 11:02:50,013 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：248 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 11:02:51,816 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/771/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:51,849 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/771/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:51,877 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/771/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:51,899 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/809/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:51,926 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/772/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:51,971 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/772/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:52,000 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/772/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:52,022 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/772/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:52,046 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/772/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:52,072 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/772/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:52,103 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/772/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:52,168 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/772/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:52,192 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/772/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:52,215 
+日志级别：  DEBUG 
+出错类：Himall.Application.OrderApplication.GetFullOrders  
+错误描述：ThumbnailsUrlhttp://localhost:62443//Storage/Shop/316/Products/772/1_100.png 
+
+
+
+
+ 记录时间：2019-02-12 11:02:54,630 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 11:02:54 630:[当前请求URL：http://localhost:62443/SellerAdmin/order/list；请求的参数为：；页面加载的时间：6874.8272 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 11:04:41,706 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund Number=5 
+
+
+
+
+ 记录时间：2019-02-12 11:04:41,731 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 11:04:41,786 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：244 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 11:04:41,831 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 11:04:41,901 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：245 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 11:04:41,932 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 11:04:42,158 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：246 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 11:04:42,196 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 11:04:42,254 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：247 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 11:04:42,289 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeOrderRefund 
+
+
+
+
+ 记录时间：2019-02-12 11:04:42,344 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.AutoAuditRefund  
+错误描述：RefundJob : AutoAuditRefund [有错误]编号：248 
+
+Himall.Core.HimallException: 无法关闭此订单！
+   在 Himall.Service.OrderService.AgreeToRefundBySeller(Int64 orderId) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\OrderService.cs:行号 2029
+   在 Himall.Service.RefundService.SellerDealRefund(Int64 id, OrderRefundAuditStatus auditStatus, String sellerRemark, String sellerName) 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1076
+   在 Himall.Service.RefundService.AutoAuditRefund() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Service\Order\RefundService.cs:行号 1879
+
+
+
+ 记录时间：2019-02-12 11:04:59,833 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.SellerDealRefund  
+错误描述：refund.RefundModeReturnGoodsRefund 
+
+
+
+
+ 记录时间：2019-02-12 11:05:00,270 
+日志级别：  DEBUG 
+出错类：Himall.Service.RefundService.Orderrefunddetail  
+错误描述：id274 
+
+
+
+
+ 记录时间：2019-02-12 11:05:00,742 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.OrderRefundController.GetResponseResult  
+错误描述：urlhttp://zxk.mhybms.cn:10000/system/refund/operate_1/saveRefundBySeller?refundJson={"RefundId":274,"OrderId":2019012328658439,"ApplyDate":"2019-02-12 11:01:10","UserName":"admin","ContactPerson":"111","ContactCellPhone":"11111111111","Amount":"111.00","ProductName":"1111111111","Reason":"????","ReasonDetail":null,"ShipOrderNumber":null,"ProductId":772,"SellerAuditStatus":2,"RefundMode":3,"RefundPayStatus":null} 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,402 
+日志级别：  DEBUG 
+出错类：Himall.Web.Framework.BaseController.OnException  
+错误描述：服务器提交了协议冲突. Section=ResponseStatusLine 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,465 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 11:05:03 465:[当前请求URL：http://localhost:62443/SellerAdmin/orderrefund/DealRefund；请求的参数为：；页面加载的时间：15119.5504 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,543 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：msgtype5 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,590 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultHimall.Model.WeiXinMsgTemplateInfo 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,590 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.GetWeiXinMsgTemplate  
+错误描述：resultTrue 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,689 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：urlhttps://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8b2369d7a650c5eb&secret=727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,824 
+日志级别：  DEBUG 
+出错类：Himall.Service.Weixin.WXHelper.GetResponseResult  
+错误描述：result{"access_token":"18_fONPyTeNkKCl6ruRbuZWntEnCBPcNSw59h0vbZV73O-__dgV5k_kjjL1by_7J7Sj3g__QtbtDbJg3zzcFba5FVUPPSQ8HWbV94zFwqkzyoesL_nXs-RGsdv4zSrmf3p412tcVKKCOL90kBwyQELcADATHO","expires_in":7200} 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,824 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到Token18_fONPyTeNkKCl6ruRbuZWntEnCBPcNSw59h0vbZV73O-__dgV5k_kjjL1by_7J7Sj3g__QtbtDbJg3zzcFba5FVUPPSQ8HWbV94zFwqkzyoesL_nXs-RGsdv4zSrmf3p412tcVKKCOL90kBwyQELcADATHO 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,824 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到openIdoXdftwQe8wJz4-aMGDUfoVfGuKOY 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,824 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到templateId0LeEtXHORdYq9IDbWO9gAzP-KU-4RcTjM8_2sVtDXVg 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,824 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到accessToken18_fONPyTeNkKCl6ruRbuZWntEnCBPcNSw59h0vbZV73O-__dgV5k_kjjL1by_7J7Sj3g__QtbtDbJg3zzcFba5FVUPPSQ8HWbV94zFwqkzyoesL_nXs-RGsdv4zSrmf3p412tcVKKCOL90kBwyQELcADATHO 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,824 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：[模板消息]取到appsecret727336d57bd539781ac341124192afa7 
+
+
+
+
+ 记录时间：2019-02-12 11:05:03,824 
+日志级别：  DEBUG 
+出错类：Himall.Service.WXMsgTemplateService.SendMessageByTemplate  
+错误描述：url 
+
+
+
+
+ 记录时间：2019-02-12 11:07:10,745 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 11:07:10 745:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：5696.7825 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 11:07:11,365 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 11:07:11 365:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：6266.9284 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 11:07:12,340 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 11:07:12 340:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：7259.0209 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 11:07:13,261 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 11:07:13 261:[当前请求URL：http://localhost:62443/m-Wap/OrderRefund/List；请求的参数为：；页面加载的时间：8145.5035 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 15:06:58,836 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-02-12 15:07:44,071 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 03:07:44 070:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：6596.8604 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 15:07:57,704 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 03:07:57 703:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：6106.3418 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 15:08:01,476 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 03:08:01 476:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：9797.4619 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 15:09:34,908 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 03:09:34 908:[当前请求URL：http://localhost:62443/shopConcern；请求的参数为：；页面加载的时间：23198.1666 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 15:12:18,462 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 03:12:18 462:[当前请求URL：http://localhost:62443/UserInvite/index；请求的参数为：；页面加载的时间：25771.8999 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 15:17:39,002 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 03:17:39 002:[当前请求URL：http://localhost:62443/OrderComplaint；请求的参数为：；页面加载的时间：11638.4502 毫秒] 
+
+
+
+
+ 记录时间：2019-02-12 15:18:16,020 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-02-12 03:18:16 019:[当前请求URL：http://localhost:62443/UserInfo/Index；请求的参数为：；页面加载的时间：12937.3381 毫秒] 
+

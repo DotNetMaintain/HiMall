@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>   
+		<header class="mui-bar mui-bar-nav">      
+			<!--<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>-->
+			<a class="mui-icon mui-icon-left-nav mui-pull-left" id="go_back"></a>
+			<h1 class="mui-title">专题</h1>
+		</header>    
+		        
+		<script src="js/mui.min.js"></script>     
+		<script src="js/app.js"></script> 
+		<script src="js/md5.js" ></script>
+		<script type="text/javascript">        
+			  
+			var a=new Date()*1,sub,topHeight=44;
+		    document.addEventListener('plusready',function(){ 
+		    	if(plus.navigator.isImmersedStatusbar()){
+			        topHeight=Math.round(plus.navigator.getStatusbarHeight())+topHeight;
+			    }
+		    	 var ms=plus.webview.currentWebview();
+		    	 var id=ms.topicId;
+		    	 plus.storage.setItem('topicIds',''+id);
+		    	 document.querySelector('.mui-title').innerText=ms.name?ms.name:'专题';
+			     plus.io.requestFileSystem(plus.io.PRIVATE_WWW, function( fs ) {
+		     	     url=fs.root.toLocalURL();     
+		     	     mui.init({          
+					    subpages:[{  
+					      url:URL+"m-wap/topic/detail/"+id,             
+					      id:"specical_info",        
+					      styles:{  
+  					        top:topHeight+"px",                       
+					        bottom:"0",                          
+					      },          
+					      extras:{url:url}            
+					    }]  
+					});     
+			     },function(e){
+                });
+			  	loadPage(id);
+			});  
+			document.addEventListener('updateData',function(e){
+				var id=e.detail.topicId;
+				var topicId = plus.storage.getItem('topicIds');
+				var topicList = topicId.split(",");
+				var hasOne = false;
+				for(var i=0,len=topicList.length;i<len;i++){
+					if(topicList[i]==id){
+						hasOne = true;
+					}
+				}
+				if(!hasOne){
+					plus.storage.setItem('topicIds',topicId+','+id);
+				}
+				
+            	var subpage_url=URL+"m-wap/topic/detail/"+id;
+            	var subpage_style = {  
+				    top:topHeight+"px",  
+					bottom:"0", 
+				};
+            	var self = plus.webview.currentWebview();
+			    sub = plus.webview.create(subpage_url, subpage_url, subpage_style);    
+			    self.append(sub); 
+
+				loadPage(id);
+			});
+			
+			function loadPage(id){
+			  	var w=plus.nativeUI.showWaiting('',{padlock:true});
+			  	mui.ajax(URL+'api/Topic/GetTopicDetail',{
+					data:himall.md5Data({
+						id:id
+					}),
+					dataType:'json',
+					type:'get',
+					timeout:10000,
+					success:function(data){
+						if(data.success){
+							document.getElementsByClassName('mui-title')[0].innerText=data.Topic.Name;
+						}
+						w.close();
+					},
+					error:function(xhr){
+						w.close();
+						reloadWvLoad();
+					}
+				});
+			}
+			var backObj = document.getElementById("go_back");
+			if(backObj) {
+				backObj.addEventListener("tap", function() {
+					var topics = [];
+					topics = plus.storage.getItem('topicIds').split(',');
+					var len = topics.length;
+					if(len>1){
+						topics.pop();
+						var tmpid = topics.length>1?topics.join(','):topics[0];
+						plus.storage.setItem('topicIds',tmpid);
+						mui.fire(plus.webview.getWebviewById('topic-detail.html'),'updateData',{topicId:topics[topics.length-1]});
+					}else{
+						mui.back();
+					}
+					
+				});
+			}
+		</script>
+	</body>
+
+</html>                     

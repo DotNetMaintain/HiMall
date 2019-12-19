@@ -1,0 +1,24 @@
+
+
+
+ 记录时间：2019-03-28 15:30:40,506 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-03-28 15:30:56,062 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-03-28 03:30:56 061:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：5832.7864 毫秒] 
+
+
+
+
+ 记录时间：2019-03-28 16:55:41,372 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-03-28 04:55:41 372:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：6236.5957 毫秒] 
+

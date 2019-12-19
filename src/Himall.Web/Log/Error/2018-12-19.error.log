@@ -1,0 +1,875 @@
+
+
+
+ 记录时间：2018-12-19 09:35:13,047 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 09:51:35,459 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 10:04:21,463 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 10:33:55,951 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 10:37:54,292 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 10:49:49,634 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 10:49:50,259 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_App\Himall.Plugin.Payment.WeiXinPay_App.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 10:49:50,583 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_H5\Himall.Plugin.Payment.WeiXinPay_H5.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 10:49:50,815 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_Native\Himall.Plugin.Payment.WeiXinPay_Native.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 10:49:50,865 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_O2OSmallProg\Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 10:49:51,048 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_SmallProg\Himall.Plugin.Payment.WeiXinPay_SmallProg.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 10:52:02,346 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.Alipay_WAP 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay.Base.Notify.SortNotifyPara(Dictionary`2 dicArrayPre)
+   在 Himall.Plugin.Payment.Alipay.Base.Notify.GetSignVeryfy(Dictionary`2 inputPara, String sign, Config _config, Boolean isSort)
+   在 Himall.Plugin.Payment.Alipay.Base.Notify.Verify(Dictionary`2 inputPara, String notify_id, String sign, Config _config, Boolean isSort)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 14:29:09,429 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 14:32:56,651 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 14:35:42,155 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 14:35:42,171 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_App\Himall.Plugin.Payment.WeiXinPay_App.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 14:35:42,188 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_H5\Himall.Plugin.Payment.WeiXinPay_H5.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 14:35:42,204 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_Native\Himall.Plugin.Payment.WeiXinPay_Native.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 14:35:42,219 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_O2OSmallProg\Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 14:35:42,233 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_SmallProg\Himall.Plugin.Payment.WeiXinPay_SmallProg.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 14:37:26,101 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 14:40:06,814 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay\Himall.Plugin.Payment.WeiXinPay.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 14:40:07,169 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_App\Himall.Plugin.Payment.WeiXinPay_App.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 14:40:07,303 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_H5\Himall.Plugin.Payment.WeiXinPay_H5.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 14:40:07,453 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_Native\Himall.Plugin.Payment.WeiXinPay_Native.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 14:40:07,498 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_O2OSmallProg\Himall.Plugin.Payment.WeiXinPay_O2OSmallProg.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 14:40:07,540 
+日志级别：  ERROR 
+出错类：Himall.Core.PluginsManagement.InstallDll  
+错误描述：插件加载失败(E:\合作项目\mall\Himall3.0\src\Himall.Web\plugins\Payment\Himall.Plugin.Payment.WeiXinPay_SmallProg\Himall.Plugin.Payment.WeiXinPay_SmallProg.dll)！ 
+
+Himall.Core.InstanceCreateException: 创建实例异常 ---> System.ArgumentNullException: 值不能为 null。
+参数名: type
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Himall.Core.Instance.Get[T](String classFullName)
+   在 Himall.Core.PluginsManagement.InstallDll(String dllFileName)
+
+
+
+ 记录时间：2018-12-19 14:46:43,315 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 14:47:07,431 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.Alipay_WAP 
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Himall.Plugin.Payment.Alipay.Base.Notify.SortNotifyPara(Dictionary`2 dicArrayPre)
+   在 Himall.Plugin.Payment.Alipay.Base.Notify.GetSignVeryfy(Dictionary`2 inputPara, String sign, Config _config, Boolean isSort)
+   在 Himall.Plugin.Payment.Alipay.Base.Notify.Verify(Dictionary`2 inputPara, String notify_id, String sign, Config _config, Boolean isSort)
+   在 Himall.Plugin.Payment.Alipay_WAP.Service.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 14:47:26,174 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 15:06:42,533 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 15:09:07,394 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 15:19:35,045 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 15:28:11,521 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 15:45:05,139 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 15:48:17,022 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 15:48:48,371 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 15:51:47,480 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 15:57:20,544 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 缺少根元素。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 16:08:42,866 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 16:09:24,979 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 16:12:56,415 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 16:16:17,502 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 根级别上的数据无效。 第 1 行，位置 1。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 16:20:40,796 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 缺少根元素。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 16:22:15,694 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 缺少根元素。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 16:56:27,438 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 缺少根元素。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284
+
+
+
+ 记录时间：2018-12-19 17:06:06,228 
+日志级别：  ERROR 
+出错类：Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify  
+错误描述：移动端支付异步通知返回出错，支持方式：Himall.Plugin.Payment.WeiXinPay 
+
+System.Xml.XmlException: 缺少根元素。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(Stream inStream)
+   在 Himall.WeixinPaymentBase.ResponseHandler..ctor(HttpRequestBase request)
+   在 Himall.WeixinPaymentBase.ServiceBase.ProcessNotify(HttpRequestBase request)
+   在 Himall.Plugin.Payment.WeiXinPay.Service.Himall.Core.Plugins.Payment.IPaymentPlugin.ProcessNotify(HttpRequestBase context)
+   在 Himall.Web.Areas.Mobile.Controllers.PaymentController.Notify(String id) 位置 E:\合作项目\mall\Himall3.0\src\Himall.Web\Areas\Mobile\Controllers\PaymentController.cs:行号 284

@@ -1,0 +1,3354 @@
+
+
+
+ 记录时间：2019-01-22 11:00:10,120 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 11:00:44,917 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:00:44 915:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10738.2355 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:01:03,521 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:01:03 521:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：7334.2702 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:01:04,360 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:01:04 359:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：8332.9884 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:01:32,355 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:01:32 354:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：6300.9829 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:01:49,267 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:01:49 266:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：11314.3803 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:03:34,905 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 11:03:53,830 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:03:53 830:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7552.379 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:03:53,830 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:03:53 830:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7582.3999 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:04:04,096 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:04:04 095:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：5319.809 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:04:14,656 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:04:14 656:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：10533.2585 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:04:15,062 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:04:15 062:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：10546.2676 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:04:17,072 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:04:17 072:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：12958.9837 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:04:43,784 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:04:43 784:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：28686.3808 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:18:10,395 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 11:18:30,178 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:18:30 177:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：12558.8353 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:18:30,182 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:18:30 182:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：12410.3112 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:18:46,366 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:18:46 365:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：7240.1671 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:18:57,331 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:18:57 331:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：11321.8396 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:19:21,319 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:19:21 319:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：23931.4031 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:19:51,975 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:19:51 975:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：9213.5911 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:20:42,569 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.HomeController+<RunProgramRunExample>d__14.MoveNext  
+错误描述：Quartz.ObjectAlreadyExistsException: Unable to store Job: 'group.job', because one already exists with this identification.
+   在 Quartz.Simpl.RAMJobStore.StoreJob(IJobDetail newJob, Boolean replaceExisting) 位置 c:\projects\quartznet\src\Quartz\Simpl\RAMJobStore.cs:行号 255
+   在 Quartz.Simpl.RAMJobStore.StoreJobAndTrigger(IJobDetail newJob, IOperableTrigger newTrigger) 位置 c:\projects\quartznet\src\Quartz\Simpl\RAMJobStore.cs:行号 211
+   在 Quartz.Core.QuartzScheduler.ScheduleJob(IJobDetail jobDetail, ITrigger trigger) 位置 c:\projects\quartznet\src\Quartz\Core\QuartzScheduler.cs:行号 718
+   在 Quartz.Impl.StdScheduler.ScheduleJob(IJobDetail jobDetail, ITrigger trigger) 位置 c:\projects\quartznet\src\Quartz\Impl\StdScheduler.cs:行号 262
+   在 Himall.Web.Areas.SellerAdmin.Controllers.HomeController.<RunProgramRunExample>d__14.MoveNext() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\HomeController.cs:行号 151 
+
+
+
+
+ 记录时间：2019-01-22 11:20:42,647 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:20:42 647:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：24992.4886 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:20:51,902 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:20:51 902:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：9237.1254 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:21:03,714 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.HomeController+<RunProgramRunExample>d__14.MoveNext  
+错误描述：Quartz.ObjectAlreadyExistsException: Unable to store Job: 'group.job', because one already exists with this identification.
+   在 Quartz.Simpl.RAMJobStore.StoreJob(IJobDetail newJob, Boolean replaceExisting) 位置 c:\projects\quartznet\src\Quartz\Simpl\RAMJobStore.cs:行号 255
+   在 Quartz.Simpl.RAMJobStore.StoreJobAndTrigger(IJobDetail newJob, IOperableTrigger newTrigger) 位置 c:\projects\quartznet\src\Quartz\Simpl\RAMJobStore.cs:行号 211
+   在 Quartz.Core.QuartzScheduler.ScheduleJob(IJobDetail jobDetail, ITrigger trigger) 位置 c:\projects\quartznet\src\Quartz\Core\QuartzScheduler.cs:行号 718
+   在 Quartz.Impl.StdScheduler.ScheduleJob(IJobDetail jobDetail, ITrigger trigger) 位置 c:\projects\quartznet\src\Quartz\Impl\StdScheduler.cs:行号 262
+   在 Himall.Web.Areas.SellerAdmin.Controllers.HomeController.<RunProgramRunExample>d__14.MoveNext() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\HomeController.cs:行号 151 
+
+
+
+
+ 记录时间：2019-01-22 11:21:03,717 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:21:03 717:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：14598.7969 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:22:01,582 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 11:22:18,488 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:22:18 487:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8989.0482 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:22:18,488 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:22:18 488:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9011.0651 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:22:27,919 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:22:27 918:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：5873.7699 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:22:28,957 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:22:28 957:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：5595.5059 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:22:38,223 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:22:38 223:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：9246.802 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:22:47,985 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:22:47 985:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：17834.3954 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:22:48,314 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:22:48 314:[当前请求URL：http://localhost:62443/Shop/PostCanUseShopCoupons/316；请求的参数为：；页面加载的时间：10066.7121 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:22:48,370 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:22:48 369:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：19392.5722 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 11:23:13,656 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 11:23:13 656:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：25646.5223 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 13:46:03,538 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 13:46:15,177 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 01:46:15 177:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7587.9916 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 13:46:50,934 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 13:47:02,863 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 01:47:02 860:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：8848.6805 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 13:59:57,058 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:00:33,991 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:00:52,732 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:01:14,150 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:01:35,520 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:01:54,062 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:02:11,355 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:02:29,926 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:02:46,483 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:02:54,119 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:03:09,076 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:03:24,225 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:03:38,589 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:03:47,777 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:04:02,320 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:04:17,318 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:04:31,653 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:04:46,653 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:05:00,726 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:05:14,399 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:05:28,494 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:05:44,234 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:05:58,510 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:06:12,982 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:06:28,614 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:06:42,474 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:06:56,493 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:07:12,009 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:07:26,262 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:07:40,108 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:07:54,924 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:08:10,121 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:08:25,470 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:08:40,708 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:08:55,737 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:09:09,575 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:09:23,275 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:09:37,295 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:09:52,022 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:10:06,091 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:10:19,688 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:10:35,228 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:10:50,267 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:11:02,672 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:11:21,590 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:11:40,434 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:40:29,395 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:40:41,008 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:40:41 007:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：6409.2753 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:40:51,240 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:40:51 240:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：7325.4918 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:40:55,321 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:40:55 321:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：10384.8966 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:41:03,012 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:41:03 012:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：7664.5101 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:41:11,480 
+日志级别：  DEBUG 
+出错类：Quartz.Simpl.TaskSchedulingThreadPool  
+错误描述：TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+
+
+
+
+ 记录时间：2019-01-22 14:41:17,752 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 1 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:41:17,799 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:41:17 799:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：16613.6411 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:41:30,017 
+日志级别：  DEBUG 
+出错类：Quartz.Simpl.SimpleJobFactory  
+错误描述：Producing instance of Job 'group.job', class=Himall.Web.Areas.SellerAdmin.Controllers.HomeController 
+
+
+
+
+ 记录时间：2019-01-22 14:41:30,045 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:41:48,432 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:41:48 432:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：30580.8641 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:41:55,534 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:41:58,264 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:41:58 264:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：7974.5641 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:42:05,681 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:42:05 681:[当前请求URL：http://localhost:62443/SellerAdmin/home/ProductRecentMonthSaleRank?_=1548139311236；请求的参数为：_=1548139311236；页面加载的时间：14392.4532 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:42:21,500 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:42:50,532 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:43:19,289 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:43:43,252 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:44:10,873 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:44:40,557 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:45:10,512 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:45:25,170 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:45:25 170:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：7425.3015 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:45:34,364 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:46:05,109 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.HomeController+<RunProgramRunExample>d__14.MoveNext  
+错误描述：Quartz.ObjectAlreadyExistsException: Unable to store Job: 'group.job', because one already exists with this identification.
+   在 Quartz.Simpl.RAMJobStore.StoreJobInternal(IJobDetail newJob, Boolean replaceExisting)
+   在 Quartz.Simpl.RAMJobStore.StoreJobAndTrigger(IJobDetail newJob, IOperableTrigger newTrigger, CancellationToken cancellationToken)
+   在 Quartz.Core.QuartzScheduler.<ScheduleJob>d__82.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Himall.Web.Areas.SellerAdmin.Controllers.HomeController.<RunProgramRunExample>d__14.MoveNext() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\HomeController.cs:行号 152 
+
+
+
+
+ 记录时间：2019-01-22 14:46:05,111 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:46:05,145 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:46:05 144:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：32229.7043 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:46:29,476 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:46:56,565 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:47:22,033 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:47:46,522 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:48:09,927 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:48:36,328 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:49:00,856 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:49:26,976 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:49:50,799 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:50:14,914 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:50:43,435 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:51:08,329 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:51:34,927 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:51:58,141 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:52:27,769 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:52:56,445 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:53:20,737 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:53:50,609 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:54:06,213 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 14:54:15,672 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:54:26,417 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:54:26 416:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9355.9911 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:54:26,418 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:54:26 416:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9292.4452 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:54:35,234 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:54:35 234:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：7242.2942 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:54:35,235 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:54:35 235:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：7245.2957 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:54:35,654 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:54:35 653:[当前请求URL：http://localhost:62443/Login/GetOAuthList?_=1548140067965；请求的参数为：_=1548140067965；页面加载的时间：6588.3282 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:54:35,929 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:54:35 922:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：7930.2831 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:54:40,207 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:54:40 207:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：9326.8245 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:54:42,441 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:54:42 440:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：6618.9876 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:55:04,366 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:55:04 366:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：21901.5817 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:55:04,451 
+日志级别：  DEBUG 
+出错类：Quartz.Simpl.TaskSchedulingThreadPool  
+错误描述：TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+
+
+
+
+ 记录时间：2019-01-22 14:55:07,247 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 1 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:55:09,345 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:55:09 344:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：26378.3213 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:55:09,908 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:55:09 907:[当前请求URL：http://localhost:62443/Shop/PostCanUseShopCoupons/316；请求的参数为：；页面加载的时间：5505.4709 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:55:11,229 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:55:11 229:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：28749.9185 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:55:30,023 
+日志级别：  DEBUG 
+出错类：Quartz.Simpl.SimpleJobFactory  
+错误描述：Producing instance of Job 'group.job', class=Himall.Web.Areas.SellerAdmin.Controllers.AutoController 
+
+
+
+
+ 记录时间：2019-01-22 14:55:30,055 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:55:47,654 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:55:47 654:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：38287.6438 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:55:56,080 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:55:56,152 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:55:56 152:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：6467.0162 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:55:57,197 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 02:55:57 197:[当前请求URL：http://localhost:62443/SellerAdmin/home/ProductRecentMonthSaleRank?_=1548140151146；请求的参数为：_=1548140151146；页面加载的时间：6013.6487 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 14:56:22,208 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:56:50,707 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:57:15,903 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:57:39,508 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:58:07,607 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:58:35,945 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:59:00,252 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:59:26,080 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 14:59:52,748 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:00:21,369 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:00:44,879 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:01:12,757 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:01:40,993 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:02:05,905 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:02:34,375 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:03:01,779 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:03:27,147 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:03:55,770 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:04:22,556 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:04:48,529 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:05:15,465 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:05:44,744 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:06:13,187 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:06:36,337 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:07:05,788 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:07:34,979 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:08:03,736 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:08:31,696 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:08:58,134 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:09:23,408 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:09:53,056 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:10:21,230 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:10:44,704 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:11:12,067 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:11:39,290 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:12:06,915 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:12:33,986 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:13:00,519 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:13:25,947 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:13:52,720 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:14:21,909 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:14:50,318 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:15:18,723 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:15:42,040 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:16:05,563 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:16:29,816 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:16:57,691 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:17:21,832 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:17:45,831 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:18:11,656 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:18:41,434 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:19:10,835 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:19:38,842 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:20:03,700 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:20:26,792 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:20:53,992 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:21:22,013 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:21:48,792 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:22:18,478 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:22:43,958 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:23:07,890 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:23:31,544 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:23:55,092 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:24:23,446 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:24:50,482 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:25:15,898 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:25:39,706 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:26:09,037 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:26:34,099 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:27:03,015 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:27:30,199 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:27:57,962 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:28:25,006 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:28:51,410 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:29:20,424 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:29:46,141 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:30:13,140 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:30:41,730 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:31:11,545 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:31:38,153 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:32:04,801 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:32:31,221 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:32:56,150 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:33:24,974 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:33:54,449 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:34:20,722 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:34:44,818 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:35:09,789 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:35:33,017 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:36:00,566 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:36:26,118 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:36:52,005 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:37:19,166 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:37:47,337 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:38:11,148 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:38:35,616 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:39:04,536 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:39:34,230 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:40:01,070 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:40:29,395 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:40:54,055 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:41:22,359 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:41:50,789 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:42:18,925 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:42:43,665 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:43:10,947 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:43:35,462 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:44:01,002 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:44:25,544 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:44:49,519 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:45:12,884 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:45:38,811 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:46:04,836 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:46:31,481 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:46:58,992 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:47:26,091 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:47:57,277 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:47:58,743 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 15:48:28,184 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 15:48:45,671 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_Start  
+错误描述：每分钟执行一次的定时任务================================= 
+
+
+
+
+ 记录时间：2019-01-22 15:49:02,691 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 15:49:07,408 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_Start  
+错误描述：每分钟执行一次的定时任务================================= 
+
+
+
+
+ 记录时间：2019-01-22 15:49:25,262 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 15:49:28,232 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_Start  
+错误描述：每分钟执行一次的定时任务================================= 
+
+
+
+
+ 记录时间：2019-01-22 15:49:45,780 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 15:49:48,431 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_Start  
+错误描述：每分钟执行一次的定时任务================================= 
+
+
+
+
+ 记录时间：2019-01-22 15:50:07,739 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 15:50:12,059 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_Start  
+错误描述：每分钟执行一次的定时任务================================= 
+
+
+
+
+ 记录时间：2019-01-22 15:51:02,548 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 15:52:05,336 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：每分钟执行一次的定时任务================================= 
+
+
+
+
+ 记录时间：2019-01-22 15:52:05,361 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：每分钟执行一次的定时任务================================= 
+
+
+
+
+ 记录时间：2019-01-22 15:52:42,824 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 15:53:03,595 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：每分钟执行一次的定时任务================================= 
+
+
+
+
+ 记录时间：2019-01-22 15:55:40,433 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：每分钟执行一次的定时任务================================= 
+
+
+
+
+ 记录时间：2019-01-22 16:03:41,655 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 16:04:30,118 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：每分钟执行一次的定时任务================================= 
+
+
+
+
+ 记录时间：2019-01-22 16:05:56,317 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 16:06:34,624 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:06:33 074:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：18664.5084 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:06:34,632 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:06:34 631:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：20180.9664 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:06:46,334 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:06:46 333:[当前请求URL：http://localhost:62443/Home/GetThemeSettingJson；请求的参数为：；页面加载的时间：8051.9102 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:06:47,218 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:06:47 218:[当前请求URL：http://localhost:62443/home/GetBrands；请求的参数为：；页面加载的时间：8722.8876 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:06:47,306 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:06:47 306:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：9173.7089 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:06:52,003 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:06:52 002:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：5004.6224 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:06:58,686 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:06:58 686:[当前请求URL：http://localhost:62443/Login/GetCheckCode；请求的参数为：；页面加载的时间：6647.1603 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:06:59,254 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:06:59 253:[当前请求URL：http://localhost:62443/Home/GetFootNew；请求的参数为：；页面加载的时间：7233.8147 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:07:00,780 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:07:00 780:[当前请求URL：http://localhost:62443/product/GetLoginUserInfo；请求的参数为：；页面加载的时间：8752.395 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:07:02,427 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:07:02 426:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：10396.0458 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:07:03,032 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:07:03 032:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：11004.4771 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:07:14,014 
+日志级别：  DEBUG 
+出错类：Quartz.Simpl.TaskSchedulingThreadPool  
+错误描述：TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+
+
+
+
+ 记录时间：2019-01-22 16:07:40,933 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 1 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:07:41,836 
+日志级别：  DEBUG 
+出错类：Quartz.Simpl.SimpleJobFactory  
+错误描述：Producing instance of Job 'group.job', class=Himall.Web.Areas.SellerAdmin.Controllers.AutoController 
+
+
+
+
+ 记录时间：2019-01-22 16:07:44,249 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:07:44,266 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:07:44 266:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：39705.4352 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:08:09,265 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:08:09 264:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：24923.5448 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:08:13,213 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:08:37,093 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:09:04,970 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:09:29,088 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:09:54,510 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:10:19,122 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:10:45,561 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:11:10,369 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:11:39,781 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:12:09,681 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:12:33,005 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:13:01,425 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:13:25,397 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:13:54,685 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:14:23,386 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:14:51,165 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:15:21,054 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:15:47,311 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:16:12,851 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:16:38,265 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:17:05,324 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:17:32,885 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:18:02,858 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:18:29,450 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:18:53,833 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:19:18,395 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:19:45,780 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:20:13,165 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:20:43,091 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:21:07,347 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:21:34,599 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:22:03,498 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:22:29,510 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:22:53,093 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:23:22,576 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:23:50,951 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:24:23,261 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:25:09,433 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:25:15,511 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 16:25:50,769 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:29:11,536 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:29:15,028 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:29:15 027:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：230077.5099 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:29:53,191 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:29:53 191:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：7310.2449 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:30:06,689 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:30:06 689:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：17548.0243 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:30:08,228 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:30:08 228:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：17237.311 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:30:18,138 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:30:18 138:[当前请求URL：http://localhost:62443/product/GetLoginUserInfo；请求的参数为：；页面加载的时间：9782.4298 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:30:31,669 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:30:31 669:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：23141.5928 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:30:32,768 
+日志级别：  DEBUG 
+出错类：Quartz.Simpl.TaskSchedulingThreadPool  
+错误描述：TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+
+
+
+
+ 记录时间：2019-01-22 16:30:37,488 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:30:37,526 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:30:37 525:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：28283.7523 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:30:37,836 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:30:37 836:[当前请求URL：http://localhost:62443/Shop/PostCanUseShopCoupons/316；请求的参数为：；页面加载的时间：5747.589 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:30:39,774 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:30:39 773:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：31417.981 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:31:50,229 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 16:32:21,275 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:32:21 263:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：7608.1701 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:32:37,246 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:32:37 246:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：13152.2268 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:32:40,088 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:32:40 088:[当前请求URL：http://localhost:62443/home/coupon；请求的参数为：；页面加载的时间：14512.2528 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:32:46,967 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:32:46 967:[当前请求URL：http://localhost:62443/product/GetLoginUserInfo；请求的参数为：；页面加载的时间：6764.1325 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:32:53,833 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:32:53 833:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：13672.905 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:33:03,836 
+日志级别：  DEBUG 
+出错类：Quartz.Simpl.TaskSchedulingThreadPool  
+错误描述：TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+
+
+
+
+ 记录时间：2019-01-22 16:33:06,919 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 1 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:33:07,884 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:33:07 884:[当前请求URL：http://localhost:62443/selleradmin/home/index；请求的参数为：；页面加载的时间：14390.9587 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:33:30,029 
+日志级别：  DEBUG 
+出错类：Quartz.Simpl.SimpleJobFactory  
+错误描述：Producing instance of Job 'group.job', class=Himall.Web.Areas.SellerAdmin.Controllers.HomeController 
+
+
+
+
+ 记录时间：2019-01-22 16:33:30,084 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:33:44,225 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:33:44 225:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：36069.5441 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:33:56,620 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:34:20,266 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:34:47,545 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:35:13,314 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:35:37,781 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:36:03,067 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:36:32,115 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:36:58,158 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:37:25,205 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:37:50,486 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:38:18,987 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:38:52,952 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:39:05,821 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 16:39:23,584 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 16:39:44,819 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:39:44 818:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：11159.3942 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:39:44,821 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:39:44 819:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：11159.3934 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:39:58,387 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:39:58 387:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：5153.6667 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:39:59,407 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:39:59 406:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：6172.891 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:41:14,114 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 16:41:37,542 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:41:37 541:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10776.1821 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:41:37,542 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:41:37 541:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：10822.2152 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:41:54,111 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:41:54 110:[当前请求URL：http://localhost:62443/product/UserCoupons；请求的参数为：；页面加载的时间：5822.1414 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:41:54,216 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:41:54 216:[当前请求URL：http://localhost:62443/cart/GetCartProducts；请求的参数为：；页面加载的时间：5893.6938 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:46:17,399 
+日志级别：  DEBUG 
+出错类：Himall.Web.WebApiConfig.Register  
+错误描述：[OpenApi]RegRoute-DefaultOpenApi 
+
+
+
+
+ 记录时间：2019-01-22 16:46:36,416 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:46:36 413:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9998.6119 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:46:36,418 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:46:36 417:[当前请求URL：http://localhost:62443/；请求的参数为：；页面加载的时间：9904.0454 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:46:45,160 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:46:45 159:[当前请求URL：http://localhost:62443/Home/GetNotice；请求的参数为：；页面加载的时间：6065.7395 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 16:46:46,700 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 04:46:46 699:[当前请求URL：http://localhost:62443/userinfo/GetCurrentUserInfo；请求的参数为：；页面加载的时间：5521.7508 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 17:13:02,931 
+日志级别：  DEBUG 
+出错类：Quartz.Simpl.TaskSchedulingThreadPool  
+错误描述：TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+
+
+
+
+ 记录时间：2019-01-22 17:13:03,467 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 1 triggers 
+
+
+
+
+ 记录时间：2019-01-22 17:13:30,027 
+日志级别：  DEBUG 
+出错类：Quartz.Simpl.SimpleJobFactory  
+错误描述：Producing instance of Job 'group.job', class=Himall.Web.Areas.SellerAdmin.Controllers.HomeController 
+
+
+
+
+ 记录时间：2019-01-22 17:13:30,067 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 17:13:32,389 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 05:13:32 388:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：28774.9697 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 17:13:58,258 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 17:14:11,825 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.HomeController+<RunProgramRunExample>d__14.MoveNext  
+错误描述：Quartz.ObjectAlreadyExistsException: Unable to store Job: 'group.job', because one already exists with this identification.
+   在 Quartz.Simpl.RAMJobStore.StoreJobInternal(IJobDetail newJob, Boolean replaceExisting)
+   在 Quartz.Simpl.RAMJobStore.StoreJobAndTrigger(IJobDetail newJob, IOperableTrigger newTrigger, CancellationToken cancellationToken)
+   在 Quartz.Core.QuartzScheduler.<ScheduleJob>d__82.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Himall.Web.Areas.SellerAdmin.Controllers.HomeController.<RunProgramRunExample>d__14.MoveNext() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\HomeController.cs:行号 152 
+
+
+
+
+ 记录时间：2019-01-22 17:14:27,737 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 17:14:54,734 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 17:15:26,844 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 17:15:43,541 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.HomeController+<RunProgramRunExample>d__14.MoveNext  
+错误描述：Quartz.ObjectAlreadyExistsException: Unable to store Job: 'group.job', because one already exists with this identification.
+   在 Quartz.Simpl.RAMJobStore.StoreJobInternal(IJobDetail newJob, Boolean replaceExisting)
+   在 Quartz.Simpl.RAMJobStore.StoreJobAndTrigger(IJobDetail newJob, IOperableTrigger newTrigger, CancellationToken cancellationToken)
+   在 Quartz.Core.QuartzScheduler.<ScheduleJob>d__82.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Himall.Web.Areas.SellerAdmin.Controllers.HomeController.<RunProgramRunExample>d__14.MoveNext() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\HomeController.cs:行号 152 
+
+
+
+
+ 记录时间：2019-01-22 17:15:49,693 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 05:15:49 692:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：6136.3645 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 17:15:53,264 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+
+
+
+
+ 记录时间：2019-01-22 17:16:07,622 
+日志级别：  DEBUG 
+出错类：Himall.Web.Areas.SellerAdmin.Controllers.HomeController+<RunProgramRunExample>d__14.MoveNext  
+错误描述：Quartz.ObjectAlreadyExistsException: Unable to store Job: 'group.job', because one already exists with this identification.
+   在 Quartz.Simpl.RAMJobStore.StoreJobInternal(IJobDetail newJob, Boolean replaceExisting)
+   在 Quartz.Simpl.RAMJobStore.StoreJobAndTrigger(IJobDetail newJob, IOperableTrigger newTrigger, CancellationToken cancellationToken)
+   在 Quartz.Core.QuartzScheduler.<ScheduleJob>d__82.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Himall.Web.Areas.SellerAdmin.Controllers.HomeController.<RunProgramRunExample>d__14.MoveNext() 位置 E:\合作项目\长生树\mall\Himall3.0\src\Himall.Web\Areas\SellerAdmin\Controllers\HomeController.cs:行号 152 
+
+
+
+
+ 记录时间：2019-01-22 17:16:16,087 
+日志级别：  DEBUG 
+出错类：Himall.Web.MvcApplication.Application_EndRequest  
+错误描述：2019-01-22 05:16:16 086:[当前请求URL：http://localhost:62443/SellerAdmin/home/Console；请求的参数为：；页面加载的时间：8436.2578 毫秒] 
+
+
+
+
+ 记录时间：2019-01-22 17:16:22,929 
+日志级别：  DEBUG 
+出错类：Quartz.Core.QuartzSchedulerThread  
+错误描述：Batch acquisition of 0 triggers 
+

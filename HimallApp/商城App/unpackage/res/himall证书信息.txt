@@ -1,0 +1,44 @@
+G:\java\bin>keytool -list -v -keystore himall.keystore
+输入密钥库口令:
+
+密钥库类型: JKS
+密钥库提供方: SUN
+
+您的密钥库包含 1 个条目
+
+别名: himall.keystore
+创建日期: 2015-11-5
+条目类型: PrivateKeyEntry
+证书链长度: 1
+证书[1]:
+所有者: CN=xielingxiao, OU=hishop, O=hishop, L=changsha, ST=hn, C=cn
+发布者: CN=xielingxiao, OU=hishop, O=hishop, L=changsha, ST=hn, C=cn
+序列号: 311c8f6e
+有效期开始日期: Thu Nov 05 12:46:05 CST 2015, 截止日期: Fri Aug 08 12:46:05 CST
+2070
+证书指纹:
+         MD5: 2B:4C:2D:9B:A7:64:B8:72:F6:F8:F6:F3:66:5B:F0:B8
+         SHA1: D3:51:A7:8A:0F:47:B3:AE:84:B5:2D:47:B7:61:9C:8A:AA:E2:9A:8C
+         SHA256: 56:30:62:21:25:0B:E8:5D:AD:FF:84:D1:C2:02:40:87:28:92:05:34:88:
+A9:F1:5E:09:94:00:81:34:F6:B8:ED
+         签名算法名称: SHA256withRSA
+         版本: 3
+
+扩展:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 23 6C 75 76 27 F4 FA 16   2A 90 38 81 DD D8 6A A3  #luv'...*.8...j.
+0010: A2 CF 3C 56                                        ..<V
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+
+G:\java\bin>

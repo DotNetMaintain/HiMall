@@ -1,0 +1,13 @@
+
+
+
+ 记录时间：2018-03-22 11:06:34,589 
+日志级别：  ERROR 
+出错类：Himall.Web.Controllers.PublicOperationController.UploadPic  
+错误描述：上传文件错误 
+
+System.Runtime.InteropServices.ExternalException (0x80004005): GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 System.Drawing.Image.Save(String filename)
+   在 Himall.Web.Controllers.PublicOperationController.UploadPic() 位置 c:\11111\Himall3.0x\Himall3.0x\src\Himall.Web\Controllers\PublicOperationController.cs:行号 102

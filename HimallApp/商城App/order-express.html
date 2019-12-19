@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<title>物流信息</title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">物流信息</h1>
+		</header>
+		<div class="mui-content expressinfo">
+			<div class="list-group" id="expressinfo">
+
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/md5.js"></script>
+		<script src="js/template.js"></script>
+		<script type="text/javascript" charset="utf-8" src="https://map.qq.com/api/js?v=2.exp"></script>
+		<script>
+			var w,
+				userkey = himall.getState().userkey,
+				orderId=0;
+				
+				var baseurl = URL;
+				var map, dadaStatus, riderTips = "",
+					riderDistance = "",
+					targetLatlng;
+				var userlat, userlng, storelat, storelng, riderlat, riderlng;
+				var canShowMap = true;
+								
+			mui.init({});
+			mui.plusReady(function() {
+				w=plus.nativeUI.showWaiting('',{padlock:true});
+				orderId=plus.webview.currentWebview().orderId;
+				mui.ajax(URL + 'api/MemberOrder/GetExpressInfo', {
+					data: himall.md5Data({
+						orderId: orderId,
+						userkey: userkey
+					}),
+					dataType: 'json',
+					type: 'get',
+					timeout: 10000,
+					success: function(data) {
+						w.close();
+						if(data.success) {
+							document.getElementById('expressinfo').innerHTML = template('initData', data);
+							if(data.deliveryType == 3) {
+								userlatlng = data.userLat + "," + data.userLng,
+								storelatlng = data.storeLat + "," + data.Storelng;
+								if(userlatlng.length > 0 && userlatlng.indexOf(",") >= 0) {
+									userlat = parseFloat(userlatlng.split(",")[0]);
+									userlng = parseFloat(userlatlng.split(",")[1]);
+								}
+								if(storelatlng.length > 0 && storelatlng.indexOf(",") >= 0) {
+									storelat = parseFloat(storelatlng.split(",")[0]);
+									storelng = parseFloat(storelatlng.split(",")[1]);
+								}
+								canShowMap = canShowMap && !isNaN(userlat) && !isNaN(userlng) && !isNaN(storelat) && !isNaN(storelng);
+
+								if(canShowMap) {
+									document.getElementById("qqmapcontainer").style.display='block';
+									initShowMap();
+								}
+							}
+						}
+					}
+				});
+				
+				function initShowMap() {
+					//处理骑手信息
+					mui.ajax({
+						type: "get",
+						url: URL + "/common/ExpressData/searchDada",
+						data: {
+							orderid: orderId
+						},
+						dataType: "json",
+						success: function(data) {
+							if(data && data.status == "success" && data.result) {
+								dadaStatus = data.result.statusCode;
+								var loginfo = data.result.statusMsg;
+								if(dadaStatus == 2) {
+									canShowMap = canShowMap && true;
+									riderTips = "距商家";
+									targetLatlng = storelatlng;
+								}
+								if(dadaStatus == 3) {
+									canShowMap = canShowMap && true;
+									riderTips = "距客户";
+									targetLatlng = userlatlng;
+								}
+								if(dadaStatus == 2 || dadaStatus == 3 || dadaStatus == 4) {
+									loginfo += "<br>骑手：" + data.result.transporterName + "," + data.result.transporterPhone;
+								}
+								document.getElementById("logisticeinfo").innerHTML=loginfo;
+								if(canShowMap) {
+									riderlat = parseFloat(data.result.transporterLat);
+									riderlng = parseFloat(data.result.transporterLng);
+									if(dadaStatus == 4) {
+										riderlat = userlat;
+										riderlng = userlng;
+									}
+									if(!isNaN(riderlat) && !isNaN(riderlng)) {
+										mui.ajax({
+											type: "get",
+											url: URL + "/common/ExpressData/GetDistance",
+											data: {
+												fromLatLng: targetLatlng,
+												endLatLng: riderlat + "," + riderlng
+											},
+											dataType: "json",
+											success: function(data) {
+												if(data) {
+													if(data.result > 1000) {
+														riderDistance = (data.result / 1000).toFixed(2) + "KM";
+													} else {
+														riderDistance = data.result.toFixed(2) + "M"
+													}
+													var divlogisticsInfo=document.getElementById("divlogisticsInfo");
+													if(divlogisticsInfo){
+														divlogisticsInfo.style.display='none';
+													}
+													
+													initMap(getMiddelNumber(userlat, riderlat), getMiddelNumber(userlng, riderlng), data.result);
+												}
+											}
+										});
+									}
+								}
+							} else {
+								if(data.status == "fail") {
+									mui.toast(data.msg);
+								}
+							}
+						}
+					});
+				}
+	
+				function initMap(lat, lng, distance) {
+					var zoom = 14;
+					if(distance > 4000) {
+						zoom = 13;
+					}
+					if(distance > 40000) {
+						zoom = 11;
+					}
+					if(distance < 1000) {
+						zoom = 15;
+					}
+					var center = new qq.maps.LatLng(lat, lng);
+					map = new qq.maps.Map(document.getElementById('qqmapcontainer'), {
+						center: center,
+						zoom: zoom
+					});
+					addMapMarker(map, new qq.maps.LatLng(userlat, userlng), "客户", baseurl + "/images/icon_map_my.png", 32, 40);
+					addMapMarker(map, new qq.maps.LatLng(storelat, storelng), "门店", baseurl + "/images/icon_map_store.png", 32, 40);
+					if(dadaStatus == 2 || dadaStatus == 3) {
+						addMapMarker(map, new qq.maps.LatLng(riderlat, riderlng), riderTips + riderDistance, baseurl + "/images/icon_map_rider.png", 40, 50);
+					}
+					addReloadBtn(map);
+				}
+	
+				function addReloadBtn(map) {
+					var controlDiv = document.createElement("div");
+					controlDiv.style.padding = "3px";
+					controlDiv.style.backgroundColor = "#FFFFFF";
+					controlDiv.style.border = "1px solid #666";
+					controlDiv.style.margin = "0 10px 30px 0";
+	
+					controlDiv.index = 1; //设置在当前布局中的位置
+					controlDiv.innerHTML = "<img src='" + baseurl + "/images/posi-icon1.png' width='16'>&nbsp;重新加载";
+					controlDiv.onclick = function() {
+						initShowMap();
+					};
+					map.controls[qq.maps.ControlPosition.BOTTOM_RIGHT].push(controlDiv);
+				}
+	
+				function addMapMarker(map, latlng, tips, tipsicon, w, h) {
+					var marker = new qq.maps.Marker({
+						title: tips,
+						position: latlng,
+						map: map,
+					});
+					var anchor = new qq.maps.Point(w / 2, h),
+						size = new qq.maps.Size(w, h),
+						origin = new qq.maps.Point(0, 0),
+						markerIcon = new qq.maps.MarkerImage(
+							tipsicon,
+							size,
+							origin,
+							anchor
+						);
+					var label = new qq.maps.Label({
+						position: latlng,
+						map: map,
+						content: tips,
+						style: {
+							color: "#f00",
+							fontSize: "12px",
+							fontWeight: "bold",
+							boxshadow: "3px 4px 3px #aaa"
+						},
+						offset: new qq.maps.Size(-16, h > 40 ? -73 : -62)
+					});
+					marker.setIcon(markerIcon);
+				}
+	
+				function getMiddelNumber(one, two) {
+					var _tmp;
+					if(one > two) {
+						_tmp = two;
+						two = one;
+						one = _tmp;
+					}
+					_tmp = (two - one) / 2;
+					return one + _tmp;
+				}
+			});
+		</script>
+		<script id="initData" type="text/html">
+			<div class="list-group-item"><span>运单号码：{{ExpressNum}}</span><br><span>物流公司：{{ExpressCompanyName}} </span>
+				<a name=""></a>
+			</div>
+			<div class="list-group-item" id="logisticeinfo">
+			{{if Comment}}
+				{{if Comment.success}}
+					<ul class="goods_interflow">
+						{{each Comment.data}}
+						<li>
+							<i class="{{$index?'':'active'}}"></i>
+							<p>{{$value.content}}</p>
+							<p>{{$value.time}}</p>
+							<hr />
+						</li>
+						{{/each}}
+					</ul>
+				{{else}}
+					<label class="red">{{Comment.msg}}</label>
+				{{/if}}
+			{{/if}}
+			</div>
+	        <div class="qqmapbox">
+	            <div class="map-box hidden" id="qqmapcontainer"></div>
+	        </div>
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,53 @@
+﻿<div class="container myorder-L">
+    <ul class="integral-list"></ul>
+
+    <div class="loading hide" id="autoLoad"><span></span></div>
+</div>
+<script type="text/javascript">
+    var pageNo = 1;
+    var pageSize = 15;
+
+    $(function () {
+        loadIntegrals();
+    });
+
+    $(window).scroll(function () {
+        var scrollTop = $(this).scrollTop();
+        var scrollHeight = $(document).height();
+        var windowHeight = $(this).height();
+
+        if (scrollTop + windowHeight >= scrollHeight) {
+            $('#autoLoad').removeClass('hide');
+            loadIntegrals(++pageNo);
+        }
+    });
+
+    function changeIntegralType(itype) {
+        pageNo = 1;
+        loadIntegrals();
+    }
+
+    function loadIntegrals() {
+        if (pageNo == 1) {
+            var loading = showLoading();
+            $('.integral-list').html("");
+        }
+        var url = '/' + areaName + '/Member/GetIntegralRecord';
+        $.post(url, { pageNo: pageNo, pageSize: pageSize }, function (result) {
+            $('#autoLoad').addClass('hide');
+            if (result.data.Data.length > 0) {
+            	var str='';
+                $.each(result.data.Data, function (i, item) {
+                	str+="<li><div><h3>" + item.ShowType + "</h3><p>" + item.RecordDate + "</p></div><span "+(item.Integral>=0?"style=color:#07be2e":"")+">" + item.Integral + "</span></li>";
+                });
+                $('.integral-list').append(str);
+            }
+            else {
+                $('#autoLoad').html('没有更多明细了').removeClass('hide');
+            }
+            if (pageNo == 1)
+                loading.close();
+        });
+    }
+</script>
+
